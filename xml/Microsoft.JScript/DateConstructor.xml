@@ -109,8 +109,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Date_parse)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Date_parse)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Date_parse)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Date_parse)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Date_parse)]</AttributeName>
@@ -149,8 +149,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Date_UTC)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Date_UTC)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Date_UTC)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Date_UTC)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Date_UTC)]</AttributeName>
