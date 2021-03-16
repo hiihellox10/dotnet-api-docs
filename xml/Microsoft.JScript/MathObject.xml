@@ -37,8 +37,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_abs)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_abs)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_abs)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_abs)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_abs)]</AttributeName>
@@ -75,8 +75,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_acos)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_acos)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_acos)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_acos)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_acos)]</AttributeName>
@@ -114,8 +114,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_asin)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_asin)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_asin)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_asin)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_asin)]</AttributeName>
@@ -153,8 +153,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_atan)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_atan)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_atan)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_atan)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_atan)]</AttributeName>
@@ -192,8 +192,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_atan2)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_atan2)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_atan2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_atan2)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_atan2)]</AttributeName>
@@ -233,8 +233,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_ceil)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_ceil)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_ceil)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_ceil)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_ceil)]</AttributeName>
@@ -272,8 +272,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_cos)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_cos)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_cos)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_cos)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_cos)]</AttributeName>
@@ -335,8 +335,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_exp)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_exp)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_exp)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_exp)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_exp)]</AttributeName>
@@ -374,8 +374,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_floor)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_floor)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_floor)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_floor)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_floor)]</AttributeName>
@@ -461,8 +461,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_log)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_log)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_log)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_log)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_log)]</AttributeName>
@@ -662,8 +662,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_pow)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_pow)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_pow)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_pow)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_pow)]</AttributeName>
@@ -702,8 +702,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_random)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_random)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_random)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_random)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_random)]</AttributeName>
@@ -738,8 +738,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_round)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_round)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_round)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_round)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_round)]</AttributeName>
@@ -776,8 +776,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_sin)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_sin)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_sin)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_sin)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_sin)]</AttributeName>
@@ -815,8 +815,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_sqrt)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_sqrt)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_sqrt)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_sqrt)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_sqrt)]</AttributeName>
@@ -902,8 +902,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_tan)]</AttributeName>
-          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction((Microsoft.JScript.JSFunctionAttributeEnum) 0, Microsoft.JScript.JSBuiltin.Math_tan)&gt;]</AttributeName>
+          <AttributeName Language="C#">[Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_tan)]</AttributeName>
+          <AttributeName Language="F#">[&lt;Microsoft.JScript.JSFunction(0, Microsoft.JScript.JSBuiltin.Math_tan)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
           <AttributeName Language="C#">[Microsoft.JScript.JSFunction(Microsoft.JScript.JSFunctionAttributeEnum.None, Microsoft.JScript.JSBuiltin.Math_tan)]</AttributeName>
