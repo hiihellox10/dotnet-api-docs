@@ -589,8 +589,8 @@ Parameter = new OleDbParameter("@pname", Convert.ToInt32(0));
           <AttributeName Language="F#">[&lt;System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Data.ParameterDirection.Input)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Data.ParameterDirection.Input)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
           <AttributeName Language="C#">[System.Data.DataSysDescription("DataParameter_Direction")]</AttributeName>
@@ -786,8 +786,8 @@ public void CreateOleDbParameter()
           <AttributeName Language="F#">[&lt;System.Data.Common.DbProviderSpecificTypeProperty(true)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Data.OleDb.OleDbType.VarWChar)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Data.OleDb.OleDbType.VarWChar)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
           <AttributeName Language="C#">[System.Data.DataSysDescription("OleDbParameter_OleDbType")]</AttributeName>
@@ -1380,8 +1380,8 @@ FieldName = @OriginalFieldName
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Data.DataRowVersion.Current)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Data.DataRowVersion.Current)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-1.1">
           <AttributeName Language="C#">[System.Data.DataSysDescription("DataParameter_SourceVersion")]</AttributeName>
