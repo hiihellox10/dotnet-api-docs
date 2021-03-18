@@ -59,8 +59,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Configuration.ConfigurationProperty("cacheIssuedTokens", DefaultValue=Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationProperty("cacheIssuedTokens", DefaultValue=Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Configuration.ConfigurationProperty("cacheIssuedTokens", DefaultValue=true)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationProperty("cacheIssuedTokens", DefaultValue=true)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -116,8 +116,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Configuration.ConfigurationProperty("defaultKeyEntropyMode", DefaultValue=Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationProperty("defaultKeyEntropyMode", DefaultValue=Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Configuration.ConfigurationProperty("defaultKeyEntropyMode", DefaultValue=System.ServiceModel.Security.SecurityKeyEntropyMode.CombinedEntropy)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationProperty("defaultKeyEntropyMode", DefaultValue=System.ServiceModel.Security.SecurityKeyEntropyMode.CombinedEntropy)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -144,8 +144,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Configuration.ConfigurationProperty("issuedTokenRenewalThresholdPercentage", DefaultValue=Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationProperty("issuedTokenRenewalThresholdPercentage", DefaultValue=Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Configuration.ConfigurationProperty("issuedTokenRenewalThresholdPercentage", DefaultValue=60)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationProperty("issuedTokenRenewalThresholdPercentage", DefaultValue=60)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.Configuration.IntegerValidator(MaxValue=100, MinValue=0)]</AttributeName>
@@ -232,8 +232,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Configuration.ConfigurationProperty("localIssuerChannelBehaviors", DefaultValue=Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationProperty("localIssuerChannelBehaviors", DefaultValue=Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Configuration.ConfigurationProperty("localIssuerChannelBehaviors", DefaultValue="")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationProperty("localIssuerChannelBehaviors", DefaultValue="")&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.Configuration.StringValidator(MinLength=0)]</AttributeName>
@@ -263,21 +263,13 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="netframework-3.0;netframework-3.5">
-          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.ServiceModel.TimeSpanOrInfiniteConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.ServiceModel.TimeSpanOrInfiniteConverter))&gt;]</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Configuration.ConfigurationProperty("maxIssuedTokenCachingTime", DefaultValue=Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationProperty("maxIssuedTokenCachingTime", DefaultValue=Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Runtime.TimeSpanOrInfiniteConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Runtime.TimeSpanOrInfiniteConverter))&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.ServiceModel.Configuration.TimeSpanOrInfiniteConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.ServiceModel.Configuration.TimeSpanOrInfiniteConverter))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Configuration.ConfigurationProperty("maxIssuedTokenCachingTime", DefaultValue="10675199.02:48:05.4775807")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationProperty("maxIssuedTokenCachingTime", DefaultValue="10675199.02:48:05.4775807")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

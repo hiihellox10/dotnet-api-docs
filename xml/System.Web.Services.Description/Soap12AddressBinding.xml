@@ -17,8 +17,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Web.Services.Configuration.XmlFormatExtension("address", "http://schemas.xmlsoap.org/wsdl/soap12/", typeof(System.Web.Services.Description.Port))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Web.Services.Configuration.XmlFormatExtension("address", "http://schemas.xmlsoap.org/wsdl/soap12/", typeof(System.Web.Services.Description.Port))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Web.Services.Configuration.XmlFormatExtension("address", "http://schemas.xmlsoap.org/wsdl/soap12/", typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Web.Services.Configuration.XmlFormatExtension("address", "http://schemas.xmlsoap.org/wsdl/soap12/", typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

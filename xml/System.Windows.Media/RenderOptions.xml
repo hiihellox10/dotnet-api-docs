@@ -484,8 +484,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -529,8 +529,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.Media.TileBrush))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.Media.TileBrush))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -575,8 +575,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.Media.TileBrush))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.Media.TileBrush))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -621,8 +621,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.Media.TileBrush))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.Media.TileBrush))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -666,8 +666,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -699,8 +699,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

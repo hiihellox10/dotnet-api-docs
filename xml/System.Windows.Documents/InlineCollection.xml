@@ -30,13 +30,9 @@
     </Interface>
   </Interfaces>
   <Attributes>
-    <Attribute>
-      <AttributeName Language="C#">[System.Windows.Markup.ContentWrapper(typeof(System.Windows.Documents.InlineUIContainer))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.Markup.ContentWrapper(typeof(System.Windows.Documents.InlineUIContainer))&gt;]</AttributeName>
-    </Attribute>
-    <Attribute>
-      <AttributeName Language="C#">[System.Windows.Markup.ContentWrapper(typeof(System.Windows.Documents.Run))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.Markup.ContentWrapper(typeof(System.Windows.Documents.Run))&gt;]</AttributeName>
+    <Attribute FrameworkAlternate="netframework-4.8">
+      <AttributeName Language="C#">[System.Windows.Markup.ContentWrapper(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.Markup.ContentWrapper(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Windows.Markup.WhitespaceSignificantCollection]</AttributeName>

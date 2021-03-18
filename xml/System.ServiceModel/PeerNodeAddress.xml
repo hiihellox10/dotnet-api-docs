@@ -20,8 +20,8 @@
       <AttributeName Language="F#">[&lt;System.Runtime.Serialization.DataContract(Name="PeerNodeAddress", Namespace="http://schemas.microsoft.com/net/2006/05/peer")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Runtime.Serialization.KnownType(typeof(System.Net.IPAddress[]))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Runtime.Serialization.KnownType(typeof(System.Net.IPAddress[]))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.Serialization.KnownType(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Serialization.KnownType(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

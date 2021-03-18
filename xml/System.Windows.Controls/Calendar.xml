@@ -17,12 +17,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_CalendarItem", Type=typeof(System.Windows.Controls.Primitives.CalendarItem))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_CalendarItem", Type=typeof(System.Windows.Controls.Primitives.CalendarItem))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_CalendarItem", Type=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_CalendarItem", Type=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_Root", Type=typeof(System.Windows.Controls.Panel))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_Root", Type=typeof(System.Windows.Controls.Panel))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_Root", Type=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_Root", Type=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

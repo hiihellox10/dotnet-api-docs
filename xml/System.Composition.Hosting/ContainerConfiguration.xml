@@ -20,8 +20,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(System.Composition.Debugging.ContainerConfigurationDebuggerProxy))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(System.Composition.Debugging.ContainerConfigurationDebuggerProxy))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

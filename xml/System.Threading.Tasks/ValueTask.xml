@@ -34,8 +34,8 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Runtime.CompilerServices.AsyncMethodBuilder(typeof(System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.AsyncMethodBuilder(typeof(System.Runtime.CompilerServices.AsyncValueTaskMethodBuilder))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.CompilerServices.AsyncMethodBuilder(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.AsyncMethodBuilder(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>

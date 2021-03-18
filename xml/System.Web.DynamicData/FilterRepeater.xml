@@ -197,8 +197,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue("DynamicFilter")&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Web.UI.IDReferenceProperty(typeof(System.Web.DynamicData.FilterUserControlBase))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Web.UI.IDReferenceProperty(typeof(System.Web.DynamicData.FilterUserControlBase))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Web.UI.IDReferenceProperty(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Web.UI.IDReferenceProperty(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.Web.UI.Themeable(false)]</AttributeName>

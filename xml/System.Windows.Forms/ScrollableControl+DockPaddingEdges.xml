@@ -22,8 +22,8 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Windows.Forms.ScrollableControl/DockPaddingEdgesConverter))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Windows.Forms.ScrollableControl/DockPaddingEdgesConverter))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

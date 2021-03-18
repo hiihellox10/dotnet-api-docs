@@ -28,36 +28,36 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.StyleTypedProperty(Property="AllFilterItemContainerStyle", StyleTargetType=typeof(System.Windows.Controls.Ribbon.RibbonMenuItem))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.StyleTypedProperty(Property="AllFilterItemContainerStyle", StyleTargetType=typeof(System.Windows.Controls.Ribbon.RibbonMenuItem))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.StyleTypedProperty(Property="AllFilterItemContainerStyle", StyleTargetType=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.StyleTypedProperty(Property="AllFilterItemContainerStyle", StyleTargetType=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.StyleTypedProperty(Property="FilterItemContainerStyle", StyleTargetType=typeof(System.Windows.Controls.Ribbon.RibbonMenuItem))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.StyleTypedProperty(Property="FilterItemContainerStyle", StyleTargetType=typeof(System.Windows.Controls.Ribbon.RibbonMenuItem))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.StyleTypedProperty(Property="FilterItemContainerStyle", StyleTargetType=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.StyleTypedProperty(Property="FilterItemContainerStyle", StyleTargetType=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.StyleTypedProperty(Property="GalleryItemStyle", StyleTargetType=typeof(System.Windows.Controls.Ribbon.RibbonGalleryItem))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.StyleTypedProperty(Property="GalleryItemStyle", StyleTargetType=typeof(System.Windows.Controls.Ribbon.RibbonGalleryItem))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.StyleTypedProperty(Property="GalleryItemStyle", StyleTargetType=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.StyleTypedProperty(Property="GalleryItemStyle", StyleTargetType=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.StyleTypedProperty(Property="ItemContainerStyle", StyleTargetType=typeof(System.Windows.Controls.Ribbon.RibbonGalleryCategory))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.StyleTypedProperty(Property="ItemContainerStyle", StyleTargetType=typeof(System.Windows.Controls.Ribbon.RibbonGalleryCategory))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.StyleTypedProperty(Property="ItemContainerStyle", StyleTargetType=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.StyleTypedProperty(Property="ItemContainerStyle", StyleTargetType=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="ItemsPresenter", Type=typeof(System.Windows.Controls.ItemsPresenter))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="ItemsPresenter", Type=typeof(System.Windows.Controls.ItemsPresenter))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="ItemsPresenter", Type=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="ItemsPresenter", Type=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_FilterContentPane", Type=typeof(System.Windows.Controls.ContentPresenter))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_FilterContentPane", Type=typeof(System.Windows.Controls.ContentPresenter))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_FilterContentPane", Type=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_FilterContentPane", Type=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_FilterMenuButton", Type=typeof(System.Windows.Controls.Ribbon.RibbonMenuButton))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_FilterMenuButton", Type=typeof(System.Windows.Controls.Ribbon.RibbonMenuButton))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_FilterMenuButton", Type=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_FilterMenuButton", Type=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_ScrollViewer", Type=typeof(System.Windows.Controls.ScrollViewer))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_ScrollViewer", Type=typeof(System.Windows.Controls.ScrollViewer))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_ScrollViewer", Type=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_ScrollViewer", Type=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

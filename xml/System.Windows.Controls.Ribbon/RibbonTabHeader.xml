@@ -17,8 +17,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_OuterBorder", Type=typeof(System.Windows.Controls.Border))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_OuterBorder", Type=typeof(System.Windows.Controls.Border))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_OuterBorder", Type=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_OuterBorder", Type=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

@@ -25,8 +25,8 @@
       <AttributeName Language="F#">[&lt;System.ComponentModel.ToolboxItem(false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Web.UI.ControlBuilder(typeof(System.Web.UI.WebControls.TableCellControlBuilder))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Web.UI.ControlBuilder(typeof(System.Web.UI.WebControls.TableCellControlBuilder))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Web.UI.ControlBuilder(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Web.UI.ControlBuilder(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Web.UI.ParseChildren(false)]</AttributeName>
@@ -304,8 +304,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(null)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Web.UI.WebControls.StringArrayConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Web.UI.WebControls.StringArrayConverter))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -483,8 +483,8 @@ HorizontalAlign="Left">(2,0)
           <AttributeName Language="F#">[&lt;System.ComponentModel.Bindable(true)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Web.UI.WebControls.HorizontalAlign.NotSet)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Web.UI.WebControls.HorizontalAlign.NotSet)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -745,8 +745,8 @@ HorizontalAlign="Left">(2,0)
           <AttributeName Language="F#">[&lt;System.ComponentModel.Bindable(true)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Web.UI.WebControls.VerticalAlign.NotSet)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Web.UI.WebControls.VerticalAlign.NotSet)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

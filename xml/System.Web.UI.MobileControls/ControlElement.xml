@@ -69,16 +69,16 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Web.UI.MobileControls.MobileTypeNameConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Web.UI.MobileControls.MobileTypeNameConverter))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.Configuration.ConfigurationProperty("adapter", IsRequired=true)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationProperty("adapter", IsRequired=true)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Configuration.SubclassTypeValidator(typeof(System.Web.UI.MobileControls.IControlAdapter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Configuration.SubclassTypeValidator(typeof(System.Web.UI.MobileControls.IControlAdapter))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Configuration.SubclassTypeValidator(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Configuration.SubclassTypeValidator(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

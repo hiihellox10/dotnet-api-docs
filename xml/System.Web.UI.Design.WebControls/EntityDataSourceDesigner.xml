@@ -112,8 +112,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(null)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Web.UI.Design.WebControls.EntityDataSourceStatementEditor), typeof(System.Drawing.Design.UITypeEditor))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Web.UI.Design.WebControls.EntityDataSourceStatementEditor), typeof(System.Drawing.Design.UITypeEditor))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.MergableProperty(false)]</AttributeName>
@@ -206,8 +206,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue("")&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Web.UI.Design.WebControls.EntityDataSourceContainerNameConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Web.UI.Design.WebControls.EntityDataSourceContainerNameConverter))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -242,8 +242,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue("")&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Web.UI.Design.WebControls.EntityDataSourceEntitySetNameConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Web.UI.Design.WebControls.EntityDataSourceEntitySetNameConverter))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -278,8 +278,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue("")&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Web.UI.Design.WebControls.EntityDataSourceEntityTypeFilterConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Web.UI.Design.WebControls.EntityDataSourceEntityTypeFilterConverter))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -388,8 +388,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(null)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Web.UI.Design.WebControls.EntityDataSourceStatementEditor), typeof(System.Drawing.Design.UITypeEditor))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Web.UI.Design.WebControls.EntityDataSourceStatementEditor), typeof(System.Drawing.Design.UITypeEditor))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.MergableProperty(false)]</AttributeName>
@@ -486,8 +486,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue("")&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Web.UI.Design.WebControls.EntityDataSourceStatementEditor), typeof(System.Drawing.Design.UITypeEditor))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Web.UI.Design.WebControls.EntityDataSourceStatementEditor), typeof(System.Drawing.Design.UITypeEditor))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.MergableProperty(false)]</AttributeName>
@@ -526,8 +526,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(null)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Web.UI.Design.WebControls.EntityDataSourceStatementEditor), typeof(System.Drawing.Design.UITypeEditor))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Web.UI.Design.WebControls.EntityDataSourceStatementEditor), typeof(System.Drawing.Design.UITypeEditor))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.MergableProperty(false)]</AttributeName>

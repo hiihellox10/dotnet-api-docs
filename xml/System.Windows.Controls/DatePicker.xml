@@ -17,20 +17,20 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_Button", Type=typeof(System.Windows.Controls.Button))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_Button", Type=typeof(System.Windows.Controls.Button))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_Button", Type=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_Button", Type=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_Popup", Type=typeof(System.Windows.Controls.Primitives.Popup))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_Popup", Type=typeof(System.Windows.Controls.Primitives.Popup))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_Popup", Type=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_Popup", Type=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_Root", Type=typeof(System.Windows.Controls.Grid))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_Root", Type=typeof(System.Windows.Controls.Grid))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_Root", Type=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_Root", Type=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_TextBox", Type=typeof(System.Windows.Controls.Primitives.DatePickerTextBox))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_TextBox", Type=typeof(System.Windows.Controls.Primitives.DatePickerTextBox))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_TextBox", Type=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_TextBox", Type=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

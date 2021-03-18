@@ -24,8 +24,8 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Windows.Forms.DataGridViewCellConverter))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Windows.Forms.DataGridViewCellConverter))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -4516,8 +4516,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.Localizable(false)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.ComponentModel.StringConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.ComponentModel.StringConverter))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

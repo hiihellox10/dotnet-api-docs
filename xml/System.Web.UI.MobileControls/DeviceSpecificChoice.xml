@@ -24,8 +24,8 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Web.UI.ControlBuilder(typeof(System.Web.UI.MobileControls.DeviceSpecificChoiceControlBuilder))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Web.UI.ControlBuilder(typeof(System.Web.UI.MobileControls.DeviceSpecificChoiceControlBuilder))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Web.UI.ControlBuilder(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Web.UI.ControlBuilder(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Web.UI.MobileControls.PersistName("Choice")]</AttributeName>

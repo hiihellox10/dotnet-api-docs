@@ -15,8 +15,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Windows.Forms.DataVisualization.Charting.MarginExpandableObjectConverter))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Windows.Forms.DataVisualization.Charting.MarginExpandableObjectConverter))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

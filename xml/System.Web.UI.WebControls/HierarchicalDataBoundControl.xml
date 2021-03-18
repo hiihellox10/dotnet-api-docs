@@ -109,8 +109,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Web.UI.IDReferenceProperty(typeof(System.Web.UI.HierarchicalDataSourceControl))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Web.UI.IDReferenceProperty(typeof(System.Web.UI.HierarchicalDataSourceControl))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Web.UI.IDReferenceProperty(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Web.UI.IDReferenceProperty(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

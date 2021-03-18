@@ -26,12 +26,12 @@
   </Interfaces>
   <Attributes>
     <Attribute FrameworkAlternate="netframework-3.5">
-      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Web.DynamicData.DynamicControl), "DynamicControl.ico")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Web.DynamicData.DynamicControl), "DynamicControl.ico")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Type), "DynamicControl.ico")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Type), "DynamicControl.ico")&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Web.DynamicData.DynamicControl), "DynamicControl.bmp")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Web.DynamicData.DynamicControl), "DynamicControl.bmp")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Type), "DynamicControl.bmp")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Type), "DynamicControl.bmp")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -575,8 +575,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.Category("Behavior")&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Web.UI.WebControls.DataBoundControlMode.ReadOnly)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Web.UI.WebControls.DataBoundControlMode.ReadOnly)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

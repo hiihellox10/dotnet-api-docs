@@ -17,8 +17,8 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Runtime.InteropServices.CoClass(typeof(Microsoft_VsaVb.VsaDTEngineClass))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.CoClass(typeof(Microsoft_VsaVb.VsaDTEngineClass))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.CoClass(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.CoClass(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("E0C0FFEE-7EEA-4EE5-B7E4-0080C7EB0B74")]</AttributeName>

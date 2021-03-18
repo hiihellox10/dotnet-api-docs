@@ -17,20 +17,20 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.Designer(typeof(System.Web.UI.Design.MobileControls.StyleSheetDesigner))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.Designer(typeof(System.Web.UI.Design.MobileControls.StyleSheetDesigner))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.Designer(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.Designer(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Web.UI.Design.MobileControls.StyleSheetComponentEditor), typeof(System.ComponentModel.ComponentEditor))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Web.UI.Design.MobileControls.StyleSheetComponentEditor), typeof(System.ComponentModel.ComponentEditor))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ToolboxItem(typeof(System.Web.UI.Design.WebControlToolboxItem))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ToolboxItem(typeof(System.Web.UI.Design.WebControlToolboxItem))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ToolboxItem(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ToolboxItem(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Web.UI.ControlBuilder(typeof(System.Web.UI.MobileControls.StyleSheetControlBuilder))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Web.UI.ControlBuilder(typeof(System.Web.UI.MobileControls.StyleSheetControlBuilder))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Web.UI.ControlBuilder(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Web.UI.ControlBuilder(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Web.UI.ToolboxData("&lt;{0}:StyleSheet runat="server"&gt;&lt;/{0}:StyleSheet&gt;")]</AttributeName>
@@ -566,8 +566,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue("")&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Web.UI.Design.MobileControls.StyleSheetRefUrlEditor), typeof(System.Drawing.Design.UITypeEditor))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Web.UI.Design.MobileControls.StyleSheetRefUrlEditor), typeof(System.Drawing.Design.UITypeEditor))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

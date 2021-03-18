@@ -19,8 +19,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Configuration.ClaimTypeElement))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Configuration.ClaimTypeElement))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

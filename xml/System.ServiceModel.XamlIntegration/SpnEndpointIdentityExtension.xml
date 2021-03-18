@@ -15,8 +15,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.Markup.MarkupExtensionReturnType(typeof(System.ServiceModel.SpnEndpointIdentity))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.Markup.MarkupExtensionReturnType(typeof(System.ServiceModel.SpnEndpointIdentity))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

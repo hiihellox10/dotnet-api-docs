@@ -20,16 +20,16 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.Designer(typeof(System.Workflow.ComponentModel.Design.TransactionScopeActivityDesigner), typeof(System.ComponentModel.Design.IDesigner))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.Designer(typeof(System.Workflow.ComponentModel.Design.TransactionScopeActivityDesigner), typeof(System.ComponentModel.Design.IDesigner))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.Designer(typeof(System.Type), typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.Designer(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ToolboxItem(typeof(System.Workflow.ComponentModel.Design.ActivityToolboxItem))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ToolboxItem(typeof(System.Workflow.ComponentModel.Design.ActivityToolboxItem))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ToolboxItem(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ToolboxItem(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Workflow.ComponentModel.TransactionScopeActivity), "Resources.Sequence.png")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Workflow.ComponentModel.TransactionScopeActivity), "Resources.Sequence.png")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Type), "Resources.Sequence.png")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Type), "Resources.Sequence.png")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Workflow.ComponentModel.PersistOnClose]</AttributeName>

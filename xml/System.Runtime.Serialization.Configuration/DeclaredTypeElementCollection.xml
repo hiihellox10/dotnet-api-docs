@@ -16,8 +16,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.Runtime.Serialization.Configuration.DeclaredTypeElement))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.Runtime.Serialization.Configuration.DeclaredTypeElement))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

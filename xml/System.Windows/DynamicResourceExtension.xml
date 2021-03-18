@@ -17,12 +17,12 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Windows.DynamicResourceExtensionConverter))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Windows.DynamicResourceExtensionConverter))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Object))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Object))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

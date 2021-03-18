@@ -17,8 +17,8 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Runtime.InteropServices.CoClass(typeof(Accessibility.CAccPropServicesClass))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.CoClass(typeof(Accessibility.CAccPropServicesClass))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.InteropServices.CoClass(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.InteropServices.CoClass(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Runtime.InteropServices.Guid("6E26E776-04F0-495D-80E4-3330352E3169")]</AttributeName>

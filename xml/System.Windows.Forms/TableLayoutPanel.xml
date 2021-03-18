@@ -33,24 +33,24 @@
       <AttributeName Language="F#">[&lt;System.ComponentModel.Designer("System.Windows.Forms.Design.TableLayoutPanelDesigner, System.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("ColumnSpan", typeof(System.Windows.Forms.Control))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("ColumnSpan", typeof(System.Windows.Forms.Control))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("ColumnSpan", typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("ColumnSpan", typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("RowSpan", typeof(System.Windows.Forms.Control))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("RowSpan", typeof(System.Windows.Forms.Control))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("RowSpan", typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("RowSpan", typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("Row", typeof(System.Windows.Forms.Control))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("Row", typeof(System.Windows.Forms.Control))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("Row", typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("Row", typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("Column", typeof(System.Windows.Forms.Control))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("Column", typeof(System.Windows.Forms.Control))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("Column", typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("Column", typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("CellPosition", typeof(System.Windows.Forms.Control))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("CellPosition", typeof(System.Windows.Forms.Control))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("CellPosition", typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("CellPosition", typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Windows.Forms.Docking(System.Windows.Forms.DockingBehavior.Never)]</AttributeName>
@@ -217,8 +217,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.TableLayoutPanelCellBorderStyle.None)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.TableLayoutPanelCellBorderStyle.None)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.Localizable(true)]</AttributeName>
@@ -504,8 +504,8 @@ Setting this value causes the panel to redraw itself and its contents.
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(typeof(System.Windows.Forms.TableLayoutPanelCellPosition), "-1,-1")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(typeof(System.Windows.Forms.TableLayoutPanelCellPosition), "-1,-1")&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(typeof(System.Type), "-1,-1")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(typeof(System.Type), "-1,-1")&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
@@ -952,8 +952,8 @@ Setting this value causes the panel to redraw itself and its contents.
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.TableLayoutPanelGrowStyle.AddRows)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.TableLayoutPanelGrowStyle.AddRows)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

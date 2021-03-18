@@ -16,8 +16,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Runtime.Serialization.KnownType(typeof(System.String[]))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Runtime.Serialization.KnownType(typeof(System.String[]))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Runtime.Serialization.KnownType(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Serialization.KnownType(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Serializable]</AttributeName>

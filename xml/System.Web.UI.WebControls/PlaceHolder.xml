@@ -17,8 +17,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Web.UI.ControlBuilder(typeof(System.Web.UI.WebControls.PlaceHolderControlBuilder))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Web.UI.ControlBuilder(typeof(System.Web.UI.WebControls.PlaceHolderControlBuilder))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Web.UI.ControlBuilder(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Web.UI.ControlBuilder(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

@@ -15,8 +15,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.Designer(typeof(System.Activities.Presentation.View.ActivityTypeDesigner))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.Designer(typeof(System.Activities.Presentation.View.ActivityTypeDesigner))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.Designer(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.Designer(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Windows.Markup.ContentProperty("Implementation")]</AttributeName>

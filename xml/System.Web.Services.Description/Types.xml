@@ -113,8 +113,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("schema", typeof(System.Xml.Schema.XmlSchema), Namespace="http://www.w3.org/2001/XMLSchema")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("schema", typeof(System.Xml.Schema.XmlSchema), Namespace="http://www.w3.org/2001/XMLSchema")&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("schema", typeof(System.Type), Namespace="http://www.w3.org/2001/XMLSchema")]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("schema", typeof(System.Type), Namespace="http://www.w3.org/2001/XMLSchema")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

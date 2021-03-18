@@ -23,8 +23,8 @@
       <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultProperty("Action")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Web.DynamicData.DynamicHyperLink), "DynamicHyperLink.bmp")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Web.DynamicData.DynamicHyperLink), "DynamicHyperLink.bmp")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Type), "DynamicHyperLink.bmp")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Type), "DynamicHyperLink.bmp")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -124,8 +124,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue("")&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Web.DynamicData.ActionConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Web.DynamicData.ActionConverter))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

@@ -18,8 +18,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Web.Services.Configuration.XmlFormatExtension("binding", "http://schemas.xmlsoap.org/wsdl/http/", typeof(System.Web.Services.Description.Binding))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Web.Services.Configuration.XmlFormatExtension("binding", "http://schemas.xmlsoap.org/wsdl/http/", typeof(System.Web.Services.Description.Binding))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Web.Services.Configuration.XmlFormatExtension("binding", "http://schemas.xmlsoap.org/wsdl/http/", typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Web.Services.Configuration.XmlFormatExtension("binding", "http://schemas.xmlsoap.org/wsdl/http/", typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Web.Services.Configuration.XmlFormatExtensionPrefix("http", "http://schemas.xmlsoap.org/wsdl/http/")]</AttributeName>

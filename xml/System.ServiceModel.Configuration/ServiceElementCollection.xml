@@ -19,8 +19,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Configuration.ServiceElement), AddItemName="service")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Configuration.ServiceElement), AddItemName="service")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.Type), AddItemName="service")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.Type), AddItemName="service")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

@@ -195,12 +195,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("output", typeof(System.Web.Services.Description.OperationOutput))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("output", typeof(System.Web.Services.Description.OperationOutput))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("output", typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("output", typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("input", typeof(System.Web.Services.Description.OperationInput))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("input", typeof(System.Web.Services.Description.OperationInput))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("input", typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("input", typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

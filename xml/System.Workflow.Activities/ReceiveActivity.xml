@@ -23,16 +23,16 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.Designer(typeof(System.Workflow.Activities.ReceiveActivityDesigner), typeof(System.ComponentModel.Design.IDesigner))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.Designer(typeof(System.Workflow.Activities.ReceiveActivityDesigner), typeof(System.ComponentModel.Design.IDesigner))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.Designer(typeof(System.Type), typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.Designer(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Workflow.Activities.ReceiveActivity), "Design.Resources.ReceiveActivity.png")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Workflow.Activities.ReceiveActivity), "Design.Resources.ReceiveActivity.png")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Type), "Design.Resources.ReceiveActivity.png")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Type), "Design.Resources.ReceiveActivity.png")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Workflow.Activities.ReceiveActivityValidator))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Workflow.Activities.ReceiveActivityValidator))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Serializable]</AttributeName>
@@ -319,8 +319,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Workflow.Activities.ContextTokenTypeConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Workflow.Activities.ContextTokenTypeConverter))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

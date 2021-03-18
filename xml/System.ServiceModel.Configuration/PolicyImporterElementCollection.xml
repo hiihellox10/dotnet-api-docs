@@ -19,8 +19,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Configuration.PolicyImporterElement), AddItemName="extension")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Configuration.PolicyImporterElement), AddItemName="extension")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.Type), AddItemName="extension")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.Type), AddItemName="extension")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

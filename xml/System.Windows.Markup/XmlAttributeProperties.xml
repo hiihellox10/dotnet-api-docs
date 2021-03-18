@@ -50,8 +50,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -89,8 +89,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.Windows.Markup.DesignerSerializationOptions(System.Windows.Markup.DesignerSerializationOptions.SerializeAsAttribute)]</AttributeName>
@@ -132,8 +132,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -167,8 +167,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Windows.DependencyObject))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Windows.AttachedPropertyBrowsableForType(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.Windows.Markup.DesignerSerializationOptions(System.Windows.Markup.DesignerSerializationOptions.SerializeAsAttribute)]</AttributeName>

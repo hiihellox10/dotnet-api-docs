@@ -49,8 +49,8 @@
       <AttributeName Language="F#">[&lt;System.Windows.Markup.XmlLangProperty("Language")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.StyleTypedProperty(Property="FocusVisualStyle", StyleTargetType=typeof(System.Windows.Controls.Control))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.StyleTypedProperty(Property="FocusVisualStyle", StyleTargetType=typeof(System.Windows.Controls.Control))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.StyleTypedProperty(Property="FocusVisualStyle", StyleTargetType=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.StyleTypedProperty(Property="FocusVisualStyle", StyleTargetType=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

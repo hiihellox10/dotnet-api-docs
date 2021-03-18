@@ -12,8 +12,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ServiceModel.ServiceContract(CallbackContract=typeof(System.ServiceModel.Routing.IDuplexRouterCallback), Namespace="http://schemas.microsoft.com/netfx/2009/05/routing", SessionMode=System.ServiceModel.SessionMode.Required)]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ServiceModel.ServiceContract(CallbackContract=typeof(System.ServiceModel.Routing.IDuplexRouterCallback), Namespace="http://schemas.microsoft.com/netfx/2009/05/routing", SessionMode=System.ServiceModel.SessionMode.Required)&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ServiceModel.ServiceContract(CallbackContract=typeof(System.Type), Namespace="http://schemas.microsoft.com/netfx/2009/05/routing", SessionMode=System.ServiceModel.SessionMode.Required)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ServiceModel.ServiceContract(CallbackContract=typeof(System.Type), Namespace="http://schemas.microsoft.com/netfx/2009/05/routing", SessionMode=System.ServiceModel.SessionMode.Required)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

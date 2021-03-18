@@ -24,12 +24,12 @@
       <AttributeName Language="F#">[&lt;System.ComponentModel.Designer("System.Web.UI.Design.WebControls.MultiViewDesigner, System.Design, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Web.UI.ControlBuilder(typeof(System.Web.UI.WebControls.MultiViewControlBuilder))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Web.UI.ControlBuilder(typeof(System.Web.UI.WebControls.MultiViewControlBuilder))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Web.UI.ControlBuilder(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Web.UI.ControlBuilder(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Web.UI.ParseChildren(typeof(System.Web.UI.WebControls.View))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Web.UI.ParseChildren(typeof(System.Web.UI.WebControls.View))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Web.UI.ParseChildren(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Web.UI.ParseChildren(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Web.UI.ToolboxData("&lt;{0}:MultiView runat="server"&gt;&lt;/{0}:MultiView&gt;")]</AttributeName>

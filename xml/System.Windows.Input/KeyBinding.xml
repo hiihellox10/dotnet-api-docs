@@ -202,12 +202,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Windows.Input.KeyGestureConverter))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Windows.Input.KeyGestureConverter))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Windows.Markup.ValueSerializer(typeof(System.Windows.Input.KeyGestureValueSerializer))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Windows.Markup.ValueSerializer(typeof(System.Windows.Input.KeyGestureValueSerializer))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Windows.Markup.ValueSerializer(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Windows.Markup.ValueSerializer(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

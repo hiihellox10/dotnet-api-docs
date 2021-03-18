@@ -52,8 +52,8 @@
       <AttributeName Language="F#">[&lt;System.ComponentModel.InstallerType("System.Diagnostics.EventLogInstaller, System.Configuration.Install, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="xamarinmac-3.0">
-      <AttributeName Language="C#">[System.ComponentModel.InstallerType(typeof(System.Diagnostics.EventLogInstaller))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.InstallerType(typeof(System.Diagnostics.EventLogInstaller))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.InstallerType(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.InstallerType(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="xamarinmac-3.0">
       <AttributeName Language="C#">[System.Diagnostics.MonitoringDescription("Represents an event log")]</AttributeName>

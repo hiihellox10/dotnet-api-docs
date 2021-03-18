@@ -19,8 +19,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Configuration.ServiceBehaviorElement), AddItemName="behavior")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Configuration.ServiceBehaviorElement), AddItemName="behavior")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.Type), AddItemName="behavior")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.Type), AddItemName="behavior")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

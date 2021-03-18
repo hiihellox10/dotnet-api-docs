@@ -163,12 +163,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("attribute", typeof(System.Xml.Schema.XmlSchemaAttribute))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("attribute", typeof(System.Xml.Schema.XmlSchemaAttribute))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("attribute", typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("attribute", typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("attributeGroup", typeof(System.Xml.Schema.XmlSchemaAttributeGroupRef))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("attributeGroup", typeof(System.Xml.Schema.XmlSchemaAttributeGroupRef))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("attributeGroup", typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("attributeGroup", typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
@@ -267,20 +267,20 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("all", typeof(System.Xml.Schema.XmlSchemaAll))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("all", typeof(System.Xml.Schema.XmlSchemaAll))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("all", typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("all", typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("choice", typeof(System.Xml.Schema.XmlSchemaChoice))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("choice", typeof(System.Xml.Schema.XmlSchemaChoice))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("choice", typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("choice", typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("group", typeof(System.Xml.Schema.XmlSchemaGroupRef))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("group", typeof(System.Xml.Schema.XmlSchemaGroupRef))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("group", typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("group", typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("sequence", typeof(System.Xml.Schema.XmlSchemaSequence))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("sequence", typeof(System.Xml.Schema.XmlSchemaSequence))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("sequence", typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("sequence", typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>

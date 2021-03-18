@@ -20,20 +20,20 @@
       <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultEvent("Initialized")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.Designer(typeof(System.Workflow.Activities.ReplicatorDesigner), typeof(System.ComponentModel.Design.IDesigner))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.Designer(typeof(System.Workflow.Activities.ReplicatorDesigner), typeof(System.ComponentModel.Design.IDesigner))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.Designer(typeof(System.Type), typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.Designer(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ToolboxItem(typeof(System.Workflow.ComponentModel.Design.ActivityToolboxItem))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ToolboxItem(typeof(System.Workflow.ComponentModel.Design.ActivityToolboxItem))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ToolboxItem(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ToolboxItem(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Workflow.Activities.ReplicatorActivity), "Resources.Replicator.png")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Workflow.Activities.ReplicatorActivity), "Resources.Replicator.png")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Type), "Resources.Replicator.png")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Type), "Resources.Replicator.png")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Workflow.Activities.ReplicatorValidator))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Workflow.Activities.ReplicatorValidator))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Workflow.Runtime.DebugEngine.WorkflowDebuggerStepping(System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption.Concurrent)]</AttributeName>
@@ -632,8 +632,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Visible)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Workflow.ComponentModel.Design.BindUITypeEditor), typeof(System.Drawing.Design.UITypeEditor))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Workflow.ComponentModel.Design.BindUITypeEditor), typeof(System.Drawing.Design.UITypeEditor))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.Editor(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

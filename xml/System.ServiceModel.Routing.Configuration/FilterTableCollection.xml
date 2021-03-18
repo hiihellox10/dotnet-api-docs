@@ -15,8 +15,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Routing.Configuration.FilterTableEntryCollection), AddItemName="filterTable")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Routing.Configuration.FilterTableEntryCollection), AddItemName="filterTable")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.Type), AddItemName="filterTable")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.Type), AddItemName="filterTable")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

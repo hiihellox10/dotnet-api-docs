@@ -20,20 +20,20 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.Designer(typeof(System.Workflow.Activities.ParallelDesigner), typeof(System.ComponentModel.Design.IDesigner))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.Designer(typeof(System.Workflow.Activities.ParallelDesigner), typeof(System.ComponentModel.Design.IDesigner))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.Designer(typeof(System.Type), typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.Designer(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ToolboxItem(typeof(System.Workflow.Activities.ParallelToolboxItem))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ToolboxItem(typeof(System.Workflow.Activities.ParallelToolboxItem))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ToolboxItem(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ToolboxItem(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Workflow.Activities.ParallelActivity), "Resources.Parallel.png")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Workflow.Activities.ParallelActivity), "Resources.Parallel.png")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Type), "Resources.Parallel.png")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Type), "Resources.Parallel.png")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Workflow.Activities.ParallelValidator))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Workflow.Activities.ParallelValidator))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Workflow.Runtime.DebugEngine.WorkflowDebuggerStepping(System.Workflow.Runtime.DebugEngine.WorkflowDebuggerSteppingOption.Concurrent)]</AttributeName>

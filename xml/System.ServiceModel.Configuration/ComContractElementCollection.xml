@@ -19,8 +19,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Configuration.ComContractElement), AddItemName="comContract")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Configuration.ComContractElement), AddItemName="comContract")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.Type), AddItemName="comContract")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.Type), AddItemName="comContract")&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

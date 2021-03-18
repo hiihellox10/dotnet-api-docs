@@ -215,8 +215,8 @@
           <AttributeName Language="F#">[&lt;System.Web.UI.PersistenceMode(System.Web.UI.PersistenceMode.InnerProperty)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Web.UI.TemplateContainer(typeof(System.Web.UI.WebControls.WebParts.CatalogZone))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Web.UI.TemplateContainer(typeof(System.Web.UI.WebControls.WebParts.CatalogZone))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Web.UI.TemplateContainer(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Web.UI.TemplateContainer(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.Web.UI.TemplateInstance(System.Web.UI.TemplateInstance.Single)]</AttributeName>

@@ -22,8 +22,8 @@
       <AttributeName Language="F#">[&lt;System.Windows.Localizability(System.Windows.LocalizationCategory.None, Modifiability=System.Windows.Modifiability.Unmodifiable, Readability=System.Windows.Readability.Unreadable)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Object))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Object))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

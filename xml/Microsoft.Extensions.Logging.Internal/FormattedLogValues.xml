@@ -125,17 +125,9 @@
         <AssemblyVersion>2.2.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-1.0">
-          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.Extensions.Logging.Internal.FormattedLogValues/&lt;GetEnumerator&gt;d__9))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.Extensions.Logging.Internal.FormattedLogValues/&lt;GetEnumerator&gt;d__9))&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-1.1">
-          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.Extensions.Logging.Internal.FormattedLogValues/&lt;GetEnumerator&gt;d__10))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.Extensions.Logging.Internal.FormattedLogValues/&lt;GetEnumerator&gt;d__10))&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2">
-          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.Extensions.Logging.Internal.FormattedLogValues/&lt;GetEnumerator&gt;d__14))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(Microsoft.Extensions.Logging.Internal.FormattedLogValues/&lt;GetEnumerator&gt;d__14))&gt;]</AttributeName>
+        <Attribute>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

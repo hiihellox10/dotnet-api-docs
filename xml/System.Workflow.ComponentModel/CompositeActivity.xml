@@ -16,20 +16,20 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.Design.Serialization.DesignerSerializer(typeof(System.Workflow.ComponentModel.Serialization.CompositeActivityMarkupSerializer), typeof(System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.Design.Serialization.DesignerSerializer(typeof(System.Workflow.ComponentModel.Serialization.CompositeActivityMarkupSerializer), typeof(System.Workflow.ComponentModel.Serialization.WorkflowMarkupSerializer))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.Design.Serialization.DesignerSerializer(typeof(System.Type), typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.Design.Serialization.DesignerSerializer(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.TypeDescriptionProvider(typeof(System.Workflow.ComponentModel.Serialization.CompositeActivityTypeDescriptorProvider))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeDescriptionProvider(typeof(System.Workflow.ComponentModel.Serialization.CompositeActivityTypeDescriptorProvider))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.TypeDescriptionProvider(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.TypeDescriptionProvider(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Workflow.ComponentModel.Compiler.ActivityCodeGenerator(typeof(System.Workflow.ComponentModel.Compiler.CompositeActivityCodeGenerator))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Workflow.ComponentModel.Compiler.ActivityCodeGenerator(typeof(System.Workflow.ComponentModel.Compiler.CompositeActivityCodeGenerator))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Workflow.ComponentModel.Compiler.ActivityCodeGenerator(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Workflow.ComponentModel.Compiler.ActivityCodeGenerator(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Workflow.ComponentModel.Compiler.CompositeActivityValidator))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Workflow.ComponentModel.Compiler.CompositeActivityValidator))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Workflow.ComponentModel.Compiler.ActivityValidator(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Workflow.ComponentModel.Serialization.ContentProperty("Activities")]</AttributeName>

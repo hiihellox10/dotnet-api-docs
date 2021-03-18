@@ -170,12 +170,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("appinfo", typeof(System.Xml.Schema.XmlSchemaAppInfo))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("appinfo", typeof(System.Xml.Schema.XmlSchemaAppInfo))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("appinfo", typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("appinfo", typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("documentation", typeof(System.Xml.Schema.XmlSchemaDocumentation))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("documentation", typeof(System.Xml.Schema.XmlSchemaDocumentation))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("documentation", typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("documentation", typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>

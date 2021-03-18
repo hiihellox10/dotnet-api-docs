@@ -109,8 +109,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("field", typeof(System.Xml.Schema.XmlSchemaXPath))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("field", typeof(System.Xml.Schema.XmlSchemaXPath))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("field", typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("field", typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
@@ -260,8 +260,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("selector", typeof(System.Xml.Schema.XmlSchemaXPath))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("selector", typeof(System.Xml.Schema.XmlSchemaXPath))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Xml.Serialization.XmlElement("selector", typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Xml.Serialization.XmlElement("selector", typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>

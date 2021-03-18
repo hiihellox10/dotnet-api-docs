@@ -23,8 +23,8 @@
       <AttributeName Language="F#">[&lt;System.ComponentModel.Designer("System.Web.UI.Design.QueryExtenderDesigner, System.Web.Extensions.Design, Version=4.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Web.UI.WebControls.QueryExtender), "QueryExtender.bmp")]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Web.UI.WebControls.QueryExtender), "QueryExtender.bmp")&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Drawing.ToolboxBitmap(typeof(System.Type), "QueryExtender.bmp")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Drawing.ToolboxBitmap(typeof(System.Type), "QueryExtender.bmp")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Web.UI.NonVisualControl]</AttributeName>
@@ -39,8 +39,8 @@
       <AttributeName Language="F#">[&lt;System.Web.UI.PersistChildren(false)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Web.UI.TargetControlType(typeof(System.Web.UI.WebControls.IQueryableDataSource))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Web.UI.TargetControlType(typeof(System.Web.UI.WebControls.IQueryableDataSource))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Web.UI.TargetControlType(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Web.UI.TargetControlType(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

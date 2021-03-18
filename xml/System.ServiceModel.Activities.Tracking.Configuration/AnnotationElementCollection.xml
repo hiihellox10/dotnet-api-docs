@@ -18,8 +18,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Activities.Tracking.Configuration.AnnotationElement), AddItemName="annotation", CollectionType=System.Configuration.ConfigurationElementCollectionType.BasicMap)]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.ServiceModel.Activities.Tracking.Configuration.AnnotationElement), AddItemName="annotation", CollectionType=System.Configuration.ConfigurationElementCollectionType.BasicMap)&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.Type), AddItemName="annotation", CollectionType=System.Configuration.ConfigurationElementCollectionType.BasicMap)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.Type), AddItemName="annotation", CollectionType=System.Configuration.ConfigurationElementCollectionType.BasicMap)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

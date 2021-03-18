@@ -15,8 +15,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.Runtime.Caching.Configuration.MemoryCacheElement), CollectionType=System.Configuration.ConfigurationElementCollectionType.AddRemoveClearMap)]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.Runtime.Caching.Configuration.MemoryCacheElement), CollectionType=System.Configuration.ConfigurationElementCollectionType.AddRemoveClearMap)&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Configuration.ConfigurationCollection(typeof(System.Type), CollectionType=System.Configuration.ConfigurationElementCollectionType.AddRemoveClearMap)]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Configuration.ConfigurationCollection(typeof(System.Type), CollectionType=System.Configuration.ConfigurationElementCollectionType.AddRemoveClearMap)&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

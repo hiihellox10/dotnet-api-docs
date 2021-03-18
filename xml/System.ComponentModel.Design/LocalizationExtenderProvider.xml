@@ -24,16 +24,16 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("Localizable", typeof(System.Object))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("Localizable", typeof(System.Object))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("Localizable", typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("Localizable", typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("Language", typeof(System.Object))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("Language", typeof(System.Object))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("Language", typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("Language", typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("LoadLanguage", typeof(System.Object))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("LoadLanguage", typeof(System.Object))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("LoadLanguage", typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("LoadLanguage", typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
       <AttributeName Language="C#">[System.Obsolete("This class has been deprecated. Use CodeDomLocalizationProvider instead.  http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>

@@ -21,8 +21,8 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("Index", typeof(Microsoft.VisualBasic.Compatibility.VB6.ADODC))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("Index", typeof(Microsoft.VisualBasic.Compatibility.VB6.ADODC))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ComponentModel.ProvideProperty("Index", typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ComponentModel.ProvideProperty("Index", typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
     <Attribute>
       <AttributeName Language="C#">[System.Runtime.InteropServices.ComVisible(false)]</AttributeName>

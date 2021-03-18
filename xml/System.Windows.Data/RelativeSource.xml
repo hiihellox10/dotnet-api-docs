@@ -21,8 +21,8 @@
   </Interfaces>
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Windows.Data.RelativeSource))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Windows.Data.RelativeSource))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

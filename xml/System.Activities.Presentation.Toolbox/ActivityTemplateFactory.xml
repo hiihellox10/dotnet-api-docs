@@ -99,8 +99,8 @@
           <AttributeName Language="F#">[&lt;System.Windows.Markup.Ambient&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.Windows.Markup.XamlDeferLoad(typeof(System.Activities.XamlIntegration.FuncDeferringLoader), typeof(System.Activities.Presentation.Toolbox.ActivityTemplateFactory))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Windows.Markup.XamlDeferLoad(typeof(System.Activities.XamlIntegration.FuncDeferringLoader), typeof(System.Activities.Presentation.Toolbox.ActivityTemplateFactory))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Windows.Markup.XamlDeferLoad(typeof(System.Type), typeof(System.Type))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Windows.Markup.XamlDeferLoad(typeof(System.Type), typeof(System.Type))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>

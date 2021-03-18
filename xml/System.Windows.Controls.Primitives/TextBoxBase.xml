@@ -22,8 +22,8 @@
       <AttributeName Language="F#">[&lt;System.Windows.Localizability(System.Windows.LocalizationCategory.Text)&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_ContentHost", Type=typeof(System.Windows.FrameworkElement))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_ContentHost", Type=typeof(System.Windows.FrameworkElement))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.TemplatePart(Name="PART_ContentHost", Type=typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.TemplatePart(Name="PART_ContentHost", Type=typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

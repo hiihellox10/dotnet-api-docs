@@ -17,8 +17,8 @@
   <Interfaces />
   <Attributes>
     <Attribute>
-      <AttributeName Language="C#">[System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Uri))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Uri))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Windows.Markup.MarkupExtensionReturnType(typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>

@@ -28,8 +28,8 @@
       <AttributeName Language="F#">[&lt;System.ServiceModel.ServiceContract(Namespace="http://asp.net/ApplicationServices/v200")&gt;]</AttributeName>
     </Attribute>
     <Attribute>
-      <AttributeName Language="C#">[System.ServiceModel.ServiceKnownType("GetKnownTypes", typeof(System.Web.ApplicationServices.KnownTypesProvider))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.ServiceModel.ServiceKnownType("GetKnownTypes", typeof(System.Web.ApplicationServices.KnownTypesProvider))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.ServiceModel.ServiceKnownType("GetKnownTypes", typeof(System.Type))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.ServiceModel.ServiceKnownType("GetKnownTypes", typeof(System.Type))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
