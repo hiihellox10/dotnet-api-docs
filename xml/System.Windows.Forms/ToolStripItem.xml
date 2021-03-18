@@ -426,8 +426,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.AccessibleRole.Default)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.AccessibleRole.Default)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -473,8 +473,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.ToolStripItemAlignment.Left)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.ToolStripItemAlignment.Left)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
@@ -592,8 +592,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Top)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Top)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.DesignerSerializationVisibility(System.ComponentModel.DesignerSerializationVisibility.Hidden)]</AttributeName>
@@ -969,8 +969,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.ImageLayout.Tile)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.ImageLayout.Tile)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.Localizable(true)]</AttributeName>
@@ -1504,8 +1504,8 @@
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.DockStyle.None)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.DockStyle.None)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2345,8 +2345,8 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Drawing.ContentAlignment.MiddleCenter)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Drawing.ContentAlignment.MiddleCenter)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.Localizable(true)]</AttributeName>
@@ -2569,8 +2569,8 @@ If you set the <xref:System.Windows.Forms.ToolStripItem.ImageKey%2A> property, t
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.ToolStripItemImageScaling.SizeToFit)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.ToolStripItemImageScaling.SizeToFit)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.Localizable(true)]</AttributeName>
@@ -2982,8 +2982,8 @@ If you set the <xref:System.Windows.Forms.ToolStripItem.ImageKey%2A> property, t
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.MergeAction.Append)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.MergeAction.Append)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4864,8 +4864,8 @@ If you set the <xref:System.Windows.Forms.ToolStripItem.ImageKey%2A> property, t
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.ToolStripItemOverflow.AsNeeded)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.ToolStripItemOverflow.AsNeeded)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
@@ -6452,8 +6452,8 @@ If you set the <xref:System.Windows.Forms.ToolStripItem.ImageKey%2A> property, t
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Drawing.ContentAlignment.MiddleCenter)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Drawing.ContentAlignment.MiddleCenter)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.Localizable(true)]</AttributeName>
@@ -6583,8 +6583,8 @@ If you set the <xref:System.Windows.Forms.ToolStripItem.ImageKey%2A> property, t
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.TextImageRelation.ImageBeforeText)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.TextImageRelation.ImageBeforeText)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.Localizable(true)]</AttributeName>
