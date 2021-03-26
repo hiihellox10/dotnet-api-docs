@@ -2354,8 +2354,8 @@ The <xref:System.Windows.Forms.DataGridView> control replaces and extends the <x
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewAutoSizeColumnsMode.None)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewAutoSizeColumnsMode.None)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
@@ -2460,8 +2460,8 @@ The <xref:System.Windows.Forms.DataGridView> control replaces and extends the <x
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewAutoSizeRowsMode.None)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewAutoSizeRowsMode.None)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
@@ -2958,8 +2958,8 @@ The <xref:System.Windows.Forms.DataGridView> control replaces and extends the <x
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.BorderStyle.FixedSingle)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.BorderStyle.FixedSingle)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
@@ -3191,8 +3191,8 @@ The <xref:System.Windows.Forms.DataGridView> control replaces and extends the <x
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(true)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewCellBorderStyle.Single)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewCellBorderStyle.Single)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -4832,8 +4832,8 @@ The <xref:System.Windows.Forms.DataGridView> control replaces and extends the <x
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(true)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithAutoHeaderText)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewClipboardCopyMode.EnableWithAutoHeaderText)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
@@ -5347,8 +5347,8 @@ The <xref:System.Windows.Forms.DataGridView> control replaces and extends the <x
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(true)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -5614,8 +5614,8 @@ The <xref:System.Windows.Forms.DataGridView> control replaces and extends the <x
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.EnableResizing)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)]</AttributeName>
@@ -7256,8 +7256,8 @@ The <xref:System.Windows.Forms.DataGridView> control replaces and extends the <x
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewEditMode.EditOnKeystrokeOrF2)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewEditMode.EditOnKeystrokeOrF2)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
@@ -16594,8 +16594,8 @@ The <xref:System.Windows.Forms.DataGridView> control replaces and extends the <x
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(true)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewHeaderBorderStyle.Raised)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -16924,8 +16924,8 @@ The <xref:System.Windows.Forms.DataGridView> control replaces and extends the <x
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.EnableResizing)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewRowHeadersWidthSizeMode.EnableResizing)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.RefreshProperties(System.ComponentModel.RefreshProperties.All)]</AttributeName>
@@ -17856,8 +17856,8 @@ if (rowToDelete > -1)
       </AssemblyInfo>
       <Attributes>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.ScrollBars.Both)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.ScrollBars.Both)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
           <AttributeName Language="C#">[System.ComponentModel.Localizable(true)]</AttributeName>
@@ -18127,8 +18127,8 @@ if (rowToDelete > -1)
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(true)&gt;]</AttributeName>
         </Attribute>
         <Attribute>
-          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(Mono.Cecil.CustomAttributeArgument)&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewSelectionMode.RowHeaderSelect)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultValue(System.Windows.Forms.DataGridViewSelectionMode.RowHeaderSelect)&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.0">
           <AttributeName Language="C#">[get: System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
