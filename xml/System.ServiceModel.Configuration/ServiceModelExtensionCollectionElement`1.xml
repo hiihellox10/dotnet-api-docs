@@ -359,12 +359,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.6">
-          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.ServiceModel.Configuration.ServiceModelExtensionCollectionElement`1/&lt;GetEnumerator&gt;d__1))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.ServiceModel.Configuration.ServiceModelExtensionCollectionElement`1/&lt;GetEnumerator&gt;d__1))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.ServiceModel.Configuration.ServiceModelExtensionCollectionElement&lt;&gt;+&lt;GetEnumerator&gt;d__1))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.ServiceModel.Configuration.ServiceModelExtensionCollectionElement&lt;&gt;+&lt;GetEnumerator&gt;d__1))&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.ServiceModel.Configuration.ServiceModelExtensionCollectionElement`1/&lt;GetEnumerator&gt;d__37))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.ServiceModel.Configuration.ServiceModelExtensionCollectionElement`1/&lt;GetEnumerator&gt;d__37))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.ServiceModel.Configuration.ServiceModelExtensionCollectionElement&lt;&gt;+&lt;GetEnumerator&gt;d__37))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.ServiceModel.Configuration.ServiceModelExtensionCollectionElement&lt;&gt;+&lt;GetEnumerator&gt;d__37))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -674,7 +674,7 @@
     <Member MemberName="System.Collections.Generic.ICollection&lt;TServiceModelExtensionElement&gt;.IsReadOnly">
       <MemberSignature Language="C#" Value="bool System.Collections.Generic.ICollection&lt;TServiceModelExtensionElement&gt;.IsReadOnly { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool System.Collections.Generic.ICollection&lt;TServiceModelExtensionElement&gt;.IsReadOnly" />
-      <MemberSignature Language="DocId" Value="P:System.ServiceModel.Configuration.ServiceModelExtensionCollectionElement`1.System#Collections#Generic#ICollection&lt;TServiceModelExtensionElement&gt;#IsReadOnly" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.Configuration.ServiceModelExtensionCollectionElement`1.System#Collections#Generic#ICollection{TServiceModelExtensionElement}#IsReadOnly" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsReadOnly As Boolean Implements ICollection(Of TServiceModelExtensionElement).IsReadOnly" />
       <MemberSignature Language="C++ CLI" Value="property bool System::Collections::Generic::ICollection&lt;TServiceModelExtensionElement&gt;::IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.System.Collections.Generic.ICollection&lt;TServiceModelExtensionElement&gt;.IsReadOnly : bool" Usage="System.Collections.Generic.ICollection&lt;TServiceModelExtensionElement&gt;.IsReadOnly" />

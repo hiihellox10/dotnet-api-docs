@@ -49,8 +49,8 @@
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("Count = {Count}")&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
-      <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableSortedSetBuilderDebuggerProxy`1))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableSortedSetBuilderDebuggerProxy`1))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableSortedSetBuilderDebuggerProxy&lt;&gt;))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableSortedSetBuilderDebuggerProxy&lt;&gt;))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -784,7 +784,7 @@
     <Member MemberName="System.Collections.Generic.ICollection&lt;T&gt;.Add">
       <MemberSignature Language="C#" Value="void ICollection&lt;T&gt;.Add (T item);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.Collections.Generic.ICollection&lt;T&gt;.Add(!T item) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.System#Collections#Generic#ICollection&lt;T&gt;#Add(`0)" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.System#Collections#Generic#ICollection{T}#Add(`0)" />
       <MemberSignature Language="VB.NET" Value="Sub Add (item As T) Implements ICollection(Of T).Add" />
       <MemberSignature Language="C++ CLI" Value=" virtual void System.Collections.Generic.ICollection&lt;T&gt;.Add(T item) = System::Collections::Generic::ICollection&lt;T&gt;::Add;" />
       <MemberSignature Language="F#" Value="abstract member System.Collections.Generic.ICollection&lt;T&gt;.Add : 'T -&gt; unit&#xA;override this.System.Collections.Generic.ICollection&lt;T&gt;.Add : 'T -&gt; unit" Usage="builder.System.Collections.Generic.ICollection&lt;T&gt;.Add item" />
@@ -825,7 +825,7 @@
     <Member MemberName="System.Collections.Generic.ICollection&lt;T&gt;.CopyTo">
       <MemberSignature Language="C#" Value="void ICollection&lt;T&gt;.CopyTo (T[] array, int arrayIndex);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.Collections.Generic.ICollection&lt;T&gt;.CopyTo(!T[] array, int32 arrayIndex) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.System#Collections#Generic#ICollection&lt;T&gt;#CopyTo(`0[],System.Int32)" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.System#Collections#Generic#ICollection{T}#CopyTo(`0[],System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Sub CopyTo (array As T(), arrayIndex As Integer) Implements ICollection(Of T).CopyTo" />
       <MemberSignature Language="C++ CLI" Value=" virtual void System.Collections.Generic.ICollection&lt;T&gt;.CopyTo(cli::array &lt;T&gt; ^ array, int arrayIndex) = System::Collections::Generic::ICollection&lt;T&gt;::CopyTo;" />
       <MemberSignature Language="F#" Value="abstract member System.Collections.Generic.ICollection&lt;T&gt;.CopyTo : 'T[] * int -&gt; unit&#xA;override this.System.Collections.Generic.ICollection&lt;T&gt;.CopyTo : 'T[] * int -&gt; unit" Usage="builder.System.Collections.Generic.ICollection&lt;T&gt;.CopyTo (array, arrayIndex)" />
@@ -868,7 +868,7 @@
     <Member MemberName="System.Collections.Generic.ICollection&lt;T&gt;.IsReadOnly">
       <MemberSignature Language="C#" Value="bool System.Collections.Generic.ICollection&lt;T&gt;.IsReadOnly { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool System.Collections.Generic.ICollection&lt;T&gt;.IsReadOnly" />
-      <MemberSignature Language="DocId" Value="P:System.Collections.Immutable.ImmutableSortedSet`1.Builder.System#Collections#Generic#ICollection&lt;T&gt;#IsReadOnly" />
+      <MemberSignature Language="DocId" Value="P:System.Collections.Immutable.ImmutableSortedSet`1.Builder.System#Collections#Generic#ICollection{T}#IsReadOnly" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsReadOnly As Boolean Implements ICollection(Of T).IsReadOnly" />
       <MemberSignature Language="C++ CLI" Value="property bool System::Collections::Generic::ICollection&lt;T&gt;::IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.System.Collections.Generic.ICollection&lt;T&gt;.IsReadOnly : bool" Usage="System.Collections.Generic.ICollection&lt;T&gt;.IsReadOnly" />
@@ -899,7 +899,7 @@
     <Member MemberName="System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator">
       <MemberSignature Language="C#" Value="System.Collections.Generic.IEnumerator&lt;T&gt; IEnumerable&lt;T&gt;.GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;!T&gt; System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.System#Collections#Generic#IEnumerable&lt;T&gt;#GetEnumerator" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet`1.Builder.System#Collections#Generic#IEnumerable{T}#GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator(Of T) Implements IEnumerable(Of T).GetEnumerator" />
       <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IEnumerator&lt;T&gt; ^ System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator() = System::Collections::Generic::IEnumerable&lt;T&gt;::GetEnumerator;" />
       <MemberSignature Language="F#" Value="abstract member System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;'T&gt;&#xA;override this.System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;'T&gt;" Usage="builder.System.Collections.Generic.IEnumerable&lt;T&gt;.GetEnumerator " />

@@ -786,7 +786,7 @@
     <Member MemberName="System.Collections.Generic.ICollection&lt;System.Double&gt;.IsReadOnly">
       <MemberSignature Language="C#" Value="bool System.Collections.Generic.ICollection&lt;System.Double&gt;.IsReadOnly { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool System.Collections.Generic.ICollection&lt;System.Double&gt;.IsReadOnly" />
-      <MemberSignature Language="DocId" Value="P:System.Windows.Media.DoubleCollection.System#Collections#Generic#ICollection&lt;System#Double&gt;#IsReadOnly" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Media.DoubleCollection.System#Collections#Generic#ICollection{System#Double}#IsReadOnly" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsReadOnly As Boolean Implements ICollection(Of Double).IsReadOnly" />
       <MemberSignature Language="C++ CLI" Value="property bool System::Collections::Generic::ICollection&lt;System::Double&gt;::IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.System.Collections.Generic.ICollection&lt;System.Double&gt;.IsReadOnly : bool" Usage="System.Collections.Generic.ICollection&lt;System.Double&gt;.IsReadOnly" />
@@ -820,7 +820,7 @@
     <Member MemberName="System.Collections.Generic.IEnumerable&lt;System.Double&gt;.GetEnumerator">
       <MemberSignature Language="C#" Value="System.Collections.Generic.IEnumerator&lt;double&gt; IEnumerable&lt;double&gt;.GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;float64&gt; System.Collections.Generic.IEnumerable&lt;System.Double&gt;.GetEnumerator() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Media.DoubleCollection.System#Collections#Generic#IEnumerable&lt;System#Double&gt;#GetEnumerator" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Media.DoubleCollection.System#Collections#Generic#IEnumerable{System#Double}#GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator(Of Double) Implements IEnumerable(Of Double).GetEnumerator" />
       <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IEnumerator&lt;double&gt; ^ System.Collections.Generic.IEnumerable&lt;System.Double&gt;.GetEnumerator() = System::Collections::Generic::IEnumerable&lt;double&gt;::GetEnumerator;" />
       <MemberSignature Language="F#" Value="abstract member System.Collections.Generic.IEnumerable&lt;System.Double&gt;.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;double&gt;&#xA;override this.System.Collections.Generic.IEnumerable&lt;System.Double&gt;.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;double&gt;" Usage="doubleCollection.System.Collections.Generic.IEnumerable&lt;System.Double&gt;.GetEnumerator " />

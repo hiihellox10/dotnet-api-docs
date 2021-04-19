@@ -1027,7 +1027,7 @@
     <Member MemberName="System.Collections.Generic.IEnumerable&lt;System.String&gt;.GetEnumerator">
       <MemberSignature Language="C#" Value="System.Collections.Generic.IEnumerator&lt;string&gt; IEnumerable&lt;string&gt;.GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;string&gt; System.Collections.Generic.IEnumerable&lt;System.String&gt;.GetEnumerator() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Media.Imaging.BitmapMetadata.System#Collections#Generic#IEnumerable&lt;System#String&gt;#GetEnumerator" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Media.Imaging.BitmapMetadata.System#Collections#Generic#IEnumerable{System#String}#GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator(Of String) Implements IEnumerable(Of String).GetEnumerator" />
       <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IEnumerator&lt;System::String ^&gt; ^ System.Collections.Generic.IEnumerable&lt;System.String&gt;.GetEnumerator() = System::Collections::Generic::IEnumerable&lt;System::String ^&gt;::GetEnumerator;" />
       <MemberSignature Language="F#" Value="abstract member System.Collections.Generic.IEnumerable&lt;System.String&gt;.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;string&gt;&#xA;override this.System.Collections.Generic.IEnumerable&lt;System.String&gt;.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;string&gt;" Usage="bitmapMetadata.System.Collections.Generic.IEnumerable&lt;System.String&gt;.GetEnumerator " />

@@ -172,7 +172,7 @@
       <Member Id="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.Clock" />
       <Member Id="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.CompactOnMemoryPressure" />
       <Member Id="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.ExpirationScanFrequency" />
-      <Member Id="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.Microsoft#Extensions#Options#IOptions&lt;Microsoft#Extensions#Caching#Memory#MemoryCacheOptions&gt;#Value" />
+      <Member Id="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.Microsoft#Extensions#Options#IOptions{Microsoft#Extensions#Caching#Memory#MemoryCacheOptions}#Value" />
     </Type>
     <Type Name="Microsoft.Extensions.Caching.Memory.PostEvictionCallbackRegistration" Id="T:Microsoft.Extensions.Caching.Memory.PostEvictionCallbackRegistration">
       <Member Id="M:Microsoft.Extensions.Caching.Memory.PostEvictionCallbackRegistration.#ctor" />
@@ -198,7 +198,7 @@
       <Member Id="M:Microsoft.Extensions.Caching.Redis.RedisCacheOptions.#ctor" />
       <Member Id="P:Microsoft.Extensions.Caching.Redis.RedisCacheOptions.Configuration" />
       <Member Id="P:Microsoft.Extensions.Caching.Redis.RedisCacheOptions.InstanceName" />
-      <Member Id="P:Microsoft.Extensions.Caching.Redis.RedisCacheOptions.Microsoft#Extensions#Options#IOptions&lt;Microsoft#Extensions#Caching#Redis#RedisCacheOptions&gt;#Value" />
+      <Member Id="P:Microsoft.Extensions.Caching.Redis.RedisCacheOptions.Microsoft#Extensions#Options#IOptions{Microsoft#Extensions#Caching#Redis#RedisCacheOptions}#Value" />
     </Type>
   </Namespace>
   <Namespace Name="Microsoft.Extensions.Caching.SqlServer">
@@ -217,7 +217,7 @@
       <Member Id="M:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.#ctor" />
       <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.ConnectionString" />
       <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.ExpiredItemsDeletionInterval" />
-      <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.Microsoft#Extensions#Options#IOptions&lt;Microsoft#Extensions#Caching#SqlServer#SqlServerCacheOptions&gt;#Value" />
+      <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.Microsoft#Extensions#Options#IOptions{Microsoft#Extensions#Caching#SqlServer#SqlServerCacheOptions}#Value" />
       <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.SchemaName" />
       <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.SystemClock" />
       <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.TableName" />
@@ -582,7 +582,7 @@
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ServiceCollection.Insert(System.Int32,Microsoft.Extensions.DependencyInjection.ServiceDescriptor)" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ServiceCollection.Remove(Microsoft.Extensions.DependencyInjection.ServiceDescriptor)" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ServiceCollection.RemoveAt(System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.ServiceCollection.System#Collections#Generic#ICollection&lt;Microsoft#Extensions#DependencyInjection#ServiceDescriptor&gt;#Add(Microsoft.Extensions.DependencyInjection.ServiceDescriptor)" />
+      <Member Id="M:Microsoft.Extensions.DependencyInjection.ServiceCollection.System#Collections#Generic#ICollection{Microsoft#Extensions#DependencyInjection#ServiceDescriptor}#Add(Microsoft.Extensions.DependencyInjection.ServiceDescriptor)" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ServiceCollection.System#Collections#IEnumerable#GetEnumerator" />
       <Member Id="P:Microsoft.Extensions.DependencyInjection.ServiceCollection.Count" />
       <Member Id="P:Microsoft.Extensions.DependencyInjection.ServiceCollection.IsReadOnly" />
@@ -701,9 +701,9 @@
       <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.#ctor(System.Object,System.Func{System.String,System.Boolean})" />
       <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.#ctor(System.Object,System.Func{System.String,System.Boolean},Microsoft.Extensions.DiagnosticAdapter.IDiagnosticSourceMethodAdapter)" />
       <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.IsEnabled(System.String)" />
-      <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System#IObserver&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#OnCompleted" />
-      <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System#IObserver&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#OnError(System.Exception)" />
-      <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System#IObserver&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#OnNext(System.Collections.Generic.KeyValuePair{System.String,System.Object})" />
+      <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System#IObserver{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#OnCompleted" />
+      <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System#IObserver{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#OnError(System.Exception)" />
+      <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System#IObserver{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#OnNext(System.Collections.Generic.KeyValuePair{System.String,System.Object})" />
       <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.Write(System.String,System.Object)" />
     </Type>
     <Type Name="Microsoft.Extensions.DiagnosticAdapter.IDiagnosticSourceMethodAdapter" Id="T:Microsoft.Extensions.DiagnosticAdapter.IDiagnosticSourceMethodAdapter">
@@ -1315,7 +1315,7 @@
       <Member Id="M:Microsoft.Extensions.Logging.FilterLoggerSettings.#ctor" />
       <Member Id="M:Microsoft.Extensions.Logging.FilterLoggerSettings.Add(System.String,Microsoft.Extensions.Logging.LogLevel)" />
       <Member Id="M:Microsoft.Extensions.Logging.FilterLoggerSettings.Microsoft#Extensions#Logging#IFilterLoggerSettings#Reload" />
-      <Member Id="M:Microsoft.Extensions.Logging.FilterLoggerSettings.System#Collections#Generic#IEnumerable&lt;System#Collections#Generic#KeyValuePair&lt;System#String,Microsoft#Extensions#Logging#LogLevel&gt;&gt;#GetEnumerator" />
+      <Member Id="M:Microsoft.Extensions.Logging.FilterLoggerSettings.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{System#String,Microsoft#Extensions#Logging#LogLevel}}#GetEnumerator" />
       <Member Id="M:Microsoft.Extensions.Logging.FilterLoggerSettings.System#Collections#IEnumerable#GetEnumerator" />
       <Member Id="M:Microsoft.Extensions.Logging.FilterLoggerSettings.TryGetSwitch(System.String,Microsoft.Extensions.Logging.LogLevel@)" />
       <Member Id="P:Microsoft.Extensions.Logging.FilterLoggerSettings.Microsoft#Extensions#Logging#IFilterLoggerSettings#ChangeToken" />
@@ -1653,7 +1653,7 @@
     <Type Name="Microsoft.Extensions.Primitives.StringTokenizer" Id="T:Microsoft.Extensions.Primitives.StringTokenizer">
       <Member Id="M:Microsoft.Extensions.Primitives.StringTokenizer.#ctor(System.String,System.Char[])" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringTokenizer.GetEnumerator" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringTokenizer.System#Collections#Generic#IEnumerable&lt;Microsoft#Extensions#Primitives#StringSegment&gt;#GetEnumerator" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringTokenizer.System#Collections#Generic#IEnumerable{Microsoft#Extensions#Primitives#StringSegment}#GetEnumerator" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringTokenizer.System#Collections#IEnumerable#GetEnumerator" />
     </Type>
     <Type Name="Microsoft.Extensions.Primitives.StringTokenizer/Enumerator" Id="T:Microsoft.Extensions.Primitives.StringTokenizer.Enumerator">
@@ -1699,22 +1699,22 @@
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.op_Inequality(System.Object,Microsoft.Extensions.Primitives.StringValues)" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.op_Inequality(System.String,Microsoft.Extensions.Primitives.StringValues)" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.op_Inequality(System.String[],Microsoft.Extensions.Primitives.StringValues)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection&lt;System#String&gt;#Add(System.String)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection&lt;System#String&gt;#Clear" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection&lt;System#String&gt;#Contains(System.String)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection&lt;System#String&gt;#CopyTo(System.String[],System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection&lt;System#String&gt;#Remove(System.String)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IEnumerable&lt;System#String&gt;#GetEnumerator" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList&lt;System#String&gt;#IndexOf(System.String)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList&lt;System#String&gt;#Insert(System.Int32,System.String)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList&lt;System#String&gt;#RemoveAt(System.Int32)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection{System#String}#Add(System.String)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection{System#String}#Clear" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection{System#String}#Contains(System.String)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection{System#String}#CopyTo(System.String[],System.Int32)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection{System#String}#Remove(System.String)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IEnumerable{System#String}#GetEnumerator" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList{System#String}#IndexOf(System.String)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList{System#String}#Insert(System.Int32,System.String)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList{System#String}#RemoveAt(System.Int32)" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#IEnumerable#GetEnumerator" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.ToArray" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.ToString" />
       <Member Id="P:Microsoft.Extensions.Primitives.StringValues.Count" />
       <Member Id="P:Microsoft.Extensions.Primitives.StringValues.Item(System.Int32)" />
-      <Member Id="P:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection&lt;System#String&gt;#IsReadOnly" />
-      <Member Id="P:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList&lt;System#String&gt;#Item(System.Int32)" />
+      <Member Id="P:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection{System#String}#IsReadOnly" />
+      <Member Id="P:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList{System#String}#Item(System.Int32)" />
     </Type>
     <Type Name="Microsoft.Extensions.Primitives.StringValues/Enumerator" Id="T:Microsoft.Extensions.Primitives.StringValues.Enumerator">
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.Enumerator.#ctor(Microsoft.Extensions.Primitives.StringValues@)" />

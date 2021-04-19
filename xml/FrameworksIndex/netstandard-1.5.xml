@@ -159,22 +159,22 @@
       <Member Id="M:System.ArraySegment`1.GetHashCode" />
       <Member Id="M:System.ArraySegment`1.op_Equality(System.ArraySegment{`0},System.ArraySegment{`0})" />
       <Member Id="M:System.ArraySegment`1.op_Inequality(System.ArraySegment{`0},System.ArraySegment{`0})" />
-      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#ICollection&lt;T&gt;#Add(`0)" />
-      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#ICollection&lt;T&gt;#Clear" />
-      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#ICollection&lt;T&gt;#Contains(`0)" />
-      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#ICollection&lt;T&gt;#CopyTo(`0[],System.Int32)" />
-      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#ICollection&lt;T&gt;#Remove(`0)" />
-      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#IEnumerable&lt;T&gt;#GetEnumerator" />
-      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#IList&lt;T&gt;#IndexOf(`0)" />
-      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#IList&lt;T&gt;#Insert(System.Int32,`0)" />
-      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#IList&lt;T&gt;#RemoveAt(System.Int32)" />
+      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Add(`0)" />
+      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Clear" />
+      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Contains(`0)" />
+      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#ICollection{T}#CopyTo(`0[],System.Int32)" />
+      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#ICollection{T}#Remove(`0)" />
+      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#IEnumerable{T}#GetEnumerator" />
+      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#IList{T}#IndexOf(`0)" />
+      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#IList{T}#Insert(System.Int32,`0)" />
+      <Member Id="M:System.ArraySegment`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)" />
       <Member Id="M:System.ArraySegment`1.System#Collections#IEnumerable#GetEnumerator" />
       <Member Id="P:System.ArraySegment`1.Array" />
       <Member Id="P:System.ArraySegment`1.Count" />
       <Member Id="P:System.ArraySegment`1.Offset" />
-      <Member Id="P:System.ArraySegment`1.System#Collections#Generic#ICollection&lt;T&gt;#IsReadOnly" />
-      <Member Id="P:System.ArraySegment`1.System#Collections#Generic#IList&lt;T&gt;#Item(System.Int32)" />
-      <Member Id="P:System.ArraySegment`1.System#Collections#Generic#IReadOnlyList&lt;T&gt;#Item(System.Int32)" />
+      <Member Id="P:System.ArraySegment`1.System#Collections#Generic#ICollection{T}#IsReadOnly" />
+      <Member Id="P:System.ArraySegment`1.System#Collections#Generic#IList{T}#Item(System.Int32)" />
+      <Member Id="P:System.ArraySegment`1.System#Collections#Generic#IReadOnlyList{T}#Item(System.Int32)" />
     </Type>
     <Type Name="System.ArrayTypeMismatchException" Id="T:System.ArrayTypeMismatchException">
       <Member Id="M:System.ArrayTypeMismatchException.#ctor" />
@@ -1634,7 +1634,7 @@
       <Member Id="M:System.Progress`1.#ctor" />
       <Member Id="M:System.Progress`1.#ctor(System.Action{`0})" />
       <Member Id="M:System.Progress`1.OnReport(`0)" />
-      <Member Id="M:System.Progress`1.System#IProgress&lt;T&gt;#Report(`0)" />
+      <Member Id="M:System.Progress`1.System#IProgress{T}#Report(`0)" />
     </Type>
     <Type Name="System.Random" Id="T:System.Random">
       <Member Id="M:System.Random.#ctor" />
@@ -1856,7 +1856,7 @@
       <Member Id="M:System.String.StartsWith(System.String,System.StringComparison)" />
       <Member Id="M:System.String.Substring(System.Int32)" />
       <Member Id="M:System.String.Substring(System.Int32,System.Int32)" />
-      <Member Id="M:System.String.System#Collections#Generic#IEnumerable&lt;System#Char&gt;#GetEnumerator" />
+      <Member Id="M:System.String.System#Collections#Generic#IEnumerable{System#Char}#GetEnumerator" />
       <Member Id="M:System.String.System#Collections#IEnumerable#GetEnumerator" />
       <Member Id="M:System.String.System#IComparable#CompareTo(System.Object)" />
       <Member Id="M:System.String.System#IConvertible#GetTypeCode" />
@@ -2674,7 +2674,7 @@
       <Member Id="P:System.Collections.ObjectModel.Collection`1.Count" />
       <Member Id="P:System.Collections.ObjectModel.Collection`1.Item(System.Int32)" />
       <Member Id="P:System.Collections.ObjectModel.Collection`1.Items" />
-      <Member Id="P:System.Collections.ObjectModel.Collection`1.System#Collections#Generic#ICollection&lt;T&gt;#IsReadOnly" />
+      <Member Id="P:System.Collections.ObjectModel.Collection`1.System#Collections#Generic#ICollection{T}#IsReadOnly" />
       <Member Id="P:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#IsSynchronized" />
       <Member Id="P:System.Collections.ObjectModel.Collection`1.System#Collections#ICollection#SyncRoot" />
       <Member Id="P:System.Collections.ObjectModel.Collection`1.System#Collections#IList#IsFixedSize" />
@@ -2687,11 +2687,11 @@
       <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.CopyTo(`0[],System.Int32)" />
       <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.GetEnumerator" />
       <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.IndexOf(`0)" />
-      <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection&lt;T&gt;#Add(`0)" />
-      <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection&lt;T&gt;#Clear" />
-      <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection&lt;T&gt;#Remove(`0)" />
-      <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList&lt;T&gt;#Insert(System.Int32,`0)" />
-      <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList&lt;T&gt;#RemoveAt(System.Int32)" />
+      <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#Add(`0)" />
+      <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#Clear" />
+      <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#Remove(`0)" />
+      <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#Insert(System.Int32,`0)" />
+      <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#RemoveAt(System.Int32)" />
       <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)" />
       <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IEnumerable#GetEnumerator" />
       <Member Id="M:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#Add(System.Object)" />
@@ -2704,8 +2704,8 @@
       <Member Id="P:System.Collections.ObjectModel.ReadOnlyCollection`1.Count" />
       <Member Id="P:System.Collections.ObjectModel.ReadOnlyCollection`1.Item(System.Int32)" />
       <Member Id="P:System.Collections.ObjectModel.ReadOnlyCollection`1.Items" />
-      <Member Id="P:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection&lt;T&gt;#IsReadOnly" />
-      <Member Id="P:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList&lt;T&gt;#Item(System.Int32)" />
+      <Member Id="P:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#ICollection{T}#IsReadOnly" />
+      <Member Id="P:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#Generic#IList{T}#Item(System.Int32)" />
       <Member Id="P:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#ICollection#IsSynchronized" />
       <Member Id="P:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#ICollection#SyncRoot" />
       <Member Id="P:System.Collections.ObjectModel.ReadOnlyCollection`1.System#Collections#IList#IsFixedSize" />
@@ -4045,7 +4045,7 @@
       <Member Id="M:System.Runtime.CompilerServices.ConditionalWeakTable`2.Add(`0,`1)" />
       <Member Id="M:System.Runtime.CompilerServices.ConditionalWeakTable`2.Finalize" />
       <Member Id="M:System.Runtime.CompilerServices.ConditionalWeakTable`2.GetOrCreateValue(`0)" />
-      <Member Id="M:System.Runtime.CompilerServices.ConditionalWeakTable`2.GetValue(`0,System.Runtime.CompilerServices.ConditionalWeakTable`2.CreateValueCallback{`0,`1})" />
+      <Member Id="M:System.Runtime.CompilerServices.ConditionalWeakTable`2.GetValue(`0,System.Runtime.CompilerServices.ConditionalWeakTable{`0,`1}.CreateValueCallback)" />
       <Member Id="M:System.Runtime.CompilerServices.ConditionalWeakTable`2.Remove(`0)" />
       <Member Id="M:System.Runtime.CompilerServices.ConditionalWeakTable`2.TryGetValue(`0,`1@)" />
     </Type>

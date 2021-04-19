@@ -175,7 +175,7 @@
     <Member MemberName="System.IEquatable&lt;System.Windows.Input.TouchPoint&gt;.Equals">
       <MemberSignature Language="C#" Value="bool IEquatable&lt;TouchPoint&gt;.Equals (System.Windows.Input.TouchPoint other);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool System.IEquatable&lt;System.Windows.Input.TouchPoint&gt;.Equals(class System.Windows.Input.TouchPoint other) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Input.TouchPoint.System#IEquatable&lt;System#Windows#Input#TouchPoint&gt;#Equals(System.Windows.Input.TouchPoint)" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Input.TouchPoint.System#IEquatable{System#Windows#Input#TouchPoint}#Equals(System.Windows.Input.TouchPoint)" />
       <MemberSignature Language="VB.NET" Value="Function Equals (other As TouchPoint) As Boolean Implements IEquatable(Of TouchPoint).Equals" />
       <MemberSignature Language="C++ CLI" Value=" virtual bool System.IEquatable&lt;System.Windows.Input.TouchPoint&gt;.Equals(System::Windows::Input::TouchPoint ^ other) = IEquatable&lt;System::Windows::Input::TouchPoint ^&gt;::Equals;" />
       <MemberSignature Language="F#" Value="abstract member System.IEquatable&lt;System.Windows.Input.TouchPoint&gt;.Equals : System.Windows.Input.TouchPoint -&gt; bool&#xA;override this.System.IEquatable&lt;System.Windows.Input.TouchPoint&gt;.Equals : System.Windows.Input.TouchPoint -&gt; bool" Usage="touchPoint.System.IEquatable&lt;System.Windows.Input.TouchPoint&gt;.Equals other" />

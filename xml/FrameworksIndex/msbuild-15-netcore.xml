@@ -687,7 +687,7 @@
       <Member Id="F:Microsoft.Build.Evaluation.ProjectLoadSettings.RejectCircularImports" />
     </Type>
     <Type Name="Microsoft.Build.Evaluation.ProjectMetadata" Id="T:Microsoft.Build.Evaluation.ProjectMetadata">
-      <Member Id="M:Microsoft.Build.Evaluation.ProjectMetadata.System#IEquatable&lt;Microsoft#Build#Evaluation#ProjectMetadata&gt;#Equals(Microsoft.Build.Evaluation.ProjectMetadata)" />
+      <Member Id="M:Microsoft.Build.Evaluation.ProjectMetadata.System#IEquatable{Microsoft#Build#Evaluation#ProjectMetadata}#Equals(Microsoft.Build.Evaluation.ProjectMetadata)" />
       <Member Id="P:Microsoft.Build.Evaluation.ProjectMetadata.ConditionLocation" />
       <Member Id="P:Microsoft.Build.Evaluation.ProjectMetadata.EvaluatedValue" />
       <Member Id="P:Microsoft.Build.Evaluation.ProjectMetadata.IsImported" />
@@ -700,7 +700,7 @@
       <Member Id="P:Microsoft.Build.Evaluation.ProjectMetadata.Xml" />
     </Type>
     <Type Name="Microsoft.Build.Evaluation.ProjectProperty" Id="T:Microsoft.Build.Evaluation.ProjectProperty">
-      <Member Id="M:Microsoft.Build.Evaluation.ProjectProperty.System#IEquatable&lt;Microsoft#Build#Evaluation#ProjectProperty&gt;#Equals(Microsoft.Build.Evaluation.ProjectProperty)" />
+      <Member Id="M:Microsoft.Build.Evaluation.ProjectProperty.System#IEquatable{Microsoft#Build#Evaluation#ProjectProperty}#Equals(Microsoft.Build.Evaluation.ProjectProperty)" />
       <Member Id="P:Microsoft.Build.Evaluation.ProjectProperty.EvaluatedValue" />
       <Member Id="P:Microsoft.Build.Evaluation.ProjectProperty.IsEnvironmentProperty" />
       <Member Id="P:Microsoft.Build.Evaluation.ProjectProperty.IsGlobalProperty" />
@@ -1078,7 +1078,7 @@
     </Type>
     <Type Name="Microsoft.Build.Execution.ProjectMetadataInstance" Id="T:Microsoft.Build.Execution.ProjectMetadataInstance">
       <Member Id="M:Microsoft.Build.Execution.ProjectMetadataInstance.DeepClone" />
-      <Member Id="M:Microsoft.Build.Execution.ProjectMetadataInstance.System#IEquatable&lt;Microsoft#Build#Execution#ProjectMetadataInstance&gt;#Equals(Microsoft.Build.Execution.ProjectMetadataInstance)" />
+      <Member Id="M:Microsoft.Build.Execution.ProjectMetadataInstance.System#IEquatable{Microsoft#Build#Execution#ProjectMetadataInstance}#Equals(Microsoft.Build.Execution.ProjectMetadataInstance)" />
       <Member Id="M:Microsoft.Build.Execution.ProjectMetadataInstance.ToString" />
       <Member Id="P:Microsoft.Build.Execution.ProjectMetadataInstance.EvaluatedValue" />
       <Member Id="P:Microsoft.Build.Execution.ProjectMetadataInstance.Name" />
@@ -1104,7 +1104,7 @@
       <Member Id="P:Microsoft.Build.Execution.ProjectPropertyGroupTaskPropertyInstance.Value" />
     </Type>
     <Type Name="Microsoft.Build.Execution.ProjectPropertyInstance" Id="T:Microsoft.Build.Execution.ProjectPropertyInstance">
-      <Member Id="M:Microsoft.Build.Execution.ProjectPropertyInstance.System#IEquatable&lt;Microsoft#Build#Execution#ProjectPropertyInstance&gt;#Equals(Microsoft.Build.Execution.ProjectPropertyInstance)" />
+      <Member Id="M:Microsoft.Build.Execution.ProjectPropertyInstance.System#IEquatable{Microsoft#Build#Execution#ProjectPropertyInstance}#Equals(Microsoft.Build.Execution.ProjectPropertyInstance)" />
       <Member Id="M:Microsoft.Build.Execution.ProjectPropertyInstance.ToString" />
       <Member Id="P:Microsoft.Build.Execution.ProjectPropertyInstance.EvaluatedValue" />
       <Member Id="P:Microsoft.Build.Execution.ProjectPropertyInstance.IsImmutable" />

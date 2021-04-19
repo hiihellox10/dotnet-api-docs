@@ -822,7 +822,7 @@
     <Member MemberName="System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.PositionChanged">
       <MemberSignature Language="C#" Value="event EventHandler&lt;System.Device.Location.GeoPositionChangedEventArgs&lt;System.Device.Location.GeoCoordinate&gt;&gt; System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.PositionChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.Device.Location.GeoPositionChangedEventArgs`1&lt;class System.Device.Location.GeoCoordinate&gt;&gt; System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.PositionChanged" />
-      <MemberSignature Language="DocId" Value="E:System.Device.Location.GeoCoordinateWatcher.System#Device#Location#IGeoPositionWatcher&lt;System#Device#Location#GeoCoordinate&gt;#PositionChanged" />
+      <MemberSignature Language="DocId" Value="E:System.Device.Location.GeoCoordinateWatcher.System#Device#Location#IGeoPositionWatcher{System#Device#Location#GeoCoordinate}#PositionChanged" />
       <MemberSignature Language="VB.NET" Value="Custom Event PositionChanged As EventHandler(Of GeoPositionChangedEventArgs(Of GeoCoordinate)) Implements System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;" />
       <MemberSignature Language="F#" Value="member this.System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.PositionChanged : EventHandler&lt;System.Device.Location.GeoPositionChangedEventArgs&lt;System.Device.Location.GeoCoordinate&gt;&gt; " Usage="member this.System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.PositionChanged : System.EventHandler&lt;System.Device.Location.GeoPositionChangedEventArgs&lt;System.Device.Location.GeoCoordinate&gt;&gt; " />
       <MemberType>Event</MemberType>
@@ -847,14 +847,14 @@
         <ReturnType>System.EventHandler&lt;System.Device.Location.GeoPositionChangedEventArgs&lt;System.Device.Location.GeoCoordinate&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Indicates that the location data has changed.</summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.StatusChanged">
       <MemberSignature Language="C#" Value="event EventHandler&lt;System.Device.Location.GeoPositionStatusChangedEventArgs&gt; System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.StatusChanged;" />
       <MemberSignature Language="ILAsm" Value=".event class System.EventHandler`1&lt;class System.Device.Location.GeoPositionStatusChangedEventArgs&gt; System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.StatusChanged" />
-      <MemberSignature Language="DocId" Value="E:System.Device.Location.GeoCoordinateWatcher.System#Device#Location#IGeoPositionWatcher&lt;System#Device#Location#GeoCoordinate&gt;#StatusChanged" />
+      <MemberSignature Language="DocId" Value="E:System.Device.Location.GeoCoordinateWatcher.System#Device#Location#IGeoPositionWatcher{System#Device#Location#GeoCoordinate}#StatusChanged" />
       <MemberSignature Language="VB.NET" Value="Custom Event StatusChanged As EventHandler(Of GeoPositionStatusChangedEventArgs) Implements System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;" />
       <MemberSignature Language="F#" Value="member this.System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.StatusChanged : EventHandler&lt;System.Device.Location.GeoPositionStatusChangedEventArgs&gt; " Usage="member this.System.Device.Location.IGeoPositionWatcher&lt;System.Device.Location.GeoCoordinate&gt;.StatusChanged : System.EventHandler&lt;System.Device.Location.GeoPositionStatusChangedEventArgs&gt; " />
       <MemberType>Event</MemberType>
@@ -879,7 +879,7 @@
         <ReturnType>System.EventHandler&lt;System.Device.Location.GeoPositionStatusChangedEventArgs&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Indicates that the status of the location provider has changed.</summary>
+        <summary>To be added.</summary>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

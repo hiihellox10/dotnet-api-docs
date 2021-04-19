@@ -1008,7 +1008,7 @@ False
     <Member MemberName="System.IEquatable&lt;System.Xml.Linq.XName&gt;.Equals">
       <MemberSignature Language="C#" Value="bool IEquatable&lt;XName&gt;.Equals (System.Xml.Linq.XName other);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool System.IEquatable&lt;System.Xml.Linq.XName&gt;.Equals(class System.Xml.Linq.XName other) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XName.System#IEquatable&lt;System#Xml#Linq#XName&gt;#Equals(System.Xml.Linq.XName)" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XName.System#IEquatable{System#Xml#Linq#XName}#Equals(System.Xml.Linq.XName)" />
       <MemberSignature Language="VB.NET" Value="Function Equals (other As XName) As Boolean Implements IEquatable(Of XName).Equals" />
       <MemberSignature Language="C++ CLI" Value=" virtual bool System.IEquatable&lt;System.Xml.Linq.XName&gt;.Equals(System::Xml::Linq::XName ^ other) = IEquatable&lt;System::Xml::Linq::XName ^&gt;::Equals;" />
       <MemberSignature Language="F#" Value="abstract member System.IEquatable&lt;System.Xml.Linq.XName&gt;.Equals : System.Xml.Linq.XName -&gt; bool&#xA;override this.System.IEquatable&lt;System.Xml.Linq.XName&gt;.Equals : System.Xml.Linq.XName -&gt; bool" Usage="xName.System.IEquatable&lt;System.Xml.Linq.XName&gt;.Equals other" />
