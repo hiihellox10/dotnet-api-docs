@@ -793,7 +793,7 @@
     <Member MemberName="System.Collections.Generic.ICollection&lt;System.Windows.Media.Drawing&gt;.IsReadOnly">
       <MemberSignature Language="C#" Value="bool System.Collections.Generic.ICollection&lt;System.Windows.Media.Drawing&gt;.IsReadOnly { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool System.Collections.Generic.ICollection&lt;System.Windows.Media.Drawing&gt;.IsReadOnly" />
-      <MemberSignature Language="DocId" Value="P:System.Windows.Media.DrawingCollection.System#Collections#Generic#ICollection&lt;System#Windows#Media#Drawing&gt;#IsReadOnly" />
+      <MemberSignature Language="DocId" Value="P:System.Windows.Media.DrawingCollection.System#Collections#Generic#ICollection{System#Windows#Media#Drawing}#IsReadOnly" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsReadOnly As Boolean Implements ICollection(Of Drawing).IsReadOnly" />
       <MemberSignature Language="C++ CLI" Value="property bool System::Collections::Generic::ICollection&lt;System::Windows::Media::Drawing&gt;::IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.System.Collections.Generic.ICollection&lt;System.Windows.Media.Drawing&gt;.IsReadOnly : bool" Usage="System.Collections.Generic.ICollection&lt;System.Windows.Media.Drawing&gt;.IsReadOnly" />
@@ -827,7 +827,7 @@
     <Member MemberName="System.Collections.Generic.IEnumerable&lt;System.Windows.Media.Drawing&gt;.GetEnumerator">
       <MemberSignature Language="C#" Value="System.Collections.Generic.IEnumerator&lt;System.Windows.Media.Drawing&gt; IEnumerable&lt;Drawing&gt;.GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;class System.Windows.Media.Drawing&gt; System.Collections.Generic.IEnumerable&lt;System.Windows.Media.Drawing&gt;.GetEnumerator() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Media.DrawingCollection.System#Collections#Generic#IEnumerable&lt;System#Windows#Media#Drawing&gt;#GetEnumerator" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Media.DrawingCollection.System#Collections#Generic#IEnumerable{System#Windows#Media#Drawing}#GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator(Of Drawing) Implements IEnumerable(Of Drawing).GetEnumerator" />
       <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IEnumerator&lt;System::Windows::Media::Drawing ^&gt; ^ System.Collections.Generic.IEnumerable&lt;System.Windows.Media.Drawing&gt;.GetEnumerator() = System::Collections::Generic::IEnumerable&lt;System::Windows::Media::Drawing ^&gt;::GetEnumerator;" />
       <MemberSignature Language="F#" Value="abstract member System.Collections.Generic.IEnumerable&lt;System.Windows.Media.Drawing&gt;.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;System.Windows.Media.Drawing&gt;&#xA;override this.System.Collections.Generic.IEnumerable&lt;System.Windows.Media.Drawing&gt;.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;System.Windows.Media.Drawing&gt;" Usage="drawingCollection.System.Collections.Generic.IEnumerable&lt;System.Windows.Media.Drawing&gt;.GetEnumerator " />

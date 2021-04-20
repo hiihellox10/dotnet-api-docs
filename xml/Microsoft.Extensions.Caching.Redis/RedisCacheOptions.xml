@@ -122,7 +122,7 @@
     <Member MemberName="Microsoft.Extensions.Options.IOptions&lt;Microsoft.Extensions.Caching.Redis.RedisCacheOptions&gt;.Value">
       <MemberSignature Language="C#" Value="Microsoft.Extensions.Caching.Redis.RedisCacheOptions Microsoft.Extensions.Options.IOptions&lt;Microsoft.Extensions.Caching.Redis.RedisCacheOptions&gt;.Value { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class Microsoft.Extensions.Caching.Redis.RedisCacheOptions Microsoft.Extensions.Options.IOptions&lt;Microsoft.Extensions.Caching.Redis.RedisCacheOptions&gt;.Value" />
-      <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Caching.Redis.RedisCacheOptions.Microsoft#Extensions#Options#IOptions&lt;Microsoft#Extensions#Caching#Redis#RedisCacheOptions&gt;#Value" />
+      <MemberSignature Language="DocId" Value="P:Microsoft.Extensions.Caching.Redis.RedisCacheOptions.Microsoft#Extensions#Options#IOptions{Microsoft#Extensions#Caching#Redis#RedisCacheOptions}#Value" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Value As RedisCacheOptions Implements IOptions(Of RedisCacheOptions).Value" />
       <MemberSignature Language="C++ CLI" Value="property Microsoft::Extensions::Caching::Redis::RedisCacheOptions ^ Microsoft::Extensions::Options::IOptions&lt;Microsoft::Extensions::Caching::Redis::RedisCacheOptions&gt;::Value { Microsoft::Extensions::Caching::Redis::RedisCacheOptions ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Microsoft.Extensions.Options.IOptions&lt;Microsoft.Extensions.Caching.Redis.RedisCacheOptions&gt;.Value : Microsoft.Extensions.Caching.Redis.RedisCacheOptions" Usage="Microsoft.Extensions.Options.IOptions&lt;Microsoft.Extensions.Caching.Redis.RedisCacheOptions&gt;.Value" />

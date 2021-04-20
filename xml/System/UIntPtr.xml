@@ -1431,7 +1431,7 @@
     <Member MemberName="System.IEquatable&lt;System.UIntPtr&gt;.Equals">
       <MemberSignature Language="C#" Value="bool IEquatable&lt;UIntPtr&gt;.Equals (UIntPtr other);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance bool System.IEquatable&lt;System.UIntPtr&gt;.Equals(native unsigned int other) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.UIntPtr.System#IEquatable&lt;System#UIntPtr&gt;#Equals(System.UIntPtr)" />
+      <MemberSignature Language="DocId" Value="M:System.UIntPtr.System#IEquatable{System#UIntPtr}#Equals(System.UIntPtr)" />
       <MemberSignature Language="VB.NET" Value="Function Equals (other As UIntPtr) As Boolean Implements IEquatable(Of UIntPtr).Equals" />
       <MemberSignature Language="C++ CLI" Value=" virtual bool System.IEquatable&lt;System.UIntPtr&gt;.Equals(UIntPtr other) = IEquatable&lt;UIntPtr&gt;::Equals;" />
       <MemberSignature Language="F#" Value="abstract member System.IEquatable&lt;System.UIntPtr&gt;.Equals : unativeint -&gt; bool&#xA;override this.System.IEquatable&lt;System.UIntPtr&gt;.Equals : unativeint -&gt; bool" Usage="unativeint.System.IEquatable&lt;System.UIntPtr&gt;.Equals other" />
@@ -1444,7 +1444,6 @@
         <AssemblyVersion>4.2.0.0</AssemblyVersion>
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -1457,22 +1456,13 @@
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="other" Type="System.UIntPtr" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0" />
+        <Parameter Name="other" Type="System.UIntPtr" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
       </Parameters>
       <Docs>
-        <param name="other">An unsigned integer pointer to compare with this instance.</param>
-        <summary>Returns a value that indicates whether this instance is equal to another unsigned integer pointer.</summary>
-        <returns>
-          <see langword="true" /> if <paramref name="other" /> equals the value of this instance; otherwise, <see langword="false" />.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[
-
-## Remarks
-
-This member is an explicit interface member implementation. It can be used only when the <xref:System.UIntPtr> instance is cast to an <xref:System.IEquatable%601> interface.
-
-          ]]></format>
-        </remarks>
+        <param name="other">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
     <Member MemberName="System.Runtime.Serialization.ISerializable.GetObjectData">
@@ -1845,7 +1835,7 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (string? s, out UIntPtr? result);" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (string? s, out UIntPtr result);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(string s, [out] native unsigned int&amp; result) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.UIntPtr.TryParse(System.String,System.UIntPtr@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (s As String, ByRef result As UIntPtr) As Boolean" />
@@ -1879,7 +1869,7 @@ This member is an explicit interface member implementation. It can be used only 
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (string? s, System.Globalization.NumberStyles style, IFormatProvider? provider, out UIntPtr? result);" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (string? s, System.Globalization.NumberStyles style, IFormatProvider? provider, out UIntPtr result);" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(string s, valuetype System.Globalization.NumberStyles style, class System.IFormatProvider provider, [out] native unsigned int&amp; result) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.UIntPtr.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UIntPtr@)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (s As String, style As NumberStyles, provider As IFormatProvider, ByRef result As UIntPtr) As Boolean" />

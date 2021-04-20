@@ -258,7 +258,7 @@
       <Member Id="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.Clock" />
       <Member Id="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.CompactionPercentage" />
       <Member Id="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.ExpirationScanFrequency" />
-      <Member Id="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.Microsoft#Extensions#Options#IOptions&lt;Microsoft#Extensions#Caching#Memory#MemoryCacheOptions&gt;#Value" />
+      <Member Id="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.Microsoft#Extensions#Options#IOptions{Microsoft#Extensions#Caching#Memory#MemoryCacheOptions}#Value" />
       <Member Id="P:Microsoft.Extensions.Caching.Memory.MemoryCacheOptions.SizeLimit" />
     </Type>
     <Type Name="Microsoft.Extensions.Caching.Memory.MemoryDistributedCacheOptions" Id="T:Microsoft.Extensions.Caching.Memory.MemoryDistributedCacheOptions">
@@ -288,7 +288,7 @@
       <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.ConnectionString" />
       <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.DefaultSlidingExpiration" />
       <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.ExpiredItemsDeletionInterval" />
-      <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.Microsoft#Extensions#Options#IOptions&lt;Microsoft#Extensions#Caching#SqlServer#SqlServerCacheOptions&gt;#Value" />
+      <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.Microsoft#Extensions#Options#IOptions{Microsoft#Extensions#Caching#SqlServer#SqlServerCacheOptions}#Value" />
       <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.SchemaName" />
       <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.SystemClock" />
       <Member Id="P:Microsoft.Extensions.Caching.SqlServer.SqlServerCacheOptions.TableName" />
@@ -312,7 +312,7 @@
       <Member Id="P:Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.Configuration" />
       <Member Id="P:Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.ConfigurationOptions" />
       <Member Id="P:Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.InstanceName" />
-      <Member Id="P:Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.Microsoft#Extensions#Options#IOptions&lt;Microsoft#Extensions#Caching#StackExchangeRedis#RedisCacheOptions&gt;#Value" />
+      <Member Id="P:Microsoft.Extensions.Caching.StackExchangeRedis.RedisCacheOptions.Microsoft#Extensions#Options#IOptions{Microsoft#Extensions#Caching#StackExchangeRedis#RedisCacheOptions}#Value" />
     </Type>
   </Namespace>
   <Namespace Name="Microsoft.Extensions.Configuration.AzureKeyVault">
@@ -895,7 +895,7 @@
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ServiceCollection.Insert(System.Int32,Microsoft.Extensions.DependencyInjection.ServiceDescriptor)" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ServiceCollection.Remove(Microsoft.Extensions.DependencyInjection.ServiceDescriptor)" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ServiceCollection.RemoveAt(System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.DependencyInjection.ServiceCollection.System#Collections#Generic#ICollection&lt;Microsoft#Extensions#DependencyInjection#ServiceDescriptor&gt;#Add(Microsoft.Extensions.DependencyInjection.ServiceDescriptor)" />
+      <Member Id="M:Microsoft.Extensions.DependencyInjection.ServiceCollection.System#Collections#Generic#ICollection{Microsoft#Extensions#DependencyInjection#ServiceDescriptor}#Add(Microsoft.Extensions.DependencyInjection.ServiceDescriptor)" />
       <Member Id="M:Microsoft.Extensions.DependencyInjection.ServiceCollection.System#Collections#IEnumerable#GetEnumerator" />
       <Member Id="P:Microsoft.Extensions.DependencyInjection.ServiceCollection.Count" />
       <Member Id="P:Microsoft.Extensions.DependencyInjection.ServiceCollection.IsReadOnly" />
@@ -1040,9 +1040,9 @@
       <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.#ctor(System.Object,System.Func{System.String,System.Object,System.Object,System.Boolean},Microsoft.Extensions.DiagnosticAdapter.IDiagnosticSourceMethodAdapter)" />
       <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.IsEnabled(System.String)" />
       <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.IsEnabled(System.String,System.Object,System.Object)" />
-      <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System#IObserver&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#OnCompleted" />
-      <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System#IObserver&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#OnError(System.Exception)" />
-      <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System#IObserver&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#OnNext(System.Collections.Generic.KeyValuePair{System.String,System.Object})" />
+      <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System#IObserver{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#OnCompleted" />
+      <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System#IObserver{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#OnError(System.Exception)" />
+      <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.System#IObserver{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#OnNext(System.Collections.Generic.KeyValuePair{System.String,System.Object})" />
       <Member Id="M:Microsoft.Extensions.DiagnosticAdapter.DiagnosticSourceAdapter.Write(System.String,System.Object)" />
     </Type>
     <Type Name="Microsoft.Extensions.DiagnosticAdapter.IDiagnosticSourceMethodAdapter" Id="T:Microsoft.Extensions.DiagnosticAdapter.IDiagnosticSourceMethodAdapter">
@@ -2731,7 +2731,7 @@
       <Member Id="M:Microsoft.Extensions.Primitives.StringTokenizer.#ctor(Microsoft.Extensions.Primitives.StringSegment,System.Char[])" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringTokenizer.#ctor(System.String,System.Char[])" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringTokenizer.GetEnumerator" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringTokenizer.System#Collections#Generic#IEnumerable&lt;Microsoft#Extensions#Primitives#StringSegment&gt;#GetEnumerator" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringTokenizer.System#Collections#Generic#IEnumerable{Microsoft#Extensions#Primitives#StringSegment}#GetEnumerator" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringTokenizer.System#Collections#IEnumerable#GetEnumerator" />
     </Type>
     <Type Name="Microsoft.Extensions.Primitives.StringTokenizer/Enumerator" Id="T:Microsoft.Extensions.Primitives.StringTokenizer.Enumerator">
@@ -2779,22 +2779,22 @@
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.op_Inequality(System.Object,Microsoft.Extensions.Primitives.StringValues)" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.op_Inequality(System.String,Microsoft.Extensions.Primitives.StringValues)" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.op_Inequality(System.String[],Microsoft.Extensions.Primitives.StringValues)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection&lt;System#String&gt;#Add(System.String)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection&lt;System#String&gt;#Clear" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection&lt;System#String&gt;#Contains(System.String)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection&lt;System#String&gt;#CopyTo(System.String[],System.Int32)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection&lt;System#String&gt;#Remove(System.String)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IEnumerable&lt;System#String&gt;#GetEnumerator" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList&lt;System#String&gt;#IndexOf(System.String)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList&lt;System#String&gt;#Insert(System.Int32,System.String)" />
-      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList&lt;System#String&gt;#RemoveAt(System.Int32)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection{System#String}#Add(System.String)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection{System#String}#Clear" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection{System#String}#Contains(System.String)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection{System#String}#CopyTo(System.String[],System.Int32)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection{System#String}#Remove(System.String)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IEnumerable{System#String}#GetEnumerator" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList{System#String}#IndexOf(System.String)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList{System#String}#Insert(System.Int32,System.String)" />
+      <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList{System#String}#RemoveAt(System.Int32)" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.System#Collections#IEnumerable#GetEnumerator" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.ToArray" />
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.ToString" />
       <Member Id="P:Microsoft.Extensions.Primitives.StringValues.Count" />
       <Member Id="P:Microsoft.Extensions.Primitives.StringValues.Item(System.Int32)" />
-      <Member Id="P:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection&lt;System#String&gt;#IsReadOnly" />
-      <Member Id="P:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList&lt;System#String&gt;#Item(System.Int32)" />
+      <Member Id="P:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#ICollection{System#String}#IsReadOnly" />
+      <Member Id="P:Microsoft.Extensions.Primitives.StringValues.System#Collections#Generic#IList{System#String}#Item(System.Int32)" />
     </Type>
     <Type Name="Microsoft.Extensions.Primitives.StringValues/Enumerator" Id="T:Microsoft.Extensions.Primitives.StringValues.Enumerator">
       <Member Id="M:Microsoft.Extensions.Primitives.StringValues.Enumerator.#ctor(Microsoft.Extensions.Primitives.StringValues@)" />
@@ -4508,7 +4508,7 @@
       <Member Id="P:System.Collections.Generic.SynchronizedCollection`1.Item(System.Int32)" />
       <Member Id="P:System.Collections.Generic.SynchronizedCollection`1.Items" />
       <Member Id="P:System.Collections.Generic.SynchronizedCollection`1.SyncRoot" />
-      <Member Id="P:System.Collections.Generic.SynchronizedCollection`1.System#Collections#Generic#ICollection&lt;T&gt;#IsReadOnly" />
+      <Member Id="P:System.Collections.Generic.SynchronizedCollection`1.System#Collections#Generic#ICollection{T}#IsReadOnly" />
       <Member Id="P:System.Collections.Generic.SynchronizedCollection`1.System#Collections#ICollection#IsSynchronized" />
       <Member Id="P:System.Collections.Generic.SynchronizedCollection`1.System#Collections#ICollection#SyncRoot" />
       <Member Id="P:System.Collections.Generic.SynchronizedCollection`1.System#Collections#IList#IsFixedSize" />
@@ -15329,7 +15329,7 @@
     </Type>
     <Type Name="System.IO.Packaging.PackagePartCollection" Id="T:System.IO.Packaging.PackagePartCollection">
       <Member Id="M:System.IO.Packaging.PackagePartCollection.GetEnumerator" />
-      <Member Id="M:System.IO.Packaging.PackagePartCollection.System#Collections#Generic#IEnumerable&lt;System#IO#Packaging#PackagePart&gt;#GetEnumerator" />
+      <Member Id="M:System.IO.Packaging.PackagePartCollection.System#Collections#Generic#IEnumerable{System#IO#Packaging#PackagePart}#GetEnumerator" />
       <Member Id="M:System.IO.Packaging.PackagePartCollection.System#Collections#IEnumerable#GetEnumerator" />
     </Type>
     <Type Name="System.IO.Packaging.PackageProperties" Id="T:System.IO.Packaging.PackageProperties">
@@ -15672,7 +15672,7 @@
       <Member Id="M:System.Json.JsonArray.Remove(System.Json.JsonValue)" />
       <Member Id="M:System.Json.JsonArray.RemoveAt(System.Int32)" />
       <Member Id="M:System.Json.JsonArray.Save(System.IO.Stream)" />
-      <Member Id="M:System.Json.JsonArray.System#Collections#Generic#IEnumerable&lt;System#Json#JsonValue&gt;#GetEnumerator" />
+      <Member Id="M:System.Json.JsonArray.System#Collections#Generic#IEnumerable{System#Json#JsonValue}#GetEnumerator" />
       <Member Id="M:System.Json.JsonArray.System#Collections#IEnumerable#GetEnumerator" />
       <Member Id="P:System.Json.JsonArray.Count" />
       <Member Id="P:System.Json.JsonArray.IsReadOnly" />
@@ -15692,15 +15692,15 @@
       <Member Id="M:System.Json.JsonObject.GetEnumerator" />
       <Member Id="M:System.Json.JsonObject.Remove(System.String)" />
       <Member Id="M:System.Json.JsonObject.Save(System.IO.Stream)" />
-      <Member Id="M:System.Json.JsonObject.System#Collections#Generic#ICollection&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Json#JsonValue&gt;&gt;#Contains(System.Collections.Generic.KeyValuePair{System.String,System.Json.JsonValue})" />
-      <Member Id="M:System.Json.JsonObject.System#Collections#Generic#ICollection&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Json#JsonValue&gt;&gt;#Remove(System.Collections.Generic.KeyValuePair{System.String,System.Json.JsonValue})" />
+      <Member Id="M:System.Json.JsonObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Json#JsonValue}}#Contains(System.Collections.Generic.KeyValuePair{System.String,System.Json.JsonValue})" />
+      <Member Id="M:System.Json.JsonObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Json#JsonValue}}#Remove(System.Collections.Generic.KeyValuePair{System.String,System.Json.JsonValue})" />
       <Member Id="M:System.Json.JsonObject.System#Collections#IEnumerable#GetEnumerator" />
       <Member Id="M:System.Json.JsonObject.TryGetValue(System.String,System.Json.JsonValue@)" />
       <Member Id="P:System.Json.JsonObject.Count" />
       <Member Id="P:System.Json.JsonObject.Item(System.String)" />
       <Member Id="P:System.Json.JsonObject.JsonType" />
       <Member Id="P:System.Json.JsonObject.Keys" />
-      <Member Id="P:System.Json.JsonObject.System#Collections#Generic#ICollection&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Json#JsonValue&gt;&gt;#IsReadOnly" />
+      <Member Id="P:System.Json.JsonObject.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Json#JsonValue}}#IsReadOnly" />
       <Member Id="P:System.Json.JsonObject.Values" />
     </Type>
     <Type Name="System.Json.JsonPrimitive" Id="T:System.Json.JsonPrimitive">
@@ -16925,7 +16925,7 @@
       <Member Id="M:System.Runtime.Caching.ObjectCache.Set(System.Runtime.Caching.CacheItem,System.Runtime.Caching.CacheItemPolicy)" />
       <Member Id="M:System.Runtime.Caching.ObjectCache.Set(System.String,System.Object,System.DateTimeOffset,System.String)" />
       <Member Id="M:System.Runtime.Caching.ObjectCache.Set(System.String,System.Object,System.Runtime.Caching.CacheItemPolicy,System.String)" />
-      <Member Id="M:System.Runtime.Caching.ObjectCache.System#Collections#Generic#IEnumerable&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#GetEnumerator" />
+      <Member Id="M:System.Runtime.Caching.ObjectCache.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#GetEnumerator" />
       <Member Id="M:System.Runtime.Caching.ObjectCache.System#Collections#IEnumerable#GetEnumerator" />
       <Member Id="P:System.Runtime.Caching.ObjectCache.DefaultCacheCapabilities" />
       <Member Id="P:System.Runtime.Caching.ObjectCache.Host" />
@@ -20460,7 +20460,7 @@
       <Member Id="M:System.Security.Principal.IdentityReferenceCollection.Translate(System.Type,System.Boolean)" />
       <Member Id="P:System.Security.Principal.IdentityReferenceCollection.Count" />
       <Member Id="P:System.Security.Principal.IdentityReferenceCollection.Item(System.Int32)" />
-      <Member Id="P:System.Security.Principal.IdentityReferenceCollection.System#Collections#Generic#ICollection&lt;System#Security#Principal#IdentityReference&gt;#IsReadOnly" />
+      <Member Id="P:System.Security.Principal.IdentityReferenceCollection.System#Collections#Generic#ICollection{System#Security#Principal#IdentityReference}#IsReadOnly" />
     </Type>
     <Type Name="System.Security.Principal.NTAccount" Id="T:System.Security.Principal.NTAccount">
       <Member Id="M:System.Security.Principal.NTAccount.#ctor(System.String)" />
@@ -20864,7 +20864,7 @@
       <Member Id="P:System.ServiceModel.ClientBase`1.ChannelBase`1.System#ServiceModel#IContextChannel#OutputSession" />
       <Member Id="P:System.ServiceModel.ClientBase`1.ChannelBase`1.System#ServiceModel#IContextChannel#RemoteAddress" />
       <Member Id="P:System.ServiceModel.ClientBase`1.ChannelBase`1.System#ServiceModel#IContextChannel#SessionId" />
-      <Member Id="P:System.ServiceModel.ClientBase`1.ChannelBase`1.System#ServiceModel#IExtensibleObject&lt;System#ServiceModel#IContextChannel&gt;#Extensions" />
+      <Member Id="P:System.ServiceModel.ClientBase`1.ChannelBase`1.System#ServiceModel#IExtensibleObject{System#ServiceModel#IContextChannel}#Extensions" />
     </Type>
     <Type Name="System.ServiceModel.ClientBase`1/EndOperationDelegate" Id="T:System.ServiceModel.ClientBase`1.EndOperationDelegate" />
     <Type Name="System.ServiceModel.ClientBase`1/InvokeAsyncCompletedEventArgs" Id="T:System.ServiceModel.ClientBase`1.InvokeAsyncCompletedEventArgs">
@@ -21994,11 +21994,11 @@
       <Member Id="M:System.ServiceModel.Channels.MessageProperties.CopyProperties(System.ServiceModel.Channels.MessageProperties)" />
       <Member Id="M:System.ServiceModel.Channels.MessageProperties.Dispose" />
       <Member Id="M:System.ServiceModel.Channels.MessageProperties.Remove(System.String)" />
-      <Member Id="M:System.ServiceModel.Channels.MessageProperties.System#Collections#Generic#ICollection&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})" />
-      <Member Id="M:System.ServiceModel.Channels.MessageProperties.System#Collections#Generic#ICollection&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})" />
-      <Member Id="M:System.ServiceModel.Channels.MessageProperties.System#Collections#Generic#ICollection&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)" />
-      <Member Id="M:System.ServiceModel.Channels.MessageProperties.System#Collections#Generic#ICollection&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})" />
-      <Member Id="M:System.ServiceModel.Channels.MessageProperties.System#Collections#Generic#IEnumerable&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#GetEnumerator" />
+      <Member Id="M:System.ServiceModel.Channels.MessageProperties.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Add(System.Collections.Generic.KeyValuePair{System.String,System.Object})" />
+      <Member Id="M:System.ServiceModel.Channels.MessageProperties.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Contains(System.Collections.Generic.KeyValuePair{System.String,System.Object})" />
+      <Member Id="M:System.ServiceModel.Channels.MessageProperties.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#CopyTo(System.Collections.Generic.KeyValuePair{System.String,System.Object}[],System.Int32)" />
+      <Member Id="M:System.ServiceModel.Channels.MessageProperties.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#Remove(System.Collections.Generic.KeyValuePair{System.String,System.Object})" />
+      <Member Id="M:System.ServiceModel.Channels.MessageProperties.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#GetEnumerator" />
       <Member Id="M:System.ServiceModel.Channels.MessageProperties.System#Collections#IEnumerable#GetEnumerator" />
       <Member Id="M:System.ServiceModel.Channels.MessageProperties.TryGetValue(System.String,System.Object@)" />
       <Member Id="P:System.ServiceModel.Channels.MessageProperties.AllowOutputBatching" />
@@ -22007,7 +22007,7 @@
       <Member Id="P:System.ServiceModel.Channels.MessageProperties.IsFixedSize" />
       <Member Id="P:System.ServiceModel.Channels.MessageProperties.Item(System.String)" />
       <Member Id="P:System.ServiceModel.Channels.MessageProperties.Keys" />
-      <Member Id="P:System.ServiceModel.Channels.MessageProperties.System#Collections#Generic#ICollection&lt;System#Collections#Generic#KeyValuePair&lt;System#String,System#Object&gt;&gt;#IsReadOnly" />
+      <Member Id="P:System.ServiceModel.Channels.MessageProperties.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{System#String,System#Object}}#IsReadOnly" />
       <Member Id="P:System.ServiceModel.Channels.MessageProperties.Values" />
       <Member Id="P:System.ServiceModel.Channels.MessageProperties.Via" />
     </Type>

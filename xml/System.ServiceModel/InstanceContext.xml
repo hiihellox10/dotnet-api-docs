@@ -1118,7 +1118,7 @@
     <Member MemberName="System.ServiceModel.IExtensibleObject&lt;System.ServiceModel.InstanceContext&gt;.Extensions">
       <MemberSignature Language="C#" Value="System.ServiceModel.IExtensionCollection&lt;System.ServiceModel.InstanceContext&gt; System.ServiceModel.IExtensibleObject&lt;System.ServiceModel.InstanceContext&gt;.Extensions { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.ServiceModel.IExtensionCollection`1&lt;class System.ServiceModel.InstanceContext&gt; System.ServiceModel.IExtensibleObject&lt;System.ServiceModel.InstanceContext&gt;.Extensions" />
-      <MemberSignature Language="DocId" Value="P:System.ServiceModel.InstanceContext.System#ServiceModel#IExtensibleObject&lt;System#ServiceModel#InstanceContext&gt;#Extensions" />
+      <MemberSignature Language="DocId" Value="P:System.ServiceModel.InstanceContext.System#ServiceModel#IExtensibleObject{System#ServiceModel#InstanceContext}#Extensions" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Extensions As IExtensionCollection(Of InstanceContext) Implements IExtensibleObject(Of InstanceContext).Extensions" />
       <MemberSignature Language="C++ CLI" Value="property System::ServiceModel::IExtensionCollection&lt;System::ServiceModel::InstanceContext ^&gt; ^ System::ServiceModel::IExtensibleObject&lt;System::ServiceModel::InstanceContext&gt;::Extensions { System::ServiceModel::IExtensionCollection&lt;System::ServiceModel::InstanceContext ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.System.ServiceModel.IExtensibleObject&lt;System.ServiceModel.InstanceContext&gt;.Extensions : System.ServiceModel.IExtensionCollection&lt;System.ServiceModel.InstanceContext&gt;" Usage="System.ServiceModel.IExtensibleObject&lt;System.ServiceModel.InstanceContext&gt;.Extensions" />
@@ -1127,22 +1127,22 @@
         <InterfaceMember>P:System.ServiceModel.IExtensibleObject`1.Extensions</InterfaceMember>
       </Implements>
       <AssemblyInfo>
-        <AssemblyName>System.ServiceModel</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
         <AssemblyName>System.ServiceModel.Duplex</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
       </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.ServiceModel</AssemblyName>
+        <AssemblyVersion>2.0.5.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.ServiceModel.IExtensionCollection&lt;System.ServiceModel.InstanceContext&gt;</ReturnType>
       </ReturnValue>
       <Docs>
-        <summary>Gets a collection of extension objects for this extensible object.</summary>
-        <value>A <see cref="T:System.ServiceModel.IExtensionCollection`1" /> of extension objects.</value>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
         <remarks>To be added.</remarks>
       </Docs>
     </Member>

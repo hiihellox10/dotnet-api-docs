@@ -59,8 +59,8 @@
       <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerDisplay("Count = {Count}")&gt;]</AttributeName>
     </Attribute>
     <Attribute FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1">
-      <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableDictionaryBuilderDebuggerProxy`2))]</AttributeName>
-      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableDictionaryBuilderDebuggerProxy`2))&gt;]</AttributeName>
+      <AttributeName Language="C#">[System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableDictionaryBuilderDebuggerProxy&lt;,&gt;))]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Diagnostics.DebuggerTypeProxy(typeof(System.Collections.Immutable.ImmutableDictionaryBuilderDebuggerProxy&lt;,&gt;))&gt;]</AttributeName>
     </Attribute>
   </Attributes>
   <Docs>
@@ -544,12 +544,12 @@
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="dotnet-uwp-10.0">
-          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Keys&gt;d__1))]</AttributeName>
-          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Keys&gt;d__1))&gt;]</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary&lt;,&gt;+Builder+&lt;get_Keys&gt;d__1))]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary&lt;,&gt;+Builder+&lt;get_Keys&gt;d__1))&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
-          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Keys&gt;d__18))]</AttributeName>
-          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Keys&gt;d__18))&gt;]</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary&lt;,&gt;+Builder+&lt;get_Keys&gt;d__18))]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary&lt;,&gt;+Builder+&lt;get_Keys&gt;d__18))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -671,7 +671,7 @@
     <Member MemberName="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.CopyTo">
       <MemberSignature Language="C#" Value="void ICollection&lt;KeyValuePair&lt;TKey,TValue&gt;&gt;.CopyTo (System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;[] array, int arrayIndex);" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance void System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.CopyTo(valuetype System.Collections.Generic.KeyValuePair`2&lt;!TKey, !TValue&gt;[] array, int32 arrayIndex) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.System#Collections#Generic#ICollection&lt;System#Collections#Generic#KeyValuePair&lt;TKey,TValue&gt;&gt;#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#CopyTo(System.Collections.Generic.KeyValuePair{`0,`1}[],System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Sub CopyTo (array As KeyValuePair(Of TKey, TValue)(), arrayIndex As Integer) Implements ICollection(Of KeyValuePair(Of TKey, TValue)).CopyTo" />
       <MemberSignature Language="C++ CLI" Value=" virtual void System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.CopyTo(cli::array &lt;System::Collections::Generic::KeyValuePair&lt;TKey, TValue&gt;&gt; ^ array, int arrayIndex) = System::Collections::Generic::ICollection&lt;System::Collections::Generic::KeyValuePair&lt;TKey, TValue&gt;&gt;::CopyTo;" />
       <MemberSignature Language="F#" Value="abstract member System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.CopyTo : System.Collections.Generic.KeyValuePair&lt;'Key, 'Value&gt;[] * int -&gt; unit&#xA;override this.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.CopyTo : System.Collections.Generic.KeyValuePair&lt;'Key, 'Value&gt;[] * int -&gt; unit" Usage="builder.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.CopyTo (array, arrayIndex)" />
@@ -707,7 +707,7 @@
     <Member MemberName="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.IsReadOnly">
       <MemberSignature Language="C#" Value="bool System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.IsReadOnly { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance bool System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.IsReadOnly" />
-      <MemberSignature Language="DocId" Value="P:System.Collections.Immutable.ImmutableDictionary`2.Builder.System#Collections#Generic#ICollection&lt;System#Collections#Generic#KeyValuePair&lt;TKey,TValue&gt;&gt;#IsReadOnly" />
+      <MemberSignature Language="DocId" Value="P:System.Collections.Immutable.ImmutableDictionary`2.Builder.System#Collections#Generic#ICollection{System#Collections#Generic#KeyValuePair{TKey,TValue}}#IsReadOnly" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property IsReadOnly As Boolean Implements ICollection(Of KeyValuePair(Of TKey, TValue)).IsReadOnly" />
       <MemberSignature Language="C++ CLI" Value="property bool System::Collections::Generic::ICollection&lt;System::Collections::Generic::KeyValuePair&lt;TKey,TValue&gt;&gt;::IsReadOnly { bool get(); };" />
       <MemberSignature Language="F#" Value="member this.System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.IsReadOnly : bool" Usage="System.Collections.Generic.ICollection&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.IsReadOnly" />
@@ -739,7 +739,7 @@
     <Member MemberName="System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Keys">
       <MemberSignature Language="C#" Value="System.Collections.Generic.ICollection&lt;TKey&gt; System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Keys { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.ICollection`1&lt;!TKey&gt; System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Keys" />
-      <MemberSignature Language="DocId" Value="P:System.Collections.Immutable.ImmutableDictionary`2.Builder.System#Collections#Generic#IDictionary&lt;TKey,TValue&gt;#Keys" />
+      <MemberSignature Language="DocId" Value="P:System.Collections.Immutable.ImmutableDictionary`2.Builder.System#Collections#Generic#IDictionary{TKey,TValue}#Keys" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Keys As ICollection(Of TKey) Implements IDictionary(Of TKey, TValue).Keys" />
       <MemberSignature Language="C++ CLI" Value="property System::Collections::Generic::ICollection&lt;TKey&gt; ^ System::Collections::Generic::IDictionary&lt;TKey,TValue&gt;::Keys { System::Collections::Generic::ICollection&lt;TKey&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Keys : System.Collections.Generic.ICollection&lt;'Key&gt;" Usage="System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Keys" />
@@ -770,7 +770,7 @@
     <Member MemberName="System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Values">
       <MemberSignature Language="C#" Value="System.Collections.Generic.ICollection&lt;TValue&gt; System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Values { get; }" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.ICollection`1&lt;!TValue&gt; System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Values" />
-      <MemberSignature Language="DocId" Value="P:System.Collections.Immutable.ImmutableDictionary`2.Builder.System#Collections#Generic#IDictionary&lt;TKey,TValue&gt;#Values" />
+      <MemberSignature Language="DocId" Value="P:System.Collections.Immutable.ImmutableDictionary`2.Builder.System#Collections#Generic#IDictionary{TKey,TValue}#Values" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property Values As ICollection(Of TValue) Implements IDictionary(Of TKey, TValue).Values" />
       <MemberSignature Language="C++ CLI" Value="property System::Collections::Generic::ICollection&lt;TValue&gt; ^ System::Collections::Generic::IDictionary&lt;TKey,TValue&gt;::Values { System::Collections::Generic::ICollection&lt;TValue&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Values : System.Collections.Generic.ICollection&lt;'Value&gt;" Usage="System.Collections.Generic.IDictionary&lt;TKey,TValue&gt;.Values" />
@@ -801,7 +801,7 @@
     <Member MemberName="System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.GetEnumerator">
       <MemberSignature Language="C#" Value="System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt; IEnumerable&lt;KeyValuePair&lt;TKey,TValue&gt;&gt;.GetEnumerator ();" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Collections.Generic.IEnumerator`1&lt;valuetype System.Collections.Generic.KeyValuePair`2&lt;!TKey, !TValue&gt;&gt; System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.GetEnumerator() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.System#Collections#Generic#IEnumerable&lt;System#Collections#Generic#KeyValuePair&lt;TKey,TValue&gt;&gt;#GetEnumerator" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableDictionary`2.Builder.System#Collections#Generic#IEnumerable{System#Collections#Generic#KeyValuePair{TKey,TValue}}#GetEnumerator" />
       <MemberSignature Language="VB.NET" Value="Function GetEnumerator () As IEnumerator(Of KeyValuePair(Of TKey, TValue)) Implements IEnumerable(Of KeyValuePair(Of TKey, TValue)).GetEnumerator" />
       <MemberSignature Language="C++ CLI" Value=" virtual System::Collections::Generic::IEnumerator&lt;System::Collections::Generic::KeyValuePair&lt;TKey, TValue&gt;&gt; ^ System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.GetEnumerator() = System::Collections::Generic::IEnumerable&lt;System::Collections::Generic::KeyValuePair&lt;TKey, TValue&gt;&gt;::GetEnumerator;" />
       <MemberSignature Language="F#" Value="abstract member System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;'Key, 'Value&gt;&gt;&#xA;override this.System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.GetEnumerator : unit -&gt; System.Collections.Generic.IEnumerator&lt;System.Collections.Generic.KeyValuePair&lt;'Key, 'Value&gt;&gt;" Usage="builder.System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;TKey,TValue&gt;&gt;.GetEnumerator " />
@@ -1541,12 +1541,12 @@ This member is an explicit interface member implementation. It can be used only 
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="dotnet-uwp-10.0">
-          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Values&gt;d__1))]</AttributeName>
-          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Values&gt;d__1))&gt;]</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary&lt;,&gt;+Builder+&lt;get_Values&gt;d__1))]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary&lt;,&gt;+Builder+&lt;get_Values&gt;d__1))&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netcore-1.0;netcore-1.1">
-          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Values&gt;d__22))]</AttributeName>
-          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary`2/Builder/&lt;get_Values&gt;d__22))&gt;]</AttributeName>
+          <AttributeName Language="C#">[get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary&lt;,&gt;+Builder+&lt;get_Values&gt;d__22))]</AttributeName>
+          <AttributeName Language="F#">[&lt;get: System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Collections.Immutable.ImmutableDictionary&lt;,&gt;+Builder+&lt;get_Values&gt;d__22))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
