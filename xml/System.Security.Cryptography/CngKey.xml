@@ -13,6 +13,7 @@
     <AssemblyVersion>4.3.2.0</AssemblyVersion>
     <AssemblyVersion>4.3.3.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System.Core</AssemblyName>
@@ -81,6 +82,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -118,7 +120,7 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AlgorithmGroup As CngAlgorithmGroup" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Security::Cryptography::CngAlgorithmGroup ^ AlgorithmGroup { System::Security::Cryptography::CngAlgorithmGroup ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.AlgorithmGroup : System.Security.Cryptography.CngAlgorithmGroup" Usage="System.Security.Cryptography.CngKey.AlgorithmGroup" />
-      <MemberSignature Language="C#" Value="public System.Security.Cryptography.CngAlgorithmGroup? AlgorithmGroup { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Security.Cryptography.CngAlgorithmGroup? AlgorithmGroup { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Cng</AssemblyName>
@@ -128,6 +130,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -150,7 +153,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Security.Cryptography.CngAlgorithmGroup</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Security.Cryptography.CngAlgorithmGroup</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.Security.Cryptography.CngAlgorithmGroup?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the algorithm group that is used by the key.</summary>
@@ -184,6 +188,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -226,13 +231,13 @@
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.CngKey Create (System.Security.Cryptography.CngAlgorithm algorithm, string keyName);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.CngKey Create(class System.Security.Cryptography.CngAlgorithm algorithm, string keyName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.CngKey.Create(System.Security.Cryptography.CngAlgorithm,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (algorithm As CngAlgorithm, keyName As String) As CngKey" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Security::Cryptography::CngKey ^ Create(System::Security::Cryptography::CngAlgorithm ^ algorithm, System::String ^ keyName);" />
-      <MemberSignature Language="F#" Value="static member Create : System.Security.Cryptography.CngAlgorithm * string -&gt; System.Security.Cryptography.CngKey" Usage="System.Security.Cryptography.CngKey.Create (algorithm, keyName)" />
-      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.CngKey Create (System.Security.Cryptography.CngAlgorithm algorithm, string? keyName);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.CngKey Create (System.Security.Cryptography.CngAlgorithm algorithm, string keyName);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.CngKey Create(class System.Security.Cryptography.CngAlgorithm algorithm, string keyName) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.CngKey.Create(System.Security.Cryptography.CngAlgorithm,System.String)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (algorithm As CngAlgorithm, keyName As String) As CngKey" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Security::Cryptography::CngKey ^ Create(System::Security::Cryptography::CngAlgorithm ^ algorithm, System::String ^ keyName);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="static member Create : System.Security.Cryptography.CngAlgorithm * string -&gt; System.Security.Cryptography.CngKey" Usage="System.Security.Cryptography.CngKey.Create (algorithm, keyName)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.CngKey Create (System.Security.Cryptography.CngAlgorithm algorithm, string? keyName);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Cng</AssemblyName>
@@ -253,18 +258,12 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.Security.Cryptography.CngKey</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Security.Cryptography.CngKey</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="algorithm" Type="System.Security.Cryptography.CngAlgorithm" />
-        <Parameter Name="keyName" Type="System.String" />
+        <Parameter Name="algorithm" Type="System.Security.Cryptography.CngAlgorithm" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="keyName" Type="System.String?" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="algorithm">The algorithm that the key will be used with.</param>
@@ -286,13 +285,13 @@
       </Docs>
     </Member>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.CngKey Create (System.Security.Cryptography.CngAlgorithm algorithm, string keyName, System.Security.Cryptography.CngKeyCreationParameters creationParameters);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.CngKey Create(class System.Security.Cryptography.CngAlgorithm algorithm, string keyName, class System.Security.Cryptography.CngKeyCreationParameters creationParameters) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.CngKey.Create(System.Security.Cryptography.CngAlgorithm,System.String,System.Security.Cryptography.CngKeyCreationParameters)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (algorithm As CngAlgorithm, keyName As String, creationParameters As CngKeyCreationParameters) As CngKey" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Security::Cryptography::CngKey ^ Create(System::Security::Cryptography::CngAlgorithm ^ algorithm, System::String ^ keyName, System::Security::Cryptography::CngKeyCreationParameters ^ creationParameters);" />
-      <MemberSignature Language="F#" Value="static member Create : System.Security.Cryptography.CngAlgorithm * string * System.Security.Cryptography.CngKeyCreationParameters -&gt; System.Security.Cryptography.CngKey" Usage="System.Security.Cryptography.CngKey.Create (algorithm, keyName, creationParameters)" />
-      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.CngKey Create (System.Security.Cryptography.CngAlgorithm algorithm, string? keyName, System.Security.Cryptography.CngKeyCreationParameters? creationParameters);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.CngKey Create (System.Security.Cryptography.CngAlgorithm algorithm, string keyName, System.Security.Cryptography.CngKeyCreationParameters creationParameters);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Security.Cryptography.CngKey Create(class System.Security.Cryptography.CngAlgorithm algorithm, string keyName, class System.Security.Cryptography.CngKeyCreationParameters creationParameters) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.CngKey.Create(System.Security.Cryptography.CngAlgorithm,System.String,System.Security.Cryptography.CngKeyCreationParameters)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (algorithm As CngAlgorithm, keyName As String, creationParameters As CngKeyCreationParameters) As CngKey" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Security::Cryptography::CngKey ^ Create(System::Security::Cryptography::CngAlgorithm ^ algorithm, System::String ^ keyName, System::Security::Cryptography::CngKeyCreationParameters ^ creationParameters);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="static member Create : System.Security.Cryptography.CngAlgorithm * string * System.Security.Cryptography.CngKeyCreationParameters -&gt; System.Security.Cryptography.CngKey" Usage="System.Security.Cryptography.CngKey.Create (algorithm, keyName, creationParameters)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public static System.Security.Cryptography.CngKey Create (System.Security.Cryptography.CngAlgorithm algorithm, string? keyName, System.Security.Cryptography.CngKeyCreationParameters? creationParameters);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Cng</AssemblyName>
@@ -313,23 +312,13 @@
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-3.5;netframework-4.0">
-          <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
-        </Attribute>
-        <Attribute FrameworkAlternate="netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
-          <AttributeName Language="C#">[System.Security.SecuritySafeCritical]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Security.SecuritySafeCritical&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.Security.Cryptography.CngKey</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Security.Cryptography.CngKey</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="algorithm" Type="System.Security.Cryptography.CngAlgorithm" />
-        <Parameter Name="keyName" Type="System.String" />
-        <Parameter Name="creationParameters" Type="System.Security.Cryptography.CngKeyCreationParameters" />
+        <Parameter Name="algorithm" Type="System.Security.Cryptography.CngAlgorithm" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="keyName" Type="System.String?" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="creationParameters" Type="System.Security.Cryptography.CngKeyCreationParameters?" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="algorithm">The algorithm that the key will be used with.</param>
@@ -367,6 +356,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -428,6 +418,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -494,6 +485,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -546,6 +538,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -606,6 +599,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -672,6 +666,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -732,6 +727,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -785,6 +781,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -863,6 +860,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -914,6 +912,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -994,6 +993,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1050,6 +1050,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1117,6 +1118,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1183,6 +1185,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1221,7 +1224,7 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property KeyName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ KeyName { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.KeyName : string" Usage="System.Security.Cryptography.CngKey.KeyName" />
-      <MemberSignature Language="C#" Value="public string? KeyName { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public string? KeyName { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Cng</AssemblyName>
@@ -1231,6 +1234,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1253,7 +1257,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the name of the key.</summary>
@@ -1277,6 +1282,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1323,6 +1329,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1379,6 +1386,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1434,6 +1442,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1497,6 +1506,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1556,6 +1566,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1621,6 +1632,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1675,7 +1687,7 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Provider As CngProvider" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Security::Cryptography::CngProvider ^ Provider { System::Security::Cryptography::CngProvider ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Provider : System.Security.Cryptography.CngProvider" Usage="System.Security.Cryptography.CngKey.Provider" />
-      <MemberSignature Language="C#" Value="public System.Security.Cryptography.CngProvider? Provider { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Security.Cryptography.CngProvider? Provider { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Cng</AssemblyName>
@@ -1685,6 +1697,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1707,7 +1720,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Security.Cryptography.CngProvider</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Security.Cryptography.CngProvider</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.Security.Cryptography.CngProvider?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the key storage provider (KSP) that manages the key.</summary>
@@ -1731,6 +1745,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1782,6 +1797,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1838,6 +1854,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1882,7 +1899,7 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property UniqueName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ UniqueName { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.UniqueName : string" Usage="System.Security.Cryptography.CngKey.UniqueName" />
-      <MemberSignature Language="C#" Value="public string? UniqueName { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public string? UniqueName { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Cng</AssemblyName>
@@ -1892,6 +1909,7 @@
         <AssemblyVersion>4.3.2.0</AssemblyVersion>
         <AssemblyVersion>4.3.3.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1914,7 +1932,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the unique name for the key.</summary>

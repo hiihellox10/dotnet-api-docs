@@ -13,6 +13,7 @@
     <AssemblyVersion>1.4.4.0</AssemblyVersion>
     <AssemblyVersion>1.4.5.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeParameters>
     <TypeParameter Name="TType" />
@@ -22,7 +23,7 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="net-5.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">
       <AttributeName Language="C#">[System.Runtime.CompilerServices.IsReadOnly]</AttributeName>
       <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IsReadOnly&gt;]</AttributeName>
     </Attribute>
@@ -30,18 +31,16 @@
   <Docs>
     <typeparam name="TType">The type used to represent types of values decoded from the custom attribute signature.</typeparam>
     <summary>Represents a named argument decoded from a custom attribute signature.</summary>
-    <remarks>
-    </remarks>
+    <remarks></remarks>
   </Docs>
   <Members>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public CustomAttributeNamedArgument (string? name, System.Reflection.Metadata.CustomAttributeNamedArgumentKind kind, TType type, object? value);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, valuetype System.Reflection.Metadata.CustomAttributeNamedArgumentKind kind, !TType type, object value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.CustomAttributeNamedArgument`1.#ctor(System.String,System.Reflection.Metadata.CustomAttributeNamedArgumentKind,`0,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, kind As CustomAttributeNamedArgumentKind, type As TType, value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CustomAttributeNamedArgument(System::String ^ name, System::Reflection::Metadata::CustomAttributeNamedArgumentKind kind, TType type, System::Object ^ value);" />
-      <MemberSignature Language="F#" Value="new System.Reflection.Metadata.CustomAttributeNamedArgument&lt;'ype&gt; : string * System.Reflection.Metadata.CustomAttributeNamedArgumentKind * 'ype * obj -&gt; System.Reflection.Metadata.CustomAttributeNamedArgument&lt;'ype&gt;" Usage="new System.Reflection.Metadata.CustomAttributeNamedArgument&lt;'ype&gt; (name, kind, type, value)" />
-      <MemberSignature Language="C#" Value="public CustomAttributeNamedArgument (string name, System.Reflection.Metadata.CustomAttributeNamedArgumentKind kind, TType type, object value);" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, valuetype System.Reflection.Metadata.CustomAttributeNamedArgumentKind kind, !TType type, object value) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.CustomAttributeNamedArgument`1.#ctor(System.String,System.Reflection.Metadata.CustomAttributeNamedArgumentKind,`0,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, kind As CustomAttributeNamedArgumentKind, type As TType, value As Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CustomAttributeNamedArgument(System::String ^ name, System::Reflection::Metadata::CustomAttributeNamedArgumentKind kind, TType type, System::Object ^ value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Reflection.Metadata.CustomAttributeNamedArgument&lt;'ype&gt; : string * System.Reflection.Metadata.CustomAttributeNamedArgumentKind * 'ype * obj -&gt; System.Reflection.Metadata.CustomAttributeNamedArgument&lt;'ype&gt;" Usage="new System.Reflection.Metadata.CustomAttributeNamedArgument&lt;'ype&gt; (name, kind, type, value)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -53,10 +52,10 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="kind" Type="System.Reflection.Metadata.CustomAttributeNamedArgumentKind" />
-        <Parameter Name="type" Type="TType" />
-        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="name" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="kind" Type="System.Reflection.Metadata.CustomAttributeNamedArgumentKind" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="type" Type="TType" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="System.Object?" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="name">The name of the argument.</param>
@@ -64,8 +63,7 @@
         <param name="type">The type of the argument.</param>
         <param name="value">The value of the argument.</param>
         <summary>Initializes a new instance of the <see cref="T:System.Reflection.Metadata.CustomAttributeNamedArgument`1" /> structure using the specified name, kind, type, and value.</summary>
-        <remarks>
-        </remarks>
+        <remarks></remarks>
       </Docs>
     </Member>
     <Member MemberName="Kind">
@@ -84,6 +82,7 @@
         <AssemblyVersion>1.4.4.0</AssemblyVersion>
         <AssemblyVersion>1.4.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Reflection.Metadata.CustomAttributeNamedArgumentKind</ReturnType>
@@ -91,12 +90,11 @@
       <Docs>
         <summary>Gets the kind of argument.</summary>
         <value>The argument kind.</value>
-        <remarks>
-        </remarks>
+        <remarks></remarks>
       </Docs>
     </Member>
     <Member MemberName="Name">
-      <MemberSignature Language="C#" Value="public string? Name { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public string? Name { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.Metadata.CustomAttributeNamedArgument`1.Name" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Name As String" />
@@ -112,15 +110,16 @@
         <AssemblyVersion>1.4.4.0</AssemblyVersion>
         <AssemblyVersion>1.4.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.String?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the name of the argument.</summary>
         <value>The argument name.</value>
-        <remarks>
-        </remarks>
+        <remarks></remarks>
       </Docs>
     </Member>
     <Member MemberName="Type">
@@ -139,6 +138,7 @@
         <AssemblyVersion>1.4.4.0</AssemblyVersion>
         <AssemblyVersion>1.4.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>TType</ReturnType>
@@ -146,12 +146,11 @@
       <Docs>
         <summary>Gets the type of the argument.</summary>
         <value>The argument type.</value>
-        <remarks>
-        </remarks>
+        <remarks></remarks>
       </Docs>
     </Member>
     <Member MemberName="Value">
-      <MemberSignature Language="C#" Value="public object? Value { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public object? Value { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance object Value" />
       <MemberSignature Language="DocId" Value="P:System.Reflection.Metadata.CustomAttributeNamedArgument`1.Value" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As Object" />
@@ -167,15 +166,16 @@
         <AssemblyVersion>1.4.4.0</AssemblyVersion>
         <AssemblyVersion>1.4.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Object?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1">System.Object</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the value of the argument.</summary>
         <value>An object containing the argument value.</value>
-        <remarks>
-        </remarks>
+        <remarks></remarks>
       </Docs>
     </Member>
   </Members>

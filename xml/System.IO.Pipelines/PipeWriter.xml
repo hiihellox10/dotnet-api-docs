@@ -12,6 +12,7 @@
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
     <AssemblyVersion>4.0.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -40,6 +41,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -65,6 +67,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -91,12 +94,13 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="leaveOpen" Type="System.Boolean" Index="0" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="leaveOpen" Type="System.Boolean" Index="0" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
       </Parameters>
       <Docs>
         <param name="leaveOpen">An optional flag that indicates whether disposing the returned <see cref="T:System.IO.Stream" /> leaves <see cref="T:System.IO.Pipelines.PipeReader" /> open (<see langword="true" />) or completes <see cref="T:System.IO.Pipelines.PipeReader" /> (<see langword="false" />).</param>
@@ -120,6 +124,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -140,10 +145,10 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
     </Member>
     <Member MemberName="Complete">
       <MemberSignature Language="C#" Value="public abstract void Complete (Exception exception = default);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Complete(class System.Exception exception) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.Complete(System.Exception)" />
-      <MemberSignature Language="VB.NET" Value="Public MustOverride Sub Complete (Optional exception As Exception = Nothing)" />
-      <MemberSignature Language="F#" Value="abstract member Complete : Exception -&gt; unit" Usage="pipeWriter.Complete exception" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void Complete(class System.Exception exception) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.Complete(System.Exception)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public MustOverride Sub Complete (Optional exception As Exception = Nothing)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="abstract member Complete : Exception -&gt; unit" Usage="pipeWriter.Complete exception" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="C#" Value="public abstract void Complete (Exception? exception = default);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -155,10 +160,10 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="exception" Type="System.Exception" />
+        <Parameter Name="exception" Type="System.Exception?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="exception">Optional <see cref="T:System.Exception" /> indicating a failure that's causing the pipeline to complete.</param>
@@ -168,10 +173,10 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
     </Member>
     <Member MemberName="CompleteAsync">
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.ValueTask CompleteAsync (Exception exception = default);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask CompleteAsync(class System.Exception exception) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.CompleteAsync(System.Exception)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function CompleteAsync (Optional exception As Exception = Nothing) As ValueTask" />
-      <MemberSignature Language="F#" Value="abstract member CompleteAsync : Exception -&gt; System.Threading.Tasks.ValueTask&#xA;override this.CompleteAsync : Exception -&gt; System.Threading.Tasks.ValueTask" Usage="pipeWriter.CompleteAsync exception" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance valuetype System.Threading.Tasks.ValueTask CompleteAsync(class System.Exception exception) cil managed" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.CompleteAsync(System.Exception)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function CompleteAsync (Optional exception As Exception = Nothing) As ValueTask" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="abstract member CompleteAsync : Exception -&gt; System.Threading.Tasks.ValueTask&#xA;override this.CompleteAsync : Exception -&gt; System.Threading.Tasks.ValueTask" Usage="pipeWriter.CompleteAsync exception" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="C#" Value="public virtual System.Threading.Tasks.ValueTask CompleteAsync (Exception? exception = default);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -181,10 +186,10 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.ValueTask</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Threading.Tasks.ValueTask</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="exception" Type="System.Exception" Index="0" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="exception" Type="System.Exception?" Index="0" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="exception">An optional exception that indicates the failure that caused the pipeline to complete.</param>
@@ -205,13 +210,14 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="source" Type="System.IO.Stream" Index="0" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="source" Type="System.IO.Stream" Index="0" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="1" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
       </Parameters>
       <Docs>
         <param name="source">The stream from which the contents will be copied.</param>
@@ -223,10 +229,10 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
     </Member>
     <Member MemberName="Create">
       <MemberSignature Language="C#" Value="public static System.IO.Pipelines.PipeWriter Create (System.IO.Stream stream, System.IO.Pipelines.StreamPipeWriterOptions writerOptions = default);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.Pipelines.PipeWriter Create(class System.IO.Stream stream, class System.IO.Pipelines.StreamPipeWriterOptions writerOptions) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.Create(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (stream As Stream, Optional writerOptions As StreamPipeWriterOptions = Nothing) As PipeWriter" />
-      <MemberSignature Language="F#" Value="static member Create : System.IO.Stream * System.IO.Pipelines.StreamPipeWriterOptions -&gt; System.IO.Pipelines.PipeWriter" Usage="System.IO.Pipelines.PipeWriter.Create (stream, writerOptions)" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.Pipelines.PipeWriter Create(class System.IO.Stream stream, class System.IO.Pipelines.StreamPipeWriterOptions writerOptions) cil managed" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.Create(System.IO.Stream,System.IO.Pipelines.StreamPipeWriterOptions)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (stream As Stream, Optional writerOptions As StreamPipeWriterOptions = Nothing) As PipeWriter" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="static member Create : System.IO.Stream * System.IO.Pipelines.StreamPipeWriterOptions -&gt; System.IO.Pipelines.PipeWriter" Usage="System.IO.Pipelines.PipeWriter.Create (stream, writerOptions)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="C#" Value="public static System.IO.Pipelines.PipeWriter Create (System.IO.Stream stream, System.IO.Pipelines.StreamPipeWriterOptions? writerOptions = default);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -236,11 +242,11 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.IO.Pipelines.PipeWriter</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.IO.Pipelines.PipeWriter</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="stream" Type="System.IO.Stream" Index="0" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
-        <Parameter Name="writerOptions" Type="System.IO.Pipelines.StreamPipeWriterOptions" Index="1" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="writerOptions" Type="System.IO.Pipelines.StreamPipeWriterOptions?" Index="1" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="stream">The stream that the pipe writer will wrap.</param>
@@ -264,6 +270,7 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;System.IO.Pipelines.FlushResult&gt;</ReturnType>
@@ -295,6 +302,7 @@ The canceled <xref:System.IO.Pipelines.PipeWriter.FlushAsync(System.Threading.Ca
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Memory&lt;System.Byte&gt;</ReturnType>
@@ -338,6 +346,7 @@ You must request a new buffer after calling <xref:System.IO.Pipelines.PipeWriter
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Span&lt;System.Byte&gt;</ReturnType>
@@ -366,8 +375,8 @@ You must request a new buffer after calling <xref:System.IO.Pipelines.PipeWriter
     </Member>
     <Member MemberName="OnReaderCompleted">
       <MemberSignature Language="C#" Value="public abstract void OnReaderCompleted (Action&lt;Exception,object&gt; callback, object state);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnReaderCompleted(class System.Action`2&lt;class System.Exception, object&gt; callback, object state) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.OnReaderCompleted(System.Action{System.Exception,System.Object},System.Object)" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void OnReaderCompleted(class System.Action`2&lt;class System.Exception, object&gt; callback, object state) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.Pipelines.PipeWriter.OnReaderCompleted(System.Action{System.Exception,System.Object},System.Object)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="VB.NET" Value="Public MustOverride Sub OnReaderCompleted (callback As Action(Of Exception, Object), state As Object)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; abstract void OnReaderCompleted(Action&lt;Exception ^, System::Object ^&gt; ^ callback, System::Object ^ state);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
       <MemberSignature Language="F#" Value="abstract member OnReaderCompleted : Action&lt;Exception, obj&gt; * obj -&gt; unit" Usage="pipeWriter.OnReaderCompleted (callback, state)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
@@ -392,11 +401,11 @@ You must request a new buffer after calling <xref:System.IO.Pipelines.PipeWriter
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="callback" Type="System.Action&lt;System.Exception,System.Object&gt;" />
-        <Parameter Name="state" Type="System.Object" />
+        <Parameter Name="callback" Type="System.Action&lt;System.Exception?,System.Object?&gt;" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="state" Type="System.Object?" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="callback">The callback to register.</param>
@@ -428,6 +437,7 @@ You must request a new buffer after calling <xref:System.IO.Pipelines.PipeWriter
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.ValueTask&lt;System.IO.Pipelines.FlushResult&gt;</ReturnType>

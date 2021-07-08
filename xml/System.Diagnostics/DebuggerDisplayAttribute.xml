@@ -27,12 +27,15 @@
   <AssemblyInfo>
     <AssemblyName>System.Runtime</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Diagnostics.Debug" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
-    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Runtime" ToVersion="0.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Runtime" ToVersion="0.0.0.0" FrameworkAlternate="net-5.0;net-6.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="System.Diagnostics.Debug" FromVersion="5.0.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
+    <TypeForwarding From="System.Diagnostics.Debug" FromVersion="6.0.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
@@ -80,13 +83,13 @@ class MyHashtable
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public DebuggerDisplayAttribute (string value);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.DebuggerDisplayAttribute.#ctor(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DebuggerDisplayAttribute(System::String ^ value);" />
-      <MemberSignature Language="F#" Value="new System.Diagnostics.DebuggerDisplayAttribute : string -&gt; System.Diagnostics.DebuggerDisplayAttribute" Usage="new System.Diagnostics.DebuggerDisplayAttribute value" />
-      <MemberSignature Language="C#" Value="public DebuggerDisplayAttribute (string? value);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public DebuggerDisplayAttribute (string value);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string value) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.DebuggerDisplayAttribute.#ctor(System.String)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As String)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DebuggerDisplayAttribute(System::String ^ value);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Diagnostics.DebuggerDisplayAttribute : string -&gt; System.Diagnostics.DebuggerDisplayAttribute" Usage="new System.Diagnostics.DebuggerDisplayAttribute value" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public DebuggerDisplayAttribute (string? value);" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Debug</AssemblyName>
@@ -112,7 +115,7 @@ class MyHashtable
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="value" Type="System.String?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="value">The string to be displayed in the value column for instances of the type; an empty string ("") causes the value column to be hidden.</param>
@@ -151,7 +154,7 @@ class MyTable
       <MemberSignature Language="VB.NET" Value="Public Property Name As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Name { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Name : string with get, set" Usage="System.Diagnostics.DebuggerDisplayAttribute.Name" />
-      <MemberSignature Language="C#" Value="public string? Name { get; set; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string? Name { get; set; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Debug</AssemblyName>
@@ -175,9 +178,11 @@ class MyTable
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the name to display in the debugger variable windows.</summary>
@@ -208,7 +213,7 @@ class MyTable
       <MemberSignature Language="VB.NET" Value="Public Property Target As Type" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Type ^ Target { Type ^ get(); void set(Type ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Target : Type with get, set" Usage="System.Diagnostics.DebuggerDisplayAttribute.Target" />
-      <MemberSignature Language="C#" Value="public Type? Target { get; set; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public Type? Target { get; set; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Debug</AssemblyName>
@@ -232,9 +237,11 @@ class MyTable
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Type</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Type</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.Type?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the type of the attribute's target.</summary>
@@ -258,7 +265,7 @@ class MyTable
       <MemberSignature Language="VB.NET" Value="Public Property TargetTypeName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ TargetTypeName { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.TargetTypeName : string with get, set" Usage="System.Diagnostics.DebuggerDisplayAttribute.TargetTypeName" />
-      <MemberSignature Language="C#" Value="public string? TargetTypeName { get; set; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string? TargetTypeName { get; set; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Debug</AssemblyName>
@@ -282,9 +289,11 @@ class MyTable
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the type name of the attribute's target.</summary>
@@ -306,7 +315,7 @@ class MyTable
       <MemberSignature Language="VB.NET" Value="Public Property Type As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Type { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Type : string with get, set" Usage="System.Diagnostics.DebuggerDisplayAttribute.Type" />
-      <MemberSignature Language="C#" Value="public string? Type { get; set; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string? Type { get; set; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Debug</AssemblyName>
@@ -330,9 +339,11 @@ class MyTable
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the string to display in the type column of the debugger variable windows.</summary>
@@ -370,6 +381,7 @@ class MyTable
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -18,6 +18,7 @@
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
     <AssemblyVersion>4.0.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -49,6 +50,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -76,13 +78,13 @@
       </Docs>
     </Member>
     <Member MemberName="CanAnimate">
-      <MemberSignature Language="C#" Value="public static bool CanAnimate (System.Drawing.Image image);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CanAnimate(class System.Drawing.Image image) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Drawing.ImageAnimator.CanAnimate(System.Drawing.Image)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CanAnimate (image As Image) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool CanAnimate(System::Drawing::Image ^ image);" />
-      <MemberSignature Language="F#" Value="static member CanAnimate : System.Drawing.Image -&gt; bool" Usage="System.Drawing.ImageAnimator.CanAnimate image" />
-      <MemberSignature Language="C#" Value="public static bool CanAnimate (System.Drawing.Image? image);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static bool CanAnimate (System.Drawing.Image image);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool CanAnimate(class System.Drawing.Image image) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Drawing.ImageAnimator.CanAnimate(System.Drawing.Image)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CanAnimate (image As Image) As Boolean" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool CanAnimate(System::Drawing::Image ^ image);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="static member CanAnimate : System.Drawing.Image -&gt; bool" Usage="System.Drawing.ImageAnimator.CanAnimate image" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public static bool CanAnimate (System.Drawing.Image? image);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Drawing</AssemblyName>
@@ -99,10 +101,10 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="image" Type="System.Drawing.Image" />
+        <Parameter Name="image" Type="System.Drawing.Image?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="image">The <see cref="T:System.Drawing.Image" /> object to test.</param>
@@ -132,6 +134,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -168,6 +171,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -199,6 +203,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

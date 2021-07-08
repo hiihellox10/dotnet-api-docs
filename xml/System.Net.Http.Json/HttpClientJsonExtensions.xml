@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Net.Http.Json</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -19,24 +20,24 @@
   </Docs>
   <Members>
     <Member MemberName="GetFromJsonAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object?&gt; GetFromJsonAsync (this System.Net.Http.HttpClient client, string? requestUri, Type type, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; GetFromJsonAsync(class System.Net.Http.HttpClient client, string requestUri, class System.Type type, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync (client As HttpClient, requestUri As String, type As Type, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" />
-      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * string * Type * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;obj&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, type, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object?&gt; GetFromJsonAsync (this System.Net.Http.HttpClient client, string? requestUri, Type type, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; GetFromJsonAsync(class System.Net.Http.HttpClient client, string requestUri, class System.Type type, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Type,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync (client As HttpClient, requestUri As String, type As Type, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * string * Type * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;obj&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, type, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.String" />
-        <Parameter Name="type" Type="System.Type" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="type" Type="System.Type" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="client">The client used to send the request.</param>
@@ -57,24 +58,24 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object?&gt; GetFromJsonAsync (this System.Net.Http.HttpClient client, Uri? requestUri, Type type, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; GetFromJsonAsync(class System.Net.Http.HttpClient client, class System.Uri requestUri, class System.Type type, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync (client As HttpClient, requestUri As Uri, type As Type, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" />
-      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * Uri * Type * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;obj&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, type, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object?&gt; GetFromJsonAsync (this System.Net.Http.HttpClient client, Uri? requestUri, Type type, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; GetFromJsonAsync(class System.Net.Http.HttpClient client, class System.Uri requestUri, class System.Type type, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Type,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync (client As HttpClient, requestUri As Uri, type As Type, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * Uri * Type * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;obj&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, type, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.Uri" />
-        <Parameter Name="type" Type="System.Type" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.Uri?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="type" Type="System.Type" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="client">The client used to send the request.</param>
@@ -95,25 +96,25 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object?&gt; GetFromJsonAsync (this System.Net.Http.HttpClient client, string? requestUri, Type type, System.Text.Json.JsonSerializerOptions? options, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; GetFromJsonAsync(class System.Net.Http.HttpClient client, string requestUri, class System.Type type, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync (client As HttpClient, requestUri As String, type As Type, options As JsonSerializerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" />
-      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * string * Type * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;obj&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, type, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object?&gt; GetFromJsonAsync (this System.Net.Http.HttpClient client, string? requestUri, Type type, System.Text.Json.JsonSerializerOptions? options, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; GetFromJsonAsync(class System.Net.Http.HttpClient client, string requestUri, class System.Type type, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync(System.Net.Http.HttpClient,System.String,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync (client As HttpClient, requestUri As String, type As Type, options As JsonSerializerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * string * Type * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;obj&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, type, options, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.String" />
-        <Parameter Name="type" Type="System.Type" />
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="type" Type="System.Type" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="client">The client used to send the request.</param>
@@ -127,25 +128,25 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object?&gt; GetFromJsonAsync (this System.Net.Http.HttpClient client, Uri? requestUri, Type type, System.Text.Json.JsonSerializerOptions? options, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; GetFromJsonAsync(class System.Net.Http.HttpClient client, class System.Uri requestUri, class System.Type type, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync (client As HttpClient, requestUri As Uri, type As Type, options As JsonSerializerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" />
-      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * Uri * Type * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;obj&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, type, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;object?&gt; GetFromJsonAsync (this System.Net.Http.HttpClient client, Uri? requestUri, Type type, System.Text.Json.JsonSerializerOptions? options, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;object&gt; GetFromJsonAsync(class System.Net.Http.HttpClient client, class System.Uri requestUri, class System.Type type, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync(System.Net.Http.HttpClient,System.Uri,System.Type,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync (client As HttpClient, requestUri As Uri, type As Type, options As JsonSerializerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * Uri * Type * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;obj&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, type, options, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;System.Object&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.Uri" />
-        <Parameter Name="type" Type="System.Type" />
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.Uri?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="type" Type="System.Type" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="client">The client used to send the request.</param>
@@ -159,26 +160,26 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue?&gt; GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TValue&gt; GetFromJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync``1(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync(Of TValue) (client As HttpClient, requestUri As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TValue)" />
-      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;'Value&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue?&gt; GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TValue&gt; GetFromJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync``1(System.Net.Http.HttpClient,System.String,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync(Of TValue) (client As HttpClient, requestUri As String, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TValue)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * string * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;'Value&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.String" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TValue">The target type to deserialize to.</typeparam>
@@ -199,26 +200,26 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue?&gt; GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TValue&gt; GetFromJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync``1(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TValue)" />
-      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * Uri * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;'Value&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue?&gt; GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TValue&gt; GetFromJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync``1(System.Net.Http.HttpClient,System.Uri,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TValue)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * Uri * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;'Value&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.Uri" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.Uri?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TValue">The target type to deserialize to.</typeparam>
@@ -239,27 +240,27 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue?&gt; GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, System.Text.Json.JsonSerializerOptions? options, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TValue&gt; GetFromJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync``1(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync(Of TValue) (client As HttpClient, requestUri As String, options As JsonSerializerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TValue)" />
-      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * string * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;'Value&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue?&gt; GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, System.Text.Json.JsonSerializerOptions? options, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TValue&gt; GetFromJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync``1(System.Net.Http.HttpClient,System.String,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync(Of TValue) (client As HttpClient, requestUri As String, options As JsonSerializerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TValue)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * string * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;'Value&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, options, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.String" />
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions?" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TValue">The target type to deserialize to.</typeparam>
@@ -273,27 +274,27 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="GetFromJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue?&gt; GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, System.Text.Json.JsonSerializerOptions? options, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TValue&gt; GetFromJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync``1(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, options As JsonSerializerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TValue)" />
-      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * Uri * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;'Value&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;TValue?&gt; GetFromJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, System.Text.Json.JsonSerializerOptions? options, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;!!TValue&gt; GetFromJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync``1(System.Net.Http.HttpClient,System.Uri,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function GetFromJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, options As JsonSerializerOptions, Optional cancellationToken As CancellationToken = Nothing) As Task(Of TValue)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member GetFromJsonAsync : System.Net.Http.HttpClient * Uri * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;'Value&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.GetFromJsonAsync (client, requestUri, options, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;TValue&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.Uri" />
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.Uri?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions?" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TValue">The target type to deserialize to.</typeparam>
@@ -307,28 +308,28 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PostAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PostAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PostAsJsonAsync(System::Net::Http::HttpClient ^ client, System::String ^ requestUri, TValue value, System::Threading::CancellationToken cancellationToken);" />
-      <MemberSignature Language="F#" Value="static member PostAsJsonAsync : System.Net.Http.HttpClient * string * 'Value * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync (client, requestUri, value, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PostAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PostAsJsonAsync(System::Net::Http::HttpClient ^ client, System::String ^ requestUri, TValue value, System::Threading::CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member PostAsJsonAsync : System.Net.Http.HttpClient * string * 'Value * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync (client, requestUri, value, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.String" />
-        <Parameter Name="value" Type="TValue" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TValue">The type of the value to serialize.</typeparam>
@@ -350,28 +351,28 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PostAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PostAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PostAsJsonAsync(System::Net::Http::HttpClient ^ client, Uri ^ requestUri, TValue value, System::Threading::CancellationToken cancellationToken);" />
-      <MemberSignature Language="F#" Value="static member PostAsJsonAsync : System.Net.Http.HttpClient * Uri * 'Value * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync (client, requestUri, value, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PostAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PostAsJsonAsync(System::Net::Http::HttpClient ^ client, Uri ^ requestUri, TValue value, System::Threading::CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member PostAsJsonAsync : System.Net.Http.HttpClient * Uri * 'Value * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync (client, requestUri, value, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.Uri" />
-        <Parameter Name="value" Type="TValue" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.Uri?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TValue">The type of the value to serialize.</typeparam>
@@ -393,28 +394,28 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PostAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PostAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="F#" Value="static member PostAsJsonAsync : System.Net.Http.HttpClient * string * 'Value * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync (client, requestUri, value, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PostAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member PostAsJsonAsync : System.Net.Http.HttpClient * string * 'Value * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync (client, requestUri, value, options, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.String" />
-        <Parameter Name="value" Type="TValue" />
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TValue">The type of the value to serialize.</typeparam>
@@ -429,28 +430,28 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PostAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PostAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="F#" Value="static member PostAsJsonAsync : System.Net.Http.HttpClient * Uri * 'Value * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync (client, requestUri, value, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PostAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PostAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member PostAsJsonAsync : System.Net.Http.HttpClient * Uri * 'Value * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PostAsJsonAsync (client, requestUri, value, options, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.Uri" />
-        <Parameter Name="value" Type="TValue" />
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.Uri?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TValue">The type of the value to serialize.</typeparam>
@@ -465,28 +466,28 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PutAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PutAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PutAsJsonAsync(System::Net::Http::HttpClient ^ client, System::String ^ requestUri, TValue value, System::Threading::CancellationToken cancellationToken);" />
-      <MemberSignature Language="F#" Value="static member PutAsJsonAsync : System.Net.Http.HttpClient * string * 'Value * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync (client, requestUri, value, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PutAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PutAsJsonAsync(System::Net::Http::HttpClient ^ client, System::String ^ requestUri, TValue value, System::Threading::CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member PutAsJsonAsync : System.Net.Http.HttpClient * string * 'Value * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync (client, requestUri, value, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.String" />
-        <Parameter Name="value" Type="TValue" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TValue">The type of the value to serialize.</typeparam>
@@ -508,28 +509,28 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PutAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PutAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PutAsJsonAsync(System::Net::Http::HttpClient ^ client, Uri ^ requestUri, TValue value, System::Threading::CancellationToken cancellationToken);" />
-      <MemberSignature Language="F#" Value="static member PutAsJsonAsync : System.Net.Http.HttpClient * Uri * 'Value * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync (client, requestUri, value, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Threading.CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PutAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, cancellationToken As CancellationToken) As Task(Of HttpResponseMessage)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TValue&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Threading::Tasks::Task&lt;System::Net::Http::HttpResponseMessage ^&gt; ^ PutAsJsonAsync(System::Net::Http::HttpClient ^ client, Uri ^ requestUri, TValue value, System::Threading::CancellationToken cancellationToken);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member PutAsJsonAsync : System.Net.Http.HttpClient * Uri * 'Value * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync (client, requestUri, value, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.Uri" />
-        <Parameter Name="value" Type="TValue" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.Uri?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TValue">The type of the value to serialize.</typeparam>
@@ -551,28 +552,28 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PutAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PutAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="F#" Value="static member PutAsJsonAsync : System.Net.Http.HttpClient * string * 'Value * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync (client, requestUri, value, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, string? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, string requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync``1(System.Net.Http.HttpClient,System.String,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PutAsJsonAsync(Of TValue) (client As HttpClient, requestUri As String, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member PutAsJsonAsync : System.Net.Http.HttpClient * string * 'Value * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync (client, requestUri, value, options, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.String" />
-        <Parameter Name="value" Type="TValue" />
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TValue">The type of the value to serialize.</typeparam>
@@ -587,28 +588,28 @@ This method uses <xref:System.Text.Json.JsonSerializerDefaults.Web?displayProper
       </Docs>
     </Member>
     <Member MemberName="PutAsJsonAsync&lt;TValue&gt;">
-      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PutAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" />
-      <MemberSignature Language="F#" Value="static member PutAsJsonAsync : System.Net.Http.HttpClient * Uri * 'Value * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync (client, requestUri, value, options, cancellationToken)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt; (this System.Net.Http.HttpClient client, Uri? requestUri, TValue value, System.Text.Json.JsonSerializerOptions? options = default, System.Threading.CancellationToken cancellationToken = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Tasks.Task`1&lt;class System.Net.Http.HttpResponseMessage&gt; PutAsJsonAsync&lt;TValue&gt;(class System.Net.Http.HttpClient client, class System.Uri requestUri, !!TValue value, class System.Text.Json.JsonSerializerOptions options, valuetype System.Threading.CancellationToken cancellationToken) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync``1(System.Net.Http.HttpClient,System.Uri,``0,System.Text.Json.JsonSerializerOptions,System.Threading.CancellationToken)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function PutAsJsonAsync(Of TValue) (client As HttpClient, requestUri As Uri, value As TValue, Optional options As JsonSerializerOptions = Nothing, Optional cancellationToken As CancellationToken = Nothing) As Task(Of HttpResponseMessage)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member PutAsJsonAsync : System.Net.Http.HttpClient * Uri * 'Value * System.Text.Json.JsonSerializerOptions * System.Threading.CancellationToken -&gt; System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;" Usage="System.Net.Http.Json.HttpClientJsonExtensions.PutAsJsonAsync (client, requestUri, value, options, cancellationToken)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Http.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Threading.Tasks.Task&lt;System.Net.Http.HttpResponseMessage&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TValue" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="client" Type="System.Net.Http.HttpClient" RefType="this" />
-        <Parameter Name="requestUri" Type="System.Uri" />
-        <Parameter Name="value" Type="TValue" />
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" />
-        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" />
+        <Parameter Name="client" Type="System.Net.Http.HttpClient" Index="0" FrameworkAlternate="net-5.0" RefType="this" />
+        <Parameter Name="requestUri" Type="System.Uri?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="TValue" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="cancellationToken" Type="System.Threading.CancellationToken" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TValue">The type of the value to serialize.</typeparam>

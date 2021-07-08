@@ -1,10 +1,10 @@
 <Type Name="AccessibleObject" FullName="System.Windows.Forms.AccessibleObject">
-  <TypeSignature Language="C#" Value="public class AccessibleObject : System.Runtime.InteropServices.StandardOleMarshalObject, Accessibility.IAccessible, System.Reflection.IReflect" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AccessibleObject extends System.Runtime.InteropServices.StandardOleMarshalObject implements class Accessibility.IAccessible, class System.Reflection.IReflect" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="C#" Value="public class AccessibleObject : System.Runtime.InteropServices.StandardOleMarshalObject, Accessibility.IAccessible, System.Reflection.IReflect" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AccessibleObject extends System.Runtime.InteropServices.StandardOleMarshalObject implements class Accessibility.IAccessible, class System.Reflection.IReflect" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <TypeSignature Language="DocId" Value="T:System.Windows.Forms.AccessibleObject" />
-  <TypeSignature Language="VB.NET" Value="Public Class AccessibleObject&#xA;Inherits StandardOleMarshalObject&#xA;Implements IAccessible, IReflect" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-  <TypeSignature Language="C++ CLI" Value="public ref class AccessibleObject : System::Runtime::InteropServices::StandardOleMarshalObject, Accessibility::IAccessible, System::Reflection::IReflect" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-  <TypeSignature Language="F#" Value="type AccessibleObject = class&#xA;    inherit StandardOleMarshalObject&#xA;    interface IReflect&#xA;    interface IAccessible&#xA;    interface Interop.UiaCore.IAccessibleEx&#xA;    interface Interop.Ole32.IServiceProvider&#xA;    interface Interop.UiaCore.IRawElementProviderSimple&#xA;    interface Interop.UiaCore.IRawElementProviderFragment&#xA;    interface Interop.UiaCore.IRawElementProviderFragmentRoot&#xA;    interface Interop.UiaCore.IInvokeProvider&#xA;    interface Interop.UiaCore.IValueProvider&#xA;    interface Interop.UiaCore.IRangeValueProvider&#xA;    interface Interop.UiaCore.IExpandCollapseProvider&#xA;    interface Interop.UiaCore.IToggleProvider&#xA;    interface Interop.UiaCore.ITableProvider&#xA;    interface Interop.UiaCore.ITableItemProvider&#xA;    interface Interop.UiaCore.IGridProvider&#xA;    interface Interop.UiaCore.IGridItemProvider&#xA;    interface Interop.Oleaut32.IEnumVariant&#xA;    interface Interop.Ole32.IOleWindow&#xA;    interface Interop.UiaCore.ILegacyIAccessibleProvider&#xA;    interface Interop.UiaCore.ISelectionProvider&#xA;    interface Interop.UiaCore.ISelectionItemProvider&#xA;    interface Interop.UiaCore.IRawElementProviderHwndOverride&#xA;    interface Interop.UiaCore.IScrollItemProvider&#xA;    interface Interop.UiaCore.IMultipleViewProvider&#xA;    interface Interop.UiaCore.ITextProvider&#xA;    interface Interop.UiaCore.ITextProvider2" FrameworkAlternate="net-5.0" />
+  <TypeSignature Language="VB.NET" Value="Public Class AccessibleObject&#xA;Inherits StandardOleMarshalObject&#xA;Implements IAccessible, IReflect" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="C++ CLI" Value="public ref class AccessibleObject : System::Runtime::InteropServices::StandardOleMarshalObject, Accessibility::IAccessible, System::Reflection::IReflect" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="F#" Value="type AccessibleObject = class&#xA;    inherit StandardOleMarshalObject&#xA;    interface IReflect&#xA;    interface IAccessible&#xA;    interface Interop.UiaCore.IAccessibleEx&#xA;    interface Interop.Ole32.IServiceProvider&#xA;    interface Interop.UiaCore.IRawElementProviderSimple&#xA;    interface Interop.UiaCore.IRawElementProviderFragment&#xA;    interface Interop.UiaCore.IRawElementProviderFragmentRoot&#xA;    interface Interop.UiaCore.IInvokeProvider&#xA;    interface Interop.UiaCore.IValueProvider&#xA;    interface Interop.UiaCore.IRangeValueProvider&#xA;    interface Interop.UiaCore.IExpandCollapseProvider&#xA;    interface Interop.UiaCore.IToggleProvider&#xA;    interface Interop.UiaCore.ITableProvider&#xA;    interface Interop.UiaCore.ITableItemProvider&#xA;    interface Interop.UiaCore.IGridProvider&#xA;    interface Interop.UiaCore.IGridItemProvider&#xA;    interface Interop.Oleaut32.IEnumVariant&#xA;    interface Interop.Ole32.IOleWindow&#xA;    interface Interop.UiaCore.ILegacyIAccessibleProvider&#xA;    interface Interop.UiaCore.ISelectionProvider&#xA;    interface Interop.UiaCore.ISelectionItemProvider&#xA;    interface Interop.UiaCore.IRawElementProviderHwndOverride&#xA;    interface Interop.UiaCore.IScrollItemProvider&#xA;    interface Interop.UiaCore.IMultipleViewProvider&#xA;    interface Interop.UiaCore.ITextProvider&#xA;    interface Interop.UiaCore.ITextProvider2" FrameworkAlternate="net-5.0;net-6.0" />
   <TypeSignature Language="F#" Value="type AccessibleObject = class&#xA;    inherit StandardOleMarshalObject&#xA;    interface IReflect&#xA;    interface IAccessible&#xA;    interface UnsafeNativeMethods.IAccessibleEx&#xA;    interface UnsafeNativeMethods.IServiceProvider&#xA;    interface UnsafeNativeMethods.IRawElementProviderSimple&#xA;    interface UnsafeNativeMethods.IRawElementProviderFragment&#xA;    interface UnsafeNativeMethods.IRawElementProviderFragmentRoot&#xA;    interface UnsafeNativeMethods.IInvokeProvider&#xA;    interface UnsafeNativeMethods.IValueProvider&#xA;    interface UnsafeNativeMethods.IRangeValueProvider&#xA;    interface UnsafeNativeMethods.IExpandCollapseProvider&#xA;    interface UnsafeNativeMethods.IToggleProvider&#xA;    interface UnsafeNativeMethods.ITableProvider&#xA;    interface UnsafeNativeMethods.ITableItemProvider&#xA;    interface UnsafeNativeMethods.IGridProvider&#xA;    interface UnsafeNativeMethods.IGridItemProvider&#xA;    interface UnsafeNativeMethods.IEnumVariant&#xA;    interface UnsafeNativeMethods.IOleWindow&#xA;    interface UnsafeNativeMethods.ILegacyIAccessibleProvider&#xA;    interface UnsafeNativeMethods.ISelectionProvider&#xA;    interface UnsafeNativeMethods.ISelectionItemProvider&#xA;    interface UnsafeNativeMethods.IRawElementProviderHwndOverride&#xA;    interface UnsafeNativeMethods.IScrollItemProvider" FrameworkAlternate="netcore-3.0;netcore-3.1" />
   <TypeSignature Language="C#" Value="public class AccessibleObject : MarshalByRefObject, Accessibility.IAccessible, System.Reflection.IReflect" FrameworkAlternate="netframework-1.1" />
   <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit AccessibleObject extends System.MarshalByRefObject implements class Accessibility.IAccessible, class System.Reflection.IReflect" FrameworkAlternate="netframework-1.1" />
@@ -19,6 +19,7 @@
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Runtime.InteropServices.StandardOleMarshalObject</BaseTypeName>
@@ -90,6 +91,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -120,6 +122,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -154,6 +157,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -175,7 +179,7 @@
       </Docs>
     </Member>
     <Member MemberName="Accessibility.IAccessible.accFocus">
-      <MemberSignature Language="C#" Value="object? Accessibility.IAccessible.accFocus { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="object? Accessibility.IAccessible.accFocus { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance object Accessibility.IAccessible.accFocus" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.AccessibleObject.Accessibility#IAccessible#accFocus" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property accFocus As Object Implements IAccessible.accFocus" />
@@ -191,9 +195,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Object?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Object</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the object that has the keyboard focus. For a description of this member, see <see cref="P:Accessibility.IAccessible.accFocus" />.</summary>
@@ -217,7 +223,7 @@
       </Docs>
     </Member>
     <Member MemberName="Accessibility.IAccessible.accHitTest">
-      <MemberSignature Language="C#" Value="object? IAccessible.accHitTest (int xLeft, int yTop);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="object? IAccessible.accHitTest (int xLeft, int yTop);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object Accessibility.IAccessible.accHitTest(int32 xLeft, int32 yTop) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.Accessibility#IAccessible#accHitTest(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Function accHitTest (xLeft As Integer, yTop As Integer) As Object Implements IAccessible.accHitTest" />
@@ -234,9 +240,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Object?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="xLeft" Type="System.Int32" />
@@ -281,6 +289,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -310,7 +319,7 @@
       </Docs>
     </Member>
     <Member MemberName="Accessibility.IAccessible.accNavigate">
-      <MemberSignature Language="C#" Value="object? IAccessible.accNavigate (int navDir, object childID);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="object? IAccessible.accNavigate (int navDir, object childID);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object Accessibility.IAccessible.accNavigate(int32 navDir, object childID) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.Accessibility#IAccessible#accNavigate(System.Int32,System.Object)" />
       <MemberSignature Language="VB.NET" Value="Function accNavigate (navDir As Integer, childID As Object) As Object Implements IAccessible.accNavigate" />
@@ -327,9 +336,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Object?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="navDir" Type="System.Int32" />
@@ -359,7 +370,7 @@
       </Docs>
     </Member>
     <Member MemberName="Accessibility.IAccessible.accParent">
-      <MemberSignature Language="C#" Value="object? Accessibility.IAccessible.accParent { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="object? Accessibility.IAccessible.accParent { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance object Accessibility.IAccessible.accParent" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.AccessibleObject.Accessibility#IAccessible#accParent" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property accParent As Object Implements IAccessible.accParent" />
@@ -375,9 +386,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Object?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Object</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the parent accessible object of this object. For a description of this member, see <see cref="P:Accessibility.IAccessible.accParent" />.</summary>
@@ -409,6 +422,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -443,7 +457,7 @@
       </Docs>
     </Member>
     <Member MemberName="Accessibility.IAccessible.accSelection">
-      <MemberSignature Language="C#" Value="object? Accessibility.IAccessible.accSelection { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="object? Accessibility.IAccessible.accSelection { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance object Accessibility.IAccessible.accSelection" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.AccessibleObject.Accessibility#IAccessible#accSelection" />
       <MemberSignature Language="VB.NET" Value=" ReadOnly Property accSelection As Object Implements IAccessible.accSelection" />
@@ -459,9 +473,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Object?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Object</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the selected child objects of an accessible object. For a description of this member, see <see cref="P:Accessibility.IAccessible.accSelection" />.</summary>
@@ -499,6 +515,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Drawing.Rectangle</ReturnType>
@@ -541,7 +558,7 @@
       </Docs>
     </Member>
     <Member MemberName="DefaultAction">
-      <MemberSignature Language="C#" Value="public virtual string? DefaultAction { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual string? DefaultAction { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string DefaultAction" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.AccessibleObject.DefaultAction" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property DefaultAction As String" />
@@ -555,9 +572,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.String?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a string that describes the default action of the object. Not all objects have a default action.</summary>
@@ -586,7 +605,7 @@
       </Docs>
     </Member>
     <Member MemberName="Description">
-      <MemberSignature Language="C#" Value="public virtual string? Description { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual string? Description { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string Description" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.AccessibleObject.Description" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Description As String" />
@@ -600,9 +619,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.String?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a string that describes the visual appearance of the specified object. Not all objects have a description.</summary>
@@ -644,6 +665,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -666,7 +688,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetChild">
-      <MemberSignature Language="C#" Value="public virtual System.Windows.Forms.AccessibleObject? GetChild (int index);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Windows.Forms.AccessibleObject? GetChild (int index);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Windows.Forms.AccessibleObject GetChild(int32 index) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.GetChild(System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetChild (index As Integer) As AccessibleObject" />
@@ -680,9 +702,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.AccessibleObject</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Windows.Forms.AccessibleObject?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Windows.Forms.AccessibleObject</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="index" Type="System.Int32" />
@@ -724,6 +748,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -752,7 +777,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetFocused">
-      <MemberSignature Language="C#" Value="public virtual System.Windows.Forms.AccessibleObject? GetFocused ();" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Windows.Forms.AccessibleObject? GetFocused ();" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Windows.Forms.AccessibleObject GetFocused() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.GetFocused" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetFocused () As AccessibleObject" />
@@ -766,9 +791,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.AccessibleObject</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Windows.Forms.AccessibleObject?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Windows.Forms.AccessibleObject</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -793,12 +820,11 @@
     </Member>
     <Member MemberName="GetHelpTopic">
       <MemberSignature Language="C#" Value="public virtual int GetHelpTopic (out string? fileName);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetHelpTopic([out] string&amp; fileName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.GetHelpTopic(System.String@)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetHelpTopic (ByRef fileName As String) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int GetHelpTopic([Runtime::InteropServices::Out] System::String ^ % fileName);" />
-      <MemberSignature Language="F#" Value="abstract member GetHelpTopic : string -&gt; int&#xA;override this.GetHelpTopic : string -&gt; int" Usage="accessibleObject.GetHelpTopic fileName" />
-      <MemberSignature Language="C#" Value="public virtual int GetHelpTopic (out string fileName);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetHelpTopic([out] string&amp; fileName) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.GetHelpTopic(System.String@)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetHelpTopic (ByRef fileName As String) As Integer" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int GetHelpTopic([Runtime::InteropServices::Out] System::String ^ % fileName);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member GetHelpTopic : string -&gt; int&#xA;override this.GetHelpTopic : string -&gt; int" Usage="accessibleObject.GetHelpTopic fileName" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -808,10 +834,10 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="fileName" Type="System.String" RefType="out" />
+        <Parameter Name="fileName" Type="System.String?" RefType="out" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="fileName">On return, this property contains the path to the Help file associated with this accessible object.</param>
@@ -834,7 +860,7 @@
       </Docs>
     </Member>
     <Member MemberName="GetSelected">
-      <MemberSignature Language="C#" Value="public virtual System.Windows.Forms.AccessibleObject? GetSelected ();" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Windows.Forms.AccessibleObject? GetSelected ();" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Windows.Forms.AccessibleObject GetSelected() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.GetSelected" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetSelected () As AccessibleObject" />
@@ -848,9 +874,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.AccessibleObject</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Windows.Forms.AccessibleObject?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Windows.Forms.AccessibleObject</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -864,7 +892,7 @@
       </Docs>
     </Member>
     <Member MemberName="Help">
-      <MemberSignature Language="C#" Value="public virtual string? Help { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual string? Help { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string Help" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.AccessibleObject.Help" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Help As String" />
@@ -878,9 +906,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.String?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a description of what the object does or how the object is used.</summary>
@@ -902,7 +932,7 @@
       </Docs>
     </Member>
     <Member MemberName="HitTest">
-      <MemberSignature Language="C#" Value="public virtual System.Windows.Forms.AccessibleObject? HitTest (int x, int y);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Windows.Forms.AccessibleObject? HitTest (int x, int y);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Windows.Forms.AccessibleObject HitTest(int32 x, int32 y) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.HitTest(System.Int32,System.Int32)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function HitTest (x As Integer, y As Integer) As AccessibleObject" />
@@ -916,9 +946,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.AccessibleObject</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Windows.Forms.AccessibleObject?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Windows.Forms.AccessibleObject</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="x" Type="System.Int32" />
@@ -944,7 +976,7 @@
       </Docs>
     </Member>
     <Member MemberName="KeyboardShortcut">
-      <MemberSignature Language="C#" Value="public virtual string? KeyboardShortcut { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual string? KeyboardShortcut { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string KeyboardShortcut" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.AccessibleObject.KeyboardShortcut" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property KeyboardShortcut As String" />
@@ -958,9 +990,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.String?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the shortcut key or access key for the accessible object.</summary>
@@ -989,7 +1023,7 @@
       </Docs>
     </Member>
     <Member MemberName="Name">
-      <MemberSignature Language="C#" Value="public virtual string? Name { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual string? Name { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string Name" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.AccessibleObject.Name" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Name As String" />
@@ -1003,9 +1037,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.String?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the object name.</summary>
@@ -1047,7 +1083,7 @@
       </Docs>
     </Member>
     <Member MemberName="Navigate">
-      <MemberSignature Language="C#" Value="public virtual System.Windows.Forms.AccessibleObject? Navigate (System.Windows.Forms.AccessibleNavigation navdir);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Windows.Forms.AccessibleObject? Navigate (System.Windows.Forms.AccessibleNavigation navdir);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Windows.Forms.AccessibleObject Navigate(valuetype System.Windows.Forms.AccessibleNavigation navdir) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.Navigate(System.Windows.Forms.AccessibleNavigation)" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Navigate (navdir As AccessibleNavigation) As AccessibleObject" />
@@ -1061,9 +1097,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.AccessibleObject</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Windows.Forms.AccessibleObject?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Windows.Forms.AccessibleObject</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="navdir" Type="System.Windows.Forms.AccessibleNavigation" />
@@ -1098,7 +1136,7 @@
       </Docs>
     </Member>
     <Member MemberName="Parent">
-      <MemberSignature Language="C#" Value="public virtual System.Windows.Forms.AccessibleObject? Parent { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Windows.Forms.AccessibleObject? Parent { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Forms.AccessibleObject Parent" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.AccessibleObject.Parent" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property Parent As AccessibleObject" />
@@ -1112,9 +1150,11 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.AccessibleObject</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Windows.Forms.AccessibleObject?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Windows.Forms.AccessibleObject</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the parent of an accessible object.</summary>
@@ -1159,14 +1199,15 @@
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="notificationKind" Type="System.Windows.Forms.Automation.AutomationNotificationKind" Index="0" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-4.8" />
-        <Parameter Name="notificationProcessing" Type="System.Windows.Forms.Automation.AutomationNotificationProcessing" Index="1" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-4.8" />
-        <Parameter Name="notificationText" Type="System.String" Index="2" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-4.8" />
+        <Parameter Name="notificationKind" Type="System.Windows.Forms.Automation.AutomationNotificationKind" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netframework-4.8" />
+        <Parameter Name="notificationProcessing" Type="System.Windows.Forms.Automation.AutomationNotificationProcessing" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netframework-4.8" />
+        <Parameter Name="notificationText" Type="System.String" Index="2" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netframework-4.8" />
       </Parameters>
       <Docs>
         <param name="notificationKind">The type of notification.</param>
@@ -1198,6 +1239,7 @@ This event is available starting with Windows 10, version 1709.
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -1233,6 +1275,7 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.AccessibleRole</ReturnType>
@@ -1287,6 +1330,7 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1347,6 +1391,7 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Windows.Forms.AccessibleStates</ReturnType>
@@ -1383,7 +1428,7 @@ This method must be overridden in derived classes that support the UI automation
       </Docs>
     </Member>
     <Member MemberName="System.Reflection.IReflect.GetField">
-      <MemberSignature Language="C#" Value="System.Reflection.FieldInfo? IReflect.GetField (string name, System.Reflection.BindingFlags bindingAttr);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="System.Reflection.FieldInfo? IReflect.GetField (string name, System.Reflection.BindingFlags bindingAttr);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Reflection.FieldInfo System.Reflection.IReflect.GetField(string name, valuetype System.Reflection.BindingFlags bindingAttr) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.System#Reflection#IReflect#GetField(System.String,System.Reflection.BindingFlags)" />
       <MemberSignature Language="VB.NET" Value="Function GetField (name As String, bindingAttr As BindingFlags) As FieldInfo Implements IReflect.GetField" />
@@ -1400,9 +1445,11 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Reflection.FieldInfo</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Reflection.FieldInfo?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Reflection.FieldInfo</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -1441,9 +1488,11 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Reflection.FieldInfo[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Reflection.FieldInfo?[]?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Reflection.FieldInfo[]</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="bindingAttr" Type="System.Reflection.BindingFlags" />
@@ -1481,9 +1530,11 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Reflection.MemberInfo[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Reflection.MemberInfo?[]?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Reflection.MemberInfo[]</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -1521,9 +1572,11 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Reflection.MemberInfo[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Reflection.MemberInfo?[]?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Reflection.MemberInfo[]</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="bindingAttr" Type="System.Reflection.BindingFlags" />
@@ -1543,7 +1596,7 @@ This method must be overridden in derived classes that support the UI automation
       </Docs>
     </Member>
     <Member MemberName="System.Reflection.IReflect.GetMethod">
-      <MemberSignature Language="C#" Value="System.Reflection.MethodInfo? IReflect.GetMethod (string name, System.Reflection.BindingFlags bindingAttr);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="System.Reflection.MethodInfo? IReflect.GetMethod (string name, System.Reflection.BindingFlags bindingAttr);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Reflection.MethodInfo System.Reflection.IReflect.GetMethod(string name, valuetype System.Reflection.BindingFlags bindingAttr) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.System#Reflection#IReflect#GetMethod(System.String,System.Reflection.BindingFlags)" />
       <MemberSignature Language="VB.NET" Value="Function GetMethod (name As String, bindingAttr As BindingFlags) As MethodInfo Implements IReflect.GetMethod" />
@@ -1560,9 +1613,11 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Reflection.MethodInfo</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Reflection.MethodInfo?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Reflection.MethodInfo</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -1586,15 +1641,14 @@ This method must be overridden in derived classes that support the UI automation
     </Member>
     <Member MemberName="System.Reflection.IReflect.GetMethod">
       <MemberSignature Language="C#" Value="System.Reflection.MethodInfo? IReflect.GetMethod (string name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder? binder, Type[] types, System.Reflection.ParameterModifier[]? modifiers);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Reflection.MethodInfo System.Reflection.IReflect.GetMethod(string name, valuetype System.Reflection.BindingFlags bindingAttr, class System.Reflection.Binder binder, class System.Type[] types, valuetype System.Reflection.ParameterModifier[] modifiers) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.System#Reflection#IReflect#GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[])" />
-      <MemberSignature Language="VB.NET" Value="Function GetMethod (name As String, bindingAttr As BindingFlags, binder As Binder, types As Type(), modifiers As ParameterModifier()) As MethodInfo Implements IReflect.GetMethod" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Reflection::MethodInfo ^ System.Reflection.IReflect.GetMethod(System::String ^ name, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder ^ binder, cli::array &lt;Type ^&gt; ^ types, cli::array &lt;System::Reflection::ParameterModifier&gt; ^ modifiers) = System::Reflection::IReflect::GetMethod;" />
-      <MemberSignature Language="F#" Value="abstract member System.Reflection.IReflect.GetMethod : string * System.Reflection.BindingFlags * System.Reflection.Binder * Type[] * System.Reflection.ParameterModifier[] -&gt; System.Reflection.MethodInfo&#xA;override this.System.Reflection.IReflect.GetMethod : string * System.Reflection.BindingFlags * System.Reflection.Binder * Type[] * System.Reflection.ParameterModifier[] -&gt; System.Reflection.MethodInfo" Usage="accessibleObject.System.Reflection.IReflect.GetMethod (name, bindingAttr, binder, types, modifiers)" />
-      <MemberSignature Language="C#" Value="System.Reflection.MethodInfo IReflect.GetMethod (string name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, Type[] types, System.Reflection.ParameterModifier[] modifiers);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Reflection.MethodInfo System.Reflection.IReflect.GetMethod(string name, valuetype System.Reflection.BindingFlags bindingAttr, class System.Reflection.Binder binder, class System.Type[] types, valuetype System.Reflection.ParameterModifier[] modifiers) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.System#Reflection#IReflect#GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Function GetMethod (name As String, bindingAttr As BindingFlags, binder As Binder, types As Type(), modifiers As ParameterModifier()) As MethodInfo Implements IReflect.GetMethod" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Reflection::MethodInfo ^ System.Reflection.IReflect.GetMethod(System::String ^ name, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder ^ binder, cli::array &lt;Type ^&gt; ^ types, cli::array &lt;System::Reflection::ParameterModifier&gt; ^ modifiers) = System::Reflection::IReflect::GetMethod;" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member System.Reflection.IReflect.GetMethod : string * System.Reflection.BindingFlags * System.Reflection.Binder * Type[] * System.Reflection.ParameterModifier[] -&gt; System.Reflection.MethodInfo&#xA;override this.System.Reflection.IReflect.GetMethod : string * System.Reflection.BindingFlags * System.Reflection.Binder * Type[] * System.Reflection.ParameterModifier[] -&gt; System.Reflection.MethodInfo" Usage="accessibleObject.System.Reflection.IReflect.GetMethod (name, bindingAttr, binder, types, modifiers)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Reflection.IReflect.GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[])</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0">M:System.Reflection.IReflect.GetMethod(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type[],System.Reflection.ParameterModifier[])</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -1604,14 +1658,14 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Reflection.MethodInfo</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Reflection.MethodInfo?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="bindingAttr" Type="System.Reflection.BindingFlags" />
-        <Parameter Name="binder" Type="System.Reflection.Binder" />
-        <Parameter Name="types" Type="System.Type[]" />
-        <Parameter Name="modifiers" Type="System.Reflection.ParameterModifier[]" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="bindingAttr" Type="System.Reflection.BindingFlags" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="binder" Type="System.Reflection.Binder?" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="types" Type="System.Type[]" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="modifiers" Type="System.Reflection.ParameterModifier[]?" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="name">The name of the member to find.</param>
@@ -1651,9 +1705,11 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Reflection.MethodInfo[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Reflection.MethodInfo?[]?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Reflection.MethodInfo[]</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="bindingAttr" Type="System.Reflection.BindingFlags" />
@@ -1689,9 +1745,11 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Reflection.PropertyInfo[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Reflection.PropertyInfo?[]?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Reflection.PropertyInfo[]</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="bindingAttr" Type="System.Reflection.BindingFlags" />
@@ -1711,7 +1769,7 @@ This method must be overridden in derived classes that support the UI automation
       </Docs>
     </Member>
     <Member MemberName="System.Reflection.IReflect.GetProperty">
-      <MemberSignature Language="C#" Value="System.Reflection.PropertyInfo? IReflect.GetProperty (string name, System.Reflection.BindingFlags bindingAttr);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="System.Reflection.PropertyInfo? IReflect.GetProperty (string name, System.Reflection.BindingFlags bindingAttr);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Reflection.PropertyInfo System.Reflection.IReflect.GetProperty(string name, valuetype System.Reflection.BindingFlags bindingAttr) cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.System#Reflection#IReflect#GetProperty(System.String,System.Reflection.BindingFlags)" />
       <MemberSignature Language="VB.NET" Value="Function GetProperty (name As String, bindingAttr As BindingFlags) As PropertyInfo Implements IReflect.GetProperty" />
@@ -1728,9 +1786,11 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Reflection.PropertyInfo</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Reflection.PropertyInfo?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Reflection.PropertyInfo</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -1754,15 +1814,14 @@ This method must be overridden in derived classes that support the UI automation
     </Member>
     <Member MemberName="System.Reflection.IReflect.GetProperty">
       <MemberSignature Language="C#" Value="System.Reflection.PropertyInfo? IReflect.GetProperty (string name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder? binder, Type? returnType, Type[] types, System.Reflection.ParameterModifier[]? modifiers);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Reflection.PropertyInfo System.Reflection.IReflect.GetProperty(string name, valuetype System.Reflection.BindingFlags bindingAttr, class System.Reflection.Binder binder, class System.Type returnType, class System.Type[] types, valuetype System.Reflection.ParameterModifier[] modifiers) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.System#Reflection#IReflect#GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])" />
-      <MemberSignature Language="VB.NET" Value="Function GetProperty (name As String, bindingAttr As BindingFlags, binder As Binder, returnType As Type, types As Type(), modifiers As ParameterModifier()) As PropertyInfo Implements IReflect.GetProperty" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Reflection::PropertyInfo ^ System.Reflection.IReflect.GetProperty(System::String ^ name, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder ^ binder, Type ^ returnType, cli::array &lt;Type ^&gt; ^ types, cli::array &lt;System::Reflection::ParameterModifier&gt; ^ modifiers) = System::Reflection::IReflect::GetProperty;" />
-      <MemberSignature Language="F#" Value="abstract member System.Reflection.IReflect.GetProperty : string * System.Reflection.BindingFlags * System.Reflection.Binder * Type * Type[] * System.Reflection.ParameterModifier[] -&gt; System.Reflection.PropertyInfo&#xA;override this.System.Reflection.IReflect.GetProperty : string * System.Reflection.BindingFlags * System.Reflection.Binder * Type * Type[] * System.Reflection.ParameterModifier[] -&gt; System.Reflection.PropertyInfo" Usage="accessibleObject.System.Reflection.IReflect.GetProperty (name, bindingAttr, binder, returnType, types, modifiers)" />
-      <MemberSignature Language="C#" Value="System.Reflection.PropertyInfo IReflect.GetProperty (string name, System.Reflection.BindingFlags bindingAttr, System.Reflection.Binder binder, Type returnType, Type[] types, System.Reflection.ParameterModifier[] modifiers);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance class System.Reflection.PropertyInfo System.Reflection.IReflect.GetProperty(string name, valuetype System.Reflection.BindingFlags bindingAttr, class System.Reflection.Binder binder, class System.Type returnType, class System.Type[] types, valuetype System.Reflection.ParameterModifier[] modifiers) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.System#Reflection#IReflect#GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Function GetProperty (name As String, bindingAttr As BindingFlags, binder As Binder, returnType As Type, types As Type(), modifiers As ParameterModifier()) As PropertyInfo Implements IReflect.GetProperty" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Reflection::PropertyInfo ^ System.Reflection.IReflect.GetProperty(System::String ^ name, System::Reflection::BindingFlags bindingAttr, System::Reflection::Binder ^ binder, Type ^ returnType, cli::array &lt;Type ^&gt; ^ types, cli::array &lt;System::Reflection::ParameterModifier&gt; ^ modifiers) = System::Reflection::IReflect::GetProperty;" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member System.Reflection.IReflect.GetProperty : string * System.Reflection.BindingFlags * System.Reflection.Binder * Type * Type[] * System.Reflection.ParameterModifier[] -&gt; System.Reflection.PropertyInfo&#xA;override this.System.Reflection.IReflect.GetProperty : string * System.Reflection.BindingFlags * System.Reflection.Binder * Type * Type[] * System.Reflection.ParameterModifier[] -&gt; System.Reflection.PropertyInfo" Usage="accessibleObject.System.Reflection.IReflect.GetProperty (name, bindingAttr, binder, returnType, types, modifiers)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Reflection.IReflect.GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0">M:System.Reflection.IReflect.GetProperty(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Type,System.Type[],System.Reflection.ParameterModifier[])</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -1772,15 +1831,15 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Reflection.PropertyInfo</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Reflection.PropertyInfo?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="bindingAttr" Type="System.Reflection.BindingFlags" />
-        <Parameter Name="binder" Type="System.Reflection.Binder" />
-        <Parameter Name="returnType" Type="System.Type" />
-        <Parameter Name="types" Type="System.Type[]" />
-        <Parameter Name="modifiers" Type="System.Reflection.ParameterModifier[]" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="bindingAttr" Type="System.Reflection.BindingFlags" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="binder" Type="System.Reflection.Binder?" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="returnType" Type="System.Type?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="types" Type="System.Type[]" Index="4" FrameworkAlternate="net-5.0" />
+        <Parameter Name="modifiers" Type="System.Reflection.ParameterModifier[]?" Index="5" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="name">The name of the member to find.</param>
@@ -1803,15 +1862,14 @@ This method must be overridden in derived classes that support the UI automation
     </Member>
     <Member MemberName="System.Reflection.IReflect.InvokeMember">
       <MemberSignature Language="C#" Value="object? IReflect.InvokeMember (string name, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder? binder, object? target, object?[]? args, System.Reflection.ParameterModifier[]? modifiers, System.Globalization.CultureInfo? culture, string[]? namedParameters);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object System.Reflection.IReflect.InvokeMember(string name, valuetype System.Reflection.BindingFlags invokeAttr, class System.Reflection.Binder binder, object target, object[] args, valuetype System.Reflection.ParameterModifier[] modifiers, class System.Globalization.CultureInfo culture, string[] namedParameters) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.System#Reflection#IReflect#InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])" />
-      <MemberSignature Language="VB.NET" Value="Function InvokeMember (name As String, invokeAttr As BindingFlags, binder As Binder, target As Object, args As Object(), modifiers As ParameterModifier(), culture As CultureInfo, namedParameters As String()) As Object Implements IReflect.InvokeMember" />
-      <MemberSignature Language="C++ CLI" Value=" virtual System::Object ^ System.Reflection.IReflect.InvokeMember(System::String ^ name, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder ^ binder, System::Object ^ target, cli::array &lt;System::Object ^&gt; ^ args, cli::array &lt;System::Reflection::ParameterModifier&gt; ^ modifiers, System::Globalization::CultureInfo ^ culture, cli::array &lt;System::String ^&gt; ^ namedParameters) = System::Reflection::IReflect::InvokeMember;" />
-      <MemberSignature Language="F#" Value="abstract member System.Reflection.IReflect.InvokeMember : string * System.Reflection.BindingFlags * System.Reflection.Binder * obj * obj[] * System.Reflection.ParameterModifier[] * System.Globalization.CultureInfo * string[] -&gt; obj&#xA;override this.System.Reflection.IReflect.InvokeMember : string * System.Reflection.BindingFlags * System.Reflection.Binder * obj * obj[] * System.Reflection.ParameterModifier[] * System.Globalization.CultureInfo * string[] -&gt; obj" Usage="accessibleObject.System.Reflection.IReflect.InvokeMember (name, invokeAttr, binder, target, args, modifiers, culture, namedParameters)" />
-      <MemberSignature Language="C#" Value="object IReflect.InvokeMember (string name, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, object target, object[] args, System.Reflection.ParameterModifier[] modifiers, System.Globalization.CultureInfo culture, string[] namedParameters);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method hidebysig newslot virtual instance object System.Reflection.IReflect.InvokeMember(string name, valuetype System.Reflection.BindingFlags invokeAttr, class System.Reflection.Binder binder, object target, object[] args, valuetype System.Reflection.ParameterModifier[] modifiers, class System.Globalization.CultureInfo culture, string[] namedParameters) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.AccessibleObject.System#Reflection#IReflect#InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Function InvokeMember (name As String, invokeAttr As BindingFlags, binder As Binder, target As Object, args As Object(), modifiers As ParameterModifier(), culture As CultureInfo, namedParameters As String()) As Object Implements IReflect.InvokeMember" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value=" virtual System::Object ^ System.Reflection.IReflect.InvokeMember(System::String ^ name, System::Reflection::BindingFlags invokeAttr, System::Reflection::Binder ^ binder, System::Object ^ target, cli::array &lt;System::Object ^&gt; ^ args, cli::array &lt;System::Reflection::ParameterModifier&gt; ^ modifiers, System::Globalization::CultureInfo ^ culture, cli::array &lt;System::String ^&gt; ^ namedParameters) = System::Reflection::IReflect::InvokeMember;" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member System.Reflection.IReflect.InvokeMember : string * System.Reflection.BindingFlags * System.Reflection.Binder * obj * obj[] * System.Reflection.ParameterModifier[] * System.Globalization.CultureInfo * string[] -&gt; obj&#xA;override this.System.Reflection.IReflect.InvokeMember : string * System.Reflection.BindingFlags * System.Reflection.Binder * obj * obj[] * System.Reflection.ParameterModifier[] * System.Globalization.CultureInfo * string[] -&gt; obj" Usage="accessibleObject.System.Reflection.IReflect.InvokeMember (name, invokeAttr, binder, target, args, modifiers, culture, namedParameters)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Reflection.IReflect.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0">M:System.Reflection.IReflect.InvokeMember(System.String,System.Reflection.BindingFlags,System.Reflection.Binder,System.Object,System.Object[],System.Reflection.ParameterModifier[],System.Globalization.CultureInfo,System.String[])</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -1821,17 +1879,17 @@ This method must be overridden in derived classes that support the UI automation
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="invokeAttr" Type="System.Reflection.BindingFlags" />
-        <Parameter Name="binder" Type="System.Reflection.Binder" />
-        <Parameter Name="target" Type="System.Object" />
-        <Parameter Name="args" Type="System.Object[]" />
-        <Parameter Name="modifiers" Type="System.Reflection.ParameterModifier[]" />
-        <Parameter Name="culture" Type="System.Globalization.CultureInfo" />
-        <Parameter Name="namedParameters" Type="System.String[]" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="invokeAttr" Type="System.Reflection.BindingFlags" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="binder" Type="System.Reflection.Binder?" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="target" Type="System.Object?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="args" Type="System.Object?[]?" Index="4" FrameworkAlternate="net-5.0" />
+        <Parameter Name="modifiers" Type="System.Reflection.ParameterModifier[]?" Index="5" FrameworkAlternate="net-5.0" />
+        <Parameter Name="culture" Type="System.Globalization.CultureInfo?" Index="6" FrameworkAlternate="net-5.0" />
+        <Parameter Name="namedParameters" Type="System.String[]?" Index="7" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="name">The name of the member to find.</param>
@@ -1898,6 +1956,7 @@ More than one argument is specified for a field set operation.</exception>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Type</ReturnType>
@@ -1938,6 +1997,7 @@ More than one argument is specified for a field set operation.</exception>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1974,6 +2034,7 @@ More than one argument is specified for a field set operation.</exception>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -2016,7 +2077,7 @@ More than one argument is specified for a field set operation.</exception>
       </Docs>
     </Member>
     <Member MemberName="Value">
-      <MemberSignature Language="C#" Value="public virtual string? Value { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual string? Value { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string Value" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.AccessibleObject.Value" />
       <MemberSignature Language="VB.NET" Value="Public Overridable Property Value As String" />
@@ -2030,9 +2091,11 @@ More than one argument is specified for a field set operation.</exception>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.String?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the value of an accessible object.</summary>

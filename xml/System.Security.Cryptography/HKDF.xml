@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -34,25 +35,25 @@ In situations where the input key material is already a uniformly random bit str
   </Docs>
   <Members>
     <Member MemberName="DeriveKey">
-      <MemberSignature Language="C#" Value="public static byte[] DeriveKey (System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, byte[] ikm, int outputLength, byte[]? salt = default, byte[]? info = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] DeriveKey(valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, unsigned int8[] ikm, int32 outputLength, unsigned int8[] salt, unsigned int8[] info) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.HKDF.DeriveKey(System.Security.Cryptography.HashAlgorithmName,System.Byte[],System.Int32,System.Byte[],System.Byte[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function DeriveKey (hashAlgorithmName As HashAlgorithmName, ikm As Byte(), outputLength As Integer, Optional salt As Byte() = Nothing, Optional info As Byte() = Nothing) As Byte()" />
-      <MemberSignature Language="F#" Value="static member DeriveKey : System.Security.Cryptography.HashAlgorithmName * byte[] * int * byte[] * byte[] -&gt; byte[]" Usage="System.Security.Cryptography.HKDF.DeriveKey (hashAlgorithmName, ikm, outputLength, salt, info)" />
+      <MemberSignature Language="C#" Value="public static byte[] DeriveKey (System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, byte[] ikm, int outputLength, byte[]? salt = default, byte[]? info = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] DeriveKey(valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, unsigned int8[] ikm, int32 outputLength, unsigned int8[] salt, unsigned int8[] info) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.HKDF.DeriveKey(System.Security.Cryptography.HashAlgorithmName,System.Byte[],System.Int32,System.Byte[],System.Byte[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DeriveKey (hashAlgorithmName As HashAlgorithmName, ikm As Byte(), outputLength As Integer, Optional salt As Byte() = Nothing, Optional info As Byte() = Nothing) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member DeriveKey : System.Security.Cryptography.HashAlgorithmName * byte[] * int * byte[] * byte[] -&gt; byte[]" Usage="System.Security.Cryptography.HKDF.DeriveKey (hashAlgorithmName, ikm, outputLength, salt, info)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Byte[]</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="hashAlgorithmName" Type="System.Security.Cryptography.HashAlgorithmName" />
-        <Parameter Name="ikm" Type="System.Byte[]" />
-        <Parameter Name="outputLength" Type="System.Int32" />
-        <Parameter Name="salt" Type="System.Byte[]" />
-        <Parameter Name="info" Type="System.Byte[]" />
+        <Parameter Name="hashAlgorithmName" Type="System.Security.Cryptography.HashAlgorithmName" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="ikm" Type="System.Byte[]" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="outputLength" Type="System.Int32" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="salt" Type="System.Byte[]?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="info" Type="System.Byte[]?" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="hashAlgorithmName">The hash algorithm used for HMAC operations.</param>
@@ -76,6 +77,7 @@ In situations where the input key material is already a uniformly random bit str
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -98,24 +100,24 @@ In situations where the input key material is already a uniformly random bit str
       </Docs>
     </Member>
     <Member MemberName="Expand">
-      <MemberSignature Language="C#" Value="public static byte[] Expand (System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, byte[] prk, int outputLength, byte[]? info = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] Expand(valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, unsigned int8[] prk, int32 outputLength, unsigned int8[] info) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.HKDF.Expand(System.Security.Cryptography.HashAlgorithmName,System.Byte[],System.Int32,System.Byte[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Expand (hashAlgorithmName As HashAlgorithmName, prk As Byte(), outputLength As Integer, Optional info As Byte() = Nothing) As Byte()" />
-      <MemberSignature Language="F#" Value="static member Expand : System.Security.Cryptography.HashAlgorithmName * byte[] * int * byte[] -&gt; byte[]" Usage="System.Security.Cryptography.HKDF.Expand (hashAlgorithmName, prk, outputLength, info)" />
+      <MemberSignature Language="C#" Value="public static byte[] Expand (System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, byte[] prk, int outputLength, byte[]? info = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] Expand(valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, unsigned int8[] prk, int32 outputLength, unsigned int8[] info) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.HKDF.Expand(System.Security.Cryptography.HashAlgorithmName,System.Byte[],System.Int32,System.Byte[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Expand (hashAlgorithmName As HashAlgorithmName, prk As Byte(), outputLength As Integer, Optional info As Byte() = Nothing) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Expand : System.Security.Cryptography.HashAlgorithmName * byte[] * int * byte[] -&gt; byte[]" Usage="System.Security.Cryptography.HKDF.Expand (hashAlgorithmName, prk, outputLength, info)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Byte[]</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="hashAlgorithmName" Type="System.Security.Cryptography.HashAlgorithmName" />
-        <Parameter Name="prk" Type="System.Byte[]" />
-        <Parameter Name="outputLength" Type="System.Int32" />
-        <Parameter Name="info" Type="System.Byte[]" />
+        <Parameter Name="hashAlgorithmName" Type="System.Security.Cryptography.HashAlgorithmName" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="prk" Type="System.Byte[]" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="outputLength" Type="System.Int32" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="info" Type="System.Byte[]?" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="hashAlgorithmName">The hash algorithm used for HMAC operations.</param>
@@ -138,6 +140,7 @@ In situations where the input key material is already a uniformly random bit str
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -158,23 +161,23 @@ In situations where the input key material is already a uniformly random bit str
       </Docs>
     </Member>
     <Member MemberName="Extract">
-      <MemberSignature Language="C#" Value="public static byte[] Extract (System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, byte[] ikm, byte[]? salt = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] Extract(valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, unsigned int8[] ikm, unsigned int8[] salt) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.HKDF.Extract(System.Security.Cryptography.HashAlgorithmName,System.Byte[],System.Byte[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Extract (hashAlgorithmName As HashAlgorithmName, ikm As Byte(), Optional salt As Byte() = Nothing) As Byte()" />
-      <MemberSignature Language="F#" Value="static member Extract : System.Security.Cryptography.HashAlgorithmName * byte[] * byte[] -&gt; byte[]" Usage="System.Security.Cryptography.HKDF.Extract (hashAlgorithmName, ikm, salt)" />
+      <MemberSignature Language="C#" Value="public static byte[] Extract (System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, byte[] ikm, byte[]? salt = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] Extract(valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithmName, unsigned int8[] ikm, unsigned int8[] salt) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.HKDF.Extract(System.Security.Cryptography.HashAlgorithmName,System.Byte[],System.Byte[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Extract (hashAlgorithmName As HashAlgorithmName, ikm As Byte(), Optional salt As Byte() = Nothing) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Extract : System.Security.Cryptography.HashAlgorithmName * byte[] * byte[] -&gt; byte[]" Usage="System.Security.Cryptography.HKDF.Extract (hashAlgorithmName, ikm, salt)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Byte[]</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="hashAlgorithmName" Type="System.Security.Cryptography.HashAlgorithmName" />
-        <Parameter Name="ikm" Type="System.Byte[]" />
-        <Parameter Name="salt" Type="System.Byte[]" />
+        <Parameter Name="hashAlgorithmName" Type="System.Security.Cryptography.HashAlgorithmName" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="ikm" Type="System.Byte[]" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="salt" Type="System.Byte[]?" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="hashAlgorithmName">The hash algorithm used for HMAC operations.</param>
@@ -197,6 +200,7 @@ In situations where the input key material is already a uniformly random bit str
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Algorithms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>

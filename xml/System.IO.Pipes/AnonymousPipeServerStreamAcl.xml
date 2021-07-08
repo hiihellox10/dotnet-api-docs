@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.IO.Pipes.AccessControl</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -19,25 +20,25 @@
   </Docs>
   <Members>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.IO.Pipes.AnonymousPipeServerStream Create (System.IO.Pipes.PipeDirection direction, System.IO.HandleInheritability inheritability, int bufferSize, System.IO.Pipes.PipeSecurity? pipeSecurity);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.Pipes.AnonymousPipeServerStream Create(valuetype System.IO.Pipes.PipeDirection direction, valuetype System.IO.HandleInheritability inheritability, int32 bufferSize, class System.IO.Pipes.PipeSecurity pipeSecurity) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.Pipes.AnonymousPipeServerStreamAcl.Create(System.IO.Pipes.PipeDirection,System.IO.HandleInheritability,System.Int32,System.IO.Pipes.PipeSecurity)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (direction As PipeDirection, inheritability As HandleInheritability, bufferSize As Integer, pipeSecurity As PipeSecurity) As AnonymousPipeServerStream" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::Pipes::AnonymousPipeServerStream ^ Create(System::IO::Pipes::PipeDirection direction, System::IO::HandleInheritability inheritability, int bufferSize, System::IO::Pipes::PipeSecurity ^ pipeSecurity);" />
-      <MemberSignature Language="F#" Value="static member Create : System.IO.Pipes.PipeDirection * System.IO.HandleInheritability * int * System.IO.Pipes.PipeSecurity -&gt; System.IO.Pipes.AnonymousPipeServerStream" Usage="System.IO.Pipes.AnonymousPipeServerStreamAcl.Create (direction, inheritability, bufferSize, pipeSecurity)" />
+      <MemberSignature Language="C#" Value="public static System.IO.Pipes.AnonymousPipeServerStream Create (System.IO.Pipes.PipeDirection direction, System.IO.HandleInheritability inheritability, int bufferSize, System.IO.Pipes.PipeSecurity? pipeSecurity);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.Pipes.AnonymousPipeServerStream Create(valuetype System.IO.Pipes.PipeDirection direction, valuetype System.IO.HandleInheritability inheritability, int32 bufferSize, class System.IO.Pipes.PipeSecurity pipeSecurity) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.Pipes.AnonymousPipeServerStreamAcl.Create(System.IO.Pipes.PipeDirection,System.IO.HandleInheritability,System.Int32,System.IO.Pipes.PipeSecurity)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (direction As PipeDirection, inheritability As HandleInheritability, bufferSize As Integer, pipeSecurity As PipeSecurity) As AnonymousPipeServerStream" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::Pipes::AnonymousPipeServerStream ^ Create(System::IO::Pipes::PipeDirection direction, System::IO::HandleInheritability inheritability, int bufferSize, System::IO::Pipes::PipeSecurity ^ pipeSecurity);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Create : System.IO.Pipes.PipeDirection * System.IO.HandleInheritability * int * System.IO.Pipes.PipeSecurity -&gt; System.IO.Pipes.AnonymousPipeServerStream" Usage="System.IO.Pipes.AnonymousPipeServerStreamAcl.Create (direction, inheritability, bufferSize, pipeSecurity)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.Pipes.AccessControl</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.IO.Pipes.AnonymousPipeServerStream</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.IO.Pipes.AnonymousPipeServerStream</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="direction" Type="System.IO.Pipes.PipeDirection" />
-        <Parameter Name="inheritability" Type="System.IO.HandleInheritability" />
-        <Parameter Name="bufferSize" Type="System.Int32" />
-        <Parameter Name="pipeSecurity" Type="System.IO.Pipes.PipeSecurity" />
+        <Parameter Name="direction" Type="System.IO.Pipes.PipeDirection" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="inheritability" Type="System.IO.HandleInheritability" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="bufferSize" Type="System.Int32" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="pipeSecurity" Type="System.IO.Pipes.PipeSecurity?" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="direction">One of the enumeration values that determines the direction of the pipe. Anonymous pipes are unidirectional, so direction cannot be set to <see cref="F:System.IO.Pipes.PipeDirection.InOut" />.</param>

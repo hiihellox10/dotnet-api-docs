@@ -10,6 +10,7 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -40,6 +41,7 @@ For more information, see [How to serialize and deserialize JSON](/dotnet/standa
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -58,9 +60,10 @@ For more information, see [How to serialize and deserialize JSON](/dotnet/standa
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="defaults" Type="System.Text.Json.JsonSerializerDefaults" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="defaults" Type="System.Text.Json.JsonSerializerDefaults" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="defaults">The <see cref="T:System.Text.Json.JsonSerializerDefaults" /> to reason about.</param>
@@ -79,9 +82,10 @@ For more information, see [How to serialize and deserialize JSON](/dotnet/standa
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="options">The options instance to copy options from.</param>
@@ -104,6 +108,7 @@ For more information, see [How to serialize and deserialize JSON](/dotnet/standa
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -139,6 +144,7 @@ For more information, see [How to allow some kinds of invalid JSON with System.T
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.IList&lt;System.Text.Json.Serialization.JsonConverter&gt;</ReturnType>
@@ -172,6 +178,7 @@ For more information, see [How to write custom converters](/dotnet/standard/seri
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -208,6 +215,7 @@ We recommend that you leave this value unchanged unless changing it makes an obs
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.Serialization.JsonIgnoreCondition</ReturnType>
@@ -226,7 +234,7 @@ We recommend that you leave this value unchanged unless changing it makes an obs
       </Docs>
     </Member>
     <Member MemberName="DictionaryKeyPolicy">
-      <MemberSignature Language="C#" Value="public System.Text.Json.JsonNamingPolicy? DictionaryKeyPolicy { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Text.Json.JsonNamingPolicy? DictionaryKeyPolicy { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Json.JsonNamingPolicy DictionaryKeyPolicy" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.JsonSerializerOptions.DictionaryKeyPolicy" />
       <MemberSignature Language="VB.NET" Value="Public Property DictionaryKeyPolicy As JsonNamingPolicy" />
@@ -239,9 +247,11 @@ We recommend that you leave this value unchanged unless changing it makes an obs
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Text.Json.JsonNamingPolicy</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Text.Json.JsonNamingPolicy?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1">System.Text.Json.JsonNamingPolicy</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the policy used to convert a <see cref="T:System.Collections.IDictionary" /> key's name to another format, such as camel-casing.</summary>
@@ -264,7 +274,7 @@ For more information, see [How to customize property names and values with Syste
       </Docs>
     </Member>
     <Member MemberName="Encoder">
-      <MemberSignature Language="C#" Value="public System.Text.Encodings.Web.JavaScriptEncoder? Encoder { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Text.Encodings.Web.JavaScriptEncoder? Encoder { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Encodings.Web.JavaScriptEncoder Encoder" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.JsonSerializerOptions.Encoder" />
       <MemberSignature Language="VB.NET" Value="Public Property Encoder As JavaScriptEncoder" />
@@ -277,9 +287,11 @@ For more information, see [How to customize property names and values with Syste
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Text.Encodings.Web.JavaScriptEncoder</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Text.Encodings.Web.JavaScriptEncoder?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1">System.Text.Encodings.Web.JavaScriptEncoder</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the encoder to use when escaping strings, or <see langword="null" /> to use the default encoder.</summary>
@@ -308,9 +320,11 @@ For more information, see [How to customize character encoding with System.Text.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Text.Json.Serialization.JsonConverter</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Text.Json.Serialization.JsonConverter?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1">System.Text.Json.Serialization.JsonConverter</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="typeToConvert" Type="System.Type" />
@@ -345,11 +359,16 @@ For more information, see [How to write custom converters for JSON serialization
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
+        </Attribute>
+        <Attribute FrameworkAlternate="net-6.0">
+          <AttributeName Language="C#">[System.Obsolete("To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull.", false)]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Obsolete("To ignore null values when serializing, set DefaultIgnoreCondition to JsonIgnoreCondition.WhenWritingNull.", false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -386,6 +405,7 @@ For more information, see [How to ignore properties](/dotnet/standard/serializat
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -419,6 +439,7 @@ Read-only fields are not deserialized regardless of this setting.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -454,6 +475,7 @@ For more information, see [How to ignore properties with System.Text.Json](/dotn
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -479,6 +501,7 @@ For more information, see [How to ignore properties with System.Text.Json](/dotn
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -510,6 +533,7 @@ Going past this depth throws a <xref:System.Text.Json.JsonException>.
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.Serialization.JsonNumberHandling</ReturnType>
@@ -534,6 +558,7 @@ Going past this depth throws a <xref:System.Text.Json.JsonException>.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -556,7 +581,7 @@ For more information, see [How to enable case-insensitive property name matching
       </Docs>
     </Member>
     <Member MemberName="PropertyNamingPolicy">
-      <MemberSignature Language="C#" Value="public System.Text.Json.JsonNamingPolicy? PropertyNamingPolicy { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Text.Json.JsonNamingPolicy? PropertyNamingPolicy { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Text.Json.JsonNamingPolicy PropertyNamingPolicy" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.JsonSerializerOptions.PropertyNamingPolicy" />
       <MemberSignature Language="VB.NET" Value="Public Property PropertyNamingPolicy As JsonNamingPolicy" />
@@ -569,9 +594,11 @@ For more information, see [How to enable case-insensitive property name matching
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Text.Json.JsonNamingPolicy</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Text.Json.JsonNamingPolicy?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1">System.Text.Json.JsonNamingPolicy</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a value that specifies the policy used to convert a property's name on an object to another format, such as camel-casing, or <see langword="null" /> to leave property names unchanged.</summary>
@@ -606,6 +633,7 @@ For more information, see [How to customize property names and values with Syste
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.JsonCommentHandling</ReturnType>
@@ -639,9 +667,10 @@ For more information, see [How to allow some kinds of invalid JSON with System.T
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Text.Json.Serialization.ReferenceHandler</ReturnType>
+        <ReturnType>System.Text.Json.Serialization.ReferenceHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Configures how object references are handled when reading and writing JSON.</summary>
@@ -682,6 +711,7 @@ Use <xref:System.Text.Json.Serialization.ReferenceHandler.Preserve> to enable un
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

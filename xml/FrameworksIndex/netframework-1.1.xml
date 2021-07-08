@@ -5009,7 +5009,6 @@
       <Member Id="M:System.Enum.ToString" />
       <Member Id="M:System.Enum.ToString(System.IFormatProvider)" />
       <Member Id="M:System.Enum.ToString(System.String)" />
-      <Member Id="M:System.Enum.ToString(System.String,System.IFormatProvider)" />
     </Type>
     <Type Name="System.Environment" Id="T:System.Environment">
       <Member Id="M:System.Environment.Exit(System.Int32)" />
@@ -5083,7 +5082,6 @@
     <Type Name="System.ExecutionEngineException" Id="T:System.ExecutionEngineException">
       <Member Id="M:System.ExecutionEngineException.#ctor" />
       <Member Id="M:System.ExecutionEngineException.#ctor(System.String)" />
-      <Member Id="M:System.ExecutionEngineException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.FieldAccessException" Id="T:System.FieldAccessException">
       <Member Id="M:System.FieldAccessException.#ctor" />
@@ -5188,7 +5186,6 @@
     <Type Name="System.IndexOutOfRangeException" Id="T:System.IndexOutOfRangeException">
       <Member Id="M:System.IndexOutOfRangeException.#ctor" />
       <Member Id="M:System.IndexOutOfRangeException.#ctor(System.String)" />
-      <Member Id="M:System.IndexOutOfRangeException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Int16" Id="T:System.Int16">
       <Member Id="F:System.Int16.MaxValue" />
@@ -5320,7 +5317,6 @@
     <Type Name="System.InvalidProgramException" Id="T:System.InvalidProgramException">
       <Member Id="M:System.InvalidProgramException.#ctor" />
       <Member Id="M:System.InvalidProgramException.#ctor(System.String)" />
-      <Member Id="M:System.InvalidProgramException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.IServiceProvider" Id="T:System.IServiceProvider">
       <Member Id="M:System.IServiceProvider.GetService(System.Type)" />
@@ -5472,7 +5468,6 @@
     <Type Name="System.MulticastNotSupportedException" Id="T:System.MulticastNotSupportedException">
       <Member Id="M:System.MulticastNotSupportedException.#ctor" />
       <Member Id="M:System.MulticastNotSupportedException.#ctor(System.String)" />
-      <Member Id="M:System.MulticastNotSupportedException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.NonSerializedAttribute" Id="T:System.NonSerializedAttribute">
       <Member Id="M:System.NonSerializedAttribute.#ctor" />
@@ -5676,7 +5671,6 @@
     <Type Name="System.StackOverflowException" Id="T:System.StackOverflowException">
       <Member Id="M:System.StackOverflowException.#ctor" />
       <Member Id="M:System.StackOverflowException.#ctor(System.String)" />
-      <Member Id="M:System.StackOverflowException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.STAThreadAttribute" Id="T:System.STAThreadAttribute">
       <Member Id="M:System.STAThreadAttribute.#ctor" />
@@ -7263,7 +7257,6 @@
       <Member Id="M:System.CodeDom.Compiler.IndentedTextWriter.WriteLine(System.Single)" />
       <Member Id="M:System.CodeDom.Compiler.IndentedTextWriter.WriteLine(System.String)" />
       <Member Id="M:System.CodeDom.Compiler.IndentedTextWriter.WriteLine(System.String,System.Object)" />
-      <Member Id="M:System.CodeDom.Compiler.IndentedTextWriter.WriteLine(System.String,System.Object,System.Object)" />
       <Member Id="M:System.CodeDom.Compiler.IndentedTextWriter.WriteLine(System.String,System.Object[])" />
       <Member Id="M:System.CodeDom.Compiler.IndentedTextWriter.WriteLine(System.UInt32)" />
       <Member Id="M:System.CodeDom.Compiler.IndentedTextWriter.WriteLineNoTabs(System.String)" />
@@ -7337,7 +7330,6 @@
       <Member Id="M:System.Collections.ArrayList.Reverse(System.Int32,System.Int32)" />
       <Member Id="M:System.Collections.ArrayList.SetRange(System.Int32,System.Collections.ICollection)" />
       <Member Id="M:System.Collections.ArrayList.Sort" />
-      <Member Id="M:System.Collections.ArrayList.Sort(System.Collections.IComparer)" />
       <Member Id="M:System.Collections.ArrayList.Sort(System.Int32,System.Int32,System.Collections.IComparer)" />
       <Member Id="M:System.Collections.ArrayList.Synchronized(System.Collections.ArrayList)" />
       <Member Id="M:System.Collections.ArrayList.Synchronized(System.Collections.IList)" />
@@ -7469,7 +7461,6 @@
       <Member Id="M:System.Collections.Hashtable.#ctor(System.Collections.IDictionary,System.Single,System.Collections.IHashCodeProvider,System.Collections.IComparer)" />
       <Member Id="M:System.Collections.Hashtable.#ctor(System.Collections.IHashCodeProvider,System.Collections.IComparer)" />
       <Member Id="M:System.Collections.Hashtable.#ctor(System.Int32)" />
-      <Member Id="M:System.Collections.Hashtable.#ctor(System.Int32,System.Collections.IHashCodeProvider,System.Collections.IComparer)" />
       <Member Id="M:System.Collections.Hashtable.#ctor(System.Int32,System.Single)" />
       <Member Id="M:System.Collections.Hashtable.#ctor(System.Int32,System.Single,System.Collections.IHashCodeProvider,System.Collections.IComparer)" />
       <Member Id="M:System.Collections.Hashtable.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
@@ -19240,7 +19231,6 @@
       <Member Id="M:System.IO.FileNotFoundException.#ctor" />
       <Member Id="M:System.IO.FileNotFoundException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
       <Member Id="M:System.IO.FileNotFoundException.#ctor(System.String)" />
-      <Member Id="M:System.IO.FileNotFoundException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.IO.FileNotFoundException.#ctor(System.String,System.String)" />
       <Member Id="M:System.IO.FileNotFoundException.#ctor(System.String,System.String,System.Exception)" />
       <Member Id="M:System.IO.FileNotFoundException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
@@ -19516,7 +19506,6 @@
       <Member Id="M:System.IO.StringWriter.#ctor" />
       <Member Id="M:System.IO.StringWriter.#ctor(System.IFormatProvider)" />
       <Member Id="M:System.IO.StringWriter.#ctor(System.Text.StringBuilder)" />
-      <Member Id="M:System.IO.StringWriter.#ctor(System.Text.StringBuilder,System.IFormatProvider)" />
       <Member Id="M:System.IO.StringWriter.Close" />
       <Member Id="M:System.IO.StringWriter.Dispose(System.Boolean)" />
       <Member Id="M:System.IO.StringWriter.GetStringBuilder" />
@@ -19544,7 +19533,6 @@
       <Member Id="F:System.IO.TextWriter.CoreNewLine" />
       <Member Id="F:System.IO.TextWriter.Null" />
       <Member Id="M:System.IO.TextWriter.#ctor" />
-      <Member Id="M:System.IO.TextWriter.#ctor(System.IFormatProvider)" />
       <Member Id="M:System.IO.TextWriter.Close" />
       <Member Id="M:System.IO.TextWriter.Dispose(System.Boolean)" />
       <Member Id="M:System.IO.TextWriter.Flush" />
@@ -19582,7 +19570,6 @@
       <Member Id="M:System.IO.TextWriter.WriteLine(System.String,System.Object)" />
       <Member Id="M:System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object)" />
       <Member Id="M:System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object,System.Object)" />
-      <Member Id="M:System.IO.TextWriter.WriteLine(System.String,System.Object[])" />
       <Member Id="M:System.IO.TextWriter.WriteLine(System.UInt32)" />
       <Member Id="M:System.IO.TextWriter.WriteLine(System.UInt64)" />
       <Member Id="P:System.IO.TextWriter.Encoding" />
@@ -27382,7 +27369,6 @@
       <Member Id="M:System.Security.Cryptography.CryptographicException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)" />
       <Member Id="M:System.Security.Cryptography.CryptographicException.#ctor(System.String)" />
       <Member Id="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.Exception)" />
-      <Member Id="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.String)" />
     </Type>
     <Type Name="System.Security.Cryptography.CryptographicUnexpectedOperationException" Id="T:System.Security.Cryptography.CryptographicUnexpectedOperationException">
       <Member Id="M:System.Security.Cryptography.CryptographicUnexpectedOperationException.#ctor" />
@@ -44752,7 +44738,6 @@
     <Type Name="System.Xml.Serialization.XmlElementAttribute" Id="T:System.Xml.Serialization.XmlElementAttribute">
       <Member Id="M:System.Xml.Serialization.XmlElementAttribute.#ctor" />
       <Member Id="M:System.Xml.Serialization.XmlElementAttribute.#ctor(System.String)" />
-      <Member Id="M:System.Xml.Serialization.XmlElementAttribute.#ctor(System.String,System.Type)" />
       <Member Id="M:System.Xml.Serialization.XmlElementAttribute.#ctor(System.Type)" />
       <Member Id="P:System.Xml.Serialization.XmlElementAttribute.DataType" />
       <Member Id="P:System.Xml.Serialization.XmlElementAttribute.ElementName" />

@@ -15,6 +15,7 @@
     <AssemblyVersion>1.2.4.0</AssemblyVersion>
     <AssemblyVersion>1.2.5.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -46,6 +47,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -69,12 +71,12 @@
       </Docs>
     </Member>
     <Member MemberName="BinarySearch&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; array, T value, System.Collections.Generic.IComparer&lt;T&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 BinarySearch&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; array, !!T value, class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableArray.BinarySearch``1(System.Collections.Immutable.ImmutableArray{``0},``0,System.Collections.Generic.IComparer{``0})" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BinarySearch(Of T) (array As ImmutableArray(Of T), value As T, comparer As IComparer(Of T)) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static int BinarySearch(System::Collections::Immutable::ImmutableArray&lt;T&gt; array, T value, System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" />
-      <MemberSignature Language="F#" Value="static member BinarySearch : System.Collections.Immutable.ImmutableArray&lt;'T&gt; * 'T * System.Collections.Generic.IComparer&lt;'T&gt; -&gt; int" Usage="System.Collections.Immutable.ImmutableArray.BinarySearch (array, value, comparer)" />
+      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; array, T value, System.Collections.Generic.IComparer&lt;T&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 BinarySearch&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; array, !!T value, class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableArray.BinarySearch``1(System.Collections.Immutable.ImmutableArray{``0},``0,System.Collections.Generic.IComparer{``0})" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BinarySearch(Of T) (array As ImmutableArray(Of T), value As T, comparer As IComparer(Of T)) As Integer" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static int BinarySearch(System::Collections::Immutable::ImmutableArray&lt;T&gt; array, T value, System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="static member BinarySearch : System.Collections.Immutable.ImmutableArray&lt;'T&gt; * 'T * System.Collections.Generic.IComparer&lt;'T&gt; -&gt; int" Usage="System.Collections.Immutable.ImmutableArray.BinarySearch (array, value, comparer)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; array, T value, System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -89,15 +91,15 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="array" Type="System.Collections.Immutable.ImmutableArray&lt;T&gt;" RefType="this" />
-        <Parameter Name="value" Type="T" />
-        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;" />
+        <Parameter Name="array" Type="System.Collections.Immutable.ImmutableArray&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="value" Type="T" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;?" Index="2" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of element stored in the array.</typeparam>
@@ -129,6 +131,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -164,12 +167,12 @@
       </Docs>
     </Member>
     <Member MemberName="BinarySearch&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; array, int index, int length, T value, System.Collections.Generic.IComparer&lt;T&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 BinarySearch&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; array, int32 index, int32 length, !!T value, class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableArray.BinarySearch``1(System.Collections.Immutable.ImmutableArray{``0},System.Int32,System.Int32,``0,System.Collections.Generic.IComparer{``0})" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BinarySearch(Of T) (array As ImmutableArray(Of T), index As Integer, length As Integer, value As T, comparer As IComparer(Of T)) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static int BinarySearch(System::Collections::Immutable::ImmutableArray&lt;T&gt; array, int index, int length, T value, System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" />
-      <MemberSignature Language="F#" Value="static member BinarySearch : System.Collections.Immutable.ImmutableArray&lt;'T&gt; * int * int * 'T * System.Collections.Generic.IComparer&lt;'T&gt; -&gt; int" Usage="System.Collections.Immutable.ImmutableArray.BinarySearch (array, index, length, value, comparer)" />
+      <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; array, int index, int length, T value, System.Collections.Generic.IComparer&lt;T&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 BinarySearch&lt;T&gt;(valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; array, int32 index, int32 length, !!T value, class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableArray.BinarySearch``1(System.Collections.Immutable.ImmutableArray{``0},System.Int32,System.Int32,``0,System.Collections.Generic.IComparer{``0})" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function BinarySearch(Of T) (array As ImmutableArray(Of T), index As Integer, length As Integer, value As T, comparer As IComparer(Of T)) As Integer" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static int BinarySearch(System::Collections::Immutable::ImmutableArray&lt;T&gt; array, int index, int length, T value, System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="static member BinarySearch : System.Collections.Immutable.ImmutableArray&lt;'T&gt; * int * int * 'T * System.Collections.Generic.IComparer&lt;'T&gt; -&gt; int" Usage="System.Collections.Immutable.ImmutableArray.BinarySearch (array, index, length, value, comparer)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public static int BinarySearch&lt;T&gt; (this System.Collections.Immutable.ImmutableArray&lt;T&gt; array, int index, int length, T value, System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -184,17 +187,17 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Int32</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="array" Type="System.Collections.Immutable.ImmutableArray&lt;T&gt;" RefType="this" />
-        <Parameter Name="index" Type="System.Int32" />
-        <Parameter Name="length" Type="System.Int32" />
-        <Parameter Name="value" Type="T" />
-        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;" />
+        <Parameter Name="array" Type="System.Collections.Immutable.ImmutableArray&lt;T&gt;" RefType="this" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="index" Type="System.Int32" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="length" Type="System.Int32" Index="2" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="value" Type="T" Index="3" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;?" Index="4" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of element stored in the array.</typeparam>
@@ -240,6 +243,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;</ReturnType>
@@ -273,6 +277,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;</ReturnType>
@@ -292,12 +297,12 @@
       </Docs>
     </Member>
     <Member MemberName="Create&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableArray&lt;T&gt; Create&lt;T&gt; (params T[] items);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; Create&lt;T&gt;(!!T[] items) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableArray.Create``1(``0[])" />
-      <MemberSignature Language="VB.NET" Value="Public Function Create(Of T) (ParamArray items As T()) As ImmutableArray(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableArray&lt;T&gt; Create(... cli::array &lt;T&gt; ^ items);" />
-      <MemberSignature Language="F#" Value="static member Create : 'T[] -&gt; System.Collections.Immutable.ImmutableArray&lt;'T&gt;" Usage="System.Collections.Immutable.ImmutableArray.Create items" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableArray&lt;T&gt; Create&lt;T&gt; (params T[] items);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Collections.Immutable.ImmutableArray`1&lt;!!T&gt; Create&lt;T&gt;(!!T[] items) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableArray.Create``1(``0[])" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create(Of T) (ParamArray items As T()) As ImmutableArray(Of T)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableArray&lt;T&gt; Create(... cli::array &lt;T&gt; ^ items);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="static member Create : 'T[] -&gt; System.Collections.Immutable.ImmutableArray&lt;'T&gt;" Usage="System.Collections.Immutable.ImmutableArray.Create items" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableArray&lt;T&gt; Create&lt;T&gt; (params T[]? items);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -312,13 +317,13 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Collections.Immutable.ImmutableArray&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="items" Type="T[]">
+        <Parameter Name="items" Type="T[]?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0">
           <Attributes>
             <Attribute FrameworkAlternate="dotnet-uwp-10.0">
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
@@ -353,6 +358,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;</ReturnType>
@@ -391,6 +397,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;</ReturnType>
@@ -437,6 +444,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;</ReturnType>
@@ -477,6 +485,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;</ReturnType>
@@ -523,6 +532,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;</ReturnType>
@@ -565,6 +575,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;+Builder</ReturnType>
@@ -598,6 +609,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;+Builder</ReturnType>
@@ -634,6 +646,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;T&gt;</ReturnType>
@@ -670,6 +683,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;TResult&gt;</ReturnType>
@@ -717,6 +731,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;TResult&gt;</ReturnType>
@@ -768,6 +783,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;TResult&gt;</ReturnType>
@@ -819,6 +835,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;TResult&gt;</ReturnType>
@@ -874,6 +891,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;TSource&gt;</ReturnType>
@@ -905,6 +923,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableArray&lt;TSource&gt;</ReturnType>
@@ -913,7 +932,7 @@ This overload allows helper methods or custom builder classes to efficiently avo
         <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="builder" Type="System.Collections.Immutable.ImmutableArray&lt;TSource&gt;+Builder" RefType="this" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0" />
+        <Parameter Name="builder" Type="System.Collections.Immutable.ImmutableArray&lt;TSource&gt;+Builder" RefType="this" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="TSource">The type of elements contained in the immutable array.</typeparam>

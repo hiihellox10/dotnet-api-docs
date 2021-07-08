@@ -13,6 +13,7 @@
     <AssemblyVersion>4.1.4.0</AssemblyVersion>
     <AssemblyVersion>4.1.5.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System.Runtime.Serialization</AssemblyName>
@@ -28,6 +29,7 @@
   <TypeForwardingChain>
     <TypeForwarding From="System.Runtime.Serialization" FromVersion="4.0.0.0" To="System.Runtime.Serialization.Xml" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Xml" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Xml" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Interfaces />
   <Docs>
@@ -60,12 +62,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="TryLookup">
-      <MemberSignature Language="C#" Value="public bool TryLookup (int key, out System.Xml.XmlDictionaryString result);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryLookup(int32 key, [out] class System.Xml.XmlDictionaryString&amp; result) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.IXmlDictionary.TryLookup(System.Int32,System.Xml.XmlDictionaryString@)" />
-      <MemberSignature Language="VB.NET" Value="Public Function TryLookup (key As Integer, ByRef result As XmlDictionaryString) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryLookup(int key, [Runtime::InteropServices::Out] System::Xml::XmlDictionaryString ^ % result);" />
-      <MemberSignature Language="F#" Value="abstract member TryLookup : int * XmlDictionaryString -&gt; bool" Usage="iXmlDictionary.TryLookup (key, result)" />
+      <MemberSignature Language="C#" Value="public bool TryLookup (int key, out System.Xml.XmlDictionaryString result);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryLookup(int32 key, [out] class System.Xml.XmlDictionaryString&amp; result) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.IXmlDictionary.TryLookup(System.Int32,System.Xml.XmlDictionaryString@)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryLookup (key As Integer, ByRef result As XmlDictionaryString) As Boolean" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryLookup(int key, [Runtime::InteropServices::Out] System::Xml::XmlDictionaryString ^ % result);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member TryLookup : int * XmlDictionaryString -&gt; bool" Usage="iXmlDictionary.TryLookup (key, result)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public bool TryLookup (int key, out System.Xml.XmlDictionaryString? result);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -89,11 +91,11 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="key" Type="System.Int32" />
-        <Parameter Name="result" Type="System.Xml.XmlDictionaryString" RefType="out" />
+        <Parameter Name="key" Type="System.Int32" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="result" Type="System.Xml.XmlDictionaryString?" RefType="out" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="key">Key to look up.</param>
@@ -105,12 +107,12 @@
       </Docs>
     </Member>
     <Member MemberName="TryLookup">
-      <MemberSignature Language="C#" Value="public bool TryLookup (string value, out System.Xml.XmlDictionaryString result);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryLookup(string value, [out] class System.Xml.XmlDictionaryString&amp; result) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.IXmlDictionary.TryLookup(System.String,System.Xml.XmlDictionaryString@)" />
-      <MemberSignature Language="VB.NET" Value="Public Function TryLookup (value As String, ByRef result As XmlDictionaryString) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryLookup(System::String ^ value, [Runtime::InteropServices::Out] System::Xml::XmlDictionaryString ^ % result);" />
-      <MemberSignature Language="F#" Value="abstract member TryLookup : string * XmlDictionaryString -&gt; bool" Usage="iXmlDictionary.TryLookup (value, result)" />
+      <MemberSignature Language="C#" Value="public bool TryLookup (string value, out System.Xml.XmlDictionaryString result);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryLookup(string value, [out] class System.Xml.XmlDictionaryString&amp; result) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.IXmlDictionary.TryLookup(System.String,System.Xml.XmlDictionaryString@)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryLookup (value As String, ByRef result As XmlDictionaryString) As Boolean" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryLookup(System::String ^ value, [Runtime::InteropServices::Out] System::Xml::XmlDictionaryString ^ % result);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member TryLookup : string * XmlDictionaryString -&gt; bool" Usage="iXmlDictionary.TryLookup (value, result)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public bool TryLookup (string value, out System.Xml.XmlDictionaryString? result);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -134,11 +136,11 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.String" />
-        <Parameter Name="result" Type="System.Xml.XmlDictionaryString" RefType="out" />
+        <Parameter Name="value" Type="System.String" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="result" Type="System.Xml.XmlDictionaryString?" RefType="out" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="value">String value being checked for.</param>
@@ -150,12 +152,12 @@
       </Docs>
     </Member>
     <Member MemberName="TryLookup">
-      <MemberSignature Language="C#" Value="public bool TryLookup (System.Xml.XmlDictionaryString value, out System.Xml.XmlDictionaryString result);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryLookup(class System.Xml.XmlDictionaryString value, [out] class System.Xml.XmlDictionaryString&amp; result) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.IXmlDictionary.TryLookup(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString@)" />
-      <MemberSignature Language="VB.NET" Value="Public Function TryLookup (value As XmlDictionaryString, ByRef result As XmlDictionaryString) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryLookup(System::Xml::XmlDictionaryString ^ value, [Runtime::InteropServices::Out] System::Xml::XmlDictionaryString ^ % result);" />
-      <MemberSignature Language="F#" Value="abstract member TryLookup : System.Xml.XmlDictionaryString * XmlDictionaryString -&gt; bool" Usage="iXmlDictionary.TryLookup (value, result)" />
+      <MemberSignature Language="C#" Value="public bool TryLookup (System.Xml.XmlDictionaryString value, out System.Xml.XmlDictionaryString result);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool TryLookup(class System.Xml.XmlDictionaryString value, [out] class System.Xml.XmlDictionaryString&amp; result) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.IXmlDictionary.TryLookup(System.Xml.XmlDictionaryString,System.Xml.XmlDictionaryString@)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function TryLookup (value As XmlDictionaryString, ByRef result As XmlDictionaryString) As Boolean" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; bool TryLookup(System::Xml::XmlDictionaryString ^ value, [Runtime::InteropServices::Out] System::Xml::XmlDictionaryString ^ % result);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member TryLookup : System.Xml.XmlDictionaryString * XmlDictionaryString -&gt; bool" Usage="iXmlDictionary.TryLookup (value, result)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public bool TryLookup (System.Xml.XmlDictionaryString value, out System.Xml.XmlDictionaryString? result);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -179,11 +181,11 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Xml.XmlDictionaryString" />
-        <Parameter Name="result" Type="System.Xml.XmlDictionaryString" RefType="out" />
+        <Parameter Name="value" Type="System.Xml.XmlDictionaryString" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="result" Type="System.Xml.XmlDictionaryString?" RefType="out" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="value">The <see cref="T:System.Xml.XmlDictionaryString" /> being checked for.</param>

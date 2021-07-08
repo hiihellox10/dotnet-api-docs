@@ -12,6 +12,7 @@
     <AssemblyVersion>4.1.0.0</AssemblyVersion>
     <AssemblyVersion>4.1.1.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>mscorlib</AssemblyName>
@@ -20,7 +21,7 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Security.AccessControl" ToVersion="0.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Security.AccessControl" ToVersion="0.0.0.0" FrameworkAlternate="net-5.0;net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Security.AccessControl.KnownAce</BaseTypeName>
@@ -46,6 +47,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -69,7 +71,7 @@
       <MemberSignature Language="VB.NET" Value="Public Function GetOpaque () As Byte()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; cli::array &lt;System::Byte&gt; ^ GetOpaque();" />
       <MemberSignature Language="F#" Value="member this.GetOpaque : unit -&gt; byte[]" Usage="qualifiedAce.GetOpaque " />
-      <MemberSignature Language="C#" Value="public byte[]? GetOpaque ();" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public byte[]? GetOpaque ();" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.AccessControl</AssemblyName>
@@ -78,6 +80,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -86,7 +89,8 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.Byte[]?</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -117,6 +121,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -149,6 +154,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -166,13 +172,13 @@
       </Docs>
     </Member>
     <Member MemberName="SetOpaque">
-      <MemberSignature Language="C#" Value="public void SetOpaque (byte[] opaque);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-1.0;netcore-1.1;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetOpaque(unsigned int8[] opaque) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.AccessControl.QualifiedAce.SetOpaque(System.Byte[])" />
-      <MemberSignature Language="VB.NET" Value="Public Sub SetOpaque (opaque As Byte())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetOpaque(cli::array &lt;System::Byte&gt; ^ opaque);" />
-      <MemberSignature Language="F#" Value="member this.SetOpaque : byte[] -&gt; unit" Usage="qualifiedAce.SetOpaque opaque" />
-      <MemberSignature Language="C#" Value="public void SetOpaque (byte[]? opaque);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public void SetOpaque (byte[] opaque);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SetOpaque(unsigned int8[] opaque) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.AccessControl.QualifiedAce.SetOpaque(System.Byte[])" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetOpaque (opaque As Byte())" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetOpaque(cli::array &lt;System::Byte&gt; ^ opaque);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="member this.SetOpaque : byte[] -&gt; unit" Usage="qualifiedAce.SetOpaque opaque" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public void SetOpaque (byte[]? opaque);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.AccessControl</AssemblyName>
@@ -189,10 +195,10 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="opaque" Type="System.Byte[]" />
+        <Parameter Name="opaque" Type="System.Byte[]?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="opaque">An array of byte values that represents the opaque callback data for this <see cref="T:System.Security.AccessControl.QualifiedAce" /> object.</param>

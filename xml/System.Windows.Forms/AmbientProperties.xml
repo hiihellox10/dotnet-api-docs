@@ -11,6 +11,7 @@
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -42,6 +43,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -69,6 +71,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -99,7 +102,7 @@
       </Docs>
     </Member>
     <Member MemberName="Cursor">
-      <MemberSignature Language="C#" Value="public System.Windows.Forms.Cursor? Cursor { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Windows.Forms.Cursor? Cursor { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Forms.Cursor Cursor" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.AmbientProperties.Cursor" />
       <MemberSignature Language="VB.NET" Value="Public Property Cursor As Cursor" />
@@ -113,6 +116,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -125,7 +129,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.Cursor</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Windows.Forms.Cursor?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Windows.Forms.Cursor</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the ambient cursor of an object.</summary>
@@ -143,7 +148,7 @@
       </Docs>
     </Member>
     <Member MemberName="Font">
-      <MemberSignature Language="C#" Value="public System.Drawing.Font? Font { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Drawing.Font? Font { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Drawing.Font Font" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.AmbientProperties.Font" />
       <MemberSignature Language="VB.NET" Value="Public Property Font As Font" />
@@ -157,6 +162,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -169,7 +175,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Drawing.Font</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Drawing.Font?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Drawing.Font</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the ambient font of an object.</summary>
@@ -200,6 +207,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">

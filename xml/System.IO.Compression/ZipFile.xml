@@ -13,6 +13,7 @@
     <AssemblyVersion>4.0.4.0</AssemblyVersion>
     <AssemblyVersion>4.0.5.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System.IO.Compression.FileSystem</AssemblyName>
@@ -26,6 +27,7 @@
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.IO.Compression.ZipFile" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.IO.Compression.ZipFile" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -105,6 +107,7 @@
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.IO.Compression.FileSystem</AssemblyName>
@@ -194,6 +197,7 @@ An I/O error occurred while opening a file to be archived.</exception>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.IO.Compression.FileSystem</AssemblyName>
@@ -273,12 +277,12 @@ An I/O error occurred while opening a file to be archived.</exception>
       </Docs>
     </Member>
     <Member MemberName="CreateFromDirectory">
-      <MemberSignature Language="C#" Value="public static void CreateFromDirectory (string sourceDirectoryName, string destinationArchiveFileName, System.IO.Compression.CompressionLevel compressionLevel, bool includeBaseDirectory, System.Text.Encoding entryNameEncoding);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CreateFromDirectory(string sourceDirectoryName, string destinationArchiveFileName, valuetype System.IO.Compression.CompressionLevel compressionLevel, bool includeBaseDirectory, class System.Text.Encoding entryNameEncoding) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.Compression.ZipFile.CreateFromDirectory(System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean,System.Text.Encoding)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub CreateFromDirectory (sourceDirectoryName As String, destinationArchiveFileName As String, compressionLevel As CompressionLevel, includeBaseDirectory As Boolean, entryNameEncoding As Encoding)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void CreateFromDirectory(System::String ^ sourceDirectoryName, System::String ^ destinationArchiveFileName, System::IO::Compression::CompressionLevel compressionLevel, bool includeBaseDirectory, System::Text::Encoding ^ entryNameEncoding);" />
-      <MemberSignature Language="F#" Value="static member CreateFromDirectory : string * string * System.IO.Compression.CompressionLevel * bool * System.Text.Encoding -&gt; unit" Usage="System.IO.Compression.ZipFile.CreateFromDirectory (sourceDirectoryName, destinationArchiveFileName, compressionLevel, includeBaseDirectory, entryNameEncoding)" />
+      <MemberSignature Language="C#" Value="public static void CreateFromDirectory (string sourceDirectoryName, string destinationArchiveFileName, System.IO.Compression.CompressionLevel compressionLevel, bool includeBaseDirectory, System.Text.Encoding entryNameEncoding);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void CreateFromDirectory(string sourceDirectoryName, string destinationArchiveFileName, valuetype System.IO.Compression.CompressionLevel compressionLevel, bool includeBaseDirectory, class System.Text.Encoding entryNameEncoding) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.Compression.ZipFile.CreateFromDirectory(System.String,System.String,System.IO.Compression.CompressionLevel,System.Boolean,System.Text.Encoding)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub CreateFromDirectory (sourceDirectoryName As String, destinationArchiveFileName As String, compressionLevel As CompressionLevel, includeBaseDirectory As Boolean, entryNameEncoding As Encoding)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void CreateFromDirectory(System::String ^ sourceDirectoryName, System::String ^ destinationArchiveFileName, System::IO::Compression::CompressionLevel compressionLevel, bool includeBaseDirectory, System::Text::Encoding ^ entryNameEncoding);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="static member CreateFromDirectory : string * string * System.IO.Compression.CompressionLevel * bool * System.Text.Encoding -&gt; unit" Usage="System.IO.Compression.ZipFile.CreateFromDirectory (sourceDirectoryName, destinationArchiveFileName, compressionLevel, includeBaseDirectory, entryNameEncoding)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public static void CreateFromDirectory (string sourceDirectoryName, string destinationArchiveFileName, System.IO.Compression.CompressionLevel compressionLevel, bool includeBaseDirectory, System.Text.Encoding? entryNameEncoding);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -301,14 +305,14 @@ An I/O error occurred while opening a file to be archived.</exception>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="sourceDirectoryName" Type="System.String" />
-        <Parameter Name="destinationArchiveFileName" Type="System.String" />
-        <Parameter Name="compressionLevel" Type="System.IO.Compression.CompressionLevel" />
-        <Parameter Name="includeBaseDirectory" Type="System.Boolean" />
-        <Parameter Name="entryNameEncoding" Type="System.Text.Encoding" />
+        <Parameter Name="sourceDirectoryName" Type="System.String" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="destinationArchiveFileName" Type="System.String" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="compressionLevel" Type="System.IO.Compression.CompressionLevel" Index="2" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="includeBaseDirectory" Type="System.Boolean" Index="3" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="entryNameEncoding" Type="System.Text.Encoding?" Index="4" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="sourceDirectoryName">The path to the directory to be archived, specified as a relative or absolute path. A relative path is interpreted as relative to the current working directory.</param>
@@ -399,6 +403,7 @@ An I/O error occurred while opening a file to be archived.</exception>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.IO.Compression.FileSystem</AssemblyName>
@@ -486,6 +491,7 @@ An I/O error occurred while opening a file to be archived.</exception>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -498,9 +504,9 @@ An I/O error occurred while opening a file to be archived.</exception>
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="sourceArchiveFileName" Type="System.String" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0" />
-        <Parameter Name="destinationDirectoryName" Type="System.String" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0" />
-        <Parameter Name="overwriteFiles" Type="System.Boolean" Index="2" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0" />
+        <Parameter Name="sourceArchiveFileName" Type="System.String" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0" />
+        <Parameter Name="destinationDirectoryName" Type="System.String" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0" />
+        <Parameter Name="overwriteFiles" Type="System.Boolean" Index="2" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="sourceArchiveFileName">The path on the file system to the archive that is to be extracted.</param>
@@ -566,12 +572,12 @@ A <see cref="T:System.IO.Compression.ZipArchiveEntry" /> has been compressed usi
       </Docs>
     </Member>
     <Member MemberName="ExtractToDirectory">
-      <MemberSignature Language="C#" Value="public static void ExtractToDirectory (string sourceArchiveFileName, string destinationDirectoryName, System.Text.Encoding entryNameEncoding);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ExtractToDirectory(string sourceArchiveFileName, string destinationDirectoryName, class System.Text.Encoding entryNameEncoding) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.Compression.ZipFile.ExtractToDirectory(System.String,System.String,System.Text.Encoding)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub ExtractToDirectory (sourceArchiveFileName As String, destinationDirectoryName As String, entryNameEncoding As Encoding)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void ExtractToDirectory(System::String ^ sourceArchiveFileName, System::String ^ destinationDirectoryName, System::Text::Encoding ^ entryNameEncoding);" />
-      <MemberSignature Language="F#" Value="static member ExtractToDirectory : string * string * System.Text.Encoding -&gt; unit" Usage="System.IO.Compression.ZipFile.ExtractToDirectory (sourceArchiveFileName, destinationDirectoryName, entryNameEncoding)" />
+      <MemberSignature Language="C#" Value="public static void ExtractToDirectory (string sourceArchiveFileName, string destinationDirectoryName, System.Text.Encoding entryNameEncoding);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ExtractToDirectory(string sourceArchiveFileName, string destinationDirectoryName, class System.Text.Encoding entryNameEncoding) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.Compression.ZipFile.ExtractToDirectory(System.String,System.String,System.Text.Encoding)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ExtractToDirectory (sourceArchiveFileName As String, destinationDirectoryName As String, entryNameEncoding As Encoding)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void ExtractToDirectory(System::String ^ sourceArchiveFileName, System::String ^ destinationDirectoryName, System::Text::Encoding ^ entryNameEncoding);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="static member ExtractToDirectory : string * string * System.Text.Encoding -&gt; unit" Usage="System.IO.Compression.ZipFile.ExtractToDirectory (sourceArchiveFileName, destinationDirectoryName, entryNameEncoding)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public static void ExtractToDirectory (string sourceArchiveFileName, string destinationDirectoryName, System.Text.Encoding? entryNameEncoding);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -594,12 +600,12 @@ A <see cref="T:System.IO.Compression.ZipArchiveEntry" /> has been compressed usi
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="sourceArchiveFileName" Type="System.String" />
-        <Parameter Name="destinationDirectoryName" Type="System.String" />
-        <Parameter Name="entryNameEncoding" Type="System.Text.Encoding" />
+        <Parameter Name="sourceArchiveFileName" Type="System.String" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="destinationDirectoryName" Type="System.String" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="entryNameEncoding" Type="System.Text.Encoding?" Index="2" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="sourceArchiveFileName">The path to the archive that is to be extracted.</param>
@@ -667,12 +673,11 @@ A <see cref="T:System.IO.Compression.ZipArchiveEntry" /> has been compressed usi
     </Member>
     <Member MemberName="ExtractToDirectory">
       <MemberSignature Language="C#" Value="public static void ExtractToDirectory (string sourceArchiveFileName, string destinationDirectoryName, System.Text.Encoding? entryNameEncoding, bool overwriteFiles);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ExtractToDirectory(string sourceArchiveFileName, string destinationDirectoryName, class System.Text.Encoding entryNameEncoding, bool overwriteFiles) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.Compression.ZipFile.ExtractToDirectory(System.String,System.String,System.Text.Encoding,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub ExtractToDirectory (sourceArchiveFileName As String, destinationDirectoryName As String, entryNameEncoding As Encoding, overwriteFiles As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void ExtractToDirectory(System::String ^ sourceArchiveFileName, System::String ^ destinationDirectoryName, System::Text::Encoding ^ entryNameEncoding, bool overwriteFiles);" />
-      <MemberSignature Language="F#" Value="static member ExtractToDirectory : string * string * System.Text.Encoding * bool -&gt; unit" Usage="System.IO.Compression.ZipFile.ExtractToDirectory (sourceArchiveFileName, destinationDirectoryName, entryNameEncoding, overwriteFiles)" />
-      <MemberSignature Language="C#" Value="public static void ExtractToDirectory (string sourceArchiveFileName, string destinationDirectoryName, System.Text.Encoding entryNameEncoding, bool overwriteFiles);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void ExtractToDirectory(string sourceArchiveFileName, string destinationDirectoryName, class System.Text.Encoding entryNameEncoding, bool overwriteFiles) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.Compression.ZipFile.ExtractToDirectory(System.String,System.String,System.Text.Encoding,System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub ExtractToDirectory (sourceArchiveFileName As String, destinationDirectoryName As String, entryNameEncoding As Encoding, overwriteFiles As Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void ExtractToDirectory(System::String ^ sourceArchiveFileName, System::String ^ destinationDirectoryName, System::Text::Encoding ^ entryNameEncoding, bool overwriteFiles);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member ExtractToDirectory : string * string * System.Text.Encoding * bool -&gt; unit" Usage="System.IO.Compression.ZipFile.ExtractToDirectory (sourceArchiveFileName, destinationDirectoryName, entryNameEncoding, overwriteFiles)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.Compression.ZipFile</AssemblyName>
@@ -689,12 +694,12 @@ A <see cref="T:System.IO.Compression.ZipArchiveEntry" /> has been compressed usi
         <AssemblyName>System.IO.Compression.FileSystem</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="sourceArchiveFileName" Type="System.String" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0" />
         <Parameter Name="destinationDirectoryName" Type="System.String" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0" />
-        <Parameter Name="entryNameEncoding" Type="System.Text.Encoding" Index="2" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0" />
+        <Parameter Name="entryNameEncoding" Type="System.Text.Encoding?" Index="2" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0" />
         <Parameter Name="overwriteFiles" Type="System.Boolean" Index="3" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netstandard-2.1;netcore-3.1;net-5.0" />
       </Parameters>
       <Docs>
@@ -790,6 +795,7 @@ An archive entry has been compressed using a compression method that is not supp
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.IO.Compression.FileSystem</AssemblyName>
@@ -875,12 +881,12 @@ An unspecified I/O error occurred while opening the file.</exception>
       </Docs>
     </Member>
     <Member MemberName="Open">
-      <MemberSignature Language="C#" Value="public static System.IO.Compression.ZipArchive Open (string archiveFileName, System.IO.Compression.ZipArchiveMode mode, System.Text.Encoding entryNameEncoding);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.Compression.ZipArchive Open(string archiveFileName, valuetype System.IO.Compression.ZipArchiveMode mode, class System.Text.Encoding entryNameEncoding) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.Compression.ZipFile.Open(System.String,System.IO.Compression.ZipArchiveMode,System.Text.Encoding)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Open (archiveFileName As String, mode As ZipArchiveMode, entryNameEncoding As Encoding) As ZipArchive" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::Compression::ZipArchive ^ Open(System::String ^ archiveFileName, System::IO::Compression::ZipArchiveMode mode, System::Text::Encoding ^ entryNameEncoding);" />
-      <MemberSignature Language="F#" Value="static member Open : string * System.IO.Compression.ZipArchiveMode * System.Text.Encoding -&gt; System.IO.Compression.ZipArchive" Usage="System.IO.Compression.ZipFile.Open (archiveFileName, mode, entryNameEncoding)" />
+      <MemberSignature Language="C#" Value="public static System.IO.Compression.ZipArchive Open (string archiveFileName, System.IO.Compression.ZipArchiveMode mode, System.Text.Encoding entryNameEncoding);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.Compression.ZipArchive Open(string archiveFileName, valuetype System.IO.Compression.ZipArchiveMode mode, class System.Text.Encoding entryNameEncoding) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.Compression.ZipFile.Open(System.String,System.IO.Compression.ZipArchiveMode,System.Text.Encoding)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Open (archiveFileName As String, mode As ZipArchiveMode, entryNameEncoding As Encoding) As ZipArchive" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::Compression::ZipArchive ^ Open(System::String ^ archiveFileName, System::IO::Compression::ZipArchiveMode mode, System::Text::Encoding ^ entryNameEncoding);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="static member Open : string * System.IO.Compression.ZipArchiveMode * System.Text.Encoding -&gt; System.IO.Compression.ZipArchive" Usage="System.IO.Compression.ZipFile.Open (archiveFileName, mode, entryNameEncoding)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public static System.IO.Compression.ZipArchive Open (string archiveFileName, System.IO.Compression.ZipArchiveMode mode, System.Text.Encoding? entryNameEncoding);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -903,12 +909,12 @@ An unspecified I/O error occurred while opening the file.</exception>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.IO.Compression.ZipArchive</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.IO.Compression.ZipArchive</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="archiveFileName" Type="System.String" />
-        <Parameter Name="mode" Type="System.IO.Compression.ZipArchiveMode" />
-        <Parameter Name="entryNameEncoding" Type="System.Text.Encoding" />
+        <Parameter Name="archiveFileName" Type="System.String" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="mode" Type="System.IO.Compression.ZipArchiveMode" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="entryNameEncoding" Type="System.Text.Encoding?" Index="2" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="archiveFileName">The path to the archive to open, specified as a relative or absolute path. A relative path is interpreted as relative to the current working directory.</param>
@@ -1009,6 +1015,7 @@ An unspecified I/O error occurred while opening the file.</exception>
         <AssemblyVersion>4.0.4.0</AssemblyVersion>
         <AssemblyVersion>4.0.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.IO.Compression.FileSystem</AssemblyName>

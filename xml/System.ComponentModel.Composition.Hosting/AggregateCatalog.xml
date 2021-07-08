@@ -67,12 +67,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public AggregateCatalog (System.Collections.Generic.IEnumerable&lt;System.ComponentModel.Composition.Primitives.ComposablePartCatalog&gt; catalogs);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;class System.ComponentModel.Composition.Primitives.ComposablePartCatalog&gt; catalogs) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.Hosting.AggregateCatalog.#ctor(System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Primitives.ComposablePartCatalog})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (catalogs As IEnumerable(Of ComposablePartCatalog))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; AggregateCatalog(System::Collections::Generic::IEnumerable&lt;System::ComponentModel::Composition::Primitives::ComposablePartCatalog ^&gt; ^ catalogs);" />
-      <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.Hosting.AggregateCatalog : seq&lt;System.ComponentModel.Composition.Primitives.ComposablePartCatalog&gt; -&gt; System.ComponentModel.Composition.Hosting.AggregateCatalog" Usage="new System.ComponentModel.Composition.Hosting.AggregateCatalog catalogs" />
+      <MemberSignature Language="C#" Value="public AggregateCatalog (System.Collections.Generic.IEnumerable&lt;System.ComponentModel.Composition.Primitives.ComposablePartCatalog&gt; catalogs);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Collections.Generic.IEnumerable`1&lt;class System.ComponentModel.Composition.Primitives.ComposablePartCatalog&gt; catalogs) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.Hosting.AggregateCatalog.#ctor(System.Collections.Generic.IEnumerable{System.ComponentModel.Composition.Primitives.ComposablePartCatalog})" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (catalogs As IEnumerable(Of ComposablePartCatalog))" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AggregateCatalog(System::Collections::Generic::IEnumerable&lt;System::ComponentModel::Composition::Primitives::ComposablePartCatalog ^&gt; ^ catalogs);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.Hosting.AggregateCatalog : seq&lt;System.ComponentModel.Composition.Primitives.ComposablePartCatalog&gt; -&gt; System.ComponentModel.Composition.Hosting.AggregateCatalog" Usage="new System.ComponentModel.Composition.Hosting.AggregateCatalog catalogs" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="C#" Value="public AggregateCatalog (System.Collections.Generic.IEnumerable&lt;System.ComponentModel.Composition.Primitives.ComposablePartCatalog&gt;? catalogs);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -81,7 +81,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="catalogs" Type="System.Collections.Generic.IEnumerable&lt;System.ComponentModel.Composition.Primitives.ComposablePartCatalog&gt;" />
+        <Parameter Name="catalogs" Type="System.Collections.Generic.IEnumerable&lt;System.ComponentModel.Composition.Primitives.ComposablePartCatalog&gt;?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="catalogs">A collection of <see cref="T:System.ComponentModel.Composition.Primitives.ComposablePartCatalog" /> objects to add to the <see cref="T:System.ComponentModel.Composition.Hosting.AggregateCatalog" /> or <see langword="null" /> to create an empty <see cref="T:System.ComponentModel.Composition.Hosting.AggregateCatalog" />.</param>
@@ -92,12 +92,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public AggregateCatalog (params System.ComponentModel.Composition.Primitives.ComposablePartCatalog[] catalogs);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.ComponentModel.Composition.Primitives.ComposablePartCatalog[] catalogs) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.Hosting.AggregateCatalog.#ctor(System.ComponentModel.Composition.Primitives.ComposablePartCatalog[])" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (ParamArray catalogs As ComposablePartCatalog())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; AggregateCatalog(... cli::array &lt;System::ComponentModel::Composition::Primitives::ComposablePartCatalog ^&gt; ^ catalogs);" />
-      <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.Hosting.AggregateCatalog : System.ComponentModel.Composition.Primitives.ComposablePartCatalog[] -&gt; System.ComponentModel.Composition.Hosting.AggregateCatalog" Usage="new System.ComponentModel.Composition.Hosting.AggregateCatalog catalogs" />
+      <MemberSignature Language="C#" Value="public AggregateCatalog (params System.ComponentModel.Composition.Primitives.ComposablePartCatalog[] catalogs);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.ComponentModel.Composition.Primitives.ComposablePartCatalog[] catalogs) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.Hosting.AggregateCatalog.#ctor(System.ComponentModel.Composition.Primitives.ComposablePartCatalog[])" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (ParamArray catalogs As ComposablePartCatalog())" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AggregateCatalog(... cli::array &lt;System::ComponentModel::Composition::Primitives::ComposablePartCatalog ^&gt; ^ catalogs);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.Hosting.AggregateCatalog : System.ComponentModel.Composition.Primitives.ComposablePartCatalog[] -&gt; System.ComponentModel.Composition.Hosting.AggregateCatalog" Usage="new System.ComponentModel.Composition.Hosting.AggregateCatalog catalogs" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="C#" Value="public AggregateCatalog (params System.ComponentModel.Composition.Primitives.ComposablePartCatalog[]? catalogs);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -106,7 +106,7 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="catalogs" Type="System.ComponentModel.Composition.Primitives.ComposablePartCatalog[]">
+        <Parameter Name="catalogs" Type="System.ComponentModel.Composition.Primitives.ComposablePartCatalog[]?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">
           <Attributes>
             <Attribute FrameworkAlternate="dotnet-plat-ext-2.1">
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
@@ -155,7 +155,7 @@
       <MemberSignature Language="VB.NET" Value="Public Custom Event Changed As EventHandler(Of ComposablePartCatalogChangeEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler&lt;System::ComponentModel::Composition::Hosting::ComposablePartCatalogChangeEventArgs ^&gt; ^ Changed;" />
       <MemberSignature Language="F#" Value="member this.Changed : EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt; " Usage="member this.Changed : System.EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt; " />
-      <MemberSignature Language="C#" Value="public event EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt;? Changed;" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt;? Changed;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:System.ComponentModel.Composition.Hosting.INotifyComposablePartCatalogChanged.Changed</InterfaceMember>
@@ -166,7 +166,8 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0">System.EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt;?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when the contents of the <see cref="T:System.ComponentModel.Composition.Hosting.AggregateCatalog" /> object have changed.</summary>
@@ -180,7 +181,7 @@
       <MemberSignature Language="VB.NET" Value="Public Custom Event Changing As EventHandler(Of ComposablePartCatalogChangeEventArgs) " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual event EventHandler&lt;System::ComponentModel::Composition::Hosting::ComposablePartCatalogChangeEventArgs ^&gt; ^ Changing;" />
       <MemberSignature Language="F#" Value="member this.Changing : EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt; " Usage="member this.Changing : System.EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt; " />
-      <MemberSignature Language="C#" Value="public event EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt;? Changing;" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public event EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt;? Changing;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
       <MemberType>Event</MemberType>
       <Implements>
         <InterfaceMember>E:System.ComponentModel.Composition.Hosting.INotifyComposablePartCatalogChanged.Changing</InterfaceMember>
@@ -191,7 +192,8 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0">System.EventHandler&lt;System.ComponentModel.Composition.Hosting.ComposablePartCatalogChangeEventArgs&gt;?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when the contents of the <see cref="T:System.ComponentModel.Composition.Hosting.AggregateCatalog" /> object are changing.</summary>

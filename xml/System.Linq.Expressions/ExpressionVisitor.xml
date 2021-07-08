@@ -14,6 +14,7 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System.Core</AssemblyName>
@@ -28,6 +29,7 @@
   <TypeForwardingChain>
     <TypeForwarding From="System.Core" FromVersion="4.0.0.0" To="System.Linq.Expressions" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Linq.Expressions" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Linq.Expressions" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -61,6 +63,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -113,6 +116,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -138,12 +142,12 @@
       </Docs>
     </Member>
     <Member MemberName="Visit">
-      <MemberSignature Language="C#" Value="public virtual System.Linq.Expressions.Expression Visit (System.Linq.Expressions.Expression node);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Linq.Expressions.Expression Visit(class System.Linq.Expressions.Expression node) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Linq.Expressions.ExpressionVisitor.Visit(System.Linq.Expressions.Expression)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function Visit (node As Expression) As Expression" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Linq::Expressions::Expression ^ Visit(System::Linq::Expressions::Expression ^ node);" />
-      <MemberSignature Language="F#" Value="abstract member Visit : System.Linq.Expressions.Expression -&gt; System.Linq.Expressions.Expression&#xA;override this.Visit : System.Linq.Expressions.Expression -&gt; System.Linq.Expressions.Expression" Usage="expressionVisitor.Visit node" />
+      <MemberSignature Language="C#" Value="public virtual System.Linq.Expressions.Expression Visit (System.Linq.Expressions.Expression node);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Linq.Expressions.Expression Visit(class System.Linq.Expressions.Expression node) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Linq.Expressions.ExpressionVisitor.Visit(System.Linq.Expressions.Expression)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function Visit (node As Expression) As Expression" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Linq::Expressions::Expression ^ Visit(System::Linq::Expressions::Expression ^ node);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member Visit : System.Linq.Expressions.Expression -&gt; System.Linq.Expressions.Expression&#xA;override this.Visit : System.Linq.Expressions.Expression -&gt; System.Linq.Expressions.Expression" Usage="expressionVisitor.Visit node" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public virtual System.Linq.Expressions.Expression? Visit (System.Linq.Expressions.Expression? node);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -167,10 +171,10 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Linq.Expressions.Expression</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Linq.Expressions.Expression</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="node" Type="System.Linq.Expressions.Expression" />
+        <Parameter Name="node" Type="System.Linq.Expressions.Expression?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="node">The expression to visit.</param>
@@ -196,6 +200,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -239,12 +244,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="VisitAndConvert&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;T&gt; VisitAndConvert&lt;T&gt; (System.Collections.ObjectModel.ReadOnlyCollection&lt;T&gt; nodes, string callerName) where T : System.Linq.Expressions.Expression;" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;!!T&gt; VisitAndConvert&lt;(class System.Linq.Expressions.Expression) T&gt;(class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;!!T&gt; nodes, string callerName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Linq.Expressions.ExpressionVisitor.VisitAndConvert``1(System.Collections.ObjectModel.ReadOnlyCollection{``0},System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Function VisitAndConvert(Of T As Expression) (nodes As ReadOnlyCollection(Of T), callerName As String) As ReadOnlyCollection(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Linq::Expressions::Expression System::Collections::ObjectModel::ReadOnlyCollection&lt;T&gt; ^ VisitAndConvert(System::Collections::ObjectModel::ReadOnlyCollection&lt;T&gt; ^ nodes, System::String ^ callerName);" />
-      <MemberSignature Language="F#" Value="member this.VisitAndConvert : System.Collections.ObjectModel.ReadOnlyCollection&lt;'T (requires 'T :&gt; System.Linq.Expressions.Expression)&gt; * string -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;'T (requires 'T :&gt; System.Linq.Expressions.Expression)&gt; (requires 'T :&gt; System.Linq.Expressions.Expression)" Usage="expressionVisitor.VisitAndConvert (nodes, callerName)" />
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;T&gt; VisitAndConvert&lt;T&gt; (System.Collections.ObjectModel.ReadOnlyCollection&lt;T&gt; nodes, string callerName) where T : System.Linq.Expressions.Expression;" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;!!T&gt; VisitAndConvert&lt;(class System.Linq.Expressions.Expression) T&gt;(class System.Collections.ObjectModel.ReadOnlyCollection`1&lt;!!T&gt; nodes, string callerName) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Linq.Expressions.ExpressionVisitor.VisitAndConvert``1(System.Collections.ObjectModel.ReadOnlyCollection{``0},System.String)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function VisitAndConvert(Of T As Expression) (nodes As ReadOnlyCollection(Of T), callerName As String) As ReadOnlyCollection(Of T)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Linq::Expressions::Expression System::Collections::ObjectModel::ReadOnlyCollection&lt;T&gt; ^ VisitAndConvert(System::Collections::ObjectModel::ReadOnlyCollection&lt;T&gt; ^ nodes, System::String ^ callerName);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="member this.VisitAndConvert : System.Collections.ObjectModel.ReadOnlyCollection&lt;'T (requires 'T :&gt; System.Linq.Expressions.Expression)&gt; * string -&gt; System.Collections.ObjectModel.ReadOnlyCollection&lt;'T (requires 'T :&gt; System.Linq.Expressions.Expression)&gt; (requires 'T :&gt; System.Linq.Expressions.Expression)" Usage="expressionVisitor.VisitAndConvert (nodes, callerName)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;T&gt; VisitAndConvert&lt;T&gt; (System.Collections.ObjectModel.ReadOnlyCollection&lt;T&gt; nodes, string? callerName) where T : System.Linq.Expressions.Expression;" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -268,7 +273,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;T&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Collections.ObjectModel.ReadOnlyCollection&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
@@ -278,8 +283,8 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="nodes" Type="System.Collections.ObjectModel.ReadOnlyCollection&lt;T&gt;" />
-        <Parameter Name="callerName" Type="System.String" />
+        <Parameter Name="nodes" Type="System.Collections.ObjectModel.ReadOnlyCollection&lt;T&gt;" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="callerName" Type="System.String?" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the expressions.</typeparam>
@@ -292,12 +297,12 @@
       </Docs>
     </Member>
     <Member MemberName="VisitAndConvert&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public T VisitAndConvert&lt;T&gt; (T node, string callerName) where T : System.Linq.Expressions.Expression;" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!T VisitAndConvert&lt;(class System.Linq.Expressions.Expression) T&gt;(!!T node, string callerName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Linq.Expressions.ExpressionVisitor.VisitAndConvert``1(``0,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Function VisitAndConvert(Of T As Expression) (node As T, callerName As String) As T" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Linq::Expressions::Expression T VisitAndConvert(T node, System::String ^ callerName);" />
-      <MemberSignature Language="F#" Value="member this.VisitAndConvert : 'T * string -&gt; 'T (requires 'T :&gt; System.Linq.Expressions.Expression)" Usage="expressionVisitor.VisitAndConvert (node, callerName)" />
+      <MemberSignature Language="C#" Value="public T VisitAndConvert&lt;T&gt; (T node, string callerName) where T : System.Linq.Expressions.Expression;" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!T VisitAndConvert&lt;(class System.Linq.Expressions.Expression) T&gt;(!!T node, string callerName) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Linq.Expressions.ExpressionVisitor.VisitAndConvert``1(``0,System.String)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function VisitAndConvert(Of T As Expression) (node As T, callerName As String) As T" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; where T : System::Linq::Expressions::Expression T VisitAndConvert(T node, System::String ^ callerName);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="member this.VisitAndConvert : 'T * string -&gt; 'T (requires 'T :&gt; System.Linq.Expressions.Expression)" Usage="expressionVisitor.VisitAndConvert (node, callerName)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public T? VisitAndConvert&lt;T&gt; (T? node, string? callerName) where T : System.Linq.Expressions.Expression;" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -321,7 +326,7 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>T</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">T</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T">
@@ -331,8 +336,8 @@
         </TypeParameter>
       </TypeParameters>
       <Parameters>
-        <Parameter Name="node" Type="T" />
-        <Parameter Name="callerName" Type="System.String" />
+        <Parameter Name="node" Type="T?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="callerName" Type="System.String?" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of the expression.</typeparam>
@@ -361,6 +366,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -402,6 +408,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -443,6 +450,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -484,6 +492,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -525,6 +534,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -566,6 +576,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -607,6 +618,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -655,12 +667,13 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Linq.Expressions.Expression</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="node" Type="System.Linq.Expressions.DynamicExpression" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0" />
+        <Parameter Name="node" Type="System.Linq.Expressions.DynamicExpression" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netstandard-2.1;netcore-3.1;net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="node">The expression to visit.</param>
@@ -686,6 +699,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -727,6 +741,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -777,6 +792,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -818,6 +834,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -859,6 +876,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -900,6 +918,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -925,12 +944,12 @@
       </Docs>
     </Member>
     <Member MemberName="VisitLabelTarget">
-      <MemberSignature Language="C#" Value="protected virtual System.Linq.Expressions.LabelTarget VisitLabelTarget (System.Linq.Expressions.LabelTarget node);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Linq.Expressions.LabelTarget VisitLabelTarget(class System.Linq.Expressions.LabelTarget node) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Linq.Expressions.ExpressionVisitor.VisitLabelTarget(System.Linq.Expressions.LabelTarget)" />
-      <MemberSignature Language="VB.NET" Value="Protected Overridable Function VisitLabelTarget (node As LabelTarget) As LabelTarget" />
-      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Linq::Expressions::LabelTarget ^ VisitLabelTarget(System::Linq::Expressions::LabelTarget ^ node);" />
-      <MemberSignature Language="F#" Value="abstract member VisitLabelTarget : System.Linq.Expressions.LabelTarget -&gt; System.Linq.Expressions.LabelTarget&#xA;override this.VisitLabelTarget : System.Linq.Expressions.LabelTarget -&gt; System.Linq.Expressions.LabelTarget" Usage="expressionVisitor.VisitLabelTarget node" />
+      <MemberSignature Language="C#" Value="protected virtual System.Linq.Expressions.LabelTarget VisitLabelTarget (System.Linq.Expressions.LabelTarget node);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method familyhidebysig newslot virtual instance class System.Linq.Expressions.LabelTarget VisitLabelTarget(class System.Linq.Expressions.LabelTarget node) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Linq.Expressions.ExpressionVisitor.VisitLabelTarget(System.Linq.Expressions.LabelTarget)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Protected Overridable Function VisitLabelTarget (node As LabelTarget) As LabelTarget" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="protected:&#xA; virtual System::Linq::Expressions::LabelTarget ^ VisitLabelTarget(System::Linq::Expressions::LabelTarget ^ node);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member VisitLabelTarget : System.Linq.Expressions.LabelTarget -&gt; System.Linq.Expressions.LabelTarget&#xA;override this.VisitLabelTarget : System.Linq.Expressions.LabelTarget -&gt; System.Linq.Expressions.LabelTarget" Usage="expressionVisitor.VisitLabelTarget node" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="protected virtual System.Linq.Expressions.LabelTarget? VisitLabelTarget (System.Linq.Expressions.LabelTarget? node);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -954,10 +973,10 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Linq.Expressions.LabelTarget</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Linq.Expressions.LabelTarget</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="node" Type="System.Linq.Expressions.LabelTarget" />
+        <Parameter Name="node" Type="System.Linq.Expressions.LabelTarget?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="node">The expression to visit.</param>
@@ -983,6 +1002,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1028,6 +1048,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1069,6 +1090,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1110,6 +1132,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1151,6 +1174,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1192,6 +1216,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1233,6 +1258,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1274,6 +1300,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1315,6 +1342,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1356,6 +1384,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1397,6 +1426,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1438,6 +1468,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1479,6 +1510,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1520,6 +1552,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1561,6 +1594,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1602,6 +1636,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1643,6 +1678,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1684,6 +1720,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1725,6 +1762,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>

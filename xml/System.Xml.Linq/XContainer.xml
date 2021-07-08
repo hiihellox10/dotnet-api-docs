@@ -13,6 +13,7 @@
     <AssemblyVersion>4.1.1.0</AssemblyVersion>
     <AssemblyVersion>4.1.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -28,6 +29,7 @@
   <TypeForwardingChain>
     <TypeForwarding From="System.Xml.Linq" FromVersion="4.0.0.0" To="System.Xml.XDocument" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XDocument" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XDocument" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Xml.Linq.XNode</BaseTypeName>
@@ -131,12 +133,12 @@ Console.WriteLine(xmlTree)
       </Docs>
     </MemberGroup>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public void Add (object content);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(object content) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Add(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub Add (content As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(System::Object ^ content);" />
-      <MemberSignature Language="F#" Value="member this.Add : obj -&gt; unit" Usage="xContainer.Add content" />
+      <MemberSignature Language="C#" Value="public void Add (object content);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(object content) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Add(System.Object)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (content As Object)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(System::Object ^ content);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="member this.Add : obj -&gt; unit" Usage="xContainer.Add content" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public void Add (object? content);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -160,10 +162,10 @@ Console.WriteLine(xmlTree)
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="System.Object" />
+        <Parameter Name="content" Type="System.Object?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="content">A content object containing simple content or a collection of content objects to be added.</param>
@@ -266,12 +268,13 @@ Console.WriteLine(xmlTree)
       </Docs>
     </Member>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public void Add (params object[] content);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(object[] content) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Add(System.Object[])" />
-      <MemberSignature Language="VB.NET" Value="Public Sub Add (ParamArray content As Object())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(... cli::array &lt;System::Object ^&gt; ^ content);" />
-      <MemberSignature Language="F#" Value="member this.Add : obj[] -&gt; unit" Usage="xContainer.Add content" />
+      <MemberSignature Language="C#" Value="public void Add (params object[] content);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(object[] content) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Add(System.Object[])" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (ParamArray content As Object())" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(... cli::array &lt;System::Object ^&gt; ^ content);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="F#" Value="member this.Add : obj[] -&gt; unit" Usage="xContainer.Add content" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="C#" Value="public void Add (params object?[] content);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -281,6 +284,7 @@ Console.WriteLine(xmlTree)
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -293,17 +297,11 @@ Console.WriteLine(xmlTree)
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="System.Object[]">
+        <Parameter Name="content" Type="System.Object?[]" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0">
           <Attributes>
             <Attribute FrameworkAlternate="dotnet-uwp-10.0">
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
@@ -493,12 +491,12 @@ Console.WriteLine(xmlTree)
       </Docs>
     </MemberGroup>
     <Member MemberName="AddFirst">
-      <MemberSignature Language="C#" Value="public void AddFirst (object content);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddFirst(object content) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.AddFirst(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub AddFirst (content As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddFirst(System::Object ^ content);" />
-      <MemberSignature Language="F#" Value="member this.AddFirst : obj -&gt; unit" Usage="xContainer.AddFirst content" />
+      <MemberSignature Language="C#" Value="public void AddFirst (object content);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddFirst(object content) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.AddFirst(System.Object)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddFirst (content As Object)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddFirst(System::Object ^ content);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="member this.AddFirst : obj -&gt; unit" Usage="xContainer.AddFirst content" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public void AddFirst (object? content);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -522,10 +520,10 @@ Console.WriteLine(xmlTree)
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="System.Object" />
+        <Parameter Name="content" Type="System.Object?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="content">A content object containing simple content or a collection of content objects to be added.</param>
@@ -627,12 +625,13 @@ Console.WriteLine(xmlTree)
       </Docs>
     </Member>
     <Member MemberName="AddFirst">
-      <MemberSignature Language="C#" Value="public void AddFirst (params object[] content);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddFirst(object[] content) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.AddFirst(System.Object[])" />
-      <MemberSignature Language="VB.NET" Value="Public Sub AddFirst (ParamArray content As Object())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddFirst(... cli::array &lt;System::Object ^&gt; ^ content);" />
-      <MemberSignature Language="F#" Value="member this.AddFirst : obj[] -&gt; unit" Usage="xContainer.AddFirst content" />
+      <MemberSignature Language="C#" Value="public void AddFirst (params object[] content);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddFirst(object[] content) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.AddFirst(System.Object[])" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddFirst (ParamArray content As Object())" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddFirst(... cli::array &lt;System::Object ^&gt; ^ content);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="F#" Value="member this.AddFirst : obj[] -&gt; unit" Usage="xContainer.AddFirst content" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="C#" Value="public void AddFirst (params object?[] content);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -642,6 +641,7 @@ Console.WriteLine(xmlTree)
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -654,17 +654,11 @@ Console.WriteLine(xmlTree)
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="System.Object[]">
+        <Parameter Name="content" Type="System.Object?[]" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0">
           <Attributes>
             <Attribute FrameworkAlternate="dotnet-uwp-10.0">
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
@@ -789,6 +783,7 @@ Console.WriteLine(xmlTree)
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -916,6 +911,7 @@ Console.WriteLine(newTree)
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -1032,12 +1028,12 @@ element content
       </Docs>
     </MemberGroup>
     <Member MemberName="Descendants">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; Descendants ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class System.Xml.Linq.XElement&gt; Descendants() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Descendants" />
-      <MemberSignature Language="VB.NET" Value="Public Function Descendants () As IEnumerable(Of XElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ Descendants();" />
-      <MemberSignature Language="F#" Value="member this.Descendants : unit -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xContainer.Descendants " />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; Descendants ();" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class System.Xml.Linq.XElement&gt; Descendants() cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Descendants" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function Descendants () As IEnumerable(Of XElement)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ Descendants();" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="member this.Descendants : unit -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xContainer.Descendants " FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -1047,6 +1043,7 @@ element content
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -1066,7 +1063,7 @@ element content
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -1132,12 +1129,12 @@ GrandChild
       </Docs>
     </Member>
     <Member MemberName="Descendants">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; Descendants (System.Xml.Linq.XName name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class System.Xml.Linq.XElement&gt; Descendants(class System.Xml.Linq.XName name) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Descendants(System.Xml.Linq.XName)" />
-      <MemberSignature Language="VB.NET" Value="Public Function Descendants (name As XName) As IEnumerable(Of XElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ Descendants(System::Xml::Linq::XName ^ name);" />
-      <MemberSignature Language="F#" Value="member this.Descendants : System.Xml.Linq.XName -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xContainer.Descendants name" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; Descendants (System.Xml.Linq.XName name);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class System.Xml.Linq.XElement&gt; Descendants(class System.Xml.Linq.XName name) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Descendants(System.Xml.Linq.XName)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function Descendants (name As XName) As IEnumerable(Of XElement)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ Descendants(System::Xml::Linq::XName ^ name);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="member this.Descendants : System.Xml.Linq.XName -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xContainer.Descendants name" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; Descendants (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -1161,10 +1158,10 @@ GrandChild
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="name" Type="System.Xml.Linq.XName" />
+        <Parameter Name="name" Type="System.Xml.Linq.XName?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="name">The <see cref="T:System.Xml.Linq.XName" /> to match.</param>
@@ -1282,7 +1279,7 @@ End Module
       <MemberSignature Language="VB.NET" Value="Public Function Element (name As XName) As XElement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Xml::Linq::XElement ^ Element(System::Xml::Linq::XName ^ name);" />
       <MemberSignature Language="F#" Value="member this.Element : System.Xml.Linq.XName -&gt; System.Xml.Linq.XElement" Usage="xContainer.Element name" />
-      <MemberSignature Language="C#" Value="public System.Xml.Linq.XElement? Element (System.Xml.Linq.XName name);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Linq.XElement? Element (System.Xml.Linq.XName name);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -1292,6 +1289,7 @@ End Module
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -1497,12 +1495,12 @@ End Module
       </Docs>
     </MemberGroup>
     <Member MemberName="Elements">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; Elements ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class System.Xml.Linq.XElement&gt; Elements() cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Elements" />
-      <MemberSignature Language="VB.NET" Value="Public Function Elements () As IEnumerable(Of XElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ Elements();" />
-      <MemberSignature Language="F#" Value="member this.Elements : unit -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xContainer.Elements " />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; Elements ();" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class System.Xml.Linq.XElement&gt; Elements() cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Elements" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function Elements () As IEnumerable(Of XElement)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ Elements();" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="member this.Elements : unit -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xContainer.Elements " FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -1512,6 +1510,7 @@ End Module
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -1531,7 +1530,7 @@ End Module
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt;</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -1653,12 +1652,12 @@ End Module
       </Docs>
     </Member>
     <Member MemberName="Elements">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; Elements (System.Xml.Linq.XName name);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class System.Xml.Linq.XElement&gt; Elements(class System.Xml.Linq.XName name) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Elements(System.Xml.Linq.XName)" />
-      <MemberSignature Language="VB.NET" Value="Public Function Elements (name As XName) As IEnumerable(Of XElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ Elements(System::Xml::Linq::XName ^ name);" />
-      <MemberSignature Language="F#" Value="member this.Elements : System.Xml.Linq.XName -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xContainer.Elements name" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; Elements (System.Xml.Linq.XName name);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class System.Xml.Linq.XElement&gt; Elements(class System.Xml.Linq.XName name) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Elements(System.Xml.Linq.XName)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function Elements (name As XName) As IEnumerable(Of XElement)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XElement ^&gt; ^ Elements(System::Xml::Linq::XName ^ name);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="member this.Elements : System.Xml.Linq.XName -&gt; seq&lt;System.Xml.Linq.XElement&gt;" Usage="xContainer.Elements name" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt; Elements (System.Xml.Linq.XName? name);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -1682,10 +1681,10 @@ End Module
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XElement&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="name" Type="System.Xml.Linq.XName" />
+        <Parameter Name="name" Type="System.Xml.Linq.XName?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="name">The <see cref="T:System.Xml.Linq.XName" /> to match.</param>
@@ -1809,7 +1808,7 @@ End Module
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property FirstNode As XNode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::Linq::XNode ^ FirstNode { System::Xml::Linq::XNode ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.FirstNode : System.Xml.Linq.XNode" Usage="System.Xml.Linq.XContainer.FirstNode" />
-      <MemberSignature Language="C#" Value="public System.Xml.Linq.XNode? FirstNode { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Linq.XNode? FirstNode { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -1819,6 +1818,7 @@ End Module
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -1832,7 +1832,8 @@ End Module
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Xml.Linq.XNode</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Xml.Linq.XNode</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Xml.Linq.XNode?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the first child node of this node.</summary>
@@ -1889,7 +1890,7 @@ Console.WriteLine(firstNode)
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property LastNode As XNode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Xml::Linq::XNode ^ LastNode { System::Xml::Linq::XNode ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.LastNode : System.Xml.Linq.XNode" Usage="System.Xml.Linq.XContainer.LastNode" />
-      <MemberSignature Language="C#" Value="public System.Xml.Linq.XNode? LastNode { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Linq.XNode? LastNode { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -1899,6 +1900,7 @@ Console.WriteLine(firstNode)
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -1912,7 +1914,8 @@ Console.WriteLine(firstNode)
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Xml.Linq.XNode</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Xml.Linq.XNode</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Xml.Linq.XNode?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the last child node of this node.</summary>
@@ -1966,7 +1969,7 @@ Console.WriteLine(lastNode)
       <MemberSignature Language="C#" Value="public System.Collections.Generic.IEnumerable&lt;System.Xml.Linq.XNode&gt; Nodes ();" />
       <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Collections.Generic.IEnumerable`1&lt;class System.Xml.Linq.XNode&gt; Nodes() cil managed" />
       <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.Nodes" />
-      <MemberSignature Language="VB.NET" Value="Public Function Nodes () As IEnumerable(Of XNode)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function Nodes () As IEnumerable(Of XNode)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Collections::Generic::IEnumerable&lt;System::Xml::Linq::XNode ^&gt; ^ Nodes();" />
       <MemberSignature Language="F#" Value="member this.Nodes : unit -&gt; seq&lt;System.Xml.Linq.XNode&gt;" Usage="xContainer.Nodes " />
       <MemberSignature Language="VB.NET" Value="Public Iterator Function Nodes () As IEnumerable(Of XNode)" FrameworkAlternate="netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
@@ -1979,6 +1982,7 @@ Console.WriteLine(lastNode)
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -1993,12 +1997,12 @@ Console.WriteLine(lastNode)
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.6">
-          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Xml.Linq.XContainer/&lt;Nodes&gt;d__1))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Xml.Linq.XContainer/&lt;Nodes&gt;d__1))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Xml.Linq.XContainer+&lt;Nodes&gt;d__1))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Xml.Linq.XContainer+&lt;Nodes&gt;d__1))&gt;]</AttributeName>
         </Attribute>
         <Attribute FrameworkAlternate="netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Xml.Linq.XContainer/&lt;Nodes&gt;d__18))]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Xml.Linq.XContainer/&lt;Nodes&gt;d__18))&gt;]</AttributeName>
+          <AttributeName Language="C#">[System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Xml.Linq.XContainer+&lt;Nodes&gt;d__18))]</AttributeName>
+          <AttributeName Language="F#">[&lt;System.Runtime.CompilerServices.IteratorStateMachine(typeof(System.Xml.Linq.XContainer+&lt;Nodes&gt;d__18))&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
@@ -2169,6 +2173,7 @@ Text
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -2316,12 +2321,12 @@ Console.WriteLine(root)
       </Docs>
     </MemberGroup>
     <Member MemberName="ReplaceNodes">
-      <MemberSignature Language="C#" Value="public void ReplaceNodes (object content);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ReplaceNodes(object content) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.ReplaceNodes(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub ReplaceNodes (content As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReplaceNodes(System::Object ^ content);" />
-      <MemberSignature Language="F#" Value="member this.ReplaceNodes : obj -&gt; unit" Usage="xContainer.ReplaceNodes content" />
+      <MemberSignature Language="C#" Value="public void ReplaceNodes (object content);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ReplaceNodes(object content) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.ReplaceNodes(System.Object)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ReplaceNodes (content As Object)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReplaceNodes(System::Object ^ content);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="member this.ReplaceNodes : obj -&gt; unit" Usage="xContainer.ReplaceNodes content" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public void ReplaceNodes (object? content);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -2345,10 +2350,10 @@ Console.WriteLine(root)
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="System.Object" />
+        <Parameter Name="content" Type="System.Object?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="content">A content object containing simple content or a collection of content objects that replace the children nodes.</param>
@@ -2420,12 +2425,13 @@ Console.WriteLine(root)
       </Docs>
     </Member>
     <Member MemberName="ReplaceNodes">
-      <MemberSignature Language="C#" Value="public void ReplaceNodes (params object[] content);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ReplaceNodes(object[] content) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.ReplaceNodes(System.Object[])" />
-      <MemberSignature Language="VB.NET" Value="Public Sub ReplaceNodes (ParamArray content As Object())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReplaceNodes(... cli::array &lt;System::Object ^&gt; ^ content);" />
-      <MemberSignature Language="F#" Value="member this.ReplaceNodes : obj[] -&gt; unit" Usage="xContainer.ReplaceNodes content" />
+      <MemberSignature Language="C#" Value="public void ReplaceNodes (params object[] content);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ReplaceNodes(object[] content) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Linq.XContainer.ReplaceNodes(System.Object[])" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ReplaceNodes (ParamArray content As Object())" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ReplaceNodes(... cli::array &lt;System::Object ^&gt; ^ content);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="F#" Value="member this.ReplaceNodes : obj[] -&gt; unit" Usage="xContainer.ReplaceNodes content" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
+      <MemberSignature Language="C#" Value="public void ReplaceNodes (params object?[] content);" FrameworkAlternate="net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XDocument</AssemblyName>
@@ -2435,6 +2441,7 @@ Console.WriteLine(root)
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Xml.Linq</AssemblyName>
@@ -2447,17 +2454,11 @@ Console.WriteLine(root)
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="content" Type="System.Object[]">
+        <Parameter Name="content" Type="System.Object?[]" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0">
           <Attributes>
             <Attribute FrameworkAlternate="dotnet-uwp-10.0">
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>

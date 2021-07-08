@@ -10,6 +10,7 @@
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.EventArgs</BaseTypeName>
@@ -42,34 +43,30 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public DrawToolTipEventArgs (System.Drawing.Graphics graphics, System.Windows.Forms.IWin32Window associatedWindow, System.Windows.Forms.Control associatedControl, System.Drawing.Rectangle bounds, string toolTipText, System.Drawing.Color backColor, System.Drawing.Color foreColor, System.Drawing.Font font);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Drawing.Graphics graphics, class System.Windows.Forms.IWin32Window associatedWindow, class System.Windows.Forms.Control associatedControl, valuetype System.Drawing.Rectangle bounds, string toolTipText, valuetype System.Drawing.Color backColor, valuetype System.Drawing.Color foreColor, class System.Drawing.Font font) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.DrawToolTipEventArgs.#ctor(System.Drawing.Graphics,System.Windows.Forms.IWin32Window,System.Windows.Forms.Control,System.Drawing.Rectangle,System.String,System.Drawing.Color,System.Drawing.Color,System.Drawing.Font)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (graphics As Graphics, associatedWindow As IWin32Window, associatedControl As Control, bounds As Rectangle, toolTipText As String, backColor As Color, foreColor As Color, font As Font)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DrawToolTipEventArgs(System::Drawing::Graphics ^ graphics, System::Windows::Forms::IWin32Window ^ associatedWindow, System::Windows::Forms::Control ^ associatedControl, System::Drawing::Rectangle bounds, System::String ^ toolTipText, System::Drawing::Color backColor, System::Drawing::Color foreColor, System::Drawing::Font ^ font);" />
-      <MemberSignature Language="F#" Value="new System.Windows.Forms.DrawToolTipEventArgs : System.Drawing.Graphics * System.Windows.Forms.IWin32Window * System.Windows.Forms.Control * System.Drawing.Rectangle * string * System.Drawing.Color * System.Drawing.Color * System.Drawing.Font -&gt; System.Windows.Forms.DrawToolTipEventArgs" Usage="new System.Windows.Forms.DrawToolTipEventArgs (graphics, associatedWindow, associatedControl, bounds, toolTipText, backColor, foreColor, font)" />
+      <MemberSignature Language="C#" Value="public DrawToolTipEventArgs (System.Drawing.Graphics graphics, System.Windows.Forms.IWin32Window associatedWindow, System.Windows.Forms.Control associatedControl, System.Drawing.Rectangle bounds, string toolTipText, System.Drawing.Color backColor, System.Drawing.Color foreColor, System.Drawing.Font font);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Drawing.Graphics graphics, class System.Windows.Forms.IWin32Window associatedWindow, class System.Windows.Forms.Control associatedControl, valuetype System.Drawing.Rectangle bounds, string toolTipText, valuetype System.Drawing.Color backColor, valuetype System.Drawing.Color foreColor, class System.Drawing.Font font) cil managed" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.DrawToolTipEventArgs.#ctor(System.Drawing.Graphics,System.Windows.Forms.IWin32Window,System.Windows.Forms.Control,System.Drawing.Rectangle,System.String,System.Drawing.Color,System.Drawing.Color,System.Drawing.Font)" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (graphics As Graphics, associatedWindow As IWin32Window, associatedControl As Control, bounds As Rectangle, toolTipText As String, backColor As Color, foreColor As Color, font As Font)" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DrawToolTipEventArgs(System::Drawing::Graphics ^ graphics, System::Windows::Forms::IWin32Window ^ associatedWindow, System::Windows::Forms::Control ^ associatedControl, System::Drawing::Rectangle bounds, System::String ^ toolTipText, System::Drawing::Color backColor, System::Drawing::Color foreColor, System::Drawing::Font ^ font);" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="F#" Value="new System.Windows.Forms.DrawToolTipEventArgs : System.Drawing.Graphics * System.Windows.Forms.IWin32Window * System.Windows.Forms.Control * System.Drawing.Rectangle * string * System.Drawing.Color * System.Drawing.Color * System.Drawing.Font -&gt; System.Windows.Forms.DrawToolTipEventArgs" Usage="new System.Windows.Forms.DrawToolTipEventArgs (graphics, associatedWindow, associatedControl, bounds, toolTipText, backColor, foreColor, font)" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="C#" Value="public DrawToolTipEventArgs (System.Drawing.Graphics graphics, System.Windows.Forms.IWin32Window? associatedWindow, System.Windows.Forms.Control? associatedControl, System.Drawing.Rectangle bounds, string? toolTipText, System.Drawing.Color backColor, System.Drawing.Color foreColor, System.Drawing.Font? font);" FrameworkAlternate="net-6.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
-        <Parameter Name="graphics" Type="System.Drawing.Graphics" />
-        <Parameter Name="associatedWindow" Type="System.Windows.Forms.IWin32Window" />
-        <Parameter Name="associatedControl" Type="System.Windows.Forms.Control" />
-        <Parameter Name="bounds" Type="System.Drawing.Rectangle" />
-        <Parameter Name="toolTipText" Type="System.String" />
-        <Parameter Name="backColor" Type="System.Drawing.Color" />
-        <Parameter Name="foreColor" Type="System.Drawing.Color" />
-        <Parameter Name="font" Type="System.Drawing.Font" />
+        <Parameter Name="graphics" Type="System.Drawing.Graphics" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="associatedWindow" Type="System.Windows.Forms.IWin32Window?" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="associatedControl" Type="System.Windows.Forms.Control?" Index="2" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="bounds" Type="System.Drawing.Rectangle" Index="3" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="toolTipText" Type="System.String?" Index="4" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="backColor" Type="System.Drawing.Color" Index="5" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="foreColor" Type="System.Drawing.Color" Index="6" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="font" Type="System.Drawing.Font?" Index="7" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="graphics">The <see cref="T:System.Drawing.Graphics" /> context used to draw the ToolTip.</param>
@@ -100,18 +97,20 @@
       </Docs>
     </Member>
     <Member MemberName="AssociatedControl">
-      <MemberSignature Language="C#" Value="public System.Windows.Forms.Control AssociatedControl { get; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Forms.Control AssociatedControl { get; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Forms.Control AssociatedControl" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.DrawToolTipEventArgs.AssociatedControl" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AssociatedControl As Control" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Forms::Control ^ AssociatedControl { System::Windows::Forms::Control ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.AssociatedControl : System.Windows.Forms.Control" Usage="System.Windows.Forms.DrawToolTipEventArgs.AssociatedControl" />
+      <MemberSignature Language="C#" Value="public System.Windows.Forms.Control? AssociatedControl { get; }" FrameworkAlternate="net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -120,7 +119,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.Control</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Windows.Forms.Control</ReturnType>
+        <ReturnType FrameworkAlternate="net-6.0">System.Windows.Forms.Control?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the control for which the <see cref="T:System.Windows.Forms.ToolTip" /> is being drawn.</summary>
@@ -150,18 +150,20 @@
       </Docs>
     </Member>
     <Member MemberName="AssociatedWindow">
-      <MemberSignature Language="C#" Value="public System.Windows.Forms.IWin32Window AssociatedWindow { get; }" />
+      <MemberSignature Language="C#" Value="public System.Windows.Forms.IWin32Window AssociatedWindow { get; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Windows.Forms.IWin32Window AssociatedWindow" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.DrawToolTipEventArgs.AssociatedWindow" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property AssociatedWindow As IWin32Window" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Windows::Forms::IWin32Window ^ AssociatedWindow { System::Windows::Forms::IWin32Window ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.AssociatedWindow : System.Windows.Forms.IWin32Window" Usage="System.Windows.Forms.DrawToolTipEventArgs.AssociatedWindow" />
+      <MemberSignature Language="C#" Value="public System.Windows.Forms.IWin32Window? AssociatedWindow { get; }" FrameworkAlternate="net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -170,7 +172,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.IWin32Window</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Windows.Forms.IWin32Window</ReturnType>
+        <ReturnType FrameworkAlternate="net-6.0">System.Windows.Forms.IWin32Window?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the window to which this <see cref="T:System.Windows.Forms.ToolTip" /> is bound.</summary>
@@ -209,6 +212,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -256,6 +260,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -297,6 +302,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -347,6 +353,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -399,6 +406,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -423,18 +431,20 @@
       </Docs>
     </Member>
     <Member MemberName="Font">
-      <MemberSignature Language="C#" Value="public System.Drawing.Font Font { get; }" />
+      <MemberSignature Language="C#" Value="public System.Drawing.Font Font { get; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Drawing.Font Font" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.DrawToolTipEventArgs.Font" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Font As Font" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Drawing::Font ^ Font { System::Drawing::Font ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Font : System.Drawing.Font" Usage="System.Windows.Forms.DrawToolTipEventArgs.Font" />
+      <MemberSignature Language="C#" Value="public System.Drawing.Font? Font { get; }" FrameworkAlternate="net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -443,7 +453,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Drawing.Font</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Drawing.Font</ReturnType>
+        <ReturnType FrameworkAlternate="net-6.0">System.Drawing.Font?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the font used to draw the <see cref="T:System.Windows.Forms.ToolTip" />.</summary>
@@ -485,6 +496,7 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -524,18 +536,20 @@
       </Docs>
     </Member>
     <Member MemberName="ToolTipText">
-      <MemberSignature Language="C#" Value="public string ToolTipText { get; }" />
+      <MemberSignature Language="C#" Value="public string ToolTipText { get; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".property instance string ToolTipText" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.DrawToolTipEventArgs.ToolTipText" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ToolTipText As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ ToolTipText { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ToolTipText : string" Usage="System.Windows.Forms.DrawToolTipEventArgs.ToolTipText" />
+      <MemberSignature Language="C#" Value="public string? ToolTipText { get; }" FrameworkAlternate="net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -544,7 +558,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-6.0">System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the text for the <see cref="T:System.Windows.Forms.ToolTip" /> that is being drawn.</summary>

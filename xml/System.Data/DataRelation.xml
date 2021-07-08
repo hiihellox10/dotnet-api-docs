@@ -1,6 +1,6 @@
 <Type Name="DataRelation" FullName="System.Data.DataRelation">
   <TypeSignature Language="C#" Value="public class DataRelation" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataRelation extends System.Object" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit DataRelation extends System.Object" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
   <TypeSignature Language="DocId" Value="T:System.Data.DataRelation" />
   <TypeSignature Language="VB.NET" Value="Public Class DataRelation" />
   <TypeSignature Language="C++ CLI" Value="public ref class DataRelation" />
@@ -24,9 +24,11 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Data.Common" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Data.Common" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -37,11 +39,11 @@
       <AttributeName Language="C#">[System.ComponentModel.DefaultProperty("RelationName")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.DefaultProperty("RelationName")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-5.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
       <AttributeName Language="C#">[System.ComponentModel.Editor("Microsoft.VSDesigner.Data.Design.DataRelationEditor, Microsoft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.Editor("Microsoft.VSDesigner.Data.Design.DataRelationEditor, Microsoft.VSDesigner, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a", "System.Drawing.Design.UITypeEditor, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
       <AttributeName Language="C#">[System.ComponentModel.TypeConverter(typeof(System.Data.RelationshipConverter))]</AttributeName>
       <AttributeName Language="F#">[&lt;System.ComponentModel.TypeConverter(typeof(System.Data.RelationshipConverter))&gt;]</AttributeName>
     </Attribute>
@@ -117,12 +119,11 @@
     </MemberGroup>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public DataRelation (string? relationName, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, class System.Data.DataColumn parentColumn, class System.Data.DataColumn childColumn) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.Data.DataColumn,System.Data.DataColumn)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentColumn As DataColumn, childColumn As DataColumn)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataRelation(System::String ^ relationName, System::Data::DataColumn ^ parentColumn, System::Data::DataColumn ^ childColumn);" />
-      <MemberSignature Language="F#" Value="new System.Data.DataRelation : string * System.Data.DataColumn * System.Data.DataColumn -&gt; System.Data.DataRelation" Usage="new System.Data.DataRelation (relationName, parentColumn, childColumn)" />
-      <MemberSignature Language="C#" Value="public DataRelation (string relationName, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, class System.Data.DataColumn parentColumn, class System.Data.DataColumn childColumn) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.Data.DataColumn,System.Data.DataColumn)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentColumn As DataColumn, childColumn As DataColumn)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataRelation(System::String ^ relationName, System::Data::DataColumn ^ parentColumn, System::Data::DataColumn ^ childColumn);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Data.DataRelation : string * System.Data.DataColumn * System.Data.DataColumn -&gt; System.Data.DataRelation" Usage="new System.Data.DataRelation (relationName, parentColumn, childColumn)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -144,9 +145,9 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="relationName" Type="System.String" />
-        <Parameter Name="parentColumn" Type="System.Data.DataColumn" />
-        <Parameter Name="childColumn" Type="System.Data.DataColumn" />
+        <Parameter Name="relationName" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="parentColumn" Type="System.Data.DataColumn" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="childColumn" Type="System.Data.DataColumn" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="relationName">The name of the <see cref="T:System.Data.DataRelation" />. If <see langword="null" /> or an empty string (""), a default name will be given when the created object is added to the <see cref="T:System.Data.DataRelationCollection" />.</param>
@@ -176,12 +177,11 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public DataRelation (string? relationName, System.Data.DataColumn[] parentColumns, System.Data.DataColumn[] childColumns);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, class System.Data.DataColumn[] parentColumns, class System.Data.DataColumn[] childColumns) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.Data.DataColumn[],System.Data.DataColumn[])" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentColumns As DataColumn(), childColumns As DataColumn())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataRelation(System::String ^ relationName, cli::array &lt;System::Data::DataColumn ^&gt; ^ parentColumns, cli::array &lt;System::Data::DataColumn ^&gt; ^ childColumns);" />
-      <MemberSignature Language="F#" Value="new System.Data.DataRelation : string * System.Data.DataColumn[] * System.Data.DataColumn[] -&gt; System.Data.DataRelation" Usage="new System.Data.DataRelation (relationName, parentColumns, childColumns)" />
-      <MemberSignature Language="C#" Value="public DataRelation (string relationName, System.Data.DataColumn[] parentColumns, System.Data.DataColumn[] childColumns);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, class System.Data.DataColumn[] parentColumns, class System.Data.DataColumn[] childColumns) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.Data.DataColumn[],System.Data.DataColumn[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentColumns As DataColumn(), childColumns As DataColumn())" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataRelation(System::String ^ relationName, cli::array &lt;System::Data::DataColumn ^&gt; ^ parentColumns, cli::array &lt;System::Data::DataColumn ^&gt; ^ childColumns);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Data.DataRelation : string * System.Data.DataColumn[] * System.Data.DataColumn[] -&gt; System.Data.DataRelation" Usage="new System.Data.DataRelation (relationName, parentColumns, childColumns)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -203,9 +203,9 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="relationName" Type="System.String" />
-        <Parameter Name="parentColumns" Type="System.Data.DataColumn[]" />
-        <Parameter Name="childColumns" Type="System.Data.DataColumn[]" />
+        <Parameter Name="relationName" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="parentColumns" Type="System.Data.DataColumn[]" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="childColumns" Type="System.Data.DataColumn[]" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="relationName">The name of the relation. If <see langword="null" /> or an empty string (""), a default name will be given when the created object is added to the <see cref="T:System.Data.DataRelationCollection" />.</param>
@@ -239,12 +239,11 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public DataRelation (string? relationName, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, bool createConstraints);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, class System.Data.DataColumn parentColumn, class System.Data.DataColumn childColumn, bool createConstraints) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.Data.DataColumn,System.Data.DataColumn,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentColumn As DataColumn, childColumn As DataColumn, createConstraints As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataRelation(System::String ^ relationName, System::Data::DataColumn ^ parentColumn, System::Data::DataColumn ^ childColumn, bool createConstraints);" />
-      <MemberSignature Language="F#" Value="new System.Data.DataRelation : string * System.Data.DataColumn * System.Data.DataColumn * bool -&gt; System.Data.DataRelation" Usage="new System.Data.DataRelation (relationName, parentColumn, childColumn, createConstraints)" />
-      <MemberSignature Language="C#" Value="public DataRelation (string relationName, System.Data.DataColumn parentColumn, System.Data.DataColumn childColumn, bool createConstraints);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, class System.Data.DataColumn parentColumn, class System.Data.DataColumn childColumn, bool createConstraints) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.Data.DataColumn,System.Data.DataColumn,System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentColumn As DataColumn, childColumn As DataColumn, createConstraints As Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataRelation(System::String ^ relationName, System::Data::DataColumn ^ parentColumn, System::Data::DataColumn ^ childColumn, bool createConstraints);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Data.DataRelation : string * System.Data.DataColumn * System.Data.DataColumn * bool -&gt; System.Data.DataRelation" Usage="new System.Data.DataRelation (relationName, parentColumn, childColumn, createConstraints)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -266,10 +265,10 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="relationName" Type="System.String" />
-        <Parameter Name="parentColumn" Type="System.Data.DataColumn" />
-        <Parameter Name="childColumn" Type="System.Data.DataColumn" />
-        <Parameter Name="createConstraints" Type="System.Boolean" />
+        <Parameter Name="relationName" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="parentColumn" Type="System.Data.DataColumn" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="childColumn" Type="System.Data.DataColumn" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="createConstraints" Type="System.Boolean" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="relationName">The name of the relation. If <see langword="null" /> or an empty string (""), a default name will be given when the created object is added to the <see cref="T:System.Data.DataRelationCollection" />.</param>
@@ -300,12 +299,11 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public DataRelation (string? relationName, System.Data.DataColumn[] parentColumns, System.Data.DataColumn[] childColumns, bool createConstraints);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, class System.Data.DataColumn[] parentColumns, class System.Data.DataColumn[] childColumns, bool createConstraints) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.Data.DataColumn[],System.Data.DataColumn[],System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentColumns As DataColumn(), childColumns As DataColumn(), createConstraints As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataRelation(System::String ^ relationName, cli::array &lt;System::Data::DataColumn ^&gt; ^ parentColumns, cli::array &lt;System::Data::DataColumn ^&gt; ^ childColumns, bool createConstraints);" />
-      <MemberSignature Language="F#" Value="new System.Data.DataRelation : string * System.Data.DataColumn[] * System.Data.DataColumn[] * bool -&gt; System.Data.DataRelation" Usage="new System.Data.DataRelation (relationName, parentColumns, childColumns, createConstraints)" />
-      <MemberSignature Language="C#" Value="public DataRelation (string relationName, System.Data.DataColumn[] parentColumns, System.Data.DataColumn[] childColumns, bool createConstraints);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, class System.Data.DataColumn[] parentColumns, class System.Data.DataColumn[] childColumns, bool createConstraints) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.Data.DataColumn[],System.Data.DataColumn[],System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentColumns As DataColumn(), childColumns As DataColumn(), createConstraints As Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataRelation(System::String ^ relationName, cli::array &lt;System::Data::DataColumn ^&gt; ^ parentColumns, cli::array &lt;System::Data::DataColumn ^&gt; ^ childColumns, bool createConstraints);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Data.DataRelation : string * System.Data.DataColumn[] * System.Data.DataColumn[] * bool -&gt; System.Data.DataRelation" Usage="new System.Data.DataRelation (relationName, parentColumns, childColumns, createConstraints)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -327,10 +325,10 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="relationName" Type="System.String" />
-        <Parameter Name="parentColumns" Type="System.Data.DataColumn[]" />
-        <Parameter Name="childColumns" Type="System.Data.DataColumn[]" />
-        <Parameter Name="createConstraints" Type="System.Boolean" />
+        <Parameter Name="relationName" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="parentColumns" Type="System.Data.DataColumn[]" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="childColumns" Type="System.Data.DataColumn[]" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="createConstraints" Type="System.Boolean" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="relationName">The name of the relation. If <see langword="null" /> or an empty string (""), a default name will be given when the created object is added to the <see cref="T:System.Data.DataRelationCollection" />.</param>
@@ -361,12 +359,11 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public DataRelation (string relationName, string? parentTableName, string? childTableName, string[]? parentColumnNames, string[]? childColumnNames, bool nested);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, string parentTableName, string childTableName, string[] parentColumnNames, string[] childColumnNames, bool nested) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.String,System.String,System.String[],System.String[],System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentTableName As String, childTableName As String, parentColumnNames As String(), childColumnNames As String(), nested As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataRelation(System::String ^ relationName, System::String ^ parentTableName, System::String ^ childTableName, cli::array &lt;System::String ^&gt; ^ parentColumnNames, cli::array &lt;System::String ^&gt; ^ childColumnNames, bool nested);" />
-      <MemberSignature Language="F#" Value="new System.Data.DataRelation : string * string * string * string[] * string[] * bool -&gt; System.Data.DataRelation" Usage="new System.Data.DataRelation (relationName, parentTableName, childTableName, parentColumnNames, childColumnNames, nested)" />
-      <MemberSignature Language="C#" Value="public DataRelation (string relationName, string parentTableName, string childTableName, string[] parentColumnNames, string[] childColumnNames, bool nested);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, string parentTableName, string childTableName, string[] parentColumnNames, string[] childColumnNames, bool nested) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.String,System.String,System.String[],System.String[],System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentTableName As String, childTableName As String, parentColumnNames As String(), childColumnNames As String(), nested As Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataRelation(System::String ^ relationName, System::String ^ parentTableName, System::String ^ childTableName, cli::array &lt;System::String ^&gt; ^ parentColumnNames, cli::array &lt;System::String ^&gt; ^ childColumnNames, bool nested);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Data.DataRelation : string * string * string * string[] * string[] * bool -&gt; System.Data.DataRelation" Usage="new System.Data.DataRelation (relationName, parentTableName, childTableName, parentColumnNames, childColumnNames, nested)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -388,18 +385,18 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
-        <Parameter Name="relationName" Type="System.String" />
-        <Parameter Name="parentTableName" Type="System.String" />
-        <Parameter Name="childTableName" Type="System.String" />
-        <Parameter Name="parentColumnNames" Type="System.String[]" />
-        <Parameter Name="childColumnNames" Type="System.String[]" />
-        <Parameter Name="nested" Type="System.Boolean" />
+        <Parameter Name="relationName" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="parentTableName" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="childTableName" Type="System.String?" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="parentColumnNames" Type="System.String[]?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="childColumnNames" Type="System.String[]?" Index="4" FrameworkAlternate="net-5.0" />
+        <Parameter Name="nested" Type="System.Boolean" Index="5" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="relationName">The name of the relation. If <see langword="null" /> or an empty string (""), a default name will be given when the created object is added to the <see cref="T:System.Data.DataRelationCollection" />.</param>
@@ -421,12 +418,11 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public DataRelation (string relationName, string? parentTableName, string? parentTableNamespace, string? childTableName, string? childTableNamespace, string[]? parentColumnNames, string[]? childColumnNames, bool nested);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, string parentTableName, string parentTableNamespace, string childTableName, string childTableNamespace, string[] parentColumnNames, string[] childColumnNames, bool nested) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.String,System.String,System.String,System.String,System.String[],System.String[],System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentTableName As String, parentTableNamespace As String, childTableName As String, childTableNamespace As String, parentColumnNames As String(), childColumnNames As String(), nested As Boolean)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataRelation(System::String ^ relationName, System::String ^ parentTableName, System::String ^ parentTableNamespace, System::String ^ childTableName, System::String ^ childTableNamespace, cli::array &lt;System::String ^&gt; ^ parentColumnNames, cli::array &lt;System::String ^&gt; ^ childColumnNames, bool nested);" />
-      <MemberSignature Language="F#" Value="new System.Data.DataRelation : string * string * string * string * string * string[] * string[] * bool -&gt; System.Data.DataRelation" Usage="new System.Data.DataRelation (relationName, parentTableName, parentTableNamespace, childTableName, childTableNamespace, parentColumnNames, childColumnNames, nested)" />
-      <MemberSignature Language="C#" Value="public DataRelation (string relationName, string parentTableName, string parentTableNamespace, string childTableName, string childTableNamespace, string[] parentColumnNames, string[] childColumnNames, bool nested);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string relationName, string parentTableName, string parentTableNamespace, string childTableName, string childTableNamespace, string[] parentColumnNames, string[] childColumnNames, bool nested) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Data.DataRelation.#ctor(System.String,System.String,System.String,System.String,System.String,System.String[],System.String[],System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (relationName As String, parentTableName As String, parentTableNamespace As String, childTableName As String, childTableNamespace As String, parentColumnNames As String(), childColumnNames As String(), nested As Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; DataRelation(System::String ^ relationName, System::String ^ parentTableName, System::String ^ parentTableNamespace, System::String ^ childTableName, System::String ^ childTableNamespace, cli::array &lt;System::String ^&gt; ^ parentColumnNames, cli::array &lt;System::String ^&gt; ^ childColumnNames, bool nested);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Data.DataRelation : string * string * string * string * string * string[] * string[] * bool -&gt; System.Data.DataRelation" Usage="new System.Data.DataRelation (relationName, parentTableName, parentTableNamespace, childTableName, childTableNamespace, parentColumnNames, childColumnNames, nested)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data</AssemblyName>
@@ -447,20 +443,20 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
-        <Parameter Name="relationName" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="parentTableName" Type="System.String" Index="1" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="parentTableNamespace" Type="System.String" Index="2" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="childTableName" Type="System.String" Index="3" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="childTableNamespace" Type="System.String" Index="4" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="parentColumnNames" Type="System.String[]" Index="5" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="childColumnNames" Type="System.String[]" Index="6" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="nested" Type="System.Boolean" Index="7" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="relationName" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="parentTableName" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="parentTableNamespace" Type="System.String?" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="childTableName" Type="System.String?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="childTableNamespace" Type="System.String?" Index="4" FrameworkAlternate="net-5.0" />
+        <Parameter Name="parentColumnNames" Type="System.String[]?" Index="5" FrameworkAlternate="net-5.0" />
+        <Parameter Name="childColumnNames" Type="System.String[]?" Index="6" FrameworkAlternate="net-5.0" />
+        <Parameter Name="nested" Type="System.Boolean" Index="7" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="relationName">The name of the <see cref="T:System.Data.DataRelation" />. If <see langword="null" /> or an empty string (""), a default name will be given when the created object is added to the <see cref="T:System.Data.DataRelationCollection" />.</param>
@@ -508,6 +504,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -553,6 +550,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
@@ -581,7 +579,7 @@
       </Docs>
     </Member>
     <Member MemberName="ChildKeyConstraint">
-      <MemberSignature Language="C#" Value="public virtual System.Data.ForeignKeyConstraint? ChildKeyConstraint { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Data.ForeignKeyConstraint? ChildKeyConstraint { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Data.ForeignKeyConstraint ChildKeyConstraint" />
       <MemberSignature Language="DocId" Value="P:System.Data.DataRelation.ChildKeyConstraint" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ChildKeyConstraint As ForeignKeyConstraint" />
@@ -607,9 +605,11 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Data.ForeignKeyConstraint</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Data.ForeignKeyConstraint?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Data.ForeignKeyConstraint</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the <see cref="T:System.Data.ForeignKeyConstraint" /> for the relation.</summary>
@@ -660,6 +660,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.DataTable</ReturnType>
@@ -682,7 +683,7 @@
       </Docs>
     </Member>
     <Member MemberName="DataSet">
-      <MemberSignature Language="C#" Value="public virtual System.Data.DataSet? DataSet { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Data.DataSet? DataSet { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Data.DataSet DataSet" />
       <MemberSignature Language="DocId" Value="P:System.Data.DataRelation.DataSet" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property DataSet As DataSet" />
@@ -708,6 +709,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -720,7 +722,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Data.DataSet</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Data.DataSet?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Data.DataSet</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the <see cref="T:System.Data.DataSet" /> to which the <see cref="T:System.Data.DataRelation" /> belongs.</summary>
@@ -771,6 +774,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -826,6 +830,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -883,6 +888,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -922,6 +928,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-1.1">
@@ -950,7 +957,7 @@
       </Docs>
     </Member>
     <Member MemberName="ParentKeyConstraint">
-      <MemberSignature Language="C#" Value="public virtual System.Data.UniqueConstraint? ParentKeyConstraint { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Data.UniqueConstraint? ParentKeyConstraint { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Data.UniqueConstraint ParentKeyConstraint" />
       <MemberSignature Language="DocId" Value="P:System.Data.DataRelation.ParentKeyConstraint" />
       <MemberSignature Language="VB.NET" Value="Public Overridable ReadOnly Property ParentKeyConstraint As UniqueConstraint" />
@@ -976,9 +983,11 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Data.UniqueConstraint</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Data.UniqueConstraint?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Data.UniqueConstraint</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the <see cref="T:System.Data.UniqueConstraint" /> that guarantees that values in the parent column of a <see cref="T:System.Data.DataRelation" /> are unique.</summary>
@@ -1023,6 +1032,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Data.DataTable</ReturnType>
@@ -1070,6 +1080,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1109,6 +1120,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -1175,6 +1187,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

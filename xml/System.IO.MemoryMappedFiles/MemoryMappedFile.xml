@@ -12,6 +12,7 @@
     <AssemblyVersion>4.1.1.0</AssemblyVersion>
     <AssemblyVersion>4.1.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System.Core</AssemblyName>
@@ -25,6 +26,7 @@
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.IO.MemoryMappedFiles" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.IO.MemoryMappedFiles" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -88,6 +90,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -150,6 +153,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -211,12 +215,11 @@
     </Member>
     <Member MemberName="CreateFromFile">
       <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile (string path, System.IO.FileMode mode, string? mapName);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile(string path, valuetype System.IO.FileMode mode, string mapName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromFile (path As String, mode As FileMode, mapName As String) As MemoryMappedFile" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateFromFile(System::String ^ path, System::IO::FileMode mode, System::String ^ mapName);" />
-      <MemberSignature Language="F#" Value="static member CreateFromFile : string * System.IO.FileMode * string -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile (path, mode, mapName)" />
-      <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile (string path, System.IO.FileMode mode, string mapName);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile(string path, valuetype System.IO.FileMode mode, string mapName) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromFile (path As String, mode As FileMode, mapName As String) As MemoryMappedFile" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateFromFile(System::String ^ path, System::IO::FileMode mode, System::String ^ mapName);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member CreateFromFile : string * System.IO.FileMode * string -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile (path, mode, mapName)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.MemoryMappedFiles</AssemblyName>
@@ -237,12 +240,12 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="path" Type="System.String" />
-        <Parameter Name="mode" Type="System.IO.FileMode" />
-        <Parameter Name="mapName" Type="System.String" />
+        <Parameter Name="path" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="mode" Type="System.IO.FileMode" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="mapName" Type="System.String?" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="path">The path to the file to map.</param>
@@ -291,12 +294,11 @@
     </Member>
     <Member MemberName="CreateFromFile">
       <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile (string path, System.IO.FileMode mode, string? mapName, long capacity);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile(string path, valuetype System.IO.FileMode mode, string mapName, int64 capacity) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromFile (path As String, mode As FileMode, mapName As String, capacity As Long) As MemoryMappedFile" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateFromFile(System::String ^ path, System::IO::FileMode mode, System::String ^ mapName, long capacity);" />
-      <MemberSignature Language="F#" Value="static member CreateFromFile : string * System.IO.FileMode * string * int64 -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile (path, mode, mapName, capacity)" />
-      <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile (string path, System.IO.FileMode mode, string mapName, long capacity);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile(string path, valuetype System.IO.FileMode mode, string mapName, int64 capacity) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromFile (path As String, mode As FileMode, mapName As String, capacity As Long) As MemoryMappedFile" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateFromFile(System::String ^ path, System::IO::FileMode mode, System::String ^ mapName, long capacity);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member CreateFromFile : string * System.IO.FileMode * string * int64 -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile (path, mode, mapName, capacity)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.MemoryMappedFiles</AssemblyName>
@@ -316,20 +318,14 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="path" Type="System.String" />
-        <Parameter Name="mode" Type="System.IO.FileMode" />
-        <Parameter Name="mapName" Type="System.String" />
-        <Parameter Name="capacity" Type="System.Int64" />
+        <Parameter Name="path" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="mode" Type="System.IO.FileMode" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="mapName" Type="System.String?" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="capacity" Type="System.Int64" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="path">The path to the file to map.</param>
@@ -386,12 +382,11 @@
     </Member>
     <Member MemberName="CreateFromFile">
       <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile (string path, System.IO.FileMode mode, string? mapName, long capacity, System.IO.MemoryMappedFiles.MemoryMappedFileAccess access);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile(string path, valuetype System.IO.FileMode mode, string mapName, int64 capacity, valuetype System.IO.MemoryMappedFiles.MemoryMappedFileAccess access) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromFile (path As String, mode As FileMode, mapName As String, capacity As Long, access As MemoryMappedFileAccess) As MemoryMappedFile" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateFromFile(System::String ^ path, System::IO::FileMode mode, System::String ^ mapName, long capacity, System::IO::MemoryMappedFiles::MemoryMappedFileAccess access);" />
-      <MemberSignature Language="F#" Value="static member CreateFromFile : string * System.IO.FileMode * string * int64 * System.IO.MemoryMappedFiles.MemoryMappedFileAccess -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile (path, mode, mapName, capacity, access)" />
-      <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile (string path, System.IO.FileMode mode, string mapName, long capacity, System.IO.MemoryMappedFiles.MemoryMappedFileAccess access);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile(string path, valuetype System.IO.FileMode mode, string mapName, int64 capacity, valuetype System.IO.MemoryMappedFiles.MemoryMappedFileAccess access) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.String,System.IO.FileMode,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromFile (path As String, mode As FileMode, mapName As String, capacity As Long, access As MemoryMappedFileAccess) As MemoryMappedFile" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateFromFile(System::String ^ path, System::IO::FileMode mode, System::String ^ mapName, long capacity, System::IO::MemoryMappedFiles::MemoryMappedFileAccess access);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member CreateFromFile : string * System.IO.FileMode * string * int64 * System.IO.MemoryMappedFiles.MemoryMappedFileAccess -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile (path, mode, mapName, capacity, access)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.MemoryMappedFiles</AssemblyName>
@@ -411,21 +406,15 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
-          <AttributeName Language="C#">[System.Security.SecurityCritical]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Security.SecurityCritical&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="path" Type="System.String" />
-        <Parameter Name="mode" Type="System.IO.FileMode" />
-        <Parameter Name="mapName" Type="System.String" />
-        <Parameter Name="capacity" Type="System.Int64" />
-        <Parameter Name="access" Type="System.IO.MemoryMappedFiles.MemoryMappedFileAccess" />
+        <Parameter Name="path" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="mode" Type="System.IO.FileMode" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="mapName" Type="System.String?" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="capacity" Type="System.Int64" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="access" Type="System.IO.MemoryMappedFiles.MemoryMappedFileAccess" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="path">The path to the file to map.</param>
@@ -498,12 +487,11 @@
     </Member>
     <Member MemberName="CreateFromFile">
       <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile (System.IO.FileStream fileStream, string? mapName, long capacity, System.IO.MemoryMappedFiles.MemoryMappedFileAccess access, System.IO.HandleInheritability inheritability, bool leaveOpen);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile(class System.IO.FileStream fileStream, string mapName, int64 capacity, valuetype System.IO.MemoryMappedFiles.MemoryMappedFileAccess access, valuetype System.IO.HandleInheritability inheritability, bool leaveOpen) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromFile (fileStream As FileStream, mapName As String, capacity As Long, access As MemoryMappedFileAccess, inheritability As HandleInheritability, leaveOpen As Boolean) As MemoryMappedFile" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateFromFile(System::IO::FileStream ^ fileStream, System::String ^ mapName, long capacity, System::IO::MemoryMappedFiles::MemoryMappedFileAccess access, System::IO::HandleInheritability inheritability, bool leaveOpen);" />
-      <MemberSignature Language="F#" Value="static member CreateFromFile : System.IO.FileStream * string * int64 * System.IO.MemoryMappedFiles.MemoryMappedFileAccess * System.IO.HandleInheritability * bool -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile (fileStream, mapName, capacity, access, inheritability, leaveOpen)" />
-      <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile (System.IO.FileStream fileStream, string mapName, long capacity, System.IO.MemoryMappedFiles.MemoryMappedFileAccess access, System.IO.HandleInheritability inheritability, bool leaveOpen);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateFromFile(class System.IO.FileStream fileStream, string mapName, int64 capacity, valuetype System.IO.MemoryMappedFiles.MemoryMappedFileAccess access, valuetype System.IO.HandleInheritability inheritability, bool leaveOpen) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile(System.IO.FileStream,System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.HandleInheritability,System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromFile (fileStream As FileStream, mapName As String, capacity As Long, access As MemoryMappedFileAccess, inheritability As HandleInheritability, leaveOpen As Boolean) As MemoryMappedFile" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateFromFile(System::IO::FileStream ^ fileStream, System::String ^ mapName, long capacity, System::IO::MemoryMappedFiles::MemoryMappedFileAccess access, System::IO::HandleInheritability inheritability, bool leaveOpen);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member CreateFromFile : System.IO.FileStream * string * int64 * System.IO.MemoryMappedFiles.MemoryMappedFileAccess * System.IO.HandleInheritability * bool -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateFromFile (fileStream, mapName, capacity, access, inheritability, leaveOpen)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.MemoryMappedFiles</AssemblyName>
@@ -524,15 +512,15 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="fileStream" Type="System.IO.FileStream" Index="0" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="mapName" Type="System.String" Index="1" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="capacity" Type="System.Int64" Index="2" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="access" Type="System.IO.MemoryMappedFiles.MemoryMappedFileAccess" Index="3" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="inheritability" Type="System.IO.HandleInheritability" Index="4" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="leaveOpen" Type="System.Boolean" Index="5" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="fileStream" Type="System.IO.FileStream" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="mapName" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="capacity" Type="System.Int64" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="access" Type="System.IO.MemoryMappedFiles.MemoryMappedFileAccess" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="inheritability" Type="System.IO.HandleInheritability" Index="4" FrameworkAlternate="net-5.0" />
+        <Parameter Name="leaveOpen" Type="System.Boolean" Index="5" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="fileStream">The file stream of the existing file.</param>
@@ -685,12 +673,11 @@
     </MemberGroup>
     <Member MemberName="CreateNew">
       <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateNew (string? mapName, long capacity);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateNew(string mapName, int64 capacity) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateNew (mapName As String, capacity As Long) As MemoryMappedFile" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateNew(System::String ^ mapName, long capacity);" />
-      <MemberSignature Language="F#" Value="static member CreateNew : string * int64 -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew (mapName, capacity)" />
-      <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateNew (string mapName, long capacity);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateNew(string mapName, int64 capacity) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateNew (mapName As String, capacity As Long) As MemoryMappedFile" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateNew(System::String ^ mapName, long capacity);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member CreateNew : string * int64 -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew (mapName, capacity)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.MemoryMappedFiles</AssemblyName>
@@ -710,18 +697,12 @@
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="mapName" Type="System.String" />
-        <Parameter Name="capacity" Type="System.Int64" />
+        <Parameter Name="mapName" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="capacity" Type="System.Int64" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="mapName">A name to assign to the memory-mapped file, or <see langword="null" /> for a <see cref="T:System.IO.MemoryMappedFiles.MemoryMappedFile" /> that you do not intend to share across processes.</param>
@@ -800,12 +781,11 @@ Process C says: True
     </Member>
     <Member MemberName="CreateNew">
       <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateNew (string? mapName, long capacity, System.IO.MemoryMappedFiles.MemoryMappedFileAccess access);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateNew(string mapName, int64 capacity, valuetype System.IO.MemoryMappedFiles.MemoryMappedFileAccess access) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateNew (mapName As String, capacity As Long, access As MemoryMappedFileAccess) As MemoryMappedFile" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateNew(System::String ^ mapName, long capacity, System::IO::MemoryMappedFiles::MemoryMappedFileAccess access);" />
-      <MemberSignature Language="F#" Value="static member CreateNew : string * int64 * System.IO.MemoryMappedFiles.MemoryMappedFileAccess -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew (mapName, capacity, access)" />
-      <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateNew (string mapName, long capacity, System.IO.MemoryMappedFiles.MemoryMappedFileAccess access);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateNew(string mapName, int64 capacity, valuetype System.IO.MemoryMappedFiles.MemoryMappedFileAccess access) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateNew (mapName As String, capacity As Long, access As MemoryMappedFileAccess) As MemoryMappedFile" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateNew(System::String ^ mapName, long capacity, System::IO::MemoryMappedFiles::MemoryMappedFileAccess access);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member CreateNew : string * int64 * System.IO.MemoryMappedFiles.MemoryMappedFileAccess -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew (mapName, capacity, access)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.MemoryMappedFiles</AssemblyName>
@@ -825,19 +805,13 @@ Process C says: True
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="mapName" Type="System.String" />
-        <Parameter Name="capacity" Type="System.Int64" />
-        <Parameter Name="access" Type="System.IO.MemoryMappedFiles.MemoryMappedFileAccess" />
+        <Parameter Name="mapName" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="capacity" Type="System.Int64" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="access" Type="System.IO.MemoryMappedFiles.MemoryMappedFileAccess" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="mapName">A name to assign to the memory-mapped file, or <see langword="null" /> for a <see cref="T:System.IO.MemoryMappedFiles.MemoryMappedFile" /> that you do not intend to share across processes.</param>
@@ -871,12 +845,11 @@ Process C says: True
     </Member>
     <Member MemberName="CreateNew">
       <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateNew (string? mapName, long capacity, System.IO.MemoryMappedFiles.MemoryMappedFileAccess access, System.IO.MemoryMappedFiles.MemoryMappedFileOptions options, System.IO.HandleInheritability inheritability);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateNew(string mapName, int64 capacity, valuetype System.IO.MemoryMappedFiles.MemoryMappedFileAccess access, valuetype System.IO.MemoryMappedFiles.MemoryMappedFileOptions options, valuetype System.IO.HandleInheritability inheritability) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateNew (mapName As String, capacity As Long, access As MemoryMappedFileAccess, options As MemoryMappedFileOptions, inheritability As HandleInheritability) As MemoryMappedFile" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateNew(System::String ^ mapName, long capacity, System::IO::MemoryMappedFiles::MemoryMappedFileAccess access, System::IO::MemoryMappedFiles::MemoryMappedFileOptions options, System::IO::HandleInheritability inheritability);" />
-      <MemberSignature Language="F#" Value="static member CreateNew : string * int64 * System.IO.MemoryMappedFiles.MemoryMappedFileAccess * System.IO.MemoryMappedFiles.MemoryMappedFileOptions * System.IO.HandleInheritability -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew (mapName, capacity, access, options, inheritability)" />
-      <MemberSignature Language="C#" Value="public static System.IO.MemoryMappedFiles.MemoryMappedFile CreateNew (string mapName, long capacity, System.IO.MemoryMappedFiles.MemoryMappedFileAccess access, System.IO.MemoryMappedFiles.MemoryMappedFileOptions options, System.IO.HandleInheritability inheritability);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.IO.MemoryMappedFiles.MemoryMappedFile CreateNew(string mapName, int64 capacity, valuetype System.IO.MemoryMappedFiles.MemoryMappedFileAccess access, valuetype System.IO.MemoryMappedFiles.MemoryMappedFileOptions options, valuetype System.IO.HandleInheritability inheritability) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew(System.String,System.Int64,System.IO.MemoryMappedFiles.MemoryMappedFileAccess,System.IO.MemoryMappedFiles.MemoryMappedFileOptions,System.IO.HandleInheritability)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateNew (mapName As String, capacity As Long, access As MemoryMappedFileAccess, options As MemoryMappedFileOptions, inheritability As HandleInheritability) As MemoryMappedFile" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::IO::MemoryMappedFiles::MemoryMappedFile ^ CreateNew(System::String ^ mapName, long capacity, System::IO::MemoryMappedFiles::MemoryMappedFileAccess access, System::IO::MemoryMappedFiles::MemoryMappedFileOptions options, System::IO::HandleInheritability inheritability);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member CreateNew : string * int64 * System.IO.MemoryMappedFiles.MemoryMappedFileAccess * System.IO.MemoryMappedFiles.MemoryMappedFileOptions * System.IO.HandleInheritability -&gt; System.IO.MemoryMappedFiles.MemoryMappedFile" Usage="System.IO.MemoryMappedFiles.MemoryMappedFile.CreateNew (mapName, capacity, access, options, inheritability)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.MemoryMappedFiles</AssemblyName>
@@ -897,14 +870,14 @@ Process C says: True
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="mapName" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="capacity" Type="System.Int64" Index="1" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="access" Type="System.IO.MemoryMappedFiles.MemoryMappedFileAccess" Index="2" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="options" Type="System.IO.MemoryMappedFiles.MemoryMappedFileOptions" Index="3" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="inheritability" Type="System.IO.HandleInheritability" Index="4" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="mapName" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="capacity" Type="System.Int64" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="access" Type="System.IO.MemoryMappedFiles.MemoryMappedFileAccess" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="options" Type="System.IO.MemoryMappedFiles.MemoryMappedFileOptions" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="inheritability" Type="System.IO.HandleInheritability" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="mapName">A name to assign to the memory-mapped file, or <see langword="null" /> for a <see cref="T:System.IO.MemoryMappedFiles.MemoryMappedFile" /> that you do not intend to share across processes.</param>
@@ -1033,6 +1006,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1045,7 +1019,7 @@ Process C says: True
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
@@ -1100,6 +1074,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1112,7 +1087,7 @@ Process C says: True
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
@@ -1180,6 +1155,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1192,7 +1168,7 @@ Process C says: True
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
@@ -1201,11 +1177,11 @@ Process C says: True
         <ReturnType>System.IO.MemoryMappedFiles.MemoryMappedFile</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="mapName" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="capacity" Type="System.Int64" Index="1" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="access" Type="System.IO.MemoryMappedFiles.MemoryMappedFileAccess" Index="2" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="options" Type="System.IO.MemoryMappedFiles.MemoryMappedFileOptions" Index="3" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="inheritability" Type="System.IO.HandleInheritability" Index="4" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="mapName" Type="System.String" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="capacity" Type="System.Int64" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="access" Type="System.IO.MemoryMappedFiles.MemoryMappedFileAccess" Index="2" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="options" Type="System.IO.MemoryMappedFiles.MemoryMappedFileOptions" Index="3" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="inheritability" Type="System.IO.HandleInheritability" Index="4" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="mapName">The name of the memory-mapped file.</param>
@@ -1347,6 +1323,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1392,6 +1369,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1465,6 +1443,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1543,6 +1522,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1596,6 +1576,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1662,6 +1643,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1752,6 +1734,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1793,6 +1776,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1897,6 +1881,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1909,7 +1894,7 @@ Process C says: True
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
@@ -1973,6 +1958,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -1985,7 +1971,7 @@ Process C says: True
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
@@ -2032,6 +2018,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>
@@ -2044,7 +2031,7 @@ Process C says: True
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0">
+        <Attribute FrameworkAlternate="net-5.0;net-6.0">
           <AttributeName Language="C#">[System.Runtime.Versioning.SupportedOSPlatform("windows")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Runtime.Versioning.SupportedOSPlatform("windows")&gt;]</AttributeName>
         </Attribute>
@@ -2098,6 +2085,7 @@ Process C says: True
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.Core</AssemblyName>

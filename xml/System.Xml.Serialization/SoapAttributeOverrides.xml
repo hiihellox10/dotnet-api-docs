@@ -23,9 +23,11 @@
     <AssemblyVersion>4.1.1.0</AssemblyVersion>
     <AssemblyVersion>4.1.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XmlSerializer" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.XmlSerializer" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -102,6 +104,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -132,12 +135,11 @@
     </MemberGroup>
     <Member MemberName="Add">
       <MemberSignature Language="C#" Value="public void Add (Type type, System.Xml.Serialization.SoapAttributes? attributes);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class System.Type type, class System.Xml.Serialization.SoapAttributes attributes) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.SoapAttributeOverrides.Add(System.Type,System.Xml.Serialization.SoapAttributes)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub Add (type As Type, attributes As SoapAttributes)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Type ^ type, System::Xml::Serialization::SoapAttributes ^ attributes);" />
-      <MemberSignature Language="F#" Value="member this.Add : Type * System.Xml.Serialization.SoapAttributes -&gt; unit" Usage="soapAttributeOverrides.Add (type, attributes)" />
-      <MemberSignature Language="C#" Value="public void Add (Type type, System.Xml.Serialization.SoapAttributes attributes);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class System.Type type, class System.Xml.Serialization.SoapAttributes attributes) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.SoapAttributeOverrides.Add(System.Type,System.Xml.Serialization.SoapAttributes)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (type As Type, attributes As SoapAttributes)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Type ^ type, System::Xml::Serialization::SoapAttributes ^ attributes);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.Add : Type * System.Xml.Serialization.SoapAttributes -&gt; unit" Usage="soapAttributeOverrides.Add (type, attributes)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -159,11 +161,11 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="type" Type="System.Type" />
-        <Parameter Name="attributes" Type="System.Xml.Serialization.SoapAttributes" />
+        <Parameter Name="type" Type="System.Type" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="attributes" Type="System.Xml.Serialization.SoapAttributes?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="type">The <see cref="T:System.Type" /> of the object that is overridden.</param>
@@ -192,12 +194,11 @@
     </Member>
     <Member MemberName="Add">
       <MemberSignature Language="C#" Value="public void Add (Type type, string member, System.Xml.Serialization.SoapAttributes? attributes);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class System.Type type, string member, class System.Xml.Serialization.SoapAttributes attributes) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.SoapAttributeOverrides.Add(System.Type,System.String,System.Xml.Serialization.SoapAttributes)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub Add (type As Type, member As String, attributes As SoapAttributes)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Type ^ type, System::String ^ member, System::Xml::Serialization::SoapAttributes ^ attributes);" />
-      <MemberSignature Language="F#" Value="member this.Add : Type * string * System.Xml.Serialization.SoapAttributes -&gt; unit" Usage="soapAttributeOverrides.Add (type, member, attributes)" />
-      <MemberSignature Language="C#" Value="public void Add (Type type, string member, System.Xml.Serialization.SoapAttributes attributes);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Add(class System.Type type, string member, class System.Xml.Serialization.SoapAttributes attributes) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Serialization.SoapAttributeOverrides.Add(System.Type,System.String,System.Xml.Serialization.SoapAttributes)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Add (type As Type, member As String, attributes As SoapAttributes)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void Add(Type ^ type, System::String ^ member, System::Xml::Serialization::SoapAttributes ^ attributes);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.Add : Type * string * System.Xml.Serialization.SoapAttributes -&gt; unit" Usage="soapAttributeOverrides.Add (type, member, attributes)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -219,12 +220,12 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="type" Type="System.Type" />
-        <Parameter Name="member" Type="System.String" />
-        <Parameter Name="attributes" Type="System.Xml.Serialization.SoapAttributes" />
+        <Parameter Name="type" Type="System.Type" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="member" Type="System.String" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="attributes" Type="System.Xml.Serialization.SoapAttributes?" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="type">The <see cref="T:System.Type" /> of the object to override.</param>
@@ -263,7 +264,7 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="Item">
-      <MemberSignature Language="C#" Value="public System.Xml.Serialization.SoapAttributes? this[Type type] { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Serialization.SoapAttributes? this[Type type] { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.Serialization.SoapAttributes Item(class System.Type)" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Serialization.SoapAttributeOverrides.Item(System.Type)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(type As Type) As SoapAttributes" />
@@ -289,9 +290,11 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Xml.Serialization.SoapAttributes</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Xml.Serialization.SoapAttributes?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Xml.Serialization.SoapAttributes</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="type" Type="System.Type" />
@@ -320,7 +323,7 @@
       </Docs>
     </Member>
     <Member MemberName="Item">
-      <MemberSignature Language="C#" Value="public System.Xml.Serialization.SoapAttributes? this[Type type, string member] { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.Serialization.SoapAttributes? this[Type type, string member] { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.Serialization.SoapAttributes Item(class System.Type, string)" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Serialization.SoapAttributeOverrides.Item(System.Type,System.String)" />
       <MemberSignature Language="VB.NET" Value="Default Public ReadOnly Property Item(type As Type, member As String) As SoapAttributes" />
@@ -346,9 +349,11 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Xml.Serialization.SoapAttributes</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Xml.Serialization.SoapAttributes?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Xml.Serialization.SoapAttributes</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="type" Type="System.Type" />

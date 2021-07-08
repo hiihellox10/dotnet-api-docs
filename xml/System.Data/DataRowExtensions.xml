@@ -15,6 +15,7 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>netstandard</AssemblyName>
@@ -23,6 +24,8 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Data.Common" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="System.Data.DataSetExtensions" FromVersion="4.0.0.0" To="System.Data.Common" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Data.Common" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
+    <TypeForwarding From="System.Data.DataSetExtensions" FromVersion="4.0.0.0" To="System.Data.Common" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="System.Data.DataSetExtensions" FromVersion="4.0.0.0" To="System.Data.Common" ToVersion="4.2.1.0" FrameworkAlternate="netcore-3.0" />
     <TypeForwarding From="System.Data.DataSetExtensions" FromVersion="4.0.1.0" To="System.Data.Common" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
   </TypeForwardingChain>
@@ -58,7 +61,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Field(Of T) (row As DataRow, column As DataColumn) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T Field(System::Data::DataRow ^ row, System::Data::DataColumn ^ column);" />
       <MemberSignature Language="F#" Value="static member Field : System.Data.DataRow * System.Data.DataColumn -&gt; 'T" Usage="System.Data.DataRowExtensions.Field (row, column)" />
-      <MemberSignature Language="C#" Value="public static T? Field&lt;T&gt; (this System.Data.DataRow row, System.Data.DataColumn column);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static T? Field&lt;T&gt; (this System.Data.DataRow row, System.Data.DataColumn column);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data.DataSetExtensions</AssemblyName>
@@ -70,6 +73,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -115,7 +119,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Field(Of T) (row As DataRow, columnIndex As Integer) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T Field(System::Data::DataRow ^ row, int columnIndex);" />
       <MemberSignature Language="F#" Value="static member Field : System.Data.DataRow * int -&gt; 'T" Usage="System.Data.DataRowExtensions.Field (row, columnIndex)" />
-      <MemberSignature Language="C#" Value="public static T? Field&lt;T&gt; (this System.Data.DataRow row, int columnIndex);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static T? Field&lt;T&gt; (this System.Data.DataRow row, int columnIndex);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data.DataSetExtensions</AssemblyName>
@@ -127,6 +131,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -172,7 +177,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Field(Of T) (row As DataRow, columnName As String) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T Field(System::Data::DataRow ^ row, System::String ^ columnName);" />
       <MemberSignature Language="F#" Value="static member Field : System.Data.DataRow * string -&gt; 'T" Usage="System.Data.DataRowExtensions.Field (row, columnName)" />
-      <MemberSignature Language="C#" Value="public static T? Field&lt;T&gt; (this System.Data.DataRow row, string columnName);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static T? Field&lt;T&gt; (this System.Data.DataRow row, string columnName);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data.DataSetExtensions</AssemblyName>
@@ -184,6 +189,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -229,7 +235,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Field(Of T) (row As DataRow, column As DataColumn, version As DataRowVersion) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T Field(System::Data::DataRow ^ row, System::Data::DataColumn ^ column, System::Data::DataRowVersion version);" />
       <MemberSignature Language="F#" Value="static member Field : System.Data.DataRow * System.Data.DataColumn * System.Data.DataRowVersion -&gt; 'T" Usage="System.Data.DataRowExtensions.Field (row, column, version)" />
-      <MemberSignature Language="C#" Value="public static T? Field&lt;T&gt; (this System.Data.DataRow row, System.Data.DataColumn column, System.Data.DataRowVersion version);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static T? Field&lt;T&gt; (this System.Data.DataRow row, System.Data.DataColumn column, System.Data.DataRowVersion version);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data.DataSetExtensions</AssemblyName>
@@ -241,6 +247,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -288,7 +295,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Field(Of T) (row As DataRow, columnIndex As Integer, version As DataRowVersion) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T Field(System::Data::DataRow ^ row, int columnIndex, System::Data::DataRowVersion version);" />
       <MemberSignature Language="F#" Value="static member Field : System.Data.DataRow * int * System.Data.DataRowVersion -&gt; 'T" Usage="System.Data.DataRowExtensions.Field (row, columnIndex, version)" />
-      <MemberSignature Language="C#" Value="public static T? Field&lt;T&gt; (this System.Data.DataRow row, int columnIndex, System.Data.DataRowVersion version);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static T? Field&lt;T&gt; (this System.Data.DataRow row, int columnIndex, System.Data.DataRowVersion version);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data.DataSetExtensions</AssemblyName>
@@ -300,6 +307,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -347,7 +355,7 @@
       <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function Field(Of T) (row As DataRow, columnName As String, version As DataRowVersion) As T" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static T Field(System::Data::DataRow ^ row, System::String ^ columnName, System::Data::DataRowVersion version);" />
       <MemberSignature Language="F#" Value="static member Field : System.Data.DataRow * string * System.Data.DataRowVersion -&gt; 'T" Usage="System.Data.DataRowExtensions.Field (row, columnName, version)" />
-      <MemberSignature Language="C#" Value="public static T? Field&lt;T&gt; (this System.Data.DataRow row, string columnName, System.Data.DataRowVersion version);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public static T? Field&lt;T&gt; (this System.Data.DataRow row, string columnName, System.Data.DataRowVersion version);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Data.DataSetExtensions</AssemblyName>
@@ -359,6 +367,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -409,12 +418,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName="SetField&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static void SetField&lt;T&gt; (this System.Data.DataRow row, System.Data.DataColumn column, T value);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetField&lt;T&gt;(class System.Data.DataRow row, class System.Data.DataColumn column, !!T value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.DataRowExtensions.SetField``1(System.Data.DataRow,System.Data.DataColumn,``0)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetField(Of T) (row As DataRow, column As DataColumn, value As T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetField(System::Data::DataRow ^ row, System::Data::DataColumn ^ column, T value);" />
-      <MemberSignature Language="F#" Value="static member SetField : System.Data.DataRow * System.Data.DataColumn * 'T -&gt; unit" Usage="System.Data.DataRowExtensions.SetField (row, column, value)" />
+      <MemberSignature Language="C#" Value="public static void SetField&lt;T&gt; (this System.Data.DataRow row, System.Data.DataColumn column, T value);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetField&lt;T&gt;(class System.Data.DataRow row, class System.Data.DataColumn column, !!T value) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Data.DataRowExtensions.SetField``1(System.Data.DataRow,System.Data.DataColumn,``0)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetField(Of T) (row As DataRow, column As DataColumn, value As T)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetField(System::Data::DataRow ^ row, System::Data::DataColumn ^ column, T value);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="F#" Value="static member SetField : System.Data.DataRow * System.Data.DataColumn * 'T -&gt; unit" Usage="System.Data.DataRowExtensions.SetField (row, column, value)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
       <MemberSignature Language="C#" Value="public static void SetField&lt;T&gt; (this System.Data.DataRow row, System.Data.DataColumn column, T? value);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -433,15 +442,15 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="row" Type="System.Data.DataRow" RefType="this" />
-        <Parameter Name="column" Type="System.Data.DataColumn" />
-        <Parameter Name="value" Type="T" />
+        <Parameter Name="row" Type="System.Data.DataRow" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+        <Parameter Name="column" Type="System.Data.DataColumn" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+        <Parameter Name="value" Type="T?" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">A generic parameter that specifies the value type of the column.</typeparam>
@@ -468,12 +477,12 @@
       </Docs>
     </Member>
     <Member MemberName="SetField&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static void SetField&lt;T&gt; (this System.Data.DataRow row, int columnIndex, T value);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetField&lt;T&gt;(class System.Data.DataRow row, int32 columnIndex, !!T value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.DataRowExtensions.SetField``1(System.Data.DataRow,System.Int32,``0)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetField(Of T) (row As DataRow, columnIndex As Integer, value As T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetField(System::Data::DataRow ^ row, int columnIndex, T value);" />
-      <MemberSignature Language="F#" Value="static member SetField : System.Data.DataRow * int * 'T -&gt; unit" Usage="System.Data.DataRowExtensions.SetField (row, columnIndex, value)" />
+      <MemberSignature Language="C#" Value="public static void SetField&lt;T&gt; (this System.Data.DataRow row, int columnIndex, T value);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetField&lt;T&gt;(class System.Data.DataRow row, int32 columnIndex, !!T value) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Data.DataRowExtensions.SetField``1(System.Data.DataRow,System.Int32,``0)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetField(Of T) (row As DataRow, columnIndex As Integer, value As T)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetField(System::Data::DataRow ^ row, int columnIndex, T value);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="F#" Value="static member SetField : System.Data.DataRow * int * 'T -&gt; unit" Usage="System.Data.DataRowExtensions.SetField (row, columnIndex, value)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
       <MemberSignature Language="C#" Value="public static void SetField&lt;T&gt; (this System.Data.DataRow row, int columnIndex, T? value);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -492,15 +501,15 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="row" Type="System.Data.DataRow" RefType="this" />
-        <Parameter Name="columnIndex" Type="System.Int32" />
-        <Parameter Name="value" Type="T" />
+        <Parameter Name="row" Type="System.Data.DataRow" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+        <Parameter Name="columnIndex" Type="System.Int32" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+        <Parameter Name="value" Type="T?" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">A generic parameter that specifies the value type of the column.</typeparam>
@@ -526,12 +535,12 @@
       </Docs>
     </Member>
     <Member MemberName="SetField&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static void SetField&lt;T&gt; (this System.Data.DataRow row, string columnName, T value);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetField&lt;T&gt;(class System.Data.DataRow row, string columnName, !!T value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.DataRowExtensions.SetField``1(System.Data.DataRow,System.String,``0)" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetField(Of T) (row As DataRow, columnName As String, value As T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetField(System::Data::DataRow ^ row, System::String ^ columnName, T value);" />
-      <MemberSignature Language="F#" Value="static member SetField : System.Data.DataRow * string * 'T -&gt; unit" Usage="System.Data.DataRowExtensions.SetField (row, columnName, value)" />
+      <MemberSignature Language="C#" Value="public static void SetField&lt;T&gt; (this System.Data.DataRow row, string columnName, T value);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void SetField&lt;T&gt;(class System.Data.DataRow row, string columnName, !!T value) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Data.DataRowExtensions.SetField``1(System.Data.DataRow,System.String,``0)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Sub SetField(Of T) (row As DataRow, columnName As String, value As T)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static void SetField(System::Data::DataRow ^ row, System::String ^ columnName, T value);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="F#" Value="static member SetField : System.Data.DataRow * string * 'T -&gt; unit" Usage="System.Data.DataRowExtensions.SetField (row, columnName, value)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
       <MemberSignature Language="C#" Value="public static void SetField&lt;T&gt; (this System.Data.DataRow row, string columnName, T? value);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -550,15 +559,15 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="row" Type="System.Data.DataRow" RefType="this" />
-        <Parameter Name="columnName" Type="System.String" />
-        <Parameter Name="value" Type="T" />
+        <Parameter Name="row" Type="System.Data.DataRow" RefType="this" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+        <Parameter Name="columnName" Type="System.String" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+        <Parameter Name="value" Type="T?" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">A generic parameter that specifies the value type of the column.</typeparam>

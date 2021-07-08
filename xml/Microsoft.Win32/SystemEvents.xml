@@ -17,6 +17,7 @@
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
     <AssemblyVersion>4.0.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -113,6 +114,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IntPtr</ReturnType>
@@ -137,7 +139,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event DisplaySettingsChanged As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler ^ DisplaySettingsChanged;" />
       <MemberSignature Language="F#" Value="member this.DisplaySettingsChanged : EventHandler " Usage="member this.DisplaySettingsChanged : System.EventHandler " />
-      <MemberSignature Language="C#" Value="public static event EventHandler? DisplaySettingsChanged;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event EventHandler? DisplaySettingsChanged;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -151,6 +153,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -159,7 +162,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.EventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when the user changes the display settings.</summary>
@@ -194,7 +198,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event DisplaySettingsChanging As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler ^ DisplaySettingsChanging;" />
       <MemberSignature Language="F#" Value="member this.DisplaySettingsChanging : EventHandler " Usage="member this.DisplaySettingsChanging : System.EventHandler " />
-      <MemberSignature Language="C#" Value="public static event EventHandler? DisplaySettingsChanging;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event EventHandler? DisplaySettingsChanging;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -207,6 +211,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -215,7 +220,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.EventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when the display settings are changing.</summary>
@@ -241,7 +247,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event EventsThreadShutdown As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler ^ EventsThreadShutdown;" />
       <MemberSignature Language="F#" Value="member this.EventsThreadShutdown : EventHandler " Usage="member this.EventsThreadShutdown : System.EventHandler " />
-      <MemberSignature Language="C#" Value="public static event EventHandler? EventsThreadShutdown;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event EventHandler? EventsThreadShutdown;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -255,6 +261,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -263,7 +270,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.EventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs before the thread that listens for system events is terminated.</summary>
@@ -289,7 +297,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event InstalledFontsChanged As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler ^ InstalledFontsChanged;" />
       <MemberSignature Language="F#" Value="member this.InstalledFontsChanged : EventHandler " Usage="member this.InstalledFontsChanged : System.EventHandler " />
-      <MemberSignature Language="C#" Value="public static event EventHandler? InstalledFontsChanged;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event EventHandler? InstalledFontsChanged;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -303,6 +311,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -311,7 +320,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.EventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when the user adds fonts to or removes fonts from the system.</summary>
@@ -349,6 +359,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -399,6 +410,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -421,7 +433,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event LowMemory As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler ^ LowMemory;" />
       <MemberSignature Language="F#" Value="member this.LowMemory : EventHandler " Usage="member this.LowMemory : System.EventHandler " />
-      <MemberSignature Language="C#" Value="public static event EventHandler? LowMemory;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event EventHandler? LowMemory;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -435,13 +447,14 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.ComponentModel.Browsable(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.Browsable(false)&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
@@ -449,7 +462,7 @@
           <AttributeName Language="C#">[System.Obsolete("This event has been deprecated. http://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This event has been deprecated. http://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
-        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;net-5.0;netcore-3.0;netcore-3.1">
+        <Attribute FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0;netcore-3.0;netcore-3.1">
           <AttributeName Language="C#">[System.Obsolete("This event has been deprecated. https://go.microsoft.com/fwlink/?linkid=14202")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Obsolete("This event has been deprecated. https://go.microsoft.com/fwlink/?linkid=14202")&gt;]</AttributeName>
         </Attribute>
@@ -463,7 +476,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.EventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when the system is running out of available RAM.</summary>
@@ -495,7 +509,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event PaletteChanged As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler ^ PaletteChanged;" />
       <MemberSignature Language="F#" Value="member this.PaletteChanged : EventHandler " Usage="member this.PaletteChanged : System.EventHandler " />
-      <MemberSignature Language="C#" Value="public static event EventHandler? PaletteChanged;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event EventHandler? PaletteChanged;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -509,6 +523,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -517,7 +532,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.EventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when the user switches to an application that uses a different palette.</summary>
@@ -554,7 +570,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event PowerModeChanged As PowerModeChangedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event Microsoft::Win32::PowerModeChangedEventHandler ^ PowerModeChanged;" />
       <MemberSignature Language="F#" Value="member this.PowerModeChanged : Microsoft.Win32.PowerModeChangedEventHandler " Usage="member this.PowerModeChanged : Microsoft.Win32.PowerModeChangedEventHandler " />
-      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.PowerModeChangedEventHandler? PowerModeChanged;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.PowerModeChangedEventHandler? PowerModeChanged;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -568,6 +584,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -576,7 +593,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>Microsoft.Win32.PowerModeChangedEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">Microsoft.Win32.PowerModeChangedEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">Microsoft.Win32.PowerModeChangedEventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when the user suspends or resumes the system.</summary>
@@ -607,7 +625,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event SessionEnded As SessionEndedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event Microsoft::Win32::SessionEndedEventHandler ^ SessionEnded;" />
       <MemberSignature Language="F#" Value="member this.SessionEnded : Microsoft.Win32.SessionEndedEventHandler " Usage="member this.SessionEnded : Microsoft.Win32.SessionEndedEventHandler " />
-      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.SessionEndedEventHandler? SessionEnded;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.SessionEndedEventHandler? SessionEnded;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -621,6 +639,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -629,7 +648,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>Microsoft.Win32.SessionEndedEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">Microsoft.Win32.SessionEndedEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">Microsoft.Win32.SessionEndedEventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when the user is logging off or shutting down the system.</summary>
@@ -660,7 +680,7 @@
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event SessionEnding As SessionEndingEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event Microsoft::Win32::SessionEndingEventHandler ^ SessionEnding;" />
       <MemberSignature Language="F#" Value="member this.SessionEnding : Microsoft.Win32.SessionEndingEventHandler " Usage="member this.SessionEnding : Microsoft.Win32.SessionEndingEventHandler " />
-      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.SessionEndingEventHandler? SessionEnding;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.SessionEndingEventHandler? SessionEnding;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -674,6 +694,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -682,7 +703,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>Microsoft.Win32.SessionEndingEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">Microsoft.Win32.SessionEndingEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">Microsoft.Win32.SessionEndingEventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when the user is trying to log off or shut down the system.</summary>
@@ -787,7 +809,7 @@ private void Form1_Closing(
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event SessionSwitch As SessionSwitchEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event Microsoft::Win32::SessionSwitchEventHandler ^ SessionSwitch;" />
       <MemberSignature Language="F#" Value="member this.SessionSwitch : Microsoft.Win32.SessionSwitchEventHandler " Usage="member this.SessionSwitch : Microsoft.Win32.SessionSwitchEventHandler " />
-      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.SessionSwitchEventHandler? SessionSwitch;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.SessionSwitchEventHandler? SessionSwitch;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -800,6 +822,7 @@ private void Form1_Closing(
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -808,7 +831,8 @@ private void Form1_Closing(
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>Microsoft.Win32.SessionSwitchEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">Microsoft.Win32.SessionSwitchEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">Microsoft.Win32.SessionSwitchEventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when the currently logged-in user has changed.</summary>
@@ -837,7 +861,7 @@ private void Form1_Closing(
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event TimeChanged As EventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event EventHandler ^ TimeChanged;" />
       <MemberSignature Language="F#" Value="member this.TimeChanged : EventHandler " Usage="member this.TimeChanged : System.EventHandler " />
-      <MemberSignature Language="C#" Value="public static event EventHandler? TimeChanged;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event EventHandler? TimeChanged;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -851,6 +875,7 @@ private void Form1_Closing(
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -859,7 +884,8 @@ private void Form1_Closing(
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">System.EventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.EventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when the user changes the time on the system clock.</summary>
@@ -888,7 +914,7 @@ private void Form1_Closing(
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event TimerElapsed As TimerElapsedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event Microsoft::Win32::TimerElapsedEventHandler ^ TimerElapsed;" />
       <MemberSignature Language="F#" Value="member this.TimerElapsed : Microsoft.Win32.TimerElapsedEventHandler " Usage="member this.TimerElapsed : Microsoft.Win32.TimerElapsedEventHandler " />
-      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.TimerElapsedEventHandler? TimerElapsed;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.TimerElapsedEventHandler? TimerElapsed;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -902,9 +928,11 @@ private void Form1_Closing(
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>Microsoft.Win32.TimerElapsedEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">Microsoft.Win32.TimerElapsedEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">Microsoft.Win32.TimerElapsedEventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when a windows timer interval has expired.</summary>
@@ -934,7 +962,7 @@ private void Form1_Closing(
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event UserPreferenceChanged As UserPreferenceChangedEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event Microsoft::Win32::UserPreferenceChangedEventHandler ^ UserPreferenceChanged;" />
       <MemberSignature Language="F#" Value="member this.UserPreferenceChanged : Microsoft.Win32.UserPreferenceChangedEventHandler " Usage="member this.UserPreferenceChanged : Microsoft.Win32.UserPreferenceChangedEventHandler " />
-      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.UserPreferenceChangedEventHandler? UserPreferenceChanged;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.UserPreferenceChangedEventHandler? UserPreferenceChanged;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -948,6 +976,7 @@ private void Form1_Closing(
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -956,7 +985,8 @@ private void Form1_Closing(
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>Microsoft.Win32.UserPreferenceChangedEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">Microsoft.Win32.UserPreferenceChangedEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">Microsoft.Win32.UserPreferenceChangedEventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when a user preference has changed.</summary>
@@ -987,7 +1017,7 @@ private void Form1_Closing(
       <MemberSignature Language="VB.NET" Value="Public Shared Custom Event UserPreferenceChanging As UserPreferenceChangingEventHandler " />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static event Microsoft::Win32::UserPreferenceChangingEventHandler ^ UserPreferenceChanging;" />
       <MemberSignature Language="F#" Value="member this.UserPreferenceChanging : Microsoft.Win32.UserPreferenceChangingEventHandler " Usage="member this.UserPreferenceChanging : Microsoft.Win32.UserPreferenceChangingEventHandler " />
-      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.UserPreferenceChangingEventHandler? UserPreferenceChanging;" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static event Microsoft.Win32.UserPreferenceChangingEventHandler? UserPreferenceChanging;" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0" />
       <MemberType>Event</MemberType>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -1001,6 +1031,7 @@ private void Form1_Closing(
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="xamarinmac-3.0">
@@ -1009,7 +1040,8 @@ private void Form1_Closing(
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>Microsoft.Win32.UserPreferenceChangingEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinmac-3.0">Microsoft.Win32.UserPreferenceChangingEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">Microsoft.Win32.UserPreferenceChangingEventHandler?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Occurs when a user preference is changing.</summary>

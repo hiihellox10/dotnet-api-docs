@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Runtime.InteropServices</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
@@ -44,6 +45,7 @@ Methods marked with this attribute have the following restrictions:
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -62,9 +64,10 @@ Methods marked with this attribute have the following restrictions:
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Type[]</ReturnType>
+        <ReturnType>System.Type[]?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Optional. If omitted, the runtime will use the default platform calling convention.</summary>
@@ -93,9 +96,10 @@ The "default platform calling convention" is generally unambiguous for all suppo
       <AssemblyInfo>
         <AssemblyName>System.Runtime.InteropServices</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Optional. If omitted, no named export is emitted during compilation.</summary>

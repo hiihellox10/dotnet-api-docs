@@ -25,11 +25,14 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Runtime" ToVersion="0.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Runtime" ToVersion="0.0.0.0" FrameworkAlternate="net-5.0;net-6.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="System.ValueTuple" FromVersion="4.0.3.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
+    <TypeForwarding From="System.ValueTuple" FromVersion="4.0.3.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="System.ValueTuple" FromVersion="4.0.2.0" To="System.Runtime" ToVersion="4.2.0.0" FrameworkAlternate="netcore-2.0" />
     <TypeForwarding From="System.ValueTuple" FromVersion="4.0.3.0" To="System.Runtime" ToVersion="4.2.1.0" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0" />
     <TypeForwarding From="System.ValueTuple" FromVersion="4.0.3.0" To="System.Runtime" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
@@ -39,11 +42,11 @@
   </Base>
   <Interfaces />
   <Attributes>
-    <Attribute FrameworkAlternate="net-5.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1">
       <AttributeName Language="C#">[System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Event | System.AttributeTargets.Field | System.AttributeTargets.Parameter | System.AttributeTargets.Property | System.AttributeTargets.ReturnValue | System.AttributeTargets.Struct)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.AttributeUsage(System.AttributeTargets.Class | System.AttributeTargets.Event | System.AttributeTargets.Field | System.AttributeTargets.Parameter | System.AttributeTargets.Property | System.AttributeTargets.ReturnValue | System.AttributeTargets.Struct)&gt;]</AttributeName>
     </Attribute>
-    <Attribute FrameworkAlternate="net-5.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1">
+    <Attribute FrameworkAlternate="net-5.0;net-6.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1">
       <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
       <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
     </Attribute>
@@ -84,13 +87,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public TupleElementNamesAttribute (string?[] transformNames);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string[] transformNames) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.CompilerServices.TupleElementNamesAttribute.#ctor(System.String[])" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (transformNames As String())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; TupleElementNamesAttribute(cli::array &lt;System::String ^&gt; ^ transformNames);" />
-      <MemberSignature Language="F#" Value="new System.Runtime.CompilerServices.TupleElementNamesAttribute : string[] -&gt; System.Runtime.CompilerServices.TupleElementNamesAttribute" Usage="new System.Runtime.CompilerServices.TupleElementNamesAttribute transformNames" />
-      <MemberSignature Language="C#" Value="public TupleElementNamesAttribute (string[] transformNames);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public TupleElementNamesAttribute (string?[] transformNames);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string[] transformNames) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.CompilerServices.TupleElementNamesAttribute.#ctor(System.String[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (transformNames As String())" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TupleElementNamesAttribute(cli::array &lt;System::String ^&gt; ^ transformNames);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Runtime.CompilerServices.TupleElementNamesAttribute : string[] -&gt; System.Runtime.CompilerServices.TupleElementNamesAttribute" Usage="new System.Runtime.CompilerServices.TupleElementNamesAttribute transformNames" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ValueTuple</AssemblyName>
@@ -114,7 +116,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="transformNames" Type="System.String[]" />
+        <Parameter Name="transformNames" Type="System.String?[]" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="transformNames">A string array that specifies, in a pre-order depth-first traversal of a type's construction, which value tuple occurrences are meant to carry element names.</param>
@@ -130,7 +132,7 @@
       </Docs>
     </Member>
     <Member MemberName="TransformNames">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string?&gt; TransformNames { get; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.IList&lt;string?&gt; TransformNames { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.IList`1&lt;string&gt; TransformNames" />
       <MemberSignature Language="DocId" Value="P:System.Runtime.CompilerServices.TupleElementNamesAttribute.TransformNames" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property TransformNames As IList(Of String)" />
@@ -158,9 +160,11 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.Collections.Generic.IList&lt;System.String?&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1">System.Collections.Generic.IList&lt;System.String&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Specifies, in a pre-order depth-first traversal of a type's construction, which value tuple elements are meant to carry element names.</summary>

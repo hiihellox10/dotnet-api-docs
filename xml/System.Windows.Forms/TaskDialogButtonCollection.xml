@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Collections.ObjectModel.Collection&lt;System.Windows.Forms.TaskDialogButton&gt;</BaseTypeName>
@@ -31,6 +32,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -39,23 +41,23 @@
       </Docs>
     </Member>
     <Member MemberName="Add">
-      <MemberSignature Language="C#" Value="public System.Windows.Forms.TaskDialogButton Add (string? text, bool enabled = true, bool allowCloseDialog = true);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Windows.Forms.TaskDialogButton Add(string text, bool enabled, bool allowCloseDialog) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.TaskDialogButtonCollection.Add(System.String,System.Boolean,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Function Add (text As String, Optional enabled As Boolean = true, Optional allowCloseDialog As Boolean = true) As TaskDialogButton" />
-      <MemberSignature Language="F#" Value="override this.Add : string * bool * bool -&gt; System.Windows.Forms.TaskDialogButton" Usage="taskDialogButtonCollection.Add (text, enabled, allowCloseDialog)" />
+      <MemberSignature Language="C#" Value="public System.Windows.Forms.TaskDialogButton Add (string? text, bool enabled = true, bool allowCloseDialog = true);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Windows.Forms.TaskDialogButton Add(string text, bool enabled, bool allowCloseDialog) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.TaskDialogButtonCollection.Add(System.String,System.Boolean,System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function Add (text As String, Optional enabled As Boolean = true, Optional allowCloseDialog As Boolean = true) As TaskDialogButton" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="override this.Add : string * bool * bool -&gt; System.Windows.Forms.TaskDialogButton" Usage="taskDialogButtonCollection.Add (text, enabled, allowCloseDialog)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.TaskDialogButton</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Windows.Forms.TaskDialogButton</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="text" Type="System.String" />
-        <Parameter Name="enabled" Type="System.Boolean" />
-        <Parameter Name="allowCloseDialog" Type="System.Boolean" />
+        <Parameter Name="text" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="enabled" Type="System.Boolean" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="allowCloseDialog" Type="System.Boolean" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="text">The text of the custom button.</param>
@@ -78,6 +80,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -100,6 +103,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -133,6 +137,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -158,6 +163,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>

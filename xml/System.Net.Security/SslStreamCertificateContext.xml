@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Net.Security</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,23 +30,23 @@ The <see cref="T:System.Net.Security.SslStreamCertificateContext" /> can be used
   </Docs>
   <Members>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Net.Security.SslStreamCertificateContext Create (System.Security.Cryptography.X509Certificates.X509Certificate2 target, System.Security.Cryptography.X509Certificates.X509Certificate2Collection? additionalCertificates, bool offline = false);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.Security.SslStreamCertificateContext Create(class System.Security.Cryptography.X509Certificates.X509Certificate2 target, class System.Security.Cryptography.X509Certificates.X509Certificate2Collection additionalCertificates, bool offline) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Net.Security.SslStreamCertificateContext.Create(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (target As X509Certificate2, additionalCertificates As X509Certificate2Collection, Optional offline As Boolean = false) As SslStreamCertificateContext" />
-      <MemberSignature Language="F#" Value="static member Create : System.Security.Cryptography.X509Certificates.X509Certificate2 * System.Security.Cryptography.X509Certificates.X509Certificate2Collection * bool -&gt; System.Net.Security.SslStreamCertificateContext" Usage="System.Net.Security.SslStreamCertificateContext.Create (target, additionalCertificates, offline)" />
+      <MemberSignature Language="C#" Value="public static System.Net.Security.SslStreamCertificateContext Create (System.Security.Cryptography.X509Certificates.X509Certificate2 target, System.Security.Cryptography.X509Certificates.X509Certificate2Collection? additionalCertificates, bool offline = false);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Net.Security.SslStreamCertificateContext Create(class System.Security.Cryptography.X509Certificates.X509Certificate2 target, class System.Security.Cryptography.X509Certificates.X509Certificate2Collection additionalCertificates, bool offline) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Net.Security.SslStreamCertificateContext.Create(System.Security.Cryptography.X509Certificates.X509Certificate2,System.Security.Cryptography.X509Certificates.X509Certificate2Collection,System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (target As X509Certificate2, additionalCertificates As X509Certificate2Collection, Optional offline As Boolean = false) As SslStreamCertificateContext" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Create : System.Security.Cryptography.X509Certificates.X509Certificate2 * System.Security.Cryptography.X509Certificates.X509Certificate2Collection * bool -&gt; System.Net.Security.SslStreamCertificateContext" Usage="System.Net.Security.SslStreamCertificateContext.Create (target, additionalCertificates, offline)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Net.Security</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Net.Security.SslStreamCertificateContext</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Net.Security.SslStreamCertificateContext</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="target" Type="System.Security.Cryptography.X509Certificates.X509Certificate2" />
-        <Parameter Name="additionalCertificates" Type="System.Security.Cryptography.X509Certificates.X509Certificate2Collection" />
-        <Parameter Name="offline" Type="System.Boolean" />
+        <Parameter Name="target" Type="System.Security.Cryptography.X509Certificates.X509Certificate2" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="additionalCertificates" Type="System.Security.Cryptography.X509Certificates.X509Certificate2Collection?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="offline" Type="System.Boolean" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="target">The server certificate.</param>

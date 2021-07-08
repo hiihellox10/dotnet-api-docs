@@ -11,6 +11,7 @@
     <AssemblyVersion>4.1.0.0</AssemblyVersion>
     <AssemblyVersion>4.1.1.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -34,6 +35,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -42,13 +44,13 @@
       </Docs>
     </Member>
     <Member MemberName="AddSafeContentsEncrypted">
-      <MemberSignature Language="C#" Value="public void AddSafeContentsEncrypted (System.Security.Cryptography.Pkcs.Pkcs12SafeContents safeContents, byte[] passwordBytes, System.Security.Cryptography.PbeParameters pbeParameters);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddSafeContentsEncrypted(class System.Security.Cryptography.Pkcs.Pkcs12SafeContents safeContents, unsigned int8[] passwordBytes, class System.Security.Cryptography.PbeParameters pbeParameters) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Pkcs12Builder.AddSafeContentsEncrypted(System.Security.Cryptography.Pkcs.Pkcs12SafeContents,System.Byte[],System.Security.Cryptography.PbeParameters)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub AddSafeContentsEncrypted (safeContents As Pkcs12SafeContents, passwordBytes As Byte(), pbeParameters As PbeParameters)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddSafeContentsEncrypted(System::Security::Cryptography::Pkcs::Pkcs12SafeContents ^ safeContents, cli::array &lt;System::Byte&gt; ^ passwordBytes, System::Security::Cryptography::PbeParameters ^ pbeParameters);" />
-      <MemberSignature Language="F#" Value="member this.AddSafeContentsEncrypted : System.Security.Cryptography.Pkcs.Pkcs12SafeContents * byte[] * System.Security.Cryptography.PbeParameters -&gt; unit" Usage="pkcs12Builder.AddSafeContentsEncrypted (safeContents, passwordBytes, pbeParameters)" />
-      <MemberSignature Language="C#" Value="public void AddSafeContentsEncrypted (System.Security.Cryptography.Pkcs.Pkcs12SafeContents safeContents, byte[]? passwordBytes, System.Security.Cryptography.PbeParameters pbeParameters);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public void AddSafeContentsEncrypted (System.Security.Cryptography.Pkcs.Pkcs12SafeContents safeContents, byte[] passwordBytes, System.Security.Cryptography.PbeParameters pbeParameters);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddSafeContentsEncrypted(class System.Security.Cryptography.Pkcs.Pkcs12SafeContents safeContents, unsigned int8[] passwordBytes, class System.Security.Cryptography.PbeParameters pbeParameters) cil managed" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Pkcs12Builder.AddSafeContentsEncrypted(System.Security.Cryptography.Pkcs.Pkcs12SafeContents,System.Byte[],System.Security.Cryptography.PbeParameters)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddSafeContentsEncrypted (safeContents As Pkcs12SafeContents, passwordBytes As Byte(), pbeParameters As PbeParameters)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddSafeContentsEncrypted(System::Security::Cryptography::Pkcs::Pkcs12SafeContents ^ safeContents, cli::array &lt;System::Byte&gt; ^ passwordBytes, System::Security::Cryptography::PbeParameters ^ pbeParameters);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="member this.AddSafeContentsEncrypted : System.Security.Cryptography.Pkcs.Pkcs12SafeContents * byte[] * System.Security.Cryptography.PbeParameters -&gt; unit" Usage="pkcs12Builder.AddSafeContentsEncrypted (safeContents, passwordBytes, pbeParameters)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public void AddSafeContentsEncrypted (System.Security.Cryptography.Pkcs.Pkcs12SafeContents safeContents, byte[]? passwordBytes, System.Security.Cryptography.PbeParameters pbeParameters);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
@@ -58,12 +60,12 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="safeContents" Type="System.Security.Cryptography.Pkcs.Pkcs12SafeContents" />
-        <Parameter Name="passwordBytes" Type="System.Byte[]" />
-        <Parameter Name="pbeParameters" Type="System.Security.Cryptography.PbeParameters" />
+        <Parameter Name="safeContents" Type="System.Security.Cryptography.Pkcs.Pkcs12SafeContents" Index="0" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="passwordBytes" Type="System.Byte[]?" Index="1" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="pbeParameters" Type="System.Security.Cryptography.PbeParameters" Index="2" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="safeContents">The contents to add to the PFX.</param>
@@ -103,6 +105,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -150,6 +153,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -181,13 +185,13 @@
       </Docs>
     </Member>
     <Member MemberName="AddSafeContentsEncrypted">
-      <MemberSignature Language="C#" Value="public void AddSafeContentsEncrypted (System.Security.Cryptography.Pkcs.Pkcs12SafeContents safeContents, string password, System.Security.Cryptography.PbeParameters pbeParameters);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddSafeContentsEncrypted(class System.Security.Cryptography.Pkcs.Pkcs12SafeContents safeContents, string password, class System.Security.Cryptography.PbeParameters pbeParameters) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Pkcs12Builder.AddSafeContentsEncrypted(System.Security.Cryptography.Pkcs.Pkcs12SafeContents,System.String,System.Security.Cryptography.PbeParameters)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub AddSafeContentsEncrypted (safeContents As Pkcs12SafeContents, password As String, pbeParameters As PbeParameters)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddSafeContentsEncrypted(System::Security::Cryptography::Pkcs::Pkcs12SafeContents ^ safeContents, System::String ^ password, System::Security::Cryptography::PbeParameters ^ pbeParameters);" />
-      <MemberSignature Language="F#" Value="member this.AddSafeContentsEncrypted : System.Security.Cryptography.Pkcs.Pkcs12SafeContents * string * System.Security.Cryptography.PbeParameters -&gt; unit" Usage="pkcs12Builder.AddSafeContentsEncrypted (safeContents, password, pbeParameters)" />
-      <MemberSignature Language="C#" Value="public void AddSafeContentsEncrypted (System.Security.Cryptography.Pkcs.Pkcs12SafeContents safeContents, string? password, System.Security.Cryptography.PbeParameters pbeParameters);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public void AddSafeContentsEncrypted (System.Security.Cryptography.Pkcs.Pkcs12SafeContents safeContents, string password, System.Security.Cryptography.PbeParameters pbeParameters);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddSafeContentsEncrypted(class System.Security.Cryptography.Pkcs.Pkcs12SafeContents safeContents, string password, class System.Security.Cryptography.PbeParameters pbeParameters) cil managed" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Pkcs12Builder.AddSafeContentsEncrypted(System.Security.Cryptography.Pkcs.Pkcs12SafeContents,System.String,System.Security.Cryptography.PbeParameters)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddSafeContentsEncrypted (safeContents As Pkcs12SafeContents, password As String, pbeParameters As PbeParameters)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddSafeContentsEncrypted(System::Security::Cryptography::Pkcs::Pkcs12SafeContents ^ safeContents, System::String ^ password, System::Security::Cryptography::PbeParameters ^ pbeParameters);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="member this.AddSafeContentsEncrypted : System.Security.Cryptography.Pkcs.Pkcs12SafeContents * string * System.Security.Cryptography.PbeParameters -&gt; unit" Usage="pkcs12Builder.AddSafeContentsEncrypted (safeContents, password, pbeParameters)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public void AddSafeContentsEncrypted (System.Security.Cryptography.Pkcs.Pkcs12SafeContents safeContents, string? password, System.Security.Cryptography.PbeParameters pbeParameters);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
@@ -197,12 +201,12 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="safeContents" Type="System.Security.Cryptography.Pkcs.Pkcs12SafeContents" />
-        <Parameter Name="password" Type="System.String" />
-        <Parameter Name="pbeParameters" Type="System.Security.Cryptography.PbeParameters" />
+        <Parameter Name="safeContents" Type="System.Security.Cryptography.Pkcs.Pkcs12SafeContents" Index="0" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="password" Type="System.String?" Index="1" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="pbeParameters" Type="System.Security.Cryptography.PbeParameters" Index="2" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="safeContents">The contents to add to the PFX.</param>
@@ -239,6 +243,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -278,6 +283,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -306,6 +312,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -332,6 +339,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -364,13 +372,13 @@
       </Docs>
     </Member>
     <Member MemberName="SealWithMac">
-      <MemberSignature Language="C#" Value="public void SealWithMac (string password, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, int iterationCount);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SealWithMac(string password, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, int32 iterationCount) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Pkcs12Builder.SealWithMac(System.String,System.Security.Cryptography.HashAlgorithmName,System.Int32)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub SealWithMac (password As String, hashAlgorithm As HashAlgorithmName, iterationCount As Integer)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SealWithMac(System::String ^ password, System::Security::Cryptography::HashAlgorithmName hashAlgorithm, int iterationCount);" />
-      <MemberSignature Language="F#" Value="member this.SealWithMac : string * System.Security.Cryptography.HashAlgorithmName * int -&gt; unit" Usage="pkcs12Builder.SealWithMac (password, hashAlgorithm, iterationCount)" />
-      <MemberSignature Language="C#" Value="public void SealWithMac (string? password, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, int iterationCount);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public void SealWithMac (string password, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, int iterationCount);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SealWithMac(string password, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, int32 iterationCount) cil managed" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Pkcs12Builder.SealWithMac(System.String,System.Security.Cryptography.HashAlgorithmName,System.Int32)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SealWithMac (password As String, hashAlgorithm As HashAlgorithmName, iterationCount As Integer)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SealWithMac(System::String ^ password, System::Security::Cryptography::HashAlgorithmName hashAlgorithm, int iterationCount);" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="member this.SealWithMac : string * System.Security.Cryptography.HashAlgorithmName * int -&gt; unit" Usage="pkcs12Builder.SealWithMac (password, hashAlgorithm, iterationCount)" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public void SealWithMac (string? password, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, int iterationCount);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
@@ -380,12 +388,12 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="password" Type="System.String" />
-        <Parameter Name="hashAlgorithm" Type="System.Security.Cryptography.HashAlgorithmName" />
-        <Parameter Name="iterationCount" Type="System.Int32" />
+        <Parameter Name="password" Type="System.String?" Index="0" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="hashAlgorithm" Type="System.Security.Cryptography.HashAlgorithmName" Index="1" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="iterationCount" Type="System.Int32" Index="2" FrameworkAlternate="dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="password">The password to use as a key for computing the MAC.</param>
@@ -423,6 +431,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -457,6 +466,7 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

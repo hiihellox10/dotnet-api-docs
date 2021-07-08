@@ -670,7 +670,6 @@
       <Member Id="M:System.AggregateException.#ctor" />
       <Member Id="M:System.AggregateException.#ctor(System.Collections.Generic.IEnumerable{System.Exception})" />
       <Member Id="M:System.AggregateException.#ctor(System.Exception[])" />
-      <Member Id="M:System.AggregateException.#ctor(System.String)" />
       <Member Id="M:System.AggregateException.#ctor(System.String,System.Collections.Generic.IEnumerable{System.Exception})" />
       <Member Id="M:System.AggregateException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.AggregateException.#ctor(System.String,System.Exception[])" />
@@ -690,7 +689,6 @@
     <Type Name="System.ArgumentException" Id="T:System.ArgumentException">
       <Member Id="M:System.ArgumentException.#ctor" />
       <Member Id="M:System.ArgumentException.#ctor(System.String)" />
-      <Member Id="M:System.ArgumentException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.ArgumentException.#ctor(System.String,System.String)" />
       <Member Id="M:System.ArgumentException.#ctor(System.String,System.String,System.Exception)" />
       <Member Id="P:System.ArgumentException.Message" />
@@ -705,7 +703,6 @@
     <Type Name="System.ArgumentOutOfRangeException" Id="T:System.ArgumentOutOfRangeException">
       <Member Id="M:System.ArgumentOutOfRangeException.#ctor" />
       <Member Id="M:System.ArgumentOutOfRangeException.#ctor(System.String)" />
-      <Member Id="M:System.ArgumentOutOfRangeException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.ArgumentOutOfRangeException.#ctor(System.String,System.Object,System.String)" />
       <Member Id="M:System.ArgumentOutOfRangeException.#ctor(System.String,System.String)" />
       <Member Id="P:System.ArgumentOutOfRangeException.ActualValue" />
@@ -714,7 +711,6 @@
     <Type Name="System.ArithmeticException" Id="T:System.ArithmeticException">
       <Member Id="M:System.ArithmeticException.#ctor" />
       <Member Id="M:System.ArithmeticException.#ctor(System.String)" />
-      <Member Id="M:System.ArithmeticException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Array" Id="T:System.Array">
       <Member Id="M:System.Array.BinarySearch(System.Array,System.Int32,System.Int32,System.Object)" />
@@ -834,7 +830,6 @@
     <Type Name="System.ArrayTypeMismatchException" Id="T:System.ArrayTypeMismatchException">
       <Member Id="M:System.ArrayTypeMismatchException.#ctor" />
       <Member Id="M:System.ArrayTypeMismatchException.#ctor(System.String)" />
-      <Member Id="M:System.ArrayTypeMismatchException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.AsyncCallback" Id="T:System.AsyncCallback" />
     <Type Name="System.Attribute" Id="T:System.Attribute">
@@ -869,7 +864,6 @@
     <Type Name="System.BadImageFormatException" Id="T:System.BadImageFormatException">
       <Member Id="M:System.BadImageFormatException.#ctor" />
       <Member Id="M:System.BadImageFormatException.#ctor(System.String)" />
-      <Member Id="M:System.BadImageFormatException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.BadImageFormatException.#ctor(System.String,System.String)" />
       <Member Id="M:System.BadImageFormatException.#ctor(System.String,System.String,System.Exception)" />
       <Member Id="M:System.BadImageFormatException.ToString" />
@@ -971,7 +965,6 @@
       <Member Id="M:System.Byte.System#IConvertible#ToUInt64(System.IFormatProvider)" />
       <Member Id="M:System.Byte.ToString" />
       <Member Id="M:System.Byte.ToString(System.IFormatProvider)" />
-      <Member Id="M:System.Byte.ToString(System.String)" />
       <Member Id="M:System.Byte.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.Byte.TryParse(System.String,System.Byte@)" />
       <Member Id="M:System.Byte.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Byte@)" />
@@ -1092,7 +1085,6 @@
       <Member Id="M:System.Console.WriteLine" />
       <Member Id="M:System.Console.WriteLine(System.Boolean)" />
       <Member Id="M:System.Console.WriteLine(System.Char)" />
-      <Member Id="M:System.Console.WriteLine(System.Char[])" />
       <Member Id="M:System.Console.WriteLine(System.Char[],System.Int32,System.Int32)" />
       <Member Id="M:System.Console.WriteLine(System.Decimal)" />
       <Member Id="M:System.Console.WriteLine(System.Double)" />
@@ -1596,7 +1588,6 @@
       <Member Id="M:System.DateTime.FromFileTimeUtc(System.Int64)" />
       <Member Id="M:System.DateTime.GetDateTimeFormats" />
       <Member Id="M:System.DateTime.GetDateTimeFormats(System.Char)" />
-      <Member Id="M:System.DateTime.GetDateTimeFormats(System.Char,System.IFormatProvider)" />
       <Member Id="M:System.DateTime.GetDateTimeFormats(System.IFormatProvider)" />
       <Member Id="M:System.DateTime.GetHashCode" />
       <Member Id="M:System.DateTime.IsDaylightSavingTime" />
@@ -1643,7 +1634,6 @@
       <Member Id="M:System.DateTime.ToString" />
       <Member Id="M:System.DateTime.ToString(System.IFormatProvider)" />
       <Member Id="M:System.DateTime.ToString(System.String)" />
-      <Member Id="M:System.DateTime.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.DateTime.ToUniversalTime" />
       <Member Id="M:System.DateTime.TryParse(System.String,System.DateTime@)" />
       <Member Id="M:System.DateTime.TryParse(System.String,System.IFormatProvider,System.Globalization.DateTimeStyles,System.DateTime@)" />
@@ -1722,7 +1712,6 @@
       <Member Id="M:System.DateTimeOffset.ToOffset(System.TimeSpan)" />
       <Member Id="M:System.DateTimeOffset.ToString" />
       <Member Id="M:System.DateTimeOffset.ToString(System.IFormatProvider)" />
-      <Member Id="M:System.DateTimeOffset.ToString(System.String)" />
       <Member Id="M:System.DateTimeOffset.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.DateTimeOffset.ToUniversalTime" />
       <Member Id="M:System.DateTimeOffset.ToUnixTimeMilliseconds" />
@@ -1860,7 +1849,6 @@
       <Member Id="M:System.Decimal.ToSByte(System.Decimal)" />
       <Member Id="M:System.Decimal.ToSingle(System.Decimal)" />
       <Member Id="M:System.Decimal.ToString" />
-      <Member Id="M:System.Decimal.ToString(System.IFormatProvider)" />
       <Member Id="M:System.Decimal.ToString(System.String)" />
       <Member Id="M:System.Decimal.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.Decimal.ToUInt16(System.Decimal)" />
@@ -1886,12 +1874,10 @@
     <Type Name="System.DivideByZeroException" Id="T:System.DivideByZeroException">
       <Member Id="M:System.DivideByZeroException.#ctor" />
       <Member Id="M:System.DivideByZeroException.#ctor(System.String)" />
-      <Member Id="M:System.DivideByZeroException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.DllNotFoundException" Id="T:System.DllNotFoundException">
       <Member Id="M:System.DllNotFoundException.#ctor" />
       <Member Id="M:System.DllNotFoundException.#ctor(System.String)" />
-      <Member Id="M:System.DllNotFoundException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Double" Id="T:System.Double">
       <Member Id="F:System.Double.Epsilon" />
@@ -1938,7 +1924,6 @@
       <Member Id="M:System.Double.ToString" />
       <Member Id="M:System.Double.ToString(System.IFormatProvider)" />
       <Member Id="M:System.Double.ToString(System.String)" />
-      <Member Id="M:System.Double.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.Double.TryParse(System.String,System.Double@)" />
       <Member Id="M:System.Double.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Double@)" />
     </Type>
@@ -2006,7 +1991,6 @@
     <Type Name="System.Exception" Id="T:System.Exception">
       <Member Id="M:System.Exception.#ctor" />
       <Member Id="M:System.Exception.#ctor(System.String)" />
-      <Member Id="M:System.Exception.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.Exception.GetBaseException" />
       <Member Id="M:System.Exception.ToString" />
       <Member Id="P:System.Exception.Data" />
@@ -2020,7 +2004,6 @@
     <Type Name="System.FieldAccessException" Id="T:System.FieldAccessException">
       <Member Id="M:System.FieldAccessException.#ctor" />
       <Member Id="M:System.FieldAccessException.#ctor(System.String)" />
-      <Member Id="M:System.FieldAccessException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.FlagsAttribute" Id="T:System.FlagsAttribute">
       <Member Id="M:System.FlagsAttribute.#ctor" />
@@ -2028,7 +2011,6 @@
     <Type Name="System.FormatException" Id="T:System.FormatException">
       <Member Id="M:System.FormatException.#ctor" />
       <Member Id="M:System.FormatException.#ctor(System.String)" />
-      <Member Id="M:System.FormatException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.FormattableString" Id="T:System.FormattableString">
       <Member Id="M:System.FormattableString.#ctor" />
@@ -2189,7 +2171,6 @@
       <Member Id="M:System.Int16.System#IConvertible#ToUInt64(System.IFormatProvider)" />
       <Member Id="M:System.Int16.ToString" />
       <Member Id="M:System.Int16.ToString(System.IFormatProvider)" />
-      <Member Id="M:System.Int16.ToString(System.String)" />
       <Member Id="M:System.Int16.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.Int16.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int16@)" />
       <Member Id="M:System.Int16.TryParse(System.String,System.Int16@)" />
@@ -2224,7 +2205,6 @@
       <Member Id="M:System.Int32.System#IConvertible#ToUInt64(System.IFormatProvider)" />
       <Member Id="M:System.Int32.ToString" />
       <Member Id="M:System.Int32.ToString(System.IFormatProvider)" />
-      <Member Id="M:System.Int32.ToString(System.String)" />
       <Member Id="M:System.Int32.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.Int32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int32@)" />
       <Member Id="M:System.Int32.TryParse(System.String,System.Int32@)" />
@@ -2259,7 +2239,6 @@
       <Member Id="M:System.Int64.System#IConvertible#ToUInt64(System.IFormatProvider)" />
       <Member Id="M:System.Int64.ToString" />
       <Member Id="M:System.Int64.ToString(System.IFormatProvider)" />
-      <Member Id="M:System.Int64.ToString(System.String)" />
       <Member Id="M:System.Int64.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.Int64.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Int64@)" />
       <Member Id="M:System.Int64.TryParse(System.String,System.Int64@)" />
@@ -2299,7 +2278,6 @@
     <Type Name="System.InvalidOperationException" Id="T:System.InvalidOperationException">
       <Member Id="M:System.InvalidOperationException.#ctor" />
       <Member Id="M:System.InvalidOperationException.#ctor(System.String)" />
-      <Member Id="M:System.InvalidOperationException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.InvalidProgramException" Id="T:System.InvalidProgramException">
       <Member Id="M:System.InvalidProgramException.#ctor" />
@@ -2309,7 +2287,6 @@
     <Type Name="System.InvalidTimeZoneException" Id="T:System.InvalidTimeZoneException">
       <Member Id="M:System.InvalidTimeZoneException.#ctor" />
       <Member Id="M:System.InvalidTimeZoneException.#ctor(System.String)" />
-      <Member Id="M:System.InvalidTimeZoneException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.IObservable`1" Id="T:System.IObservable`1">
       <Member Id="M:System.IObservable`1.Subscribe(System.IObserver{`0})" />
@@ -2419,12 +2396,10 @@
     <Type Name="System.MemberAccessException" Id="T:System.MemberAccessException">
       <Member Id="M:System.MemberAccessException.#ctor" />
       <Member Id="M:System.MemberAccessException.#ctor(System.String)" />
-      <Member Id="M:System.MemberAccessException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.MethodAccessException" Id="T:System.MethodAccessException">
       <Member Id="M:System.MethodAccessException.#ctor" />
       <Member Id="M:System.MethodAccessException.#ctor(System.String)" />
-      <Member Id="M:System.MethodAccessException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.MidpointRounding" Id="T:System.MidpointRounding">
       <Member Id="F:System.MidpointRounding.AwayFromZero" />
@@ -2433,7 +2408,6 @@
     <Type Name="System.MissingFieldException" Id="T:System.MissingFieldException">
       <Member Id="M:System.MissingFieldException.#ctor" />
       <Member Id="M:System.MissingFieldException.#ctor(System.String)" />
-      <Member Id="M:System.MissingFieldException.#ctor(System.String,System.Exception)" />
       <Member Id="P:System.MissingFieldException.Message" />
     </Type>
     <Type Name="System.MissingMemberException" Id="T:System.MissingMemberException">
@@ -2445,7 +2419,6 @@
     <Type Name="System.MissingMethodException" Id="T:System.MissingMethodException">
       <Member Id="M:System.MissingMethodException.#ctor" />
       <Member Id="M:System.MissingMethodException.#ctor(System.String)" />
-      <Member Id="M:System.MissingMethodException.#ctor(System.String,System.Exception)" />
       <Member Id="P:System.MissingMethodException.Message" />
     </Type>
     <Type Name="System.MTAThreadAttribute" Id="T:System.MTAThreadAttribute">
@@ -2464,12 +2437,10 @@
     <Type Name="System.NotImplementedException" Id="T:System.NotImplementedException">
       <Member Id="M:System.NotImplementedException.#ctor" />
       <Member Id="M:System.NotImplementedException.#ctor(System.String)" />
-      <Member Id="M:System.NotImplementedException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.NotSupportedException" Id="T:System.NotSupportedException">
       <Member Id="M:System.NotSupportedException.#ctor" />
       <Member Id="M:System.NotSupportedException.#ctor(System.String)" />
-      <Member Id="M:System.NotSupportedException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Nullable" Id="T:System.Nullable">
       <Member Id="M:System.Nullable.Compare``1(System.Nullable{``0},System.Nullable{``0})" />
@@ -2491,7 +2462,6 @@
     <Type Name="System.NullReferenceException" Id="T:System.NullReferenceException">
       <Member Id="M:System.NullReferenceException.#ctor" />
       <Member Id="M:System.NullReferenceException.#ctor(System.String)" />
-      <Member Id="M:System.NullReferenceException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Object" Id="T:System.Object">
       <Member Id="M:System.Object.#ctor" />
@@ -2514,14 +2484,12 @@
     <Type Name="System.ObsoleteAttribute" Id="T:System.ObsoleteAttribute">
       <Member Id="M:System.ObsoleteAttribute.#ctor" />
       <Member Id="M:System.ObsoleteAttribute.#ctor(System.String)" />
-      <Member Id="M:System.ObsoleteAttribute.#ctor(System.String,System.Boolean)" />
       <Member Id="P:System.ObsoleteAttribute.IsError" />
       <Member Id="P:System.ObsoleteAttribute.Message" />
     </Type>
     <Type Name="System.OperationCanceledException" Id="T:System.OperationCanceledException">
       <Member Id="M:System.OperationCanceledException.#ctor" />
       <Member Id="M:System.OperationCanceledException.#ctor(System.String)" />
-      <Member Id="M:System.OperationCanceledException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.OperationCanceledException.#ctor(System.String,System.Exception,System.Threading.CancellationToken)" />
       <Member Id="M:System.OperationCanceledException.#ctor(System.String,System.Threading.CancellationToken)" />
       <Member Id="M:System.OperationCanceledException.#ctor(System.Threading.CancellationToken)" />
@@ -2530,12 +2498,10 @@
     <Type Name="System.OutOfMemoryException" Id="T:System.OutOfMemoryException">
       <Member Id="M:System.OutOfMemoryException.#ctor" />
       <Member Id="M:System.OutOfMemoryException.#ctor(System.String)" />
-      <Member Id="M:System.OutOfMemoryException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.OverflowException" Id="T:System.OverflowException">
       <Member Id="M:System.OverflowException.#ctor" />
       <Member Id="M:System.OverflowException.#ctor(System.String)" />
-      <Member Id="M:System.OverflowException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.ParamArrayAttribute" Id="T:System.ParamArrayAttribute">
       <Member Id="M:System.ParamArrayAttribute.#ctor" />
@@ -2543,7 +2509,6 @@
     <Type Name="System.PlatformNotSupportedException" Id="T:System.PlatformNotSupportedException">
       <Member Id="M:System.PlatformNotSupportedException.#ctor" />
       <Member Id="M:System.PlatformNotSupportedException.#ctor(System.String)" />
-      <Member Id="M:System.PlatformNotSupportedException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Predicate`1" Id="T:System.Predicate`1" />
     <Type Name="System.Progress`1" Id="T:System.Progress`1">
@@ -2566,7 +2531,6 @@
     <Type Name="System.RankException" Id="T:System.RankException">
       <Member Id="M:System.RankException.#ctor" />
       <Member Id="M:System.RankException.#ctor(System.String)" />
-      <Member Id="M:System.RankException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.RuntimeFieldHandle" Id="T:System.RuntimeFieldHandle">
       <Member Id="M:System.RuntimeFieldHandle.Equals(System.Object)" />
@@ -2621,7 +2585,6 @@
       <Member Id="M:System.SByte.System#IConvertible#ToUInt64(System.IFormatProvider)" />
       <Member Id="M:System.SByte.ToString" />
       <Member Id="M:System.SByte.ToString(System.IFormatProvider)" />
-      <Member Id="M:System.SByte.ToString(System.String)" />
       <Member Id="M:System.SByte.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.SByte.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.SByte@)" />
       <Member Id="M:System.SByte.TryParse(System.String,System.SByte@)" />
@@ -2674,7 +2637,6 @@
       <Member Id="M:System.Single.ToString" />
       <Member Id="M:System.Single.ToString(System.IFormatProvider)" />
       <Member Id="M:System.Single.ToString(System.String)" />
-      <Member Id="M:System.Single.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.Single.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.Single@)" />
       <Member Id="M:System.Single.TryParse(System.String,System.Single@)" />
     </Type>
@@ -2845,7 +2807,6 @@
     <Type Name="System.TimeoutException" Id="T:System.TimeoutException">
       <Member Id="M:System.TimeoutException.#ctor" />
       <Member Id="M:System.TimeoutException.#ctor(System.String)" />
-      <Member Id="M:System.TimeoutException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.TimeSpan" Id="T:System.TimeSpan">
       <Member Id="F:System.TimeSpan.MaxValue" />
@@ -2895,7 +2856,6 @@
       <Member Id="M:System.TimeSpan.System#IComparable#CompareTo(System.Object)" />
       <Member Id="M:System.TimeSpan.ToString" />
       <Member Id="M:System.TimeSpan.ToString(System.String)" />
-      <Member Id="M:System.TimeSpan.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.TimeSpan.TryParse(System.String,System.IFormatProvider,System.TimeSpan@)" />
       <Member Id="M:System.TimeSpan.TryParse(System.String,System.TimeSpan@)" />
       <Member Id="M:System.TimeSpan.TryParseExact(System.String,System.String,System.IFormatProvider,System.Globalization.TimeSpanStyles,System.TimeSpan@)" />
@@ -3172,7 +3132,6 @@
     <Type Name="System.TypeAccessException" Id="T:System.TypeAccessException">
       <Member Id="M:System.TypeAccessException.#ctor" />
       <Member Id="M:System.TypeAccessException.#ctor(System.String)" />
-      <Member Id="M:System.TypeAccessException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.TypeCode" Id="T:System.TypeCode">
       <Member Id="F:System.TypeCode.Boolean" />
@@ -3200,7 +3159,6 @@
     <Type Name="System.TypeLoadException" Id="T:System.TypeLoadException">
       <Member Id="M:System.TypeLoadException.#ctor" />
       <Member Id="M:System.TypeLoadException.#ctor(System.String)" />
-      <Member Id="M:System.TypeLoadException.#ctor(System.String,System.Exception)" />
       <Member Id="P:System.TypeLoadException.Message" />
       <Member Id="P:System.TypeLoadException.TypeName" />
     </Type>
@@ -3234,7 +3192,6 @@
       <Member Id="M:System.UInt16.System#IConvertible#ToUInt64(System.IFormatProvider)" />
       <Member Id="M:System.UInt16.ToString" />
       <Member Id="M:System.UInt16.ToString(System.IFormatProvider)" />
-      <Member Id="M:System.UInt16.ToString(System.String)" />
       <Member Id="M:System.UInt16.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.UInt16.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt16@)" />
       <Member Id="M:System.UInt16.TryParse(System.String,System.UInt16@)" />
@@ -3269,7 +3226,6 @@
       <Member Id="M:System.UInt32.System#IConvertible#ToUInt64(System.IFormatProvider)" />
       <Member Id="M:System.UInt32.ToString" />
       <Member Id="M:System.UInt32.ToString(System.IFormatProvider)" />
-      <Member Id="M:System.UInt32.ToString(System.String)" />
       <Member Id="M:System.UInt32.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.UInt32.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt32@)" />
       <Member Id="M:System.UInt32.TryParse(System.String,System.UInt32@)" />
@@ -3304,7 +3260,6 @@
       <Member Id="M:System.UInt64.System#IConvertible#ToUInt64(System.IFormatProvider)" />
       <Member Id="M:System.UInt64.ToString" />
       <Member Id="M:System.UInt64.ToString(System.IFormatProvider)" />
-      <Member Id="M:System.UInt64.ToString(System.String)" />
       <Member Id="M:System.UInt64.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.UInt64.TryParse(System.String,System.Globalization.NumberStyles,System.IFormatProvider,System.UInt64@)" />
       <Member Id="M:System.UInt64.TryParse(System.String,System.UInt64@)" />
@@ -3337,7 +3292,6 @@
     <Type Name="System.UnauthorizedAccessException" Id="T:System.UnauthorizedAccessException">
       <Member Id="M:System.UnauthorizedAccessException.#ctor" />
       <Member Id="M:System.UnauthorizedAccessException.#ctor(System.String)" />
-      <Member Id="M:System.UnauthorizedAccessException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Uri" Id="T:System.Uri">
       <Member Id="M:System.Uri.#ctor(System.String)" />
@@ -3953,7 +3907,6 @@
     <Type Name="System.Collections.SortedList" Id="T:System.Collections.SortedList">
       <Member Id="M:System.Collections.SortedList.#ctor" />
       <Member Id="M:System.Collections.SortedList.#ctor(System.Collections.IComparer)" />
-      <Member Id="M:System.Collections.SortedList.#ctor(System.Collections.IComparer,System.Int32)" />
       <Member Id="M:System.Collections.SortedList.#ctor(System.Collections.IDictionary)" />
       <Member Id="M:System.Collections.SortedList.#ctor(System.Collections.IDictionary,System.Collections.IComparer)" />
       <Member Id="M:System.Collections.SortedList.#ctor(System.Int32)" />
@@ -4077,7 +4030,6 @@
     <Type Name="System.Collections.Concurrent.ConcurrentDictionary`2" Id="T:System.Collections.Concurrent.ConcurrentDictionary`2">
       <Member Id="M:System.Collections.Concurrent.ConcurrentDictionary`2.#ctor" />
       <Member Id="M:System.Collections.Concurrent.ConcurrentDictionary`2.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}})" />
-      <Member Id="M:System.Collections.Concurrent.ConcurrentDictionary`2.#ctor(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}},System.Collections.Generic.IEqualityComparer{`0})" />
       <Member Id="M:System.Collections.Concurrent.ConcurrentDictionary`2.#ctor(System.Collections.Generic.IEqualityComparer{`0})" />
       <Member Id="M:System.Collections.Concurrent.ConcurrentDictionary`2.#ctor(System.Int32,System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{`0,`1}},System.Collections.Generic.IEqualityComparer{`0})" />
       <Member Id="M:System.Collections.Concurrent.ConcurrentDictionary`2.#ctor(System.Int32,System.Int32)" />
@@ -4212,7 +4164,6 @@
       <Member Id="M:System.Collections.Generic.Dictionary`2.#ctor" />
       <Member Id="M:System.Collections.Generic.Dictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1})" />
       <Member Id="M:System.Collections.Generic.Dictionary`2.#ctor(System.Collections.Generic.IDictionary{`0,`1},System.Collections.Generic.IEqualityComparer{`0})" />
-      <Member Id="M:System.Collections.Generic.Dictionary`2.#ctor(System.Collections.Generic.IEqualityComparer{`0})" />
       <Member Id="M:System.Collections.Generic.Dictionary`2.#ctor(System.Int32)" />
       <Member Id="M:System.Collections.Generic.Dictionary`2.#ctor(System.Int32,System.Collections.Generic.IEqualityComparer{`0})" />
       <Member Id="M:System.Collections.Generic.Dictionary`2.Add(`0,`1)" />
@@ -4420,7 +4371,6 @@
     <Type Name="System.Collections.Generic.KeyNotFoundException" Id="T:System.Collections.Generic.KeyNotFoundException">
       <Member Id="M:System.Collections.Generic.KeyNotFoundException.#ctor" />
       <Member Id="M:System.Collections.Generic.KeyNotFoundException.#ctor(System.String)" />
-      <Member Id="M:System.Collections.Generic.KeyNotFoundException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Collections.Generic.KeyValuePair`2" Id="T:System.Collections.Generic.KeyValuePair`2">
       <Member Id="M:System.Collections.Generic.KeyValuePair`2.#ctor(`0,`1)" />
@@ -4519,7 +4469,6 @@
       <Member Id="M:System.Collections.Generic.List`1.Sort" />
       <Member Id="M:System.Collections.Generic.List`1.Sort(System.Collections.Generic.IComparer{`0})" />
       <Member Id="M:System.Collections.Generic.List`1.Sort(System.Comparison{`0})" />
-      <Member Id="M:System.Collections.Generic.List`1.Sort(System.Int32,System.Int32,System.Collections.Generic.IComparer{`0})" />
       <Member Id="M:System.Collections.Generic.List`1.System#Collections#Generic#IEnumerable&lt;T&gt;#GetEnumerator" />
       <Member Id="M:System.Collections.Generic.List`1.System#Collections#ICollection#CopyTo(System.Array,System.Int32)" />
       <Member Id="M:System.Collections.Generic.List`1.System#Collections#IEnumerable#GetEnumerator" />
@@ -5765,7 +5714,6 @@
     <Type Name="System.Collections.ObjectModel.KeyedCollection`2" Id="T:System.Collections.ObjectModel.KeyedCollection`2">
       <Member Id="M:System.Collections.ObjectModel.KeyedCollection`2.#ctor" />
       <Member Id="M:System.Collections.ObjectModel.KeyedCollection`2.#ctor(System.Collections.Generic.IEqualityComparer{`0})" />
-      <Member Id="M:System.Collections.ObjectModel.KeyedCollection`2.#ctor(System.Collections.Generic.IEqualityComparer{`0},System.Int32)" />
       <Member Id="M:System.Collections.ObjectModel.KeyedCollection`2.ChangeItemKey(`1,`0)" />
       <Member Id="M:System.Collections.ObjectModel.KeyedCollection`2.ClearItems" />
       <Member Id="M:System.Collections.ObjectModel.KeyedCollection`2.Contains(`0)" />
@@ -6603,7 +6551,6 @@
     <Type Name="System.ComponentModel.InvalidAsynchronousStateException" Id="T:System.ComponentModel.InvalidAsynchronousStateException">
       <Member Id="M:System.ComponentModel.InvalidAsynchronousStateException.#ctor" />
       <Member Id="M:System.ComponentModel.InvalidAsynchronousStateException.#ctor(System.String)" />
-      <Member Id="M:System.ComponentModel.InvalidAsynchronousStateException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.ComponentModel.IRevertibleChangeTracking" Id="T:System.ComponentModel.IRevertibleChangeTracking">
       <Member Id="M:System.ComponentModel.IRevertibleChangeTracking.RejectChanges" />
@@ -7040,7 +6987,6 @@
       <Member Id="M:System.ComponentModel.Win32Exception.#ctor" />
       <Member Id="M:System.ComponentModel.Win32Exception.#ctor(System.Int32)" />
       <Member Id="M:System.ComponentModel.Win32Exception.#ctor(System.Int32,System.String)" />
-      <Member Id="M:System.ComponentModel.Win32Exception.#ctor(System.String)" />
       <Member Id="M:System.ComponentModel.Win32Exception.#ctor(System.String,System.Exception)" />
       <Member Id="P:System.ComponentModel.Win32Exception.NativeErrorCode" />
     </Type>
@@ -8037,7 +7983,6 @@
     <Type Name="System.Data.Common.DbException" Id="T:System.Data.Common.DbException">
       <Member Id="M:System.Data.Common.DbException.#ctor" />
       <Member Id="M:System.Data.Common.DbException.#ctor(System.String)" />
-      <Member Id="M:System.Data.Common.DbException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Data.Common.DbParameter" Id="T:System.Data.Common.DbParameter">
       <Member Id="M:System.Data.Common.DbParameter.#ctor" />
@@ -9321,7 +9266,6 @@
     <Type Name="System.Data.SqlTypes.SqlXml" Id="T:System.Data.SqlTypes.SqlXml">
       <Member Id="M:System.Data.SqlTypes.SqlXml.#ctor" />
       <Member Id="M:System.Data.SqlTypes.SqlXml.#ctor(System.IO.Stream)" />
-      <Member Id="M:System.Data.SqlTypes.SqlXml.#ctor(System.Xml.XmlReader)" />
       <Member Id="M:System.Data.SqlTypes.SqlXml.CreateReader" />
       <Member Id="P:System.Data.SqlTypes.SqlXml.IsNull" />
       <Member Id="P:System.Data.SqlTypes.SqlXml.Null" />
@@ -10193,7 +10137,6 @@
     <Type Name="System.Diagnostics.Tracing.EventSourceException" Id="T:System.Diagnostics.Tracing.EventSourceException">
       <Member Id="M:System.Diagnostics.Tracing.EventSourceException.#ctor" />
       <Member Id="M:System.Diagnostics.Tracing.EventSourceException.#ctor(System.String)" />
-      <Member Id="M:System.Diagnostics.Tracing.EventSourceException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Diagnostics.Tracing.EventSourceOptions" Id="T:System.Diagnostics.Tracing.EventSourceOptions">
       <Member Id="P:System.Diagnostics.Tracing.EventSourceOptions.ActivityOptions" />
@@ -10739,7 +10682,6 @@
     </Type>
     <Type Name="System.Globalization.CultureNotFoundException" Id="T:System.Globalization.CultureNotFoundException">
       <Member Id="M:System.Globalization.CultureNotFoundException.#ctor" />
-      <Member Id="M:System.Globalization.CultureNotFoundException.#ctor(System.String)" />
       <Member Id="M:System.Globalization.CultureNotFoundException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.Globalization.CultureNotFoundException.#ctor(System.String,System.String)" />
       <Member Id="M:System.Globalization.CultureNotFoundException.#ctor(System.String,System.String,System.Exception)" />
@@ -11415,7 +11357,6 @@
     <Type Name="System.IO.DirectoryNotFoundException" Id="T:System.IO.DirectoryNotFoundException">
       <Member Id="M:System.IO.DirectoryNotFoundException.#ctor" />
       <Member Id="M:System.IO.DirectoryNotFoundException.#ctor(System.String)" />
-      <Member Id="M:System.IO.DirectoryNotFoundException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.IO.DriveInfo" Id="T:System.IO.DriveInfo">
       <Member Id="M:System.IO.DriveInfo.#ctor(System.String)" />
@@ -11434,7 +11375,6 @@
     <Type Name="System.IO.DriveNotFoundException" Id="T:System.IO.DriveNotFoundException">
       <Member Id="M:System.IO.DriveNotFoundException.#ctor" />
       <Member Id="M:System.IO.DriveNotFoundException.#ctor(System.String)" />
-      <Member Id="M:System.IO.DriveNotFoundException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.IO.DriveType" Id="T:System.IO.DriveType">
       <Member Id="F:System.IO.DriveType.CDRom" />
@@ -11448,7 +11388,6 @@
     <Type Name="System.IO.EndOfStreamException" Id="T:System.IO.EndOfStreamException">
       <Member Id="M:System.IO.EndOfStreamException.#ctor" />
       <Member Id="M:System.IO.EndOfStreamException.#ctor(System.String)" />
-      <Member Id="M:System.IO.EndOfStreamException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.IO.ErrorEventArgs" Id="T:System.IO.ErrorEventArgs">
       <Member Id="M:System.IO.ErrorEventArgs.#ctor(System.Exception)" />
@@ -11562,7 +11501,6 @@
     <Type Name="System.IO.FileLoadException" Id="T:System.IO.FileLoadException">
       <Member Id="M:System.IO.FileLoadException.#ctor" />
       <Member Id="M:System.IO.FileLoadException.#ctor(System.String)" />
-      <Member Id="M:System.IO.FileLoadException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.IO.FileLoadException.#ctor(System.String,System.String)" />
       <Member Id="M:System.IO.FileLoadException.#ctor(System.String,System.String,System.Exception)" />
       <Member Id="M:System.IO.FileLoadException.ToString" />
@@ -11702,7 +11640,6 @@
     </Type>
     <Type Name="System.IO.InvalidDataException" Id="T:System.IO.InvalidDataException">
       <Member Id="M:System.IO.InvalidDataException.#ctor" />
-      <Member Id="M:System.IO.InvalidDataException.#ctor(System.String)" />
       <Member Id="M:System.IO.InvalidDataException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.IO.IOException" Id="T:System.IO.IOException">
@@ -11777,7 +11714,6 @@
     <Type Name="System.IO.PathTooLongException" Id="T:System.IO.PathTooLongException">
       <Member Id="M:System.IO.PathTooLongException.#ctor" />
       <Member Id="M:System.IO.PathTooLongException.#ctor(System.String)" />
-      <Member Id="M:System.IO.PathTooLongException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.IO.RenamedEventArgs" Id="T:System.IO.RenamedEventArgs">
       <Member Id="M:System.IO.RenamedEventArgs.#ctor(System.IO.WatcherChangeTypes,System.String,System.String,System.String)" />
@@ -11966,14 +11902,12 @@
       <Member Id="M:System.IO.TextWriter.WriteLine(System.Single)" />
       <Member Id="M:System.IO.TextWriter.WriteLine(System.String)" />
       <Member Id="M:System.IO.TextWriter.WriteLine(System.String,System.Object)" />
-      <Member Id="M:System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object)" />
       <Member Id="M:System.IO.TextWriter.WriteLine(System.String,System.Object,System.Object,System.Object)" />
       <Member Id="M:System.IO.TextWriter.WriteLine(System.String,System.Object[])" />
       <Member Id="M:System.IO.TextWriter.WriteLine(System.UInt32)" />
       <Member Id="M:System.IO.TextWriter.WriteLine(System.UInt64)" />
       <Member Id="M:System.IO.TextWriter.WriteLineAsync" />
       <Member Id="M:System.IO.TextWriter.WriteLineAsync(System.Char)" />
-      <Member Id="M:System.IO.TextWriter.WriteLineAsync(System.Char[])" />
       <Member Id="M:System.IO.TextWriter.WriteLineAsync(System.Char[],System.Int32,System.Int32)" />
       <Member Id="M:System.IO.TextWriter.WriteLineAsync(System.String)" />
       <Member Id="P:System.IO.TextWriter.Encoding" />
@@ -13361,7 +13295,6 @@
       <Member Id="M:System.Linq.Expressions.Expression.Label" />
       <Member Id="M:System.Linq.Expressions.Expression.Label(System.Linq.Expressions.LabelTarget)" />
       <Member Id="M:System.Linq.Expressions.Expression.Label(System.Linq.Expressions.LabelTarget,System.Linq.Expressions.Expression)" />
-      <Member Id="M:System.Linq.Expressions.Expression.Label(System.String)" />
       <Member Id="M:System.Linq.Expressions.Expression.Label(System.Type)" />
       <Member Id="M:System.Linq.Expressions.Expression.Label(System.Type,System.String)" />
       <Member Id="M:System.Linq.Expressions.Expression.Lambda(System.Linq.Expressions.Expression,System.Boolean,System.Collections.Generic.IEnumerable{System.Linq.Expressions.ParameterExpression})" />
@@ -13918,7 +13851,6 @@
       <Member Id="M:System.Net.Cookie.#ctor" />
       <Member Id="M:System.Net.Cookie.#ctor(System.String,System.String)" />
       <Member Id="M:System.Net.Cookie.#ctor(System.String,System.String,System.String)" />
-      <Member Id="M:System.Net.Cookie.#ctor(System.String,System.String,System.String,System.String)" />
       <Member Id="M:System.Net.Cookie.Equals(System.Object)" />
       <Member Id="M:System.Net.Cookie.GetHashCode" />
       <Member Id="M:System.Net.Cookie.ToString" />
@@ -14232,7 +14164,6 @@
     <Type Name="System.Net.NetworkCredential" Id="T:System.Net.NetworkCredential">
       <Member Id="M:System.Net.NetworkCredential.#ctor" />
       <Member Id="M:System.Net.NetworkCredential.#ctor(System.String,System.String)" />
-      <Member Id="M:System.Net.NetworkCredential.#ctor(System.String,System.String,System.String)" />
       <Member Id="M:System.Net.NetworkCredential.GetCredential(System.String,System.Int32,System.String)" />
       <Member Id="M:System.Net.NetworkCredential.GetCredential(System.Uri,System.String)" />
       <Member Id="P:System.Net.NetworkCredential.Domain" />
@@ -15444,7 +15375,6 @@
       <Member Id="M:System.Net.Security.NegotiateStream.AuthenticateAsClientAsync(System.Net.NetworkCredential,System.String,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel)" />
       <Member Id="M:System.Net.Security.NegotiateStream.AuthenticateAsServerAsync" />
       <Member Id="M:System.Net.Security.NegotiateStream.AuthenticateAsServerAsync(System.Net.NetworkCredential,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel)" />
-      <Member Id="M:System.Net.Security.NegotiateStream.AuthenticateAsServerAsync(System.Net.NetworkCredential,System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy,System.Net.Security.ProtectionLevel,System.Security.Principal.TokenImpersonationLevel)" />
       <Member Id="M:System.Net.Security.NegotiateStream.AuthenticateAsServerAsync(System.Security.Authentication.ExtendedProtection.ExtendedProtectionPolicy)" />
       <Member Id="M:System.Net.Security.NegotiateStream.Flush" />
       <Member Id="M:System.Net.Security.NegotiateStream.Read(System.Byte[],System.Int32,System.Int32)" />
@@ -16325,7 +16255,6 @@
       <Member Id="M:System.Numerics.Complex.ToString" />
       <Member Id="M:System.Numerics.Complex.ToString(System.IFormatProvider)" />
       <Member Id="M:System.Numerics.Complex.ToString(System.String)" />
-      <Member Id="M:System.Numerics.Complex.ToString(System.String,System.IFormatProvider)" />
       <Member Id="P:System.Numerics.Complex.Imaginary" />
       <Member Id="P:System.Numerics.Complex.Magnitude" />
       <Member Id="P:System.Numerics.Complex.Phase" />
@@ -16608,7 +16537,6 @@
       <Member Id="M:System.Numerics.Vector`1.op_Subtraction(System.Numerics.Vector{`0},System.Numerics.Vector{`0})" />
       <Member Id="M:System.Numerics.Vector`1.op_UnaryNegation(System.Numerics.Vector{`0})" />
       <Member Id="M:System.Numerics.Vector`1.ToString" />
-      <Member Id="M:System.Numerics.Vector`1.ToString(System.String)" />
       <Member Id="M:System.Numerics.Vector`1.ToString(System.String,System.IFormatProvider)" />
       <Member Id="P:System.Numerics.Vector`1.Count" />
       <Member Id="P:System.Numerics.Vector`1.Item(System.Int32)" />
@@ -16715,7 +16643,6 @@
       <Member Id="M:System.Numerics.Vector3.Subtract(System.Numerics.Vector3,System.Numerics.Vector3)" />
       <Member Id="M:System.Numerics.Vector3.ToString" />
       <Member Id="M:System.Numerics.Vector3.ToString(System.String)" />
-      <Member Id="M:System.Numerics.Vector3.ToString(System.String,System.IFormatProvider)" />
       <Member Id="M:System.Numerics.Vector3.Transform(System.Numerics.Vector3,System.Numerics.Matrix4x4)" />
       <Member Id="M:System.Numerics.Vector3.Transform(System.Numerics.Vector3,System.Numerics.Quaternion)" />
       <Member Id="M:System.Numerics.Vector3.TransformNormal(System.Numerics.Vector3,System.Numerics.Matrix4x4)" />
@@ -16789,7 +16716,6 @@
   <Namespace Name="System.Reflection">
     <Type Name="System.Reflection.AmbiguousMatchException" Id="T:System.Reflection.AmbiguousMatchException">
       <Member Id="M:System.Reflection.AmbiguousMatchException.#ctor" />
-      <Member Id="M:System.Reflection.AmbiguousMatchException.#ctor(System.String)" />
       <Member Id="M:System.Reflection.AmbiguousMatchException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Reflection.Assembly" Id="T:System.Reflection.Assembly">
@@ -17498,7 +17424,6 @@
     </Type>
     <Type Name="System.Reflection.TargetParameterCountException" Id="T:System.Reflection.TargetParameterCountException">
       <Member Id="M:System.Reflection.TargetParameterCountException.#ctor" />
-      <Member Id="M:System.Reflection.TargetParameterCountException.#ctor(System.String)" />
       <Member Id="M:System.Reflection.TargetParameterCountException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Reflection.TypeAttributes" Id="T:System.Reflection.TypeAttributes">
@@ -21751,7 +21676,6 @@
     <Type Name="System.Runtime.InteropServices.COMException" Id="T:System.Runtime.InteropServices.COMException">
       <Member Id="M:System.Runtime.InteropServices.COMException.#ctor" />
       <Member Id="M:System.Runtime.InteropServices.COMException.#ctor(System.String)" />
-      <Member Id="M:System.Runtime.InteropServices.COMException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.Runtime.InteropServices.COMException.#ctor(System.String,System.Int32)" />
     </Type>
     <Type Name="System.Runtime.InteropServices.ComImportAttribute" Id="T:System.Runtime.InteropServices.ComImportAttribute">
@@ -21910,12 +21834,10 @@
     <Type Name="System.Runtime.InteropServices.InvalidComObjectException" Id="T:System.Runtime.InteropServices.InvalidComObjectException">
       <Member Id="M:System.Runtime.InteropServices.InvalidComObjectException.#ctor" />
       <Member Id="M:System.Runtime.InteropServices.InvalidComObjectException.#ctor(System.String)" />
-      <Member Id="M:System.Runtime.InteropServices.InvalidComObjectException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Runtime.InteropServices.InvalidOleVariantTypeException" Id="T:System.Runtime.InteropServices.InvalidOleVariantTypeException">
       <Member Id="M:System.Runtime.InteropServices.InvalidOleVariantTypeException.#ctor" />
       <Member Id="M:System.Runtime.InteropServices.InvalidOleVariantTypeException.#ctor(System.String)" />
-      <Member Id="M:System.Runtime.InteropServices.InvalidOleVariantTypeException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Runtime.InteropServices.LayoutKind" Id="T:System.Runtime.InteropServices.LayoutKind">
       <Member Id="F:System.Runtime.InteropServices.LayoutKind.Auto" />
@@ -22073,7 +21995,6 @@
     <Type Name="System.Runtime.InteropServices.MarshalDirectiveException" Id="T:System.Runtime.InteropServices.MarshalDirectiveException">
       <Member Id="M:System.Runtime.InteropServices.MarshalDirectiveException.#ctor" />
       <Member Id="M:System.Runtime.InteropServices.MarshalDirectiveException.#ctor(System.String)" />
-      <Member Id="M:System.Runtime.InteropServices.MarshalDirectiveException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Runtime.InteropServices.OptionalAttribute" Id="T:System.Runtime.InteropServices.OptionalAttribute">
       <Member Id="M:System.Runtime.InteropServices.OptionalAttribute.#ctor" />
@@ -22106,12 +22027,10 @@
     <Type Name="System.Runtime.InteropServices.SafeArrayRankMismatchException" Id="T:System.Runtime.InteropServices.SafeArrayRankMismatchException">
       <Member Id="M:System.Runtime.InteropServices.SafeArrayRankMismatchException.#ctor" />
       <Member Id="M:System.Runtime.InteropServices.SafeArrayRankMismatchException.#ctor(System.String)" />
-      <Member Id="M:System.Runtime.InteropServices.SafeArrayRankMismatchException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Runtime.InteropServices.SafeArrayTypeMismatchException" Id="T:System.Runtime.InteropServices.SafeArrayTypeMismatchException">
       <Member Id="M:System.Runtime.InteropServices.SafeArrayTypeMismatchException.#ctor" />
       <Member Id="M:System.Runtime.InteropServices.SafeArrayTypeMismatchException.#ctor(System.String)" />
-      <Member Id="M:System.Runtime.InteropServices.SafeArrayTypeMismatchException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Runtime.InteropServices.SafeBuffer" Id="T:System.Runtime.InteropServices.SafeBuffer">
       <Member Id="M:System.Runtime.InteropServices.SafeBuffer.#ctor(System.Boolean)" />
@@ -22145,7 +22064,6 @@
     <Type Name="System.Runtime.InteropServices.SEHException" Id="T:System.Runtime.InteropServices.SEHException">
       <Member Id="M:System.Runtime.InteropServices.SEHException.#ctor" />
       <Member Id="M:System.Runtime.InteropServices.SEHException.#ctor(System.String)" />
-      <Member Id="M:System.Runtime.InteropServices.SEHException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.Runtime.InteropServices.SEHException.CanResume" />
     </Type>
     <Type Name="System.Runtime.InteropServices.StructLayoutAttribute" Id="T:System.Runtime.InteropServices.StructLayoutAttribute">
@@ -23876,7 +23794,6 @@
     </Type>
     <Type Name="System.Security.SecurityException" Id="T:System.Security.SecurityException">
       <Member Id="M:System.Security.SecurityException.#ctor" />
-      <Member Id="M:System.Security.SecurityException.#ctor(System.String)" />
       <Member Id="M:System.Security.SecurityException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.Security.SecurityException.ToString" />
     </Type>
@@ -23889,7 +23806,6 @@
     <Type Name="System.Security.VerificationException" Id="T:System.Security.VerificationException">
       <Member Id="M:System.Security.VerificationException.#ctor" />
       <Member Id="M:System.Security.VerificationException.#ctor(System.String)" />
-      <Member Id="M:System.Security.VerificationException.#ctor(System.String,System.Exception)" />
     </Type>
   </Namespace>
   <Namespace Name="System.Security.Authentication">
@@ -24014,7 +23930,6 @@
       <Member Id="M:System.Security.Claims.ClaimsIdentity.#ctor(System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.String,System.String,System.String)" />
       <Member Id="M:System.Security.Claims.ClaimsIdentity.#ctor(System.IO.BinaryReader)" />
       <Member Id="M:System.Security.Claims.ClaimsIdentity.#ctor(System.Security.Claims.ClaimsIdentity)" />
-      <Member Id="M:System.Security.Claims.ClaimsIdentity.#ctor(System.Security.Principal.IIdentity)" />
       <Member Id="M:System.Security.Claims.ClaimsIdentity.#ctor(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim})" />
       <Member Id="M:System.Security.Claims.ClaimsIdentity.#ctor(System.Security.Principal.IIdentity,System.Collections.Generic.IEnumerable{System.Security.Claims.Claim},System.String,System.String,System.String)" />
       <Member Id="M:System.Security.Claims.ClaimsIdentity.#ctor(System.String)" />
@@ -24433,7 +24348,6 @@
       <Member Id="M:System.Security.Cryptography.CryptographicException.#ctor" />
       <Member Id="M:System.Security.Cryptography.CryptographicException.#ctor(System.Int32)" />
       <Member Id="M:System.Security.Cryptography.CryptographicException.#ctor(System.String)" />
-      <Member Id="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.Security.Cryptography.CryptographicException.#ctor(System.String,System.String)" />
     </Type>
     <Type Name="System.Security.Cryptography.CryptoStream" Id="T:System.Security.Cryptography.CryptoStream">
@@ -24482,7 +24396,6 @@
       <Member Id="M:System.Security.Cryptography.CspParameters.#ctor" />
       <Member Id="M:System.Security.Cryptography.CspParameters.#ctor(System.Int32)" />
       <Member Id="M:System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String)" />
-      <Member Id="M:System.Security.Cryptography.CspParameters.#ctor(System.Int32,System.String,System.String)" />
       <Member Id="P:System.Security.Cryptography.CspParameters.Flags" />
       <Member Id="P:System.Security.Cryptography.CspParameters.ParentWindowHandle" />
     </Type>
@@ -24856,7 +24769,6 @@
     <Type Name="System.Security.Cryptography.RSACryptoServiceProvider" Id="T:System.Security.Cryptography.RSACryptoServiceProvider">
       <Member Id="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor" />
       <Member Id="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor(System.Int32)" />
-      <Member Id="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor(System.Int32,System.Security.Cryptography.CspParameters)" />
       <Member Id="M:System.Security.Cryptography.RSACryptoServiceProvider.#ctor(System.Security.Cryptography.CspParameters)" />
       <Member Id="M:System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(System.Byte[],System.Boolean)" />
       <Member Id="M:System.Security.Cryptography.RSACryptoServiceProvider.Decrypt(System.Byte[],System.Security.Cryptography.RSAEncryptionPadding)" />
@@ -27585,7 +27497,6 @@
     <Type Name="System.Text.DecoderFallbackException" Id="T:System.Text.DecoderFallbackException">
       <Member Id="M:System.Text.DecoderFallbackException.#ctor" />
       <Member Id="M:System.Text.DecoderFallbackException.#ctor(System.String)" />
-      <Member Id="M:System.Text.DecoderFallbackException.#ctor(System.String,System.Byte[],System.Int32)" />
       <Member Id="M:System.Text.DecoderFallbackException.#ctor(System.String,System.Exception)" />
       <Member Id="P:System.Text.DecoderFallbackException.BytesUnknown" />
       <Member Id="P:System.Text.DecoderFallbackException.Index" />
@@ -27634,7 +27545,6 @@
     <Type Name="System.Text.EncoderFallbackException" Id="T:System.Text.EncoderFallbackException">
       <Member Id="M:System.Text.EncoderFallbackException.#ctor" />
       <Member Id="M:System.Text.EncoderFallbackException.#ctor(System.String)" />
-      <Member Id="M:System.Text.EncoderFallbackException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.Text.EncoderFallbackException.IsUnknownSurrogate" />
       <Member Id="P:System.Text.EncoderFallbackException.CharUnknown" />
       <Member Id="P:System.Text.EncoderFallbackException.CharUnknownHigh" />
@@ -27720,7 +27630,6 @@
       <Member Id="M:System.Text.StringBuilder.#ctor(System.Int32)" />
       <Member Id="M:System.Text.StringBuilder.#ctor(System.Int32,System.Int32)" />
       <Member Id="M:System.Text.StringBuilder.#ctor(System.String)" />
-      <Member Id="M:System.Text.StringBuilder.#ctor(System.String,System.Int32)" />
       <Member Id="M:System.Text.StringBuilder.#ctor(System.String,System.Int32,System.Int32,System.Int32)" />
       <Member Id="M:System.Text.StringBuilder.Append(System.Boolean)" />
       <Member Id="M:System.Text.StringBuilder.Append(System.Byte)" />
@@ -28263,7 +28172,6 @@
   <Namespace Name="System.Threading">
     <Type Name="System.Threading.AbandonedMutexException" Id="T:System.Threading.AbandonedMutexException">
       <Member Id="M:System.Threading.AbandonedMutexException.#ctor" />
-      <Member Id="M:System.Threading.AbandonedMutexException.#ctor(System.Int32,System.Threading.WaitHandle)" />
       <Member Id="M:System.Threading.AbandonedMutexException.#ctor(System.String)" />
       <Member Id="M:System.Threading.AbandonedMutexException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.Threading.AbandonedMutexException.#ctor(System.String,System.Exception,System.Int32,System.Threading.WaitHandle)" />
@@ -28429,7 +28337,6 @@
     <Type Name="System.Threading.LockRecursionException" Id="T:System.Threading.LockRecursionException">
       <Member Id="M:System.Threading.LockRecursionException.#ctor" />
       <Member Id="M:System.Threading.LockRecursionException.#ctor(System.String)" />
-      <Member Id="M:System.Threading.LockRecursionException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Threading.LockRecursionPolicy" Id="T:System.Threading.LockRecursionPolicy">
       <Member Id="F:System.Threading.LockRecursionPolicy.NoRecursion" />
@@ -28476,7 +28383,6 @@
     <Type Name="System.Threading.Mutex" Id="T:System.Threading.Mutex">
       <Member Id="M:System.Threading.Mutex.#ctor" />
       <Member Id="M:System.Threading.Mutex.#ctor(System.Boolean)" />
-      <Member Id="M:System.Threading.Mutex.#ctor(System.Boolean,System.String)" />
       <Member Id="M:System.Threading.Mutex.#ctor(System.Boolean,System.String,System.Boolean@)" />
       <Member Id="M:System.Threading.Mutex.OpenExisting(System.String)" />
       <Member Id="M:System.Threading.Mutex.ReleaseMutex" />
@@ -28537,7 +28443,6 @@
     <Type Name="System.Threading.SemaphoreFullException" Id="T:System.Threading.SemaphoreFullException">
       <Member Id="M:System.Threading.SemaphoreFullException.#ctor" />
       <Member Id="M:System.Threading.SemaphoreFullException.#ctor(System.String)" />
-      <Member Id="M:System.Threading.SemaphoreFullException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Threading.SemaphoreSlim" Id="T:System.Threading.SemaphoreSlim">
       <Member Id="M:System.Threading.SemaphoreSlim.#ctor(System.Int32)" />
@@ -28596,7 +28501,6 @@
     <Type Name="System.Threading.SynchronizationLockException" Id="T:System.Threading.SynchronizationLockException">
       <Member Id="M:System.Threading.SynchronizationLockException.#ctor" />
       <Member Id="M:System.Threading.SynchronizationLockException.#ctor(System.String)" />
-      <Member Id="M:System.Threading.SynchronizationLockException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Threading.Thread" Id="T:System.Threading.Thread">
       <Member Id="M:System.Threading.Thread.#ctor(System.Threading.ParameterizedThreadStart)" />
@@ -28670,7 +28574,6 @@
     <Type Name="System.Threading.ThreadStateException" Id="T:System.Threading.ThreadStateException">
       <Member Id="M:System.Threading.ThreadStateException.#ctor" />
       <Member Id="M:System.Threading.ThreadStateException.#ctor(System.String)" />
-      <Member Id="M:System.Threading.ThreadStateException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Threading.Timeout" Id="T:System.Threading.Timeout">
       <Member Id="F:System.Threading.Timeout.Infinite" />
@@ -28734,7 +28637,6 @@
     <Type Name="System.Threading.WaitHandleCannotBeOpenedException" Id="T:System.Threading.WaitHandleCannotBeOpenedException">
       <Member Id="M:System.Threading.WaitHandleCannotBeOpenedException.#ctor" />
       <Member Id="M:System.Threading.WaitHandleCannotBeOpenedException.#ctor(System.String)" />
-      <Member Id="M:System.Threading.WaitHandleCannotBeOpenedException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Threading.WaitHandleExtensions" Id="T:System.Threading.WaitHandleExtensions">
       <Member Id="M:System.Threading.WaitHandleExtensions.GetSafeWaitHandle(System.Threading.WaitHandle)" />
@@ -28933,7 +28835,6 @@
     </Type>
     <Type Name="System.Threading.Tasks.TaskCanceledException" Id="T:System.Threading.Tasks.TaskCanceledException">
       <Member Id="M:System.Threading.Tasks.TaskCanceledException.#ctor" />
-      <Member Id="M:System.Threading.Tasks.TaskCanceledException.#ctor(System.String)" />
       <Member Id="M:System.Threading.Tasks.TaskCanceledException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.Threading.Tasks.TaskCanceledException.#ctor(System.Threading.Tasks.Task)" />
       <Member Id="P:System.Threading.Tasks.TaskCanceledException.Task" />
@@ -28941,7 +28842,6 @@
     <Type Name="System.Threading.Tasks.TaskCompletionSource`1" Id="T:System.Threading.Tasks.TaskCompletionSource`1">
       <Member Id="M:System.Threading.Tasks.TaskCompletionSource`1.#ctor" />
       <Member Id="M:System.Threading.Tasks.TaskCompletionSource`1.#ctor(System.Object)" />
-      <Member Id="M:System.Threading.Tasks.TaskCompletionSource`1.#ctor(System.Object,System.Threading.Tasks.TaskCreationOptions)" />
       <Member Id="M:System.Threading.Tasks.TaskCompletionSource`1.#ctor(System.Threading.Tasks.TaskCreationOptions)" />
       <Member Id="M:System.Threading.Tasks.TaskCompletionSource`1.SetCanceled" />
       <Member Id="M:System.Threading.Tasks.TaskCompletionSource`1.SetException(System.Collections.Generic.IEnumerable{System.Exception})" />
@@ -28987,7 +28887,6 @@
     <Type Name="System.Threading.Tasks.TaskFactory" Id="T:System.Threading.Tasks.TaskFactory">
       <Member Id="M:System.Threading.Tasks.TaskFactory.#ctor" />
       <Member Id="M:System.Threading.Tasks.TaskFactory.#ctor(System.Threading.CancellationToken)" />
-      <Member Id="M:System.Threading.Tasks.TaskFactory.#ctor(System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler)" />
       <Member Id="M:System.Threading.Tasks.TaskFactory.#ctor(System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskContinuationOptions)" />
       <Member Id="M:System.Threading.Tasks.TaskFactory.#ctor(System.Threading.Tasks.TaskScheduler)" />
       <Member Id="M:System.Threading.Tasks.TaskFactory.ContinueWhenAll(System.Threading.Tasks.Task[],System.Action{System.Threading.Tasks.Task[]})" />
@@ -29068,7 +28967,6 @@
     <Type Name="System.Threading.Tasks.TaskFactory`1" Id="T:System.Threading.Tasks.TaskFactory`1">
       <Member Id="M:System.Threading.Tasks.TaskFactory`1.#ctor" />
       <Member Id="M:System.Threading.Tasks.TaskFactory`1.#ctor(System.Threading.CancellationToken)" />
-      <Member Id="M:System.Threading.Tasks.TaskFactory`1.#ctor(System.Threading.CancellationToken,System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskContinuationOptions,System.Threading.Tasks.TaskScheduler)" />
       <Member Id="M:System.Threading.Tasks.TaskFactory`1.#ctor(System.Threading.Tasks.TaskCreationOptions,System.Threading.Tasks.TaskContinuationOptions)" />
       <Member Id="M:System.Threading.Tasks.TaskFactory`1.#ctor(System.Threading.Tasks.TaskScheduler)" />
       <Member Id="M:System.Threading.Tasks.TaskFactory`1.ContinueWhenAll(System.Threading.Tasks.Task[],System.Func{System.Threading.Tasks.Task[],`0})" />
@@ -29128,7 +29026,6 @@
     <Type Name="System.Threading.Tasks.TaskSchedulerException" Id="T:System.Threading.Tasks.TaskSchedulerException">
       <Member Id="M:System.Threading.Tasks.TaskSchedulerException.#ctor" />
       <Member Id="M:System.Threading.Tasks.TaskSchedulerException.#ctor(System.Exception)" />
-      <Member Id="M:System.Threading.Tasks.TaskSchedulerException.#ctor(System.String)" />
       <Member Id="M:System.Threading.Tasks.TaskSchedulerException.#ctor(System.String,System.Exception)" />
     </Type>
     <Type Name="System.Threading.Tasks.TaskStatus" Id="T:System.Threading.Tasks.TaskStatus">
@@ -30003,7 +29900,6 @@
     <Type Name="System.Xml.XmlException" Id="T:System.Xml.XmlException">
       <Member Id="M:System.Xml.XmlException.#ctor" />
       <Member Id="M:System.Xml.XmlException.#ctor(System.String)" />
-      <Member Id="M:System.Xml.XmlException.#ctor(System.String,System.Exception)" />
       <Member Id="M:System.Xml.XmlException.#ctor(System.String,System.Exception,System.Int32,System.Int32)" />
       <Member Id="P:System.Xml.XmlException.LineNumber" />
       <Member Id="P:System.Xml.XmlException.LinePosition" />
@@ -30178,7 +30074,6 @@
     <Type Name="System.Xml.XmlQualifiedName" Id="T:System.Xml.XmlQualifiedName">
       <Member Id="F:System.Xml.XmlQualifiedName.Empty" />
       <Member Id="M:System.Xml.XmlQualifiedName.#ctor" />
-      <Member Id="M:System.Xml.XmlQualifiedName.#ctor(System.String)" />
       <Member Id="M:System.Xml.XmlQualifiedName.#ctor(System.String,System.String)" />
       <Member Id="M:System.Xml.XmlQualifiedName.Equals(System.Object)" />
       <Member Id="M:System.Xml.XmlQualifiedName.GetHashCode" />
@@ -30606,7 +30501,6 @@
     <Type Name="System.Xml.Linq.XDocument" Id="T:System.Xml.Linq.XDocument">
       <Member Id="M:System.Xml.Linq.XDocument.#ctor" />
       <Member Id="M:System.Xml.Linq.XDocument.#ctor(System.Object[])" />
-      <Member Id="M:System.Xml.Linq.XDocument.#ctor(System.Xml.Linq.XDeclaration,System.Object[])" />
       <Member Id="M:System.Xml.Linq.XDocument.#ctor(System.Xml.Linq.XDocument)" />
       <Member Id="M:System.Xml.Linq.XDocument.Load(System.IO.Stream)" />
       <Member Id="M:System.Xml.Linq.XDocument.Load(System.IO.Stream,System.Xml.Linq.LoadOptions)" />
@@ -30762,7 +30656,6 @@
       <Member Id="M:System.Xml.Linq.XNode.ElementsAfterSelf" />
       <Member Id="M:System.Xml.Linq.XNode.ElementsAfterSelf(System.Xml.Linq.XName)" />
       <Member Id="M:System.Xml.Linq.XNode.ElementsBeforeSelf" />
-      <Member Id="M:System.Xml.Linq.XNode.ElementsBeforeSelf(System.Xml.Linq.XName)" />
       <Member Id="M:System.Xml.Linq.XNode.IsAfter(System.Xml.Linq.XNode)" />
       <Member Id="M:System.Xml.Linq.XNode.IsBefore(System.Xml.Linq.XNode)" />
       <Member Id="M:System.Xml.Linq.XNode.NodesAfterSelf" />
@@ -30875,7 +30768,6 @@
     <Type Name="System.Xml.Serialization.XmlAnyElementAttribute" Id="T:System.Xml.Serialization.XmlAnyElementAttribute">
       <Member Id="M:System.Xml.Serialization.XmlAnyElementAttribute.#ctor" />
       <Member Id="M:System.Xml.Serialization.XmlAnyElementAttribute.#ctor(System.String)" />
-      <Member Id="M:System.Xml.Serialization.XmlAnyElementAttribute.#ctor(System.String,System.String)" />
       <Member Id="P:System.Xml.Serialization.XmlAnyElementAttribute.Name" />
       <Member Id="P:System.Xml.Serialization.XmlAnyElementAttribute.Namespace" />
       <Member Id="P:System.Xml.Serialization.XmlAnyElementAttribute.Order" />
@@ -30917,7 +30809,6 @@
     <Type Name="System.Xml.Serialization.XmlArrayItemAttribute" Id="T:System.Xml.Serialization.XmlArrayItemAttribute">
       <Member Id="M:System.Xml.Serialization.XmlArrayItemAttribute.#ctor" />
       <Member Id="M:System.Xml.Serialization.XmlArrayItemAttribute.#ctor(System.String)" />
-      <Member Id="M:System.Xml.Serialization.XmlArrayItemAttribute.#ctor(System.String,System.Type)" />
       <Member Id="M:System.Xml.Serialization.XmlArrayItemAttribute.#ctor(System.Type)" />
       <Member Id="P:System.Xml.Serialization.XmlArrayItemAttribute.DataType" />
       <Member Id="P:System.Xml.Serialization.XmlArrayItemAttribute.ElementName" />
@@ -30996,7 +30887,6 @@
       <Member Id="M:System.Xml.Serialization.XmlElementAttribute.#ctor" />
       <Member Id="M:System.Xml.Serialization.XmlElementAttribute.#ctor(System.String)" />
       <Member Id="M:System.Xml.Serialization.XmlElementAttribute.#ctor(System.String,System.Type)" />
-      <Member Id="M:System.Xml.Serialization.XmlElementAttribute.#ctor(System.Type)" />
       <Member Id="P:System.Xml.Serialization.XmlElementAttribute.DataType" />
       <Member Id="P:System.Xml.Serialization.XmlElementAttribute.ElementName" />
       <Member Id="P:System.Xml.Serialization.XmlElementAttribute.Form" />

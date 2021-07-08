@@ -12,6 +12,7 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System</AssemblyName>
@@ -27,6 +28,7 @@
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.Primitives" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.ComponentModel.Primitives" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -67,6 +69,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -94,12 +97,11 @@
     </Member>
     <Member MemberName="AddHandler">
       <MemberSignature Language="C#" Value="public void AddHandler (object key, Delegate? value);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddHandler(object key, class System.Delegate value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ComponentModel.EventHandlerList.AddHandler(System.Object,System.Delegate)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub AddHandler (key As Object, value As Delegate)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddHandler(System::Object ^ key, Delegate ^ value);" />
-      <MemberSignature Language="F#" Value="member this.AddHandler : obj * Delegate -&gt; unit" Usage="eventHandlerList.AddHandler (key, value)" />
-      <MemberSignature Language="C#" Value="public void AddHandler (object key, Delegate value);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddHandler(object key, class System.Delegate value) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.ComponentModel.EventHandlerList.AddHandler(System.Object,System.Delegate)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddHandler (key As Object, value As Delegate)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddHandler(System::Object ^ key, Delegate ^ value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.AddHandler : obj * Delegate -&gt; unit" Usage="eventHandlerList.AddHandler (key, value)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.Primitives</AssemblyName>
@@ -122,11 +124,11 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="key" Type="System.Object" />
-        <Parameter Name="value" Type="System.Delegate" />
+        <Parameter Name="key" Type="System.Object" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="System.Delegate?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="key">The object that owns the event.</param>
@@ -150,6 +152,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -166,7 +169,7 @@
         <ReturnType>System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="listToAddFrom" Type="System.ComponentModel.EventHandlerList" Index="0" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="listToAddFrom" Type="System.ComponentModel.EventHandlerList" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="listToAddFrom">The list to add.</param>
@@ -192,6 +195,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -225,7 +229,7 @@
       </Docs>
     </Member>
     <Member MemberName="Item">
-      <MemberSignature Language="C#" Value="public Delegate? this[object key] { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public Delegate? this[object key] { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Delegate Item(object)" />
       <MemberSignature Language="DocId" Value="P:System.ComponentModel.EventHandlerList.Item(System.Object)" />
       <MemberSignature Language="VB.NET" Value="Default Public Property Item(key As Object) As Delegate" />
@@ -240,6 +244,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -254,7 +259,8 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Delegate</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Delegate?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Delegate</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="key" Type="System.Object" />
@@ -276,12 +282,11 @@
     </Member>
     <Member MemberName="RemoveHandler">
       <MemberSignature Language="C#" Value="public void RemoveHandler (object key, Delegate? value);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveHandler(object key, class System.Delegate value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ComponentModel.EventHandlerList.RemoveHandler(System.Object,System.Delegate)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub RemoveHandler (key As Object, value As Delegate)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveHandler(System::Object ^ key, Delegate ^ value);" />
-      <MemberSignature Language="F#" Value="member this.RemoveHandler : obj * Delegate -&gt; unit" Usage="eventHandlerList.RemoveHandler (key, value)" />
-      <MemberSignature Language="C#" Value="public void RemoveHandler (object key, Delegate value);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void RemoveHandler(object key, class System.Delegate value) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.ComponentModel.EventHandlerList.RemoveHandler(System.Object,System.Delegate)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub RemoveHandler (key As Object, value As Delegate)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void RemoveHandler(System::Object ^ key, Delegate ^ value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.RemoveHandler : obj * Delegate -&gt; unit" Usage="eventHandlerList.RemoveHandler (key, value)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.Primitives</AssemblyName>
@@ -304,11 +309,11 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="key" Type="System.Object" />
-        <Parameter Name="value" Type="System.Delegate" />
+        <Parameter Name="key" Type="System.Object" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="System.Delegate?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="key">The object that owns the event.</param>

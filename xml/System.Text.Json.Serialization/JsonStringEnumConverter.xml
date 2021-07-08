@@ -10,6 +10,7 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Text.Json.Serialization.JsonConverterFactory</BaseTypeName>
@@ -42,6 +43,7 @@ For more information, see [How to customize property names and values with Syste
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -51,11 +53,10 @@ For more information, see [How to customize property names and values with Syste
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public JsonStringEnumConverter (System.Text.Json.JsonNamingPolicy? namingPolicy = default, bool allowIntegerValues = true);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Text.Json.JsonNamingPolicy namingPolicy, bool allowIntegerValues) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Text.Json.Serialization.JsonStringEnumConverter.#ctor(System.Text.Json.JsonNamingPolicy,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional namingPolicy As JsonNamingPolicy = Nothing, Optional allowIntegerValues As Boolean = true)" />
-      <MemberSignature Language="F#" Value="new System.Text.Json.Serialization.JsonStringEnumConverter : System.Text.Json.JsonNamingPolicy * bool -&gt; System.Text.Json.Serialization.JsonStringEnumConverter" Usage="new System.Text.Json.Serialization.JsonStringEnumConverter (namingPolicy, allowIntegerValues)" />
-      <MemberSignature Language="C#" Value="public JsonStringEnumConverter (System.Text.Json.JsonNamingPolicy namingPolicy = default, bool allowIntegerValues = true);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Text.Json.JsonNamingPolicy namingPolicy, bool allowIntegerValues) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Text.Json.Serialization.JsonStringEnumConverter.#ctor(System.Text.Json.JsonNamingPolicy,System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (Optional namingPolicy As JsonNamingPolicy = Nothing, Optional allowIntegerValues As Boolean = true)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Text.Json.Serialization.JsonStringEnumConverter : System.Text.Json.JsonNamingPolicy * bool -&gt; System.Text.Json.Serialization.JsonStringEnumConverter" Usage="new System.Text.Json.Serialization.JsonStringEnumConverter (namingPolicy, allowIntegerValues)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -64,8 +65,8 @@ For more information, see [How to customize property names and values with Syste
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="namingPolicy" Type="System.Text.Json.JsonNamingPolicy" />
-        <Parameter Name="allowIntegerValues" Type="System.Boolean" />
+        <Parameter Name="namingPolicy" Type="System.Text.Json.JsonNamingPolicy?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="allowIntegerValues" Type="System.Boolean" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="namingPolicy">The optional naming policy for writing enum values.</param>
@@ -88,6 +89,7 @@ For more information, see [How to customize property names and values with Syste
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -116,6 +118,7 @@ For more information, see [How to customize property names and values with Syste
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Text.Json.Serialization.JsonConverter</ReturnType>

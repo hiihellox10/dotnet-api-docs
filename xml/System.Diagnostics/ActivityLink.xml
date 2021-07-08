@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -27,19 +28,19 @@ Activity links can be used to represent batched operations where an activity was
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ActivityLink (System.Diagnostics.ActivityContext context, System.Diagnostics.ActivityTagsCollection? tags = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Diagnostics.ActivityContext context, class System.Diagnostics.ActivityTagsCollection tags) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityLink.#ctor(System.Diagnostics.ActivityContext,System.Diagnostics.ActivityTagsCollection)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (context As ActivityContext, Optional tags As ActivityTagsCollection = Nothing)" />
-      <MemberSignature Language="F#" Value="new System.Diagnostics.ActivityLink : System.Diagnostics.ActivityContext * System.Diagnostics.ActivityTagsCollection -&gt; System.Diagnostics.ActivityLink" Usage="new System.Diagnostics.ActivityLink (context, tags)" />
+      <MemberSignature Language="C#" Value="public ActivityLink (System.Diagnostics.ActivityContext context, System.Diagnostics.ActivityTagsCollection? tags = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Diagnostics.ActivityContext context, class System.Diagnostics.ActivityTagsCollection tags) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityLink.#ctor(System.Diagnostics.ActivityContext,System.Diagnostics.ActivityTagsCollection)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (context As ActivityContext, Optional tags As ActivityTagsCollection = Nothing)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Diagnostics.ActivityLink : System.Diagnostics.ActivityContext * System.Diagnostics.ActivityTagsCollection -&gt; System.Diagnostics.ActivityLink" Usage="new System.Diagnostics.ActivityLink (context, tags)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="context" Type="System.Diagnostics.ActivityContext" />
-        <Parameter Name="tags" Type="System.Diagnostics.ActivityTagsCollection" />
+        <Parameter Name="context" Type="System.Diagnostics.ActivityContext" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="tags" Type="System.Diagnostics.ActivityTagsCollection?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="context">The trace activity context.</param>
@@ -59,6 +60,7 @@ Activity links can be used to represent batched operations where an activity was
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.ActivityContext</ReturnType>
@@ -83,6 +85,7 @@ Activity links can be used to represent batched operations where an activity was
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -99,22 +102,22 @@ Activity links can be used to represent batched operations where an activity was
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityLink.Equals(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="activityLink.Equals obj" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityLink.Equals(System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="activityLink.Equals obj" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj" Type="System.Object" />
+        <Parameter Name="obj" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="obj">The object to compare.</param>
@@ -135,6 +138,7 @@ Activity links can be used to represent batched operations where an activity was
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -157,6 +161,7 @@ Activity links can be used to represent batched operations where an activity was
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -185,6 +190,7 @@ Activity links can be used to represent batched operations where an activity was
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -213,9 +219,10 @@ Activity links can be used to represent batched operations where an activity was
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object?&gt;&gt;?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Retrieves the key-value pair enumeration of tags attached to the activity context.</summary>

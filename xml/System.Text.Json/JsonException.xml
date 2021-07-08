@@ -10,6 +10,7 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Exception</BaseTypeName>
@@ -40,6 +41,7 @@ For more information, see [How to write custom converters for JSON serialization
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -49,12 +51,11 @@ For more information, see [How to write custom converters for JSON serialization
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public JsonException (string? message);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonException.#ctor(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; JsonException(System::String ^ message);" />
-      <MemberSignature Language="F#" Value="new System.Text.Json.JsonException : string -&gt; System.Text.Json.JsonException" Usage="new System.Text.Json.JsonException message" />
-      <MemberSignature Language="C#" Value="public JsonException (string message);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonException.#ctor(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; JsonException(System::String ^ message);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Text.Json.JsonException : string -&gt; System.Text.Json.JsonException" Usage="new System.Text.Json.JsonException message" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -63,7 +64,7 @@ For more information, see [How to write custom converters for JSON serialization
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">The context-specific error message.</param>
@@ -84,6 +85,7 @@ For more information, see [How to write custom converters for JSON serialization
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" />
@@ -100,12 +102,11 @@ For more information, see [How to write custom converters for JSON serialization
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public JsonException (string? message, Exception? innerException);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception innerException) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonException.#ctor(System.String,System.Exception)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; JsonException(System::String ^ message, Exception ^ innerException);" />
-      <MemberSignature Language="F#" Value="new System.Text.Json.JsonException : string * Exception -&gt; System.Text.Json.JsonException" Usage="new System.Text.Json.JsonException (message, innerException)" />
-      <MemberSignature Language="C#" Value="public JsonException (string message, Exception innerException);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception innerException) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonException.#ctor(System.String,System.Exception)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; JsonException(System::String ^ message, Exception ^ innerException);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Text.Json.JsonException : string * Exception -&gt; System.Text.Json.JsonException" Usage="new System.Text.Json.JsonException (message, innerException)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -114,8 +115,8 @@ For more information, see [How to write custom converters for JSON serialization
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="innerException" Type="System.Exception" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="innerException" Type="System.Exception?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">The context-specific error message.</param>
@@ -126,12 +127,11 @@ For more information, see [How to write custom converters for JSON serialization
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public JsonException (string? message, string? path, long? lineNumber, long? bytePositionInLine);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, string path, valuetype System.Nullable`1&lt;int64&gt; lineNumber, valuetype System.Nullable`1&lt;int64&gt; bytePositionInLine) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonException.#ctor(System.String,System.String,System.Nullable{System.Int64},System.Nullable{System.Int64})" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, path As String, lineNumber As Nullable(Of Long), bytePositionInLine As Nullable(Of Long))" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; JsonException(System::String ^ message, System::String ^ path, Nullable&lt;long&gt; lineNumber, Nullable&lt;long&gt; bytePositionInLine);" />
-      <MemberSignature Language="F#" Value="new System.Text.Json.JsonException : string * string * Nullable&lt;int64&gt; * Nullable&lt;int64&gt; -&gt; System.Text.Json.JsonException" Usage="new System.Text.Json.JsonException (message, path, lineNumber, bytePositionInLine)" />
-      <MemberSignature Language="C#" Value="public JsonException (string message, string path, long? lineNumber, long? bytePositionInLine);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, string path, valuetype System.Nullable`1&lt;int64&gt; lineNumber, valuetype System.Nullable`1&lt;int64&gt; bytePositionInLine) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonException.#ctor(System.String,System.String,System.Nullable{System.Int64},System.Nullable{System.Int64})" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, path As String, lineNumber As Nullable(Of Long), bytePositionInLine As Nullable(Of Long))" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; JsonException(System::String ^ message, System::String ^ path, Nullable&lt;long&gt; lineNumber, Nullable&lt;long&gt; bytePositionInLine);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Text.Json.JsonException : string * string * Nullable&lt;int64&gt; * Nullable&lt;int64&gt; -&gt; System.Text.Json.JsonException" Usage="new System.Text.Json.JsonException (message, path, lineNumber, bytePositionInLine)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -140,10 +140,10 @@ For more information, see [How to write custom converters for JSON serialization
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="path" Type="System.String" />
-        <Parameter Name="lineNumber" Type="System.Nullable&lt;System.Int64&gt;" />
-        <Parameter Name="bytePositionInLine" Type="System.Nullable&lt;System.Int64&gt;" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="path" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="lineNumber" Type="System.Nullable&lt;System.Int64&gt;" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="bytePositionInLine" Type="System.Nullable&lt;System.Int64&gt;" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">The context-specific error message.</param>
@@ -164,12 +164,11 @@ Note that `bytePositionInLine` counts the number of bytes (that is,  UTF-8 code 
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public JsonException (string? message, string? path, long? lineNumber, long? bytePositionInLine, Exception? innerException);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, string path, valuetype System.Nullable`1&lt;int64&gt; lineNumber, valuetype System.Nullable`1&lt;int64&gt; bytePositionInLine, class System.Exception innerException) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonException.#ctor(System.String,System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Exception)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, path As String, lineNumber As Nullable(Of Long), bytePositionInLine As Nullable(Of Long), innerException As Exception)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; JsonException(System::String ^ message, System::String ^ path, Nullable&lt;long&gt; lineNumber, Nullable&lt;long&gt; bytePositionInLine, Exception ^ innerException);" />
-      <MemberSignature Language="F#" Value="new System.Text.Json.JsonException : string * string * Nullable&lt;int64&gt; * Nullable&lt;int64&gt; * Exception -&gt; System.Text.Json.JsonException" Usage="new System.Text.Json.JsonException (message, path, lineNumber, bytePositionInLine, innerException)" />
-      <MemberSignature Language="C#" Value="public JsonException (string message, string path, long? lineNumber, long? bytePositionInLine, Exception innerException);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, string path, valuetype System.Nullable`1&lt;int64&gt; lineNumber, valuetype System.Nullable`1&lt;int64&gt; bytePositionInLine, class System.Exception innerException) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonException.#ctor(System.String,System.String,System.Nullable{System.Int64},System.Nullable{System.Int64},System.Exception)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, path As String, lineNumber As Nullable(Of Long), bytePositionInLine As Nullable(Of Long), innerException As Exception)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; JsonException(System::String ^ message, System::String ^ path, Nullable&lt;long&gt; lineNumber, Nullable&lt;long&gt; bytePositionInLine, Exception ^ innerException);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Text.Json.JsonException : string * string * Nullable&lt;int64&gt; * Nullable&lt;int64&gt; * Exception -&gt; System.Text.Json.JsonException" Usage="new System.Text.Json.JsonException (message, path, lineNumber, bytePositionInLine, innerException)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -178,11 +177,11 @@ Note that `bytePositionInLine` counts the number of bytes (that is,  UTF-8 code 
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="path" Type="System.String" />
-        <Parameter Name="lineNumber" Type="System.Nullable&lt;System.Int64&gt;" />
-        <Parameter Name="bytePositionInLine" Type="System.Nullable&lt;System.Int64&gt;" />
-        <Parameter Name="innerException" Type="System.Exception" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="path" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="lineNumber" Type="System.Nullable&lt;System.Int64&gt;" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="bytePositionInLine" Type="System.Nullable&lt;System.Int64&gt;" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="innerException" Type="System.Exception?" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">The context-specific error message.</param>
@@ -215,6 +214,7 @@ Note that the `bytePositionInLine` counts the number of bytes (that is, UTF-8 co
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -238,6 +238,7 @@ Note that the `bytePositionInLine` counts the number of bytes (that is, UTF-8 co
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -266,6 +267,7 @@ Note that the `bytePositionInLine` counts the number of bytes (that is, UTF-8 co
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Nullable&lt;System.Int64&gt;</ReturnType>
@@ -289,6 +291,7 @@ Note that the `bytePositionInLine` counts the number of bytes (that is, UTF-8 co
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -300,7 +303,7 @@ Note that the `bytePositionInLine` counts the number of bytes (that is, UTF-8 co
       </Docs>
     </Member>
     <Member MemberName="Path">
-      <MemberSignature Language="C#" Value="public string? Path { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public string? Path { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance string Path" />
       <MemberSignature Language="DocId" Value="P:System.Text.Json.JsonException.Path" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Path As String" />
@@ -313,9 +316,11 @@ Note that the `bytePositionInLine` counts the number of bytes (that is, UTF-8 co
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.String?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1">System.String</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets The path within the JSON where the exception was encountered.</summary>

@@ -26,12 +26,15 @@
   <AssemblyInfo>
     <AssemblyName>System.Runtime</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Diagnostics.Tools" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0" />
-    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Runtime" ToVersion="0.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Runtime" ToVersion="0.0.0.0" FrameworkAlternate="net-5.0;net-6.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="System.Diagnostics.Tools" FromVersion="5.0.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
+    <TypeForwarding From="System.Diagnostics.Tools" FromVersion="6.0.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Attribute</BaseTypeName>
@@ -99,6 +102,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="category" Type="System.String" />
@@ -158,6 +162,7 @@ The following code example shows the use of the <xref:System.Diagnostics.CodeAna
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -211,6 +216,7 @@ The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Category%2A> 
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -242,7 +248,7 @@ Concatenated together, the <xref:System.Diagnostics.CodeAnalysis.SuppressMessage
       <MemberSignature Language="VB.NET" Value="Public Property Justification As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Justification { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Justification : string with get, set" Usage="System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Justification" />
-      <MemberSignature Language="C#" Value="public string? Justification { get; set; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string? Justification { get; set; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Tools</AssemblyName>
@@ -265,9 +271,11 @@ Concatenated together, the <xref:System.Diagnostics.CodeAnalysis.SuppressMessage
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the justification for suppressing the code analysis message.</summary>
@@ -282,7 +290,7 @@ Concatenated together, the <xref:System.Diagnostics.CodeAnalysis.SuppressMessage
       <MemberSignature Language="VB.NET" Value="Public Property MessageId As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ MessageId { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.MessageId : string with get, set" Usage="System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.MessageId" />
-      <MemberSignature Language="C#" Value="public string? MessageId { get; set; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string? MessageId { get; set; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Tools</AssemblyName>
@@ -305,9 +313,11 @@ Concatenated together, the <xref:System.Diagnostics.CodeAnalysis.SuppressMessage
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the expanded exclusion criteria.</summary>
@@ -339,7 +349,7 @@ The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.MessageId%2A>
       <MemberSignature Language="VB.NET" Value="Public Property Scope As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Scope { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Scope : string with get, set" Usage="System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Scope" />
-      <MemberSignature Language="C#" Value="public string? Scope { get; set; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string? Scope { get; set; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Tools</AssemblyName>
@@ -362,9 +372,11 @@ The <xref:System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.MessageId%2A>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the scope of the code that is relevant for the attribute.</summary>
@@ -397,7 +409,7 @@ For [legacy code analysis](/visualstudio/code-quality/static-code-analysis-for-m
       <MemberSignature Language="VB.NET" Value="Public Property Target As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Target { System::String ^ get(); void set(System::String ^ value); };" />
       <MemberSignature Language="F#" Value="member this.Target : string with get, set" Usage="System.Diagnostics.CodeAnalysis.SuppressMessageAttribute.Target" />
-      <MemberSignature Language="C#" Value="public string? Target { get; set; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string? Target { get; set; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Tools</AssemblyName>
@@ -420,9 +432,11 @@ For [legacy code analysis](/visualstudio/code-quality/static-code-analysis-for-m
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.0;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a fully qualified path that represents the code analysis target.</summary>

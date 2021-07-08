@@ -10,6 +10,7 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>netstandard</AssemblyName>
@@ -17,6 +18,7 @@
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Diagnostics.Tracing" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Diagnostics.Tracing" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -26,6 +28,12 @@
       <InterfaceName>System.IDisposable</InterfaceName>
     </Interface>
   </Interfaces>
+  <Attributes>
+    <Attribute FrameworkAlternate="net-6.0">
+      <AttributeName Language="C#">[System.Runtime.Versioning.UnsupportedOSPlatform("browser")]</AttributeName>
+      <AttributeName Language="F#">[&lt;System.Runtime.Versioning.UnsupportedOSPlatform("browser")&gt;]</AttributeName>
+    </Attribute>
+  </Attributes>
   <Docs>
     <summary>
       <see cref="T:System.Diagnostics.Tracing.DiagnosticCounter" /> is an abstract class that serves as the parent class for various Counter* classes, namely <see cref="T:System.Diagnostics.Tracing.EventCounter" />, <see cref="T:System.Diagnostics.Tracing.PollingCounter" />, <see cref="T:System.Diagnostics.Tracing.IncrementingEventCounter" />, and <see cref="T:System.Diagnostics.Tracing.IncrementingPollingCounter" />.</summary>
@@ -33,13 +41,12 @@
   </Docs>
   <Members>
     <Member MemberName="AddMetadata">
-      <MemberSignature Language="C#" Value="public void AddMetadata (string key, string? value);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddMetadata(string key, string value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Tracing.DiagnosticCounter.AddMetadata(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub AddMetadata (key As String, value As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddMetadata(System::String ^ key, System::String ^ value);" />
-      <MemberSignature Language="F#" Value="member this.AddMetadata : string * string -&gt; unit" Usage="diagnosticCounter.AddMetadata (key, value)" />
-      <MemberSignature Language="C#" Value="public void AddMetadata (string key, string value);" FrameworkAlternate="netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public void AddMetadata (string key, string? value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void AddMetadata(string key, string value) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Tracing.DiagnosticCounter.AddMetadata(System.String,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub AddMetadata (key As String, value As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void AddMetadata(System::String ^ key, System::String ^ value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.AddMetadata : string * string -&gt; unit" Usage="diagnosticCounter.AddMetadata (key, value)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Tracing</AssemblyName>
@@ -52,11 +59,11 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="key" Type="System.String" />
-        <Parameter Name="value" Type="System.String" />
+        <Parameter Name="key" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="key">The metadata key.</param>
@@ -78,6 +85,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -113,6 +121,7 @@ The `DisplayName` provides a more display friendly name for the consumer side of
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -143,6 +152,7 @@ The `DisplayName` provides a more display friendly name for the consumer side of
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -176,6 +186,7 @@ After being disposed, this counter will do nothing, and its resources will be re
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -203,6 +214,7 @@ After being disposed, this counter will do nothing, and its resources will be re
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>

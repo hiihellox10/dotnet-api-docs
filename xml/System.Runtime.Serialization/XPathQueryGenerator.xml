@@ -21,9 +21,11 @@
     <AssemblyVersion>4.1.4.0</AssemblyVersion>
     <AssemblyVersion>4.1.5.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Xml" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Xml" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -96,6 +98,7 @@
         <AssemblyVersion>4.1.4.0</AssemblyVersion>
         <AssemblyVersion>4.1.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -134,12 +137,11 @@
     </Member>
     <Member MemberName="CreateFromDataContractSerializer">
       <MemberSignature Language="C#" Value="public static string CreateFromDataContractSerializer (Type type, System.Reflection.MemberInfo[] pathToMember, System.Text.StringBuilder? rootElementXpath, out System.Xml.XmlNamespaceManager namespaces);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string CreateFromDataContractSerializer(class System.Type type, class System.Reflection.MemberInfo[] pathToMember, class System.Text.StringBuilder rootElementXpath, [out] class System.Xml.XmlNamespaceManager&amp; namespaces) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Serialization.XPathQueryGenerator.CreateFromDataContractSerializer(System.Type,System.Reflection.MemberInfo[],System.Text.StringBuilder,System.Xml.XmlNamespaceManager@)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromDataContractSerializer (type As Type, pathToMember As MemberInfo(), rootElementXpath As StringBuilder, ByRef namespaces As XmlNamespaceManager) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ CreateFromDataContractSerializer(Type ^ type, cli::array &lt;System::Reflection::MemberInfo ^&gt; ^ pathToMember, System::Text::StringBuilder ^ rootElementXpath, [Runtime::InteropServices::Out] System::Xml::XmlNamespaceManager ^ % namespaces);" />
-      <MemberSignature Language="F#" Value="static member CreateFromDataContractSerializer : Type * System.Reflection.MemberInfo[] * System.Text.StringBuilder * XmlNamespaceManager -&gt; string" Usage="System.Runtime.Serialization.XPathQueryGenerator.CreateFromDataContractSerializer (type, pathToMember, rootElementXpath, namespaces)" />
-      <MemberSignature Language="C#" Value="public static string CreateFromDataContractSerializer (Type type, System.Reflection.MemberInfo[] pathToMember, System.Text.StringBuilder rootElementXpath, out System.Xml.XmlNamespaceManager namespaces);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string CreateFromDataContractSerializer(class System.Type type, class System.Reflection.MemberInfo[] pathToMember, class System.Text.StringBuilder rootElementXpath, [out] class System.Xml.XmlNamespaceManager&amp; namespaces) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Serialization.XPathQueryGenerator.CreateFromDataContractSerializer(System.Type,System.Reflection.MemberInfo[],System.Text.StringBuilder,System.Xml.XmlNamespaceManager@)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function CreateFromDataContractSerializer (type As Type, pathToMember As MemberInfo(), rootElementXpath As StringBuilder, ByRef namespaces As XmlNamespaceManager) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ CreateFromDataContractSerializer(Type ^ type, cli::array &lt;System::Reflection::MemberInfo ^&gt; ^ pathToMember, System::Text::StringBuilder ^ rootElementXpath, [Runtime::InteropServices::Out] System::Xml::XmlNamespaceManager ^ % namespaces);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member CreateFromDataContractSerializer : Type * System.Reflection.MemberInfo[] * System.Text.StringBuilder * XmlNamespaceManager -&gt; string" Usage="System.Runtime.Serialization.XPathQueryGenerator.CreateFromDataContractSerializer (type, pathToMember, rootElementXpath, namespaces)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Serialization</AssemblyName>
@@ -159,13 +161,13 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="type" Type="System.Type" />
-        <Parameter Name="pathToMember" Type="System.Reflection.MemberInfo[]" />
-        <Parameter Name="rootElementXpath" Type="System.Text.StringBuilder" />
-        <Parameter Name="namespaces" Type="System.Xml.XmlNamespaceManager" RefType="out" />
+        <Parameter Name="type" Type="System.Type" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="pathToMember" Type="System.Reflection.MemberInfo[]" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="rootElementXpath" Type="System.Text.StringBuilder?" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="namespaces" Type="System.Xml.XmlNamespaceManager" RefType="out" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="type">The type that represents a data contract.</param>

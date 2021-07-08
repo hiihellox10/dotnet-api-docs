@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Windows.Forms.TaskDialogControl</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,19 +38,19 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public TaskDialogFootnote (string? text);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.TaskDialogFootnote.#ctor(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (text As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; TaskDialogFootnote(System::String ^ text);" />
-      <MemberSignature Language="F#" Value="new System.Windows.Forms.TaskDialogFootnote : string -&gt; System.Windows.Forms.TaskDialogFootnote" Usage="new System.Windows.Forms.TaskDialogFootnote text" />
+      <MemberSignature Language="C#" Value="public TaskDialogFootnote (string? text);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.TaskDialogFootnote.#ctor(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (text As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; TaskDialogFootnote(System::String ^ text);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Windows.Forms.TaskDialogFootnote : string -&gt; System.Windows.Forms.TaskDialogFootnote" Usage="new System.Windows.Forms.TaskDialogFootnote text" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="text" Type="System.String" />
+        <Parameter Name="text" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="text">The text to be displayed in the dialog's footnote area.</param>
@@ -67,9 +69,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.TaskDialogIcon</ReturnType>
+        <ReturnType>System.Windows.Forms.TaskDialogIcon?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the footnote icon.</summary>
@@ -89,22 +92,22 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator System.Windows.Forms.TaskDialogFootnote (string footnoteText);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class System.Windows.Forms.TaskDialogFootnote op_Implicit(string footnoteText) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.TaskDialogFootnote.op_Implicit(System.String)~System.Windows.Forms.TaskDialogFootnote" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (footnoteText As String) As TaskDialogFootnote" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::Windows::Forms::TaskDialogFootnote ^(System::String ^ footnoteText);" />
-      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; System.Windows.Forms.TaskDialogFootnote" Usage="System.Windows.Forms.TaskDialogFootnote.op_Implicit footnoteText" />
+      <MemberSignature Language="C#" Value="public static implicit operator System.Windows.Forms.TaskDialogFootnote (string footnoteText);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname class System.Windows.Forms.TaskDialogFootnote op_Implicit(string footnoteText) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.TaskDialogFootnote.op_Implicit(System.String)~System.Windows.Forms.TaskDialogFootnote" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (footnoteText As String) As TaskDialogFootnote" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator System::Windows::Forms::TaskDialogFootnote ^(System::String ^ footnoteText);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : string -&gt; System.Windows.Forms.TaskDialogFootnote" Usage="System.Windows.Forms.TaskDialogFootnote.op_Implicit footnoteText" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.TaskDialogFootnote</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Windows.Forms.TaskDialogFootnote?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="footnoteText" Type="System.String" />
+        <Parameter Name="footnoteText" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="footnoteText">To be added.</param>
@@ -124,9 +127,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the text to be displayed in the dialog's footnote area.</summary>
@@ -157,9 +161,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.String?</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

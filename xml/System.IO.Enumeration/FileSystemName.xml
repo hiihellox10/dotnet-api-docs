@@ -10,6 +10,7 @@
     <AssemblyVersion>4.1.1.0</AssemblyVersion>
     <AssemblyVersion>4.1.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>netstandard</AssemblyName>
@@ -17,6 +18,7 @@
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.IO.FileSystem" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.IO.FileSystem" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -39,6 +41,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -75,6 +78,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -111,12 +115,11 @@ Matching will not correspond to Win32 behavior unless you transform the expressi
     </Member>
     <Member MemberName="TranslateWin32Expression">
       <MemberSignature Language="C#" Value="public static string TranslateWin32Expression (string? expression);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string TranslateWin32Expression(string expression) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.IO.Enumeration.FileSystemName.TranslateWin32Expression(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function TranslateWin32Expression (expression As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ TranslateWin32Expression(System::String ^ expression);" />
-      <MemberSignature Language="F#" Value="static member TranslateWin32Expression : string -&gt; string" Usage="System.IO.Enumeration.FileSystemName.TranslateWin32Expression expression" />
-      <MemberSignature Language="C#" Value="public static string TranslateWin32Expression (string expression);" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string TranslateWin32Expression(string expression) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.IO.Enumeration.FileSystemName.TranslateWin32Expression(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TranslateWin32Expression (expression As String) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ TranslateWin32Expression(System::String ^ expression);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member TranslateWin32Expression : string -&gt; string" Usage="System.IO.Enumeration.FileSystemName.TranslateWin32Expression expression" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.IO.FileSystem</AssemblyName>
@@ -129,10 +132,10 @@ Matching will not correspond to Win32 behavior unless you transform the expressi
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="expression" Type="System.String" />
+        <Parameter Name="expression" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="expression">The expression to translate.</param>

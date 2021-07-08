@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Threading.AccessControl</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -19,26 +20,26 @@
   </Docs>
   <Members>
     <Member MemberName="Create">
-      <MemberSignature Language="C#" Value="public static System.Threading.Semaphore Create (int initialCount, int maximumCount, string? name, out bool? createdNew, System.Security.AccessControl.SemaphoreSecurity? semaphoreSecurity);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Semaphore Create(int32 initialCount, int32 maximumCount, string name, [out] bool&amp; createdNew, class System.Security.AccessControl.SemaphoreSecurity semaphoreSecurity) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Threading.SemaphoreAcl.Create(System.Int32,System.Int32,System.String,System.Boolean@,System.Security.AccessControl.SemaphoreSecurity)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (initialCount As Integer, maximumCount As Integer, name As String, ByRef createdNew As Boolean, semaphoreSecurity As SemaphoreSecurity) As Semaphore" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Semaphore ^ Create(int initialCount, int maximumCount, System::String ^ name, [Runtime::InteropServices::Out] bool % createdNew, System::Security::AccessControl::SemaphoreSecurity ^ semaphoreSecurity);" />
-      <MemberSignature Language="F#" Value="static member Create : int * int * string * bool * System.Security.AccessControl.SemaphoreSecurity -&gt; System.Threading.Semaphore" Usage="System.Threading.SemaphoreAcl.Create (initialCount, maximumCount, name, createdNew, semaphoreSecurity)" />
+      <MemberSignature Language="C#" Value="public static System.Threading.Semaphore Create (int initialCount, int maximumCount, string? name, out bool createdNew, System.Security.AccessControl.SemaphoreSecurity? semaphoreSecurity);" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Semaphore Create(int32 initialCount, int32 maximumCount, string name, [out] bool&amp; createdNew, class System.Security.AccessControl.SemaphoreSecurity semaphoreSecurity) cil managed" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Threading.SemaphoreAcl.Create(System.Int32,System.Int32,System.String,System.Boolean@,System.Security.AccessControl.SemaphoreSecurity)" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Create (initialCount As Integer, maximumCount As Integer, name As String, ByRef createdNew As Boolean, semaphoreSecurity As SemaphoreSecurity) As Semaphore" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Semaphore ^ Create(int initialCount, int maximumCount, System::String ^ name, [Runtime::InteropServices::Out] bool % createdNew, System::Security::AccessControl::SemaphoreSecurity ^ semaphoreSecurity);" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="static member Create : int * int * string * bool * System.Security.AccessControl.SemaphoreSecurity -&gt; System.Threading.Semaphore" Usage="System.Threading.SemaphoreAcl.Create (initialCount, maximumCount, name, createdNew, semaphoreSecurity)" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Threading.AccessControl</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Threading.Semaphore</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0">System.Threading.Semaphore</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="initialCount" Type="System.Int32" />
-        <Parameter Name="maximumCount" Type="System.Int32" />
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="createdNew" Type="System.Boolean" RefType="out" />
-        <Parameter Name="semaphoreSecurity" Type="System.Security.AccessControl.SemaphoreSecurity" />
+        <Parameter Name="initialCount" Type="System.Int32" Index="0" FrameworkAlternate="dotnet-plat-ext-5.0" />
+        <Parameter Name="maximumCount" Type="System.Int32" Index="1" FrameworkAlternate="dotnet-plat-ext-5.0" />
+        <Parameter Name="name" Type="System.String?" Index="2" FrameworkAlternate="dotnet-plat-ext-5.0" />
+        <Parameter Name="createdNew" Type="System.Boolean" RefType="out" Index="3" FrameworkAlternate="dotnet-plat-ext-5.0" />
+        <Parameter Name="semaphoreSecurity" Type="System.Security.AccessControl.SemaphoreSecurity?" Index="4" FrameworkAlternate="dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="initialCount">The initial number of requests for the semaphore that can be satisfied concurrently.</param>
@@ -78,6 +79,62 @@ There was some other error. The `HResult` property may provide more information.
         <exception cref="T:System.IO.DirectoryNotFoundException">Windows only: <paramref name="name" /> specified an unknown namespace. See [Object Names](https://docs.microsoft.com/windows/win32/sync/object-names) for more information.</exception>
         <exception cref="T:System.IO.PathTooLongException">The <paramref name="name" /> is too long. Length restrictions may depend on the operating system or configuration.</exception>
         <exception cref="T:System.Threading.WaitHandleCannotBeOpenedException">A synchronization object with the provided <paramref name="name" /> cannot be created. A synchronization object of a different type might have the same name.</exception>
+      </Docs>
+    </Member>
+    <Member MemberName="OpenExisting">
+      <MemberSignature Language="C#" Value="public static System.Threading.Semaphore OpenExisting (string name, System.Security.AccessControl.SemaphoreRights rights);" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Threading.Semaphore OpenExisting(string name, valuetype System.Security.AccessControl.SemaphoreRights rights) cil managed" />
+      <MemberSignature Language="DocId" Value="M:System.Threading.SemaphoreAcl.OpenExisting(System.String,System.Security.AccessControl.SemaphoreRights)" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function OpenExisting (name As String, rights As SemaphoreRights) As Semaphore" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Threading::Semaphore ^ OpenExisting(System::String ^ name, System::Security::AccessControl::SemaphoreRights rights);" />
+      <MemberSignature Language="F#" Value="static member OpenExisting : string * System.Security.AccessControl.SemaphoreRights -&gt; System.Threading.Semaphore" Usage="System.Threading.SemaphoreAcl.OpenExisting (name, rights)" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Threading.AccessControl</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.Threading.Semaphore</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-6.0;net-6.0" />
+        <Parameter Name="rights" Type="System.Security.AccessControl.SemaphoreRights" Index="1" FrameworkAlternate="dotnet-plat-ext-6.0;net-6.0" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="rights">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="TryOpenExisting">
+      <MemberSignature Language="C#" Value="public static bool TryOpenExisting (string name, System.Security.AccessControl.SemaphoreRights rights, out System.Threading.Semaphore? result);" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryOpenExisting(string name, valuetype System.Security.AccessControl.SemaphoreRights rights, [out] class System.Threading.Semaphore&amp; result) cil managed" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.Threading.SemaphoreAcl.TryOpenExisting(System.String,System.Security.AccessControl.SemaphoreRights,System.Threading.Semaphore@)" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TryOpenExisting (name As String, rights As SemaphoreRights, ByRef result As Semaphore) As Boolean" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryOpenExisting(System::String ^ name, System::Security::AccessControl::SemaphoreRights rights, [Runtime::InteropServices::Out] System::Threading::Semaphore ^ % result);" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="F#" Value="static member TryOpenExisting : string * System.Security.AccessControl.SemaphoreRights * Semaphore -&gt; bool" Usage="System.Threading.SemaphoreAcl.TryOpenExisting (name, rights, result)" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Threading.AccessControl</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Boolean</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-6.0" />
+        <Parameter Name="rights" Type="System.Security.AccessControl.SemaphoreRights" Index="1" FrameworkAlternate="dotnet-plat-ext-6.0" />
+        <Parameter Name="result" Type="System.Threading.Semaphore?" RefType="out" Index="2" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      </Parameters>
+      <Docs>
+        <param name="name">To be added.</param>
+        <param name="rights">To be added.</param>
+        <param name="result">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
       </Docs>
     </Member>
   </Members>

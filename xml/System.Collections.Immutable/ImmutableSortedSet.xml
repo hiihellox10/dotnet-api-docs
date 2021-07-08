@@ -15,6 +15,7 @@
     <AssemblyVersion>1.2.4.0</AssemblyVersion>
     <AssemblyVersion>1.2.5.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -46,6 +47,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;</ReturnType>
@@ -62,12 +64,12 @@
       </Docs>
     </Member>
     <Member MemberName="Create&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; Create&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedSet`1&lt;!!T&gt; Create&lt;T&gt;(class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet.Create``1(System.Collections.Generic.IComparer{``0})" />
-      <MemberSignature Language="VB.NET" Value="Public Function Create(Of T) (comparer As IComparer(Of T)) As ImmutableSortedSet(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableSortedSet&lt;T&gt; ^ Create(System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" />
-      <MemberSignature Language="F#" Value="static member Create : System.Collections.Generic.IComparer&lt;'T&gt; -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;" Usage="System.Collections.Immutable.ImmutableSortedSet.Create comparer" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; Create&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedSet`1&lt;!!T&gt; Create&lt;T&gt;(class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet.Create``1(System.Collections.Generic.IComparer{``0})" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create(Of T) (comparer As IComparer(Of T)) As ImmutableSortedSet(Of T)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableSortedSet&lt;T&gt; ^ Create(System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="static member Create : System.Collections.Generic.IComparer&lt;'T&gt; -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;" Usage="System.Collections.Immutable.ImmutableSortedSet.Create comparer" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; Create&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -82,13 +84,13 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;" />
+        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of items in the immutable set.</typeparam>
@@ -116,6 +118,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;</ReturnType>
@@ -152,6 +155,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;</ReturnType>
@@ -178,12 +182,12 @@
       </Docs>
     </Member>
     <Member MemberName="Create&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; Create&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt; comparer, T item);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedSet`1&lt;!!T&gt; Create&lt;T&gt;(class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer, !!T item) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet.Create``1(System.Collections.Generic.IComparer{``0},``0)" />
-      <MemberSignature Language="VB.NET" Value="Public Function Create(Of T) (comparer As IComparer(Of T), item As T) As ImmutableSortedSet(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableSortedSet&lt;T&gt; ^ Create(System::Collections::Generic::IComparer&lt;T&gt; ^ comparer, T item);" />
-      <MemberSignature Language="F#" Value="static member Create : System.Collections.Generic.IComparer&lt;'T&gt; * 'T -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;" Usage="System.Collections.Immutable.ImmutableSortedSet.Create (comparer, item)" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; Create&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt; comparer, T item);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedSet`1&lt;!!T&gt; Create&lt;T&gt;(class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer, !!T item) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet.Create``1(System.Collections.Generic.IComparer{``0},``0)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create(Of T) (comparer As IComparer(Of T), item As T) As ImmutableSortedSet(Of T)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableSortedSet&lt;T&gt; ^ Create(System::Collections::Generic::IComparer&lt;T&gt; ^ comparer, T item);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="static member Create : System.Collections.Generic.IComparer&lt;'T&gt; * 'T -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;" Usage="System.Collections.Immutable.ImmutableSortedSet.Create (comparer, item)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; Create&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt;? comparer, T item);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -198,14 +202,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;" />
-        <Parameter Name="item" Type="T" />
+        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="item" Type="T" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of items stored in the immutable set.</typeparam>
@@ -217,12 +221,12 @@
       </Docs>
     </Member>
     <Member MemberName="Create&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; Create&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt; comparer, params T[] items);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedSet`1&lt;!!T&gt; Create&lt;T&gt;(class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer, !!T[] items) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet.Create``1(System.Collections.Generic.IComparer{``0},``0[])" />
-      <MemberSignature Language="VB.NET" Value="Public Function Create(Of T) (comparer As IComparer(Of T), ParamArray items As T()) As ImmutableSortedSet(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableSortedSet&lt;T&gt; ^ Create(System::Collections::Generic::IComparer&lt;T&gt; ^ comparer, ... cli::array &lt;T&gt; ^ items);" />
-      <MemberSignature Language="F#" Value="static member Create : System.Collections.Generic.IComparer&lt;'T&gt; * 'T[] -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;" Usage="System.Collections.Immutable.ImmutableSortedSet.Create (comparer, items)" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; Create&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt; comparer, params T[] items);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedSet`1&lt;!!T&gt; Create&lt;T&gt;(class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer, !!T[] items) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet.Create``1(System.Collections.Generic.IComparer{``0},``0[])" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function Create(Of T) (comparer As IComparer(Of T), ParamArray items As T()) As ImmutableSortedSet(Of T)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableSortedSet&lt;T&gt; ^ Create(System::Collections::Generic::IComparer&lt;T&gt; ^ comparer, ... cli::array &lt;T&gt; ^ items);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="static member Create : System.Collections.Generic.IComparer&lt;'T&gt; * 'T[] -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;" Usage="System.Collections.Immutable.ImmutableSortedSet.Create (comparer, items)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; Create&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt;? comparer, params T[] items);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -237,14 +241,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;" />
-        <Parameter Name="items" Type="T[]">
+        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="items" Type="T[]" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0">
           <Attributes>
             <Attribute FrameworkAlternate="dotnet-uwp-10.0">
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
@@ -280,6 +284,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;+Builder</ReturnType>
@@ -296,12 +301,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateBuilder&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;.Builder CreateBuilder&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedSet`1/Builder&lt;!!T&gt; CreateBuilder&lt;T&gt;(class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet.CreateBuilder``1(System.Collections.Generic.IComparer{``0})" />
-      <MemberSignature Language="VB.NET" Value="Public Function CreateBuilder(Of T) (comparer As IComparer(Of T)) As ImmutableSortedSet(Of T).Builder" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableSortedSet&lt;T&gt;::Builder ^ CreateBuilder(System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" />
-      <MemberSignature Language="F#" Value="static member CreateBuilder : System.Collections.Generic.IComparer&lt;'T&gt; -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;.Builder" Usage="System.Collections.Immutable.ImmutableSortedSet.CreateBuilder comparer" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;.Builder CreateBuilder&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedSet`1/Builder&lt;!!T&gt; CreateBuilder&lt;T&gt;(class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet.CreateBuilder``1(System.Collections.Generic.IComparer{``0})" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateBuilder(Of T) (comparer As IComparer(Of T)) As ImmutableSortedSet(Of T).Builder" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableSortedSet&lt;T&gt;::Builder ^ CreateBuilder(System::Collections::Generic::IComparer&lt;T&gt; ^ comparer);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="static member CreateBuilder : System.Collections.Generic.IComparer&lt;'T&gt; -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;.Builder" Usage="System.Collections.Immutable.ImmutableSortedSet.CreateBuilder comparer" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;.Builder CreateBuilder&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt;? comparer);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -316,13 +321,13 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;+Builder</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;+Builder</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;" />
+        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of items stored by the collection.</typeparam>
@@ -350,6 +355,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;</ReturnType>
@@ -369,12 +375,12 @@
       </Docs>
     </Member>
     <Member MemberName="CreateRange&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; CreateRange&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt; comparer, System.Collections.Generic.IEnumerable&lt;T&gt; items);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedSet`1&lt;!!T&gt; CreateRange&lt;T&gt;(class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer, class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; items) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet.CreateRange``1(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEnumerable{``0})" />
-      <MemberSignature Language="VB.NET" Value="Public Function CreateRange(Of T) (comparer As IComparer(Of T), items As IEnumerable(Of T)) As ImmutableSortedSet(Of T)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableSortedSet&lt;T&gt; ^ CreateRange(System::Collections::Generic::IComparer&lt;T&gt; ^ comparer, System::Collections::Generic::IEnumerable&lt;T&gt; ^ items);" />
-      <MemberSignature Language="F#" Value="static member CreateRange : System.Collections.Generic.IComparer&lt;'T&gt; * seq&lt;'T&gt; -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;" Usage="System.Collections.Immutable.ImmutableSortedSet.CreateRange (comparer, items)" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; CreateRange&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt; comparer, System.Collections.Generic.IEnumerable&lt;T&gt; items);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedSet`1&lt;!!T&gt; CreateRange&lt;T&gt;(class System.Collections.Generic.IComparer`1&lt;!!T&gt; comparer, class System.Collections.Generic.IEnumerable`1&lt;!!T&gt; items) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet.CreateRange``1(System.Collections.Generic.IComparer{``0},System.Collections.Generic.IEnumerable{``0})" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function CreateRange(Of T) (comparer As IComparer(Of T), items As IEnumerable(Of T)) As ImmutableSortedSet(Of T)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T&gt;&#xA; static System::Collections::Immutable::ImmutableSortedSet&lt;T&gt; ^ CreateRange(System::Collections::Generic::IComparer&lt;T&gt; ^ comparer, System::Collections::Generic::IEnumerable&lt;T&gt; ^ items);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="static member CreateRange : System.Collections.Generic.IComparer&lt;'T&gt; * seq&lt;'T&gt; -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'T&gt;" Usage="System.Collections.Immutable.ImmutableSortedSet.CreateRange (comparer, items)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;T&gt; CreateRange&lt;T&gt; (System.Collections.Generic.IComparer&lt;T&gt;? comparer, System.Collections.Generic.IEnumerable&lt;T&gt; items);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -389,14 +395,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Collections.Immutable.ImmutableSortedSet&lt;T&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;" />
-        <Parameter Name="items" Type="System.Collections.Generic.IEnumerable&lt;T&gt;" />
+        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;T&gt;?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="items" Type="System.Collections.Generic.IEnumerable&lt;T&gt;" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">The type of items stored by the collection.</typeparam>
@@ -425,6 +431,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;TSource&gt;</ReturnType>
@@ -456,6 +463,7 @@
         <AssemblyVersion>1.2.4.0</AssemblyVersion>
         <AssemblyVersion>1.2.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;TSource&gt;</ReturnType>
@@ -464,7 +472,7 @@
         <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="builder" Type="System.Collections.Immutable.ImmutableSortedSet&lt;TSource&gt;+Builder" RefType="this" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0" />
+        <Parameter Name="builder" Type="System.Collections.Immutable.ImmutableSortedSet&lt;TSource&gt;+Builder" RefType="this" Index="0" FrameworkAlternate="netcore-3.0;netcore-3.1;net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="TSource">The type of the elements in the immutable sorted set.</typeparam>
@@ -475,12 +483,12 @@
       </Docs>
     </Member>
     <Member MemberName="ToImmutableSortedSet&lt;TSource&gt;">
-      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;TSource&gt; ToImmutableSortedSet&lt;TSource&gt; (this System.Collections.Generic.IEnumerable&lt;TSource&gt; source, System.Collections.Generic.IComparer&lt;TSource&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedSet`1&lt;!!TSource&gt; ToImmutableSortedSet&lt;TSource&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!TSource&gt; source, class System.Collections.Generic.IComparer`1&lt;!!TSource&gt; comparer) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet.ToImmutableSortedSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0})" />
-      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToImmutableSortedSet(Of TSource) (source As IEnumerable(Of TSource), comparer As IComparer(Of TSource)) As ImmutableSortedSet(Of TSource)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSource&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Immutable::ImmutableSortedSet&lt;TSource&gt; ^ ToImmutableSortedSet(System::Collections::Generic::IEnumerable&lt;TSource&gt; ^ source, System::Collections::Generic::IComparer&lt;TSource&gt; ^ comparer);" />
-      <MemberSignature Language="F#" Value="static member ToImmutableSortedSet : seq&lt;'Source&gt; * System.Collections.Generic.IComparer&lt;'Source&gt; -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'Source&gt;" Usage="System.Collections.Immutable.ImmutableSortedSet.ToImmutableSortedSet (source, comparer)" />
+      <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;TSource&gt; ToImmutableSortedSet&lt;TSource&gt; (this System.Collections.Generic.IEnumerable&lt;TSource&gt; source, System.Collections.Generic.IComparer&lt;TSource&gt; comparer);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Collections.Immutable.ImmutableSortedSet`1&lt;!!TSource&gt; ToImmutableSortedSet&lt;TSource&gt;(class System.Collections.Generic.IEnumerable`1&lt;!!TSource&gt; source, class System.Collections.Generic.IComparer`1&lt;!!TSource&gt; comparer) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Immutable.ImmutableSortedSet.ToImmutableSortedSet``1(System.Collections.Generic.IEnumerable{``0},System.Collections.Generic.IComparer{``0})" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="&lt;Extension()&gt;&#xA;Public Function ToImmutableSortedSet(Of TSource) (source As IEnumerable(Of TSource), comparer As IComparer(Of TSource)) As ImmutableSortedSet(Of TSource)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename TSource&gt;&#xA;[System::Runtime::CompilerServices::Extension]&#xA; static System::Collections::Immutable::ImmutableSortedSet&lt;TSource&gt; ^ ToImmutableSortedSet(System::Collections::Generic::IEnumerable&lt;TSource&gt; ^ source, System::Collections::Generic::IComparer&lt;TSource&gt; ^ comparer);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="static member ToImmutableSortedSet : seq&lt;'Source&gt; * System.Collections.Generic.IComparer&lt;'Source&gt; -&gt; System.Collections.Immutable.ImmutableSortedSet&lt;'Source&gt;" Usage="System.Collections.Immutable.ImmutableSortedSet.ToImmutableSortedSet (source, comparer)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public static System.Collections.Immutable.ImmutableSortedSet&lt;TSource&gt; ToImmutableSortedSet&lt;TSource&gt; (this System.Collections.Generic.IEnumerable&lt;TSource&gt; source, System.Collections.Generic.IComparer&lt;TSource&gt;? comparer);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -495,14 +503,14 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Immutable.ImmutableSortedSet&lt;TSource&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;net-5.0">System.Collections.Immutable.ImmutableSortedSet&lt;TSource&gt;</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="TSource" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" />
-        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;TSource&gt;" />
+        <Parameter Name="source" Type="System.Collections.Generic.IEnumerable&lt;TSource&gt;" RefType="this" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="comparer" Type="System.Collections.Generic.IComparer&lt;TSource&gt;?" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <typeparam name="TSource">The type of the elements in the sequence.</typeparam>

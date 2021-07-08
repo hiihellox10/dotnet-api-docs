@@ -27,9 +27,11 @@
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
     <AssemblyVersion>4.0.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Web.HttpUtility" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Web.HttpUtility" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -89,6 +91,7 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -120,12 +123,11 @@
     </MemberGroup>
     <Member MemberName="HtmlAttributeEncode">
       <MemberSignature Language="C#" Value="public static string? HtmlAttributeEncode (string? s);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string HtmlAttributeEncode(string s) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlAttributeEncode(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function HtmlAttributeEncode (s As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ HtmlAttributeEncode(System::String ^ s);" />
-      <MemberSignature Language="F#" Value="static member HtmlAttributeEncode : string -&gt; string" Usage="System.Web.HttpUtility.HtmlAttributeEncode s" />
-      <MemberSignature Language="C#" Value="public static string HtmlAttributeEncode (string s);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string HtmlAttributeEncode(string s) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlAttributeEncode(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function HtmlAttributeEncode (s As String) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ HtmlAttributeEncode(System::String ^ s);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member HtmlAttributeEncode : string -&gt; string" Usage="System.Web.HttpUtility.HtmlAttributeEncode s" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -151,7 +153,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("s")]</AttributeName>
@@ -160,7 +162,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="s" Type="System.String" />
+        <Parameter Name="s" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="s">The string to encode.</param>
@@ -181,12 +183,11 @@
     </Member>
     <Member MemberName="HtmlAttributeEncode">
       <MemberSignature Language="C#" Value="public static void HtmlAttributeEncode (string? s, System.IO.TextWriter output);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void HtmlAttributeEncode(string s, class System.IO.TextWriter output) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlAttributeEncode(System.String,System.IO.TextWriter)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub HtmlAttributeEncode (s As String, output As TextWriter)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void HtmlAttributeEncode(System::String ^ s, System::IO::TextWriter ^ output);" />
-      <MemberSignature Language="F#" Value="static member HtmlAttributeEncode : string * System.IO.TextWriter -&gt; unit" Usage="System.Web.HttpUtility.HtmlAttributeEncode (s, output)" />
-      <MemberSignature Language="C#" Value="public static void HtmlAttributeEncode (string s, System.IO.TextWriter output);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void HtmlAttributeEncode(string s, class System.IO.TextWriter output) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlAttributeEncode(System.String,System.IO.TextWriter)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub HtmlAttributeEncode (s As String, output As TextWriter)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void HtmlAttributeEncode(System::String ^ s, System::IO::TextWriter ^ output);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member HtmlAttributeEncode : string * System.IO.TextWriter -&gt; unit" Usage="System.Web.HttpUtility.HtmlAttributeEncode (s, output)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -212,11 +213,11 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="s" Type="System.String" />
-        <Parameter Name="output" Type="System.IO.TextWriter" />
+        <Parameter Name="s" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="output" Type="System.IO.TextWriter" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="s">The string to encode</param>
@@ -248,12 +249,11 @@
     </MemberGroup>
     <Member MemberName="HtmlDecode">
       <MemberSignature Language="C#" Value="public static string? HtmlDecode (string? s);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string HtmlDecode(string s) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlDecode(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function HtmlDecode (s As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ HtmlDecode(System::String ^ s);" />
-      <MemberSignature Language="F#" Value="static member HtmlDecode : string -&gt; string" Usage="System.Web.HttpUtility.HtmlDecode s" />
-      <MemberSignature Language="C#" Value="public static string HtmlDecode (string s);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string HtmlDecode(string s) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlDecode(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function HtmlDecode (s As String) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ HtmlDecode(System::String ^ s);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member HtmlDecode : string -&gt; string" Usage="System.Web.HttpUtility.HtmlDecode s" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -279,7 +279,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("s")]</AttributeName>
@@ -288,7 +288,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="s" Type="System.String" />
+        <Parameter Name="s" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="s">The string to decode.</param>
@@ -317,12 +317,11 @@
     </Member>
     <Member MemberName="HtmlDecode">
       <MemberSignature Language="C#" Value="public static void HtmlDecode (string? s, System.IO.TextWriter output);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void HtmlDecode(string s, class System.IO.TextWriter output) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlDecode(System.String,System.IO.TextWriter)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub HtmlDecode (s As String, output As TextWriter)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void HtmlDecode(System::String ^ s, System::IO::TextWriter ^ output);" />
-      <MemberSignature Language="F#" Value="static member HtmlDecode : string * System.IO.TextWriter -&gt; unit" Usage="System.Web.HttpUtility.HtmlDecode (s, output)" />
-      <MemberSignature Language="C#" Value="public static void HtmlDecode (string s, System.IO.TextWriter output);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void HtmlDecode(string s, class System.IO.TextWriter output) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlDecode(System.String,System.IO.TextWriter)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub HtmlDecode (s As String, output As TextWriter)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void HtmlDecode(System::String ^ s, System::IO::TextWriter ^ output);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member HtmlDecode : string * System.IO.TextWriter -&gt; unit" Usage="System.Web.HttpUtility.HtmlDecode (s, output)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -348,11 +347,11 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="s" Type="System.String" />
-        <Parameter Name="output" Type="System.IO.TextWriter" />
+        <Parameter Name="s" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="output" Type="System.IO.TextWriter" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="s">The string to decode.</param>
@@ -384,12 +383,11 @@
     </MemberGroup>
     <Member MemberName="HtmlEncode">
       <MemberSignature Language="C#" Value="public static string? HtmlEncode (object? value);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string HtmlEncode(object value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlEncode(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function HtmlEncode (value As Object) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ HtmlEncode(System::Object ^ value);" />
-      <MemberSignature Language="F#" Value="static member HtmlEncode : obj -&gt; string" Usage="System.Web.HttpUtility.HtmlEncode value" />
-      <MemberSignature Language="C#" Value="public static string HtmlEncode (object value);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string HtmlEncode(object value) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlEncode(System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function HtmlEncode (value As Object) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ HtmlEncode(System::Object ^ value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member HtmlEncode : obj -&gt; string" Usage="System.Web.HttpUtility.HtmlEncode value" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -413,7 +411,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("value")]</AttributeName>
@@ -422,7 +420,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Object" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="value" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="value">An object.</param>
@@ -440,12 +438,11 @@
     </Member>
     <Member MemberName="HtmlEncode">
       <MemberSignature Language="C#" Value="public static string? HtmlEncode (string? s);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string HtmlEncode(string s) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlEncode(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function HtmlEncode (s As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ HtmlEncode(System::String ^ s);" />
-      <MemberSignature Language="F#" Value="static member HtmlEncode : string -&gt; string" Usage="System.Web.HttpUtility.HtmlEncode s" />
-      <MemberSignature Language="C#" Value="public static string HtmlEncode (string s);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string HtmlEncode(string s) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlEncode(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function HtmlEncode (s As String) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ HtmlEncode(System::String ^ s);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member HtmlEncode : string -&gt; string" Usage="System.Web.HttpUtility.HtmlEncode s" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -471,7 +468,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("s")]</AttributeName>
@@ -480,7 +477,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="s" Type="System.String" />
+        <Parameter Name="s" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="s">The string to encode.</param>
@@ -510,12 +507,11 @@
     </Member>
     <Member MemberName="HtmlEncode">
       <MemberSignature Language="C#" Value="public static void HtmlEncode (string? s, System.IO.TextWriter output);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void HtmlEncode(string s, class System.IO.TextWriter output) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlEncode(System.String,System.IO.TextWriter)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub HtmlEncode (s As String, output As TextWriter)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void HtmlEncode(System::String ^ s, System::IO::TextWriter ^ output);" />
-      <MemberSignature Language="F#" Value="static member HtmlEncode : string * System.IO.TextWriter -&gt; unit" Usage="System.Web.HttpUtility.HtmlEncode (s, output)" />
-      <MemberSignature Language="C#" Value="public static void HtmlEncode (string s, System.IO.TextWriter output);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void HtmlEncode(string s, class System.IO.TextWriter output) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.HtmlEncode(System.String,System.IO.TextWriter)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub HtmlEncode (s As String, output As TextWriter)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void HtmlEncode(System::String ^ s, System::IO::TextWriter ^ output);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member HtmlEncode : string * System.IO.TextWriter -&gt; unit" Usage="System.Web.HttpUtility.HtmlEncode (s, output)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -541,11 +537,11 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="s" Type="System.String" />
-        <Parameter Name="output" Type="System.IO.TextWriter" />
+        <Parameter Name="s" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="output" Type="System.IO.TextWriter" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="s">The string to encode</param>
@@ -584,12 +580,11 @@
     </MemberGroup>
     <Member MemberName="JavaScriptStringEncode">
       <MemberSignature Language="C#" Value="public static string JavaScriptStringEncode (string? value);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string JavaScriptStringEncode(string value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.JavaScriptStringEncode(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function JavaScriptStringEncode (value As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ JavaScriptStringEncode(System::String ^ value);" />
-      <MemberSignature Language="F#" Value="static member JavaScriptStringEncode : string -&gt; string" Usage="System.Web.HttpUtility.JavaScriptStringEncode value" />
-      <MemberSignature Language="C#" Value="public static string JavaScriptStringEncode (string value);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string JavaScriptStringEncode(string value) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.JavaScriptStringEncode(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function JavaScriptStringEncode (value As String) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ JavaScriptStringEncode(System::String ^ value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member JavaScriptStringEncode : string -&gt; string" Usage="System.Web.HttpUtility.JavaScriptStringEncode value" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -612,17 +607,11 @@
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="value" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="value">A string to encode.</param>
@@ -633,12 +622,11 @@
     </Member>
     <Member MemberName="JavaScriptStringEncode">
       <MemberSignature Language="C#" Value="public static string JavaScriptStringEncode (string? value, bool addDoubleQuotes);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string JavaScriptStringEncode(string value, bool addDoubleQuotes) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.JavaScriptStringEncode(System.String,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function JavaScriptStringEncode (value As String, addDoubleQuotes As Boolean) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ JavaScriptStringEncode(System::String ^ value, bool addDoubleQuotes);" />
-      <MemberSignature Language="F#" Value="static member JavaScriptStringEncode : string * bool -&gt; string" Usage="System.Web.HttpUtility.JavaScriptStringEncode (value, addDoubleQuotes)" />
-      <MemberSignature Language="C#" Value="public static string JavaScriptStringEncode (string value, bool addDoubleQuotes);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string JavaScriptStringEncode(string value, bool addDoubleQuotes) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.JavaScriptStringEncode(System.String,System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function JavaScriptStringEncode (value As String, addDoubleQuotes As Boolean) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ JavaScriptStringEncode(System::String ^ value, bool addDoubleQuotes);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member JavaScriptStringEncode : string * bool -&gt; string" Usage="System.Web.HttpUtility.JavaScriptStringEncode (value, addDoubleQuotes)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -662,11 +650,11 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="addDoubleQuotes" Type="System.Boolean" Index="1" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="value" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="addDoubleQuotes" Type="System.Boolean" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="value">A string to encode.</param>
@@ -714,12 +702,14 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Specialized.NameValueCollection</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Collections.Specialized.NameValueCollection?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Collections.Specialized.NameValueCollection</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="query" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="query" Type="System.String" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="query">The query string to parse.</param>
@@ -778,13 +768,15 @@
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Specialized.NameValueCollection</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Collections.Specialized.NameValueCollection?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Collections.Specialized.NameValueCollection</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="query" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="encoding" Type="System.Text.Encoding" Index="1" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="query" Type="System.String" Index="0" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="encoding" Type="System.Text.Encoding" Index="1" FrameworkAlternate="net-5.0;net-6.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
       </Parameters>
       <Docs>
         <param name="query">The query string to parse.</param>
@@ -824,12 +816,11 @@
     </MemberGroup>
     <Member MemberName="UrlDecode">
       <MemberSignature Language="C#" Value="public static string? UrlDecode (string? str);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlDecode(string str) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecode(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecode (str As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlDecode(System::String ^ str);" />
-      <MemberSignature Language="F#" Value="static member UrlDecode : string -&gt; string" Usage="System.Web.HttpUtility.UrlDecode str" />
-      <MemberSignature Language="C#" Value="public static string UrlDecode (string str);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlDecode(string str) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecode(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecode (str As String) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlDecode(System::String ^ str);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlDecode : string -&gt; string" Usage="System.Web.HttpUtility.UrlDecode str" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -855,7 +846,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")]</AttributeName>
@@ -864,7 +855,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" />
+        <Parameter Name="str" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="str">The string to decode.</param>
@@ -885,12 +876,11 @@
     </Member>
     <Member MemberName="UrlDecode">
       <MemberSignature Language="C#" Value="public static string? UrlDecode (byte[]? bytes, System.Text.Encoding e);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlDecode(unsigned int8[] bytes, class System.Text.Encoding e) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecode(System.Byte[],System.Text.Encoding)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecode (bytes As Byte(), e As Encoding) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlDecode(cli::array &lt;System::Byte&gt; ^ bytes, System::Text::Encoding ^ e);" />
-      <MemberSignature Language="F#" Value="static member UrlDecode : byte[] * System.Text.Encoding -&gt; string" Usage="System.Web.HttpUtility.UrlDecode (bytes, e)" />
-      <MemberSignature Language="C#" Value="public static string UrlDecode (byte[] bytes, System.Text.Encoding e);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlDecode(unsigned int8[] bytes, class System.Text.Encoding e) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecode(System.Byte[],System.Text.Encoding)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecode (bytes As Byte(), e As Encoding) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlDecode(cli::array &lt;System::Byte&gt; ^ bytes, System::Text::Encoding ^ e);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlDecode : byte[] * System.Text.Encoding -&gt; string" Usage="System.Web.HttpUtility.UrlDecode (bytes, e)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -916,7 +906,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("bytes")]</AttributeName>
@@ -925,8 +915,8 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="bytes" Type="System.Byte[]" />
-        <Parameter Name="e" Type="System.Text.Encoding" />
+        <Parameter Name="bytes" Type="System.Byte[]?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="e" Type="System.Text.Encoding" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="bytes">The array of bytes to decode.</param>
@@ -948,17 +938,11 @@
     </Member>
     <Member MemberName="UrlDecode">
       <MemberSignature Language="C#" Value="public static string? UrlDecode (string? str, System.Text.Encoding e);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlDecode(string str, class System.Text.Encoding e) cil managed" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecode(System.String,System.Text.Encoding)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecode (str As String, e As Encoding) As String" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlDecode(System::String ^ str, System::Text::Encoding ^ e);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="F#" Value="static member UrlDecode : string * System.Text.Encoding -&gt; string" Usage="System.Web.HttpUtility.UrlDecode (str, e)" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="C#" Value="public static string UrlDecode (string str, System.Text.Encoding e);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="C#" Value="public static string UrlDecode (string s, System.Text.Encoding e);" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlDecode(string s, class System.Text.Encoding e) cil managed" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecode (s As String, e As Encoding) As String" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlDecode(System::String ^ s, System::Text::Encoding ^ e);" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="F#" Value="static member UrlDecode : string * System.Text.Encoding -&gt; string" Usage="System.Web.HttpUtility.UrlDecode (s, e)" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlDecode(string str, class System.Text.Encoding e) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecode(System.String,System.Text.Encoding)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecode (str As String, e As Encoding) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlDecode(System::String ^ str, System::Text::Encoding ^ e);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlDecode : string * System.Text.Encoding -&gt; string" Usage="System.Web.HttpUtility.UrlDecode (str, e)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -984,7 +968,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")]</AttributeName>
@@ -993,9 +977,8 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-        <Parameter Name="s" Type="System.String" Index="0" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="e" Type="System.Text.Encoding" Index="1" />
+        <Parameter Name="str" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="e" Type="System.Text.Encoding" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="str">The string to decode.</param>
@@ -1018,12 +1001,11 @@
     </Member>
     <Member MemberName="UrlDecode">
       <MemberSignature Language="C#" Value="public static string? UrlDecode (byte[]? bytes, int offset, int count, System.Text.Encoding e);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlDecode(unsigned int8[] bytes, int32 offset, int32 count, class System.Text.Encoding e) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecode(System.Byte[],System.Int32,System.Int32,System.Text.Encoding)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecode (bytes As Byte(), offset As Integer, count As Integer, e As Encoding) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlDecode(cli::array &lt;System::Byte&gt; ^ bytes, int offset, int count, System::Text::Encoding ^ e);" />
-      <MemberSignature Language="F#" Value="static member UrlDecode : byte[] * int * int * System.Text.Encoding -&gt; string" Usage="System.Web.HttpUtility.UrlDecode (bytes, offset, count, e)" />
-      <MemberSignature Language="C#" Value="public static string UrlDecode (byte[] bytes, int offset, int count, System.Text.Encoding e);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlDecode(unsigned int8[] bytes, int32 offset, int32 count, class System.Text.Encoding e) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecode(System.Byte[],System.Int32,System.Int32,System.Text.Encoding)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecode (bytes As Byte(), offset As Integer, count As Integer, e As Encoding) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlDecode(cli::array &lt;System::Byte&gt; ^ bytes, int offset, int count, System::Text::Encoding ^ e);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlDecode : byte[] * int * int * System.Text.Encoding -&gt; string" Usage="System.Web.HttpUtility.UrlDecode (bytes, offset, count, e)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1049,7 +1031,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("bytes")]</AttributeName>
@@ -1058,10 +1040,10 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="bytes" Type="System.Byte[]" />
-        <Parameter Name="offset" Type="System.Int32" />
-        <Parameter Name="count" Type="System.Int32" />
-        <Parameter Name="e" Type="System.Text.Encoding" />
+        <Parameter Name="bytes" Type="System.Byte[]?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="offset" Type="System.Int32" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="count" Type="System.Int32" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="e" Type="System.Text.Encoding" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="bytes">The array of bytes to decode.</param>
@@ -1104,12 +1086,11 @@
     </MemberGroup>
     <Member MemberName="UrlDecodeToBytes">
       <MemberSignature Language="C#" Value="public static byte[]? UrlDecodeToBytes (byte[]? bytes);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlDecodeToBytes(unsigned int8[] bytes) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecodeToBytes(System.Byte[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecodeToBytes (bytes As Byte()) As Byte()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlDecodeToBytes(cli::array &lt;System::Byte&gt; ^ bytes);" />
-      <MemberSignature Language="F#" Value="static member UrlDecodeToBytes : byte[] -&gt; byte[]" Usage="System.Web.HttpUtility.UrlDecodeToBytes bytes" />
-      <MemberSignature Language="C#" Value="public static byte[] UrlDecodeToBytes (byte[] bytes);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlDecodeToBytes(unsigned int8[] bytes) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecodeToBytes(System.Byte[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecodeToBytes (bytes As Byte()) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlDecodeToBytes(cli::array &lt;System::Byte&gt; ^ bytes);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlDecodeToBytes : byte[] -&gt; byte[]" Usage="System.Web.HttpUtility.UrlDecodeToBytes bytes" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1135,7 +1116,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Byte[]?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("bytes")]</AttributeName>
@@ -1144,7 +1125,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="bytes" Type="System.Byte[]" />
+        <Parameter Name="bytes" Type="System.Byte[]?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="bytes">The array of bytes to decode.</param>
@@ -1165,12 +1146,11 @@
     </Member>
     <Member MemberName="UrlDecodeToBytes">
       <MemberSignature Language="C#" Value="public static byte[]? UrlDecodeToBytes (string? str);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlDecodeToBytes(string str) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecodeToBytes(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecodeToBytes (str As String) As Byte()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlDecodeToBytes(System::String ^ str);" />
-      <MemberSignature Language="F#" Value="static member UrlDecodeToBytes : string -&gt; byte[]" Usage="System.Web.HttpUtility.UrlDecodeToBytes str" />
-      <MemberSignature Language="C#" Value="public static byte[] UrlDecodeToBytes (string str);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlDecodeToBytes(string str) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecodeToBytes(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecodeToBytes (str As String) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlDecodeToBytes(System::String ^ str);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlDecodeToBytes : string -&gt; byte[]" Usage="System.Web.HttpUtility.UrlDecodeToBytes str" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1196,7 +1176,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Byte[]?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")]</AttributeName>
@@ -1205,7 +1185,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" />
+        <Parameter Name="str" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="str">The string to decode.</param>
@@ -1226,12 +1206,11 @@
     </Member>
     <Member MemberName="UrlDecodeToBytes">
       <MemberSignature Language="C#" Value="public static byte[]? UrlDecodeToBytes (string? str, System.Text.Encoding e);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlDecodeToBytes(string str, class System.Text.Encoding e) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecodeToBytes(System.String,System.Text.Encoding)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecodeToBytes (str As String, e As Encoding) As Byte()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlDecodeToBytes(System::String ^ str, System::Text::Encoding ^ e);" />
-      <MemberSignature Language="F#" Value="static member UrlDecodeToBytes : string * System.Text.Encoding -&gt; byte[]" Usage="System.Web.HttpUtility.UrlDecodeToBytes (str, e)" />
-      <MemberSignature Language="C#" Value="public static byte[] UrlDecodeToBytes (string str, System.Text.Encoding e);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlDecodeToBytes(string str, class System.Text.Encoding e) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecodeToBytes(System.String,System.Text.Encoding)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecodeToBytes (str As String, e As Encoding) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlDecodeToBytes(System::String ^ str, System::Text::Encoding ^ e);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlDecodeToBytes : string * System.Text.Encoding -&gt; byte[]" Usage="System.Web.HttpUtility.UrlDecodeToBytes (str, e)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1257,7 +1236,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Byte[]?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")]</AttributeName>
@@ -1266,8 +1245,8 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" />
-        <Parameter Name="e" Type="System.Text.Encoding" />
+        <Parameter Name="str" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="e" Type="System.Text.Encoding" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="str">The string to decode.</param>
@@ -1289,12 +1268,11 @@
     </Member>
     <Member MemberName="UrlDecodeToBytes">
       <MemberSignature Language="C#" Value="public static byte[]? UrlDecodeToBytes (byte[]? bytes, int offset, int count);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlDecodeToBytes(unsigned int8[] bytes, int32 offset, int32 count) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecodeToBytes(System.Byte[],System.Int32,System.Int32)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecodeToBytes (bytes As Byte(), offset As Integer, count As Integer) As Byte()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlDecodeToBytes(cli::array &lt;System::Byte&gt; ^ bytes, int offset, int count);" />
-      <MemberSignature Language="F#" Value="static member UrlDecodeToBytes : byte[] * int * int -&gt; byte[]" Usage="System.Web.HttpUtility.UrlDecodeToBytes (bytes, offset, count)" />
-      <MemberSignature Language="C#" Value="public static byte[] UrlDecodeToBytes (byte[] bytes, int offset, int count);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlDecodeToBytes(unsigned int8[] bytes, int32 offset, int32 count) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlDecodeToBytes(System.Byte[],System.Int32,System.Int32)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlDecodeToBytes (bytes As Byte(), offset As Integer, count As Integer) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlDecodeToBytes(cli::array &lt;System::Byte&gt; ^ bytes, int offset, int count);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlDecodeToBytes : byte[] * int * int -&gt; byte[]" Usage="System.Web.HttpUtility.UrlDecodeToBytes (bytes, offset, count)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1320,7 +1298,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Byte[]?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("bytes")]</AttributeName>
@@ -1329,9 +1307,9 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="bytes" Type="System.Byte[]" />
-        <Parameter Name="offset" Type="System.Int32" />
-        <Parameter Name="count" Type="System.Int32" />
+        <Parameter Name="bytes" Type="System.Byte[]?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="offset" Type="System.Int32" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="count" Type="System.Int32" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="bytes">The array of bytes to decode.</param>
@@ -1373,12 +1351,11 @@
     </MemberGroup>
     <Member MemberName="UrlEncode">
       <MemberSignature Language="C#" Value="public static string? UrlEncode (byte[]? bytes);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlEncode(unsigned int8[] bytes) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncode(System.Byte[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncode (bytes As Byte()) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlEncode(cli::array &lt;System::Byte&gt; ^ bytes);" />
-      <MemberSignature Language="F#" Value="static member UrlEncode : byte[] -&gt; string" Usage="System.Web.HttpUtility.UrlEncode bytes" />
-      <MemberSignature Language="C#" Value="public static string UrlEncode (byte[] bytes);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlEncode(unsigned int8[] bytes) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncode(System.Byte[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncode (bytes As Byte()) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlEncode(cli::array &lt;System::Byte&gt; ^ bytes);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncode : byte[] -&gt; string" Usage="System.Web.HttpUtility.UrlEncode bytes" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1404,7 +1381,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("bytes")]</AttributeName>
@@ -1413,7 +1390,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="bytes" Type="System.Byte[]" />
+        <Parameter Name="bytes" Type="System.Byte[]?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="bytes">The array of bytes to encode.</param>
@@ -1435,12 +1412,11 @@
     </Member>
     <Member MemberName="UrlEncode">
       <MemberSignature Language="C#" Value="public static string? UrlEncode (string? str);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlEncode(string str) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncode(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncode (str As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlEncode(System::String ^ str);" />
-      <MemberSignature Language="F#" Value="static member UrlEncode : string -&gt; string" Usage="System.Web.HttpUtility.UrlEncode str" />
-      <MemberSignature Language="C#" Value="public static string UrlEncode (string str);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlEncode(string str) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncode(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncode (str As String) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlEncode(System::String ^ str);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncode : string -&gt; string" Usage="System.Web.HttpUtility.UrlEncode str" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1466,7 +1442,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")]</AttributeName>
@@ -1475,7 +1451,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" />
+        <Parameter Name="str" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="str">The text to encode.</param>
@@ -1502,84 +1478,12 @@
       </Docs>
     </Member>
     <Member MemberName="UrlEncode">
-      <MemberSignature Language="C#" Value="public static string? UrlEncode (byte[]? bytes, int offset, int count);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlEncode(unsigned int8[] bytes, int32 offset, int32 count) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncode(System.Byte[],System.Int32,System.Int32)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncode (bytes As Byte(), offset As Integer, count As Integer) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlEncode(cli::array &lt;System::Byte&gt; ^ bytes, int offset, int count);" />
-      <MemberSignature Language="F#" Value="static member UrlEncode : byte[] * int * int -&gt; string" Usage="System.Web.HttpUtility.UrlEncode (bytes, offset, count)" />
-      <MemberSignature Language="C#" Value="public static string UrlEncode (byte[] bytes, int offset, int count);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberType>Method</MemberType>
-      <AssemblyInfo>
-        <AssemblyName>System.Web</AssemblyName>
-        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>netstandard</AssemblyName>
-        <AssemblyVersion>2.0.0.0</AssemblyVersion>
-        <AssemblyVersion>2.1.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Web.Services</AssemblyName>
-        <AssemblyVersion>2.0.5.0</AssemblyVersion>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <AssemblyInfo>
-        <AssemblyName>System.Web.HttpUtility</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-        <AssemblyVersion>4.0.1.0</AssemblyVersion>
-        <AssemblyVersion>4.0.2.0</AssemblyVersion>
-        <AssemblyVersion>5.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <ReturnValue>
-        <ReturnType>System.String</ReturnType>
-        <Attributes>
-          <Attribute FrameworkAlternate="net-5.0">
-            <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("bytes")]</AttributeName>
-            <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullIfNotNull("bytes")&gt;]</AttributeName>
-          </Attribute>
-        </Attributes>
-      </ReturnValue>
-      <Parameters>
-        <Parameter Name="bytes" Type="System.Byte[]" />
-        <Parameter Name="offset" Type="System.Int32" />
-        <Parameter Name="count" Type="System.Int32" />
-      </Parameters>
-      <Docs>
-        <param name="bytes">The array of bytes to encode.</param>
-        <param name="offset">The position in the byte array at which to begin encoding.</param>
-        <param name="count">The number of bytes to encode.</param>
-        <summary>Converts a byte array into a URL-encoded string, starting at the specified position in the array and continuing for the specified number of bytes.</summary>
-        <returns>An encoded string.</returns>
-        <remarks>
-          <format type="text/markdown"><![CDATA[
-
-## Remarks
- The <xref:System.Web.HttpUtility.UrlEncode%28System.String%29> method can be used to encode the entire URL, including query-string values. If characters such as blanks and punctuation are passed in an HTTP stream, they might be misinterpreted at the receiving end. URL encoding converts characters that are not allowed in a URL into character-entity equivalents; URL decoding reverses the encoding. For example, when the characters \< and > are embedded in a block of text to be transmitted in a URL, they are encoded as %3c and %3e.
-
- To encode or decode values outside of a web application, use the <xref:System.Net.WebUtility> class.
-
- ]]></format>
-        </remarks>
-        <altmember cref="M:System.Web.HttpUtility.UrlDecode(System.String)" />
-        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/a2a4yykt(v=vs.100)">How to: Protect Against Script Exploits in a Web Application by Applying HTML Encoding to Strings</related>
-      </Docs>
-    </Member>
-    <Member MemberName="UrlEncode">
       <MemberSignature Language="C#" Value="public static string? UrlEncode (string? str, System.Text.Encoding e);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlEncode(string str, class System.Text.Encoding e) cil managed" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncode(System.String,System.Text.Encoding)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncode (str As String, e As Encoding) As String" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlEncode(System::String ^ str, System::Text::Encoding ^ e);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="F#" Value="static member UrlEncode : string * System.Text.Encoding -&gt; string" Usage="System.Web.HttpUtility.UrlEncode (str, e)" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="C#" Value="public static string UrlEncode (string str, System.Text.Encoding e);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="C#" Value="public static string UrlEncode (string s, System.Text.Encoding Enc);" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlEncode(string s, class System.Text.Encoding Enc) cil managed" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncode (s As String, Enc As Encoding) As String" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlEncode(System::String ^ s, System::Text::Encoding ^ Enc);" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="F#" Value="static member UrlEncode : string * System.Text.Encoding -&gt; string" Usage="System.Web.HttpUtility.UrlEncode (s, Enc)" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlEncode(string str, class System.Text.Encoding e) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncode(System.String,System.Text.Encoding)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncode (str As String, e As Encoding) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlEncode(System::String ^ str, System::Text::Encoding ^ e);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncode : string * System.Text.Encoding -&gt; string" Usage="System.Web.HttpUtility.UrlEncode (str, e)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1605,7 +1509,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")]</AttributeName>
@@ -1614,10 +1518,8 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-        <Parameter Name="s" Type="System.String" Index="0" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="e" Type="System.Text.Encoding" Index="1" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-        <Parameter Name="Enc" Type="System.Text.Encoding" Index="1" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="str" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="e" Type="System.Text.Encoding" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="str">The text to encode.</param>
@@ -1640,25 +1542,13 @@
         <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/a2a4yykt(v=vs.100)">How to: Protect Against Script Exploits in a Web Application by Applying HTML Encoding to Strings</related>
       </Docs>
     </Member>
-    <MemberGroup MemberName="UrlEncodeToBytes">
-      <AssemblyInfo>
-        <AssemblyName>System.Web</AssemblyName>
-        <AssemblyVersion>4.0.0.0</AssemblyVersion>
-      </AssemblyInfo>
-      <Docs>
-        <summary>Converts a string or a byte array into an encoded array of bytes.
-
- To encode or decode values outside of a web application, use the <see cref="T:System.Net.WebUtility" /> class.</summary>
-      </Docs>
-    </MemberGroup>
-    <Member MemberName="UrlEncodeToBytes">
-      <MemberSignature Language="C#" Value="public static byte[]? UrlEncodeToBytes (byte[]? bytes);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeToBytes(unsigned int8[] bytes) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeToBytes(System.Byte[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeToBytes (bytes As Byte()) As Byte()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeToBytes(cli::array &lt;System::Byte&gt; ^ bytes);" />
-      <MemberSignature Language="F#" Value="static member UrlEncodeToBytes : byte[] -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeToBytes bytes" />
-      <MemberSignature Language="C#" Value="public static byte[] UrlEncodeToBytes (byte[] bytes);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+    <Member MemberName="UrlEncode">
+      <MemberSignature Language="C#" Value="public static string? UrlEncode (byte[]? bytes, int offset, int count);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlEncode(unsigned int8[] bytes, int32 offset, int32 count) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncode(System.Byte[],System.Int32,System.Int32)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncode (bytes As Byte(), offset As Integer, count As Integer) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlEncode(cli::array &lt;System::Byte&gt; ^ bytes, int offset, int count);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncode : byte[] * int * int -&gt; string" Usage="System.Web.HttpUtility.UrlEncode (bytes, offset, count)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1684,7 +1574,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("bytes")]</AttributeName>
@@ -1693,7 +1583,129 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="bytes" Type="System.Byte[]" />
+        <Parameter Name="bytes" Type="System.Byte[]?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="offset" Type="System.Int32" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="count" Type="System.Int32" Index="2" FrameworkAlternate="net-5.0" />
+      </Parameters>
+      <Docs>
+        <param name="bytes">The array of bytes to encode.</param>
+        <param name="offset">The position in the byte array at which to begin encoding.</param>
+        <param name="count">The number of bytes to encode.</param>
+        <summary>Converts a byte array into a URL-encoded string, starting at the specified position in the array and continuing for the specified number of bytes.</summary>
+        <returns>An encoded string.</returns>
+        <remarks>
+          <format type="text/markdown"><![CDATA[
+
+## Remarks
+ The <xref:System.Web.HttpUtility.UrlEncode%28System.String%29> method can be used to encode the entire URL, including query-string values. If characters such as blanks and punctuation are passed in an HTTP stream, they might be misinterpreted at the receiving end. URL encoding converts characters that are not allowed in a URL into character-entity equivalents; URL decoding reverses the encoding. For example, when the characters \< and > are embedded in a block of text to be transmitted in a URL, they are encoded as %3c and %3e.
+
+ To encode or decode values outside of a web application, use the <xref:System.Net.WebUtility> class.
+
+ ]]></format>
+        </remarks>
+        <altmember cref="M:System.Web.HttpUtility.UrlDecode(System.String)" />
+        <related type="Article" href="https://docs.microsoft.com/previous-versions/aspnet/a2a4yykt(v=vs.100)">How to: Protect Against Script Exploits in a Web Application by Applying HTML Encoding to Strings</related>
+      </Docs>
+    </Member>
+    <MemberGroup MemberName="UrlEncodeToBytes">
+      <AssemblyInfo>
+        <AssemblyName>System.Web</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <Docs>
+        <summary>Converts a string or a byte array into an encoded array of bytes.
+
+ To encode or decode values outside of a web application, use the <see cref="T:System.Net.WebUtility" /> class.</summary>
+      </Docs>
+    </MemberGroup>
+    <Member MemberName="UrlEncodeToBytes">
+      <MemberSignature Language="C#" Value="public static byte[]? UrlEncodeToBytes (string? str);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeToBytes(string str) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeToBytes(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeToBytes (str As String) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeToBytes(System::String ^ str);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncodeToBytes : string -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeToBytes str" FrameworkAlternate="net-5.0" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Web.HttpUtility</AssemblyName>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue />
+      <Docs>
+        <param name="str">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UrlEncodeToBytes">
+      <MemberSignature Language="C#" Value="public static byte[]? UrlEncodeToBytes (string? str);" FrameworkAlternate="net-6.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeToBytes(string str) cil managed" FrameworkAlternate="net-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeToBytes(System.String)" FrameworkAlternate="net-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeToBytes (str As String) As Byte()" FrameworkAlternate="net-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeToBytes(System::String ^ str);" FrameworkAlternate="net-6.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncodeToBytes : string -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeToBytes str" FrameworkAlternate="net-6.0" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Web.HttpUtility</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue />
+      <Docs>
+        <param name="str">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UrlEncodeToBytes">
+      <MemberSignature Language="C#" Value="public static byte[]? UrlEncodeToBytes (byte[]? bytes);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeToBytes(unsigned int8[] bytes) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeToBytes(System.Byte[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeToBytes (bytes As Byte()) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeToBytes(cli::array &lt;System::Byte&gt; ^ bytes);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncodeToBytes : byte[] -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeToBytes bytes" FrameworkAlternate="net-5.0" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Web</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Web.Services</AssemblyName>
+        <AssemblyVersion>2.0.5.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Web.HttpUtility</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>4.0.2.0</AssemblyVersion>
+        <AssemblyVersion>5.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType FrameworkAlternate="net-5.0">System.Byte[]?</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="net-5.0">
+            <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("bytes")]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullIfNotNull("bytes")&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="bytes" Type="System.Byte[]?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="bytes">The array of bytes to encode.</param>
@@ -1714,13 +1726,89 @@
       </Docs>
     </Member>
     <Member MemberName="UrlEncodeToBytes">
-      <MemberSignature Language="C#" Value="public static byte[]? UrlEncodeToBytes (string? str);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeToBytes(string str) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeToBytes(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeToBytes (str As String) As Byte()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeToBytes(System::String ^ str);" />
-      <MemberSignature Language="F#" Value="static member UrlEncodeToBytes : string -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeToBytes str" />
       <MemberSignature Language="C#" Value="public static byte[] UrlEncodeToBytes (string str);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeToBytes(string str) cil managed" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeToBytes(System.String)" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeToBytes (str As String) As Byte()" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeToBytes(System::String ^ str);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncodeToBytes : string -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeToBytes str" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Web.HttpUtility</AssemblyName>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.1.0</AssemblyVersion>
+        <AssemblyVersion>4.0.2.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>2.1.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Web</AssemblyName>
+        <AssemblyVersion>1.0.5000.0</AssemblyVersion>
+        <AssemblyVersion>2.0.0.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>System.Web.Services</AssemblyName>
+        <AssemblyVersion>2.0.5.0</AssemblyVersion>
+        <AssemblyVersion>4.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Byte[]</ReturnType>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="str" Type="System.String" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      </Parameters>
+      <Docs>
+        <param name="str">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UrlEncodeToBytes">
+      <MemberSignature Language="C#" Value="public static byte[]? UrlEncodeToBytes (string? str);" FrameworkAlternate="net-6.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeToBytes(string str) cil managed" FrameworkAlternate="net-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeToBytes(System.String)" FrameworkAlternate="net-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeToBytes (str As String) As Byte()" FrameworkAlternate="net-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeToBytes(System::String ^ str);" FrameworkAlternate="net-6.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncodeToBytes : string -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeToBytes str" FrameworkAlternate="net-6.0" />
+      <MemberType>Method</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Web.HttpUtility</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <AssemblyInfo>
+        <AssemblyName>netstandard</AssemblyName>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType FrameworkAlternate="net-6.0">System.Byte[]?</ReturnType>
+        <Attributes>
+          <Attribute FrameworkAlternate="net-6.0">
+            <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")]</AttributeName>
+            <AttributeName Language="F#">[&lt;System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")&gt;]</AttributeName>
+          </Attribute>
+        </Attributes>
+      </ReturnValue>
+      <Parameters>
+        <Parameter Name="str" Type="System.String?" Index="0" FrameworkAlternate="net-6.0" />
+      </Parameters>
+      <Docs>
+        <param name="str">To be added.</param>
+        <summary>To be added.</summary>
+        <returns>To be added.</returns>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
+    <Member MemberName="UrlEncodeToBytes">
+      <MemberSignature Language="C#" Value="public static byte[]? UrlEncodeToBytes (string? str);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeToBytes(string str) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeToBytes(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeToBytes (str As String) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeToBytes(System::String ^ str);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncodeToBytes : string -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeToBytes str" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1746,7 +1834,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Byte[]?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")]</AttributeName>
@@ -1755,7 +1843,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" />
+        <Parameter Name="str" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="str">The string to encode.</param>
@@ -1777,12 +1865,11 @@
     </Member>
     <Member MemberName="UrlEncodeToBytes">
       <MemberSignature Language="C#" Value="public static byte[]? UrlEncodeToBytes (string? str, System.Text.Encoding e);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeToBytes(string str, class System.Text.Encoding e) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeToBytes(System.String,System.Text.Encoding)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeToBytes (str As String, e As Encoding) As Byte()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeToBytes(System::String ^ str, System::Text::Encoding ^ e);" />
-      <MemberSignature Language="F#" Value="static member UrlEncodeToBytes : string * System.Text.Encoding -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeToBytes (str, e)" />
-      <MemberSignature Language="C#" Value="public static byte[] UrlEncodeToBytes (string str, System.Text.Encoding e);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeToBytes(string str, class System.Text.Encoding e) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeToBytes(System.String,System.Text.Encoding)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeToBytes (str As String, e As Encoding) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeToBytes(System::String ^ str, System::Text::Encoding ^ e);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncodeToBytes : string * System.Text.Encoding -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeToBytes (str, e)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1808,7 +1895,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Byte[]?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")]</AttributeName>
@@ -1817,8 +1904,8 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" />
-        <Parameter Name="e" Type="System.Text.Encoding" />
+        <Parameter Name="str" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="e" Type="System.Text.Encoding" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="str">The string to encode</param>
@@ -1841,12 +1928,11 @@
     </Member>
     <Member MemberName="UrlEncodeToBytes">
       <MemberSignature Language="C#" Value="public static byte[]? UrlEncodeToBytes (byte[]? bytes, int offset, int count);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeToBytes(unsigned int8[] bytes, int32 offset, int32 count) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeToBytes(System.Byte[],System.Int32,System.Int32)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeToBytes (bytes As Byte(), offset As Integer, count As Integer) As Byte()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeToBytes(cli::array &lt;System::Byte&gt; ^ bytes, int offset, int count);" />
-      <MemberSignature Language="F#" Value="static member UrlEncodeToBytes : byte[] * int * int -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeToBytes (bytes, offset, count)" />
-      <MemberSignature Language="C#" Value="public static byte[] UrlEncodeToBytes (byte[] bytes, int offset, int count);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeToBytes(unsigned int8[] bytes, int32 offset, int32 count) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeToBytes(System.Byte[],System.Int32,System.Int32)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeToBytes (bytes As Byte(), offset As Integer, count As Integer) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeToBytes(cli::array &lt;System::Byte&gt; ^ bytes, int offset, int count);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncodeToBytes : byte[] * int * int -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeToBytes (bytes, offset, count)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1872,7 +1958,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Byte[]?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("bytes")]</AttributeName>
@@ -1881,9 +1967,9 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="bytes" Type="System.Byte[]" />
-        <Parameter Name="offset" Type="System.Int32" />
-        <Parameter Name="count" Type="System.Int32" />
+        <Parameter Name="bytes" Type="System.Byte[]?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="offset" Type="System.Int32" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="count" Type="System.Int32" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="bytes">The array of bytes to encode.</param>
@@ -1915,12 +2001,11 @@
     </Member>
     <Member MemberName="UrlEncodeUnicode">
       <MemberSignature Language="C#" Value="public static string? UrlEncodeUnicode (string? str);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlEncodeUnicode(string str) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeUnicode(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeUnicode (str As String) As String" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlEncodeUnicode(System::String ^ str);" />
-      <MemberSignature Language="F#" Value="static member UrlEncodeUnicode : string -&gt; string" Usage="System.Web.HttpUtility.UrlEncodeUnicode str" />
-      <MemberSignature Language="C#" Value="public static string UrlEncodeUnicode (string str);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlEncodeUnicode(string str) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeUnicode(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeUnicode (str As String) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlEncodeUnicode(System::String ^ str);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncodeUnicode : string -&gt; string" Usage="System.Web.HttpUtility.UrlEncodeUnicode str" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -1945,14 +2030,8 @@
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1">
-          <AttributeName Language="C#">[System.Obsolete("This method produces non-standards-compliant output and has interoperability issues. The preferred alternative is UrlEncode(String).")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Obsolete("This method produces non-standards-compliant output and has interoperability issues. The preferred alternative is UrlEncode(String).")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")]</AttributeName>
@@ -1961,7 +2040,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" />
+        <Parameter Name="str" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="str">The string to convert.</param>
@@ -1980,12 +2059,11 @@
     </Member>
     <Member MemberName="UrlEncodeUnicodeToBytes">
       <MemberSignature Language="C#" Value="public static byte[]? UrlEncodeUnicodeToBytes (string? str);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeUnicodeToBytes(string str) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeUnicodeToBytes(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeUnicodeToBytes (str As String) As Byte()" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeUnicodeToBytes(System::String ^ str);" />
-      <MemberSignature Language="F#" Value="static member UrlEncodeUnicodeToBytes : string -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeUnicodeToBytes str" />
-      <MemberSignature Language="C#" Value="public static byte[] UrlEncodeUnicodeToBytes (string str);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig unsigned int8[] UrlEncodeUnicodeToBytes(string str) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlEncodeUnicodeToBytes(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlEncodeUnicodeToBytes (str As String) As Byte()" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static cli::array &lt;System::Byte&gt; ^ UrlEncodeUnicodeToBytes(System::String ^ str);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlEncodeUnicodeToBytes : string -&gt; byte[]" Usage="System.Web.HttpUtility.UrlEncodeUnicodeToBytes str" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -2010,14 +2088,8 @@
         <AssemblyVersion>4.0.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1">
-          <AttributeName Language="C#">[System.Obsolete("This method produces non-standards-compliant output and has interoperability issues. The preferred alternative is UrlEncodeToBytes(String).")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Obsolete("This method produces non-standards-compliant output and has interoperability issues. The preferred alternative is UrlEncodeToBytes(String).")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.Byte[]</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Byte[]?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")]</AttributeName>
@@ -2026,7 +2098,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" />
+        <Parameter Name="str" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="str">The string to convert.</param>
@@ -2045,17 +2117,11 @@
     </Member>
     <Member MemberName="UrlPathEncode">
       <MemberSignature Language="C#" Value="public static string? UrlPathEncode (string? str);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlPathEncode(string str) cil managed" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlPathEncode(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlPathEncode (str As String) As String" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlPathEncode(System::String ^ str);" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="F#" Value="static member UrlPathEncode : string -&gt; string" Usage="System.Web.HttpUtility.UrlPathEncode str" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="C#" Value="public static string UrlPathEncode (string str);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-      <MemberSignature Language="C#" Value="public static string UrlPathEncode (string s);" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlPathEncode(string s) cil managed" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlPathEncode (s As String) As String" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlPathEncode(System::String ^ s);" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="F#" Value="static member UrlPathEncode : string -&gt; string" Usage="System.Web.HttpUtility.UrlPathEncode s" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig string UrlPathEncode(string str) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Web.HttpUtility.UrlPathEncode(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function UrlPathEncode (str As String) As String" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::String ^ UrlPathEncode(System::String ^ str);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member UrlPathEncode : string -&gt; string" Usage="System.Web.HttpUtility.UrlPathEncode str" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Web</AssemblyName>
@@ -2081,7 +2147,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.String?</ReturnType>
         <Attributes>
           <Attribute FrameworkAlternate="net-5.0">
             <AttributeName Language="C#">[System.Diagnostics.CodeAnalysis.NotNullIfNotNull("str")]</AttributeName>
@@ -2090,8 +2156,7 @@
         </Attributes>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="str" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1" />
-        <Parameter Name="s" Type="System.String" Index="0" FrameworkAlternate="xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="str" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="str">The text to encode.</param>

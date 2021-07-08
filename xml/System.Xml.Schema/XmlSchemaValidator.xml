@@ -22,9 +22,11 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.ReaderWriter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.ReaderWriter" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -94,6 +96,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="nameTable" Type="System.Xml.XmlNameTable" />
@@ -162,6 +165,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -219,6 +223,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -264,6 +269,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Xml.Schema.XmlSchemaAttribute[]</ReturnType>
@@ -312,6 +318,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Xml.Schema.XmlSchemaParticle[]</ReturnType>
@@ -495,6 +502,7 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -552,6 +560,7 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -612,6 +621,7 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -711,6 +721,7 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -741,12 +752,11 @@ validator.ValidateEndElement(null);
     </Member>
     <Member MemberName="SkipToEndElement">
       <MemberSignature Language="C#" Value="public void SkipToEndElement (System.Xml.Schema.XmlSchemaInfo? schemaInfo);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SkipToEndElement(class System.Xml.Schema.XmlSchemaInfo schemaInfo) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.SkipToEndElement(System.Xml.Schema.XmlSchemaInfo)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub SkipToEndElement (schemaInfo As XmlSchemaInfo)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SkipToEndElement(System::Xml::Schema::XmlSchemaInfo ^ schemaInfo);" />
-      <MemberSignature Language="F#" Value="member this.SkipToEndElement : System.Xml.Schema.XmlSchemaInfo -&gt; unit" Usage="xmlSchemaValidator.SkipToEndElement schemaInfo" />
-      <MemberSignature Language="C#" Value="public void SkipToEndElement (System.Xml.Schema.XmlSchemaInfo schemaInfo);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void SkipToEndElement(class System.Xml.Schema.XmlSchemaInfo schemaInfo) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.SkipToEndElement(System.Xml.Schema.XmlSchemaInfo)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SkipToEndElement (schemaInfo As XmlSchemaInfo)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SkipToEndElement(System::Xml::Schema::XmlSchemaInfo ^ schemaInfo);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.SkipToEndElement : System.Xml.Schema.XmlSchemaInfo -&gt; unit" Usage="xmlSchemaValidator.SkipToEndElement schemaInfo" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -767,10 +777,10 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo" />
+        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="schemaInfo">An <see cref="T:System.Xml.Schema.XmlSchemaInfo" /> object whose properties are set if the current element content is successfully skipped. This parameter can be <see langword="null" />.</param>
@@ -795,7 +805,7 @@ validator.ValidateEndElement(null);
       </Docs>
     </Member>
     <Member MemberName="SourceUri">
-      <MemberSignature Language="C#" Value="public Uri? SourceUri { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public Uri? SourceUri { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Uri SourceUri" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaValidator.SourceUri" />
       <MemberSignature Language="VB.NET" Value="Public Property SourceUri As Uri" />
@@ -820,6 +830,7 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -828,7 +839,8 @@ validator.ValidateEndElement(null);
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Uri</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Uri?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Uri</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the source URI for the XML node being validated.</summary>
@@ -859,12 +871,11 @@ validator.ValidateEndElement(null);
     </MemberGroup>
     <Member MemberName="ValidateAttribute">
       <MemberSignature Language="C#" Value="public object? ValidateAttribute (string localName, string namespaceUri, string attributeValue, System.Xml.Schema.XmlSchemaInfo? schemaInfo);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object ValidateAttribute(string localName, string namespaceUri, string attributeValue, class System.Xml.Schema.XmlSchemaInfo schemaInfo) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateAttribute(System.String,System.String,System.String,System.Xml.Schema.XmlSchemaInfo)" />
-      <MemberSignature Language="VB.NET" Value="Public Function ValidateAttribute (localName As String, namespaceUri As String, attributeValue As String, schemaInfo As XmlSchemaInfo) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ValidateAttribute(System::String ^ localName, System::String ^ namespaceUri, System::String ^ attributeValue, System::Xml::Schema::XmlSchemaInfo ^ schemaInfo);" />
-      <MemberSignature Language="F#" Value="member this.ValidateAttribute : string * string * string * System.Xml.Schema.XmlSchemaInfo -&gt; obj" Usage="xmlSchemaValidator.ValidateAttribute (localName, namespaceUri, attributeValue, schemaInfo)" />
-      <MemberSignature Language="C#" Value="public object ValidateAttribute (string localName, string namespaceUri, string attributeValue, System.Xml.Schema.XmlSchemaInfo schemaInfo);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object ValidateAttribute(string localName, string namespaceUri, string attributeValue, class System.Xml.Schema.XmlSchemaInfo schemaInfo) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateAttribute(System.String,System.String,System.String,System.Xml.Schema.XmlSchemaInfo)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateAttribute (localName As String, namespaceUri As String, attributeValue As String, schemaInfo As XmlSchemaInfo) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ValidateAttribute(System::String ^ localName, System::String ^ namespaceUri, System::String ^ attributeValue, System::Xml::Schema::XmlSchemaInfo ^ schemaInfo);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.ValidateAttribute : string * string * string * System.Xml.Schema.XmlSchemaInfo -&gt; obj" Usage="xmlSchemaValidator.ValidateAttribute (localName, namespaceUri, attributeValue, schemaInfo)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -885,13 +896,13 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="localName" Type="System.String" />
-        <Parameter Name="namespaceUri" Type="System.String" />
-        <Parameter Name="attributeValue" Type="System.String" />
-        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo" />
+        <Parameter Name="localName" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="namespaceUri" Type="System.String" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="attributeValue" Type="System.String" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo?" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="localName">The local name of the attribute to validate.</param>
@@ -938,12 +949,11 @@ validator.ValidateEndElement(null);
     </Member>
     <Member MemberName="ValidateAttribute">
       <MemberSignature Language="C#" Value="public object? ValidateAttribute (string localName, string namespaceUri, System.Xml.Schema.XmlValueGetter attributeValue, System.Xml.Schema.XmlSchemaInfo? schemaInfo);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object ValidateAttribute(string localName, string namespaceUri, class System.Xml.Schema.XmlValueGetter attributeValue, class System.Xml.Schema.XmlSchemaInfo schemaInfo) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateAttribute(System.String,System.String,System.Xml.Schema.XmlValueGetter,System.Xml.Schema.XmlSchemaInfo)" />
-      <MemberSignature Language="VB.NET" Value="Public Function ValidateAttribute (localName As String, namespaceUri As String, attributeValue As XmlValueGetter, schemaInfo As XmlSchemaInfo) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ValidateAttribute(System::String ^ localName, System::String ^ namespaceUri, System::Xml::Schema::XmlValueGetter ^ attributeValue, System::Xml::Schema::XmlSchemaInfo ^ schemaInfo);" />
-      <MemberSignature Language="F#" Value="member this.ValidateAttribute : string * string * System.Xml.Schema.XmlValueGetter * System.Xml.Schema.XmlSchemaInfo -&gt; obj" Usage="xmlSchemaValidator.ValidateAttribute (localName, namespaceUri, attributeValue, schemaInfo)" />
-      <MemberSignature Language="C#" Value="public object ValidateAttribute (string localName, string namespaceUri, System.Xml.Schema.XmlValueGetter attributeValue, System.Xml.Schema.XmlSchemaInfo schemaInfo);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object ValidateAttribute(string localName, string namespaceUri, class System.Xml.Schema.XmlValueGetter attributeValue, class System.Xml.Schema.XmlSchemaInfo schemaInfo) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateAttribute(System.String,System.String,System.Xml.Schema.XmlValueGetter,System.Xml.Schema.XmlSchemaInfo)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateAttribute (localName As String, namespaceUri As String, attributeValue As XmlValueGetter, schemaInfo As XmlSchemaInfo) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ValidateAttribute(System::String ^ localName, System::String ^ namespaceUri, System::Xml::Schema::XmlValueGetter ^ attributeValue, System::Xml::Schema::XmlSchemaInfo ^ schemaInfo);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.ValidateAttribute : string * string * System.Xml.Schema.XmlValueGetter * System.Xml.Schema.XmlSchemaInfo -&gt; obj" Usage="xmlSchemaValidator.ValidateAttribute (localName, namespaceUri, attributeValue, schemaInfo)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -964,13 +974,13 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="localName" Type="System.String" />
-        <Parameter Name="namespaceUri" Type="System.String" />
-        <Parameter Name="attributeValue" Type="System.Xml.Schema.XmlValueGetter" />
-        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo" />
+        <Parameter Name="localName" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="namespaceUri" Type="System.String" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="attributeValue" Type="System.Xml.Schema.XmlValueGetter" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo?" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="localName">The local name of the attribute to validate.</param>
@@ -1028,12 +1038,11 @@ validator.ValidateEndElement(null);
     </MemberGroup>
     <Member MemberName="ValidateElement">
       <MemberSignature Language="C#" Value="public void ValidateElement (string localName, string namespaceUri, System.Xml.Schema.XmlSchemaInfo? schemaInfo);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ValidateElement(string localName, string namespaceUri, class System.Xml.Schema.XmlSchemaInfo schemaInfo) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateElement(System.String,System.String,System.Xml.Schema.XmlSchemaInfo)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub ValidateElement (localName As String, namespaceUri As String, schemaInfo As XmlSchemaInfo)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ValidateElement(System::String ^ localName, System::String ^ namespaceUri, System::Xml::Schema::XmlSchemaInfo ^ schemaInfo);" />
-      <MemberSignature Language="F#" Value="member this.ValidateElement : string * string * System.Xml.Schema.XmlSchemaInfo -&gt; unit" Usage="xmlSchemaValidator.ValidateElement (localName, namespaceUri, schemaInfo)" />
-      <MemberSignature Language="C#" Value="public void ValidateElement (string localName, string namespaceUri, System.Xml.Schema.XmlSchemaInfo schemaInfo);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ValidateElement(string localName, string namespaceUri, class System.Xml.Schema.XmlSchemaInfo schemaInfo) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateElement(System.String,System.String,System.Xml.Schema.XmlSchemaInfo)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ValidateElement (localName As String, namespaceUri As String, schemaInfo As XmlSchemaInfo)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ValidateElement(System::String ^ localName, System::String ^ namespaceUri, System::Xml::Schema::XmlSchemaInfo ^ schemaInfo);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.ValidateElement : string * string * System.Xml.Schema.XmlSchemaInfo -&gt; unit" Usage="xmlSchemaValidator.ValidateElement (localName, namespaceUri, schemaInfo)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -1053,19 +1062,13 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="localName" Type="System.String" />
-        <Parameter Name="namespaceUri" Type="System.String" />
-        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo" />
+        <Parameter Name="localName" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="namespaceUri" Type="System.String" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo?" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="localName">The local name of the element to validate.</param>
@@ -1108,12 +1111,11 @@ validator.ValidateEndElement(null);
     </Member>
     <Member MemberName="ValidateElement">
       <MemberSignature Language="C#" Value="public void ValidateElement (string localName, string namespaceUri, System.Xml.Schema.XmlSchemaInfo? schemaInfo, string? xsiType, string? xsiNil, string? xsiSchemaLocation, string? xsiNoNamespaceSchemaLocation);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ValidateElement(string localName, string namespaceUri, class System.Xml.Schema.XmlSchemaInfo schemaInfo, string xsiType, string xsiNil, string xsiSchemaLocation, string xsiNoNamespaceSchemaLocation) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateElement(System.String,System.String,System.Xml.Schema.XmlSchemaInfo,System.String,System.String,System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub ValidateElement (localName As String, namespaceUri As String, schemaInfo As XmlSchemaInfo, xsiType As String, xsiNil As String, xsiSchemaLocation As String, xsiNoNamespaceSchemaLocation As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ValidateElement(System::String ^ localName, System::String ^ namespaceUri, System::Xml::Schema::XmlSchemaInfo ^ schemaInfo, System::String ^ xsiType, System::String ^ xsiNil, System::String ^ xsiSchemaLocation, System::String ^ xsiNoNamespaceSchemaLocation);" />
-      <MemberSignature Language="F#" Value="member this.ValidateElement : string * string * System.Xml.Schema.XmlSchemaInfo * string * string * string * string -&gt; unit" Usage="xmlSchemaValidator.ValidateElement (localName, namespaceUri, schemaInfo, xsiType, xsiNil, xsiSchemaLocation, xsiNoNamespaceSchemaLocation)" />
-      <MemberSignature Language="C#" Value="public void ValidateElement (string localName, string namespaceUri, System.Xml.Schema.XmlSchemaInfo schemaInfo, string xsiType, string xsiNil, string xsiSchemaLocation, string xsiNoNamespaceSchemaLocation);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ValidateElement(string localName, string namespaceUri, class System.Xml.Schema.XmlSchemaInfo schemaInfo, string xsiType, string xsiNil, string xsiSchemaLocation, string xsiNoNamespaceSchemaLocation) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateElement(System.String,System.String,System.Xml.Schema.XmlSchemaInfo,System.String,System.String,System.String,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ValidateElement (localName As String, namespaceUri As String, schemaInfo As XmlSchemaInfo, xsiType As String, xsiNil As String, xsiSchemaLocation As String, xsiNoNamespaceSchemaLocation As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ValidateElement(System::String ^ localName, System::String ^ namespaceUri, System::Xml::Schema::XmlSchemaInfo ^ schemaInfo, System::String ^ xsiType, System::String ^ xsiNil, System::String ^ xsiSchemaLocation, System::String ^ xsiNoNamespaceSchemaLocation);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.ValidateElement : string * string * System.Xml.Schema.XmlSchemaInfo * string * string * string * string -&gt; unit" Usage="xmlSchemaValidator.ValidateElement (localName, namespaceUri, schemaInfo, xsiType, xsiNil, xsiSchemaLocation, xsiNoNamespaceSchemaLocation)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -1134,16 +1136,16 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="localName" Type="System.String" />
-        <Parameter Name="namespaceUri" Type="System.String" />
-        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo" />
-        <Parameter Name="xsiType" Type="System.String" />
-        <Parameter Name="xsiNil" Type="System.String" />
-        <Parameter Name="xsiSchemaLocation" Type="System.String" />
-        <Parameter Name="xsiNoNamespaceSchemaLocation" Type="System.String" />
+        <Parameter Name="localName" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="namespaceUri" Type="System.String" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo?" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="xsiType" Type="System.String?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="xsiNil" Type="System.String?" Index="4" FrameworkAlternate="net-5.0" />
+        <Parameter Name="xsiSchemaLocation" Type="System.String?" Index="5" FrameworkAlternate="net-5.0" />
+        <Parameter Name="xsiNoNamespaceSchemaLocation" Type="System.String?" Index="6" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="localName">The local name of the element to validate.</param>
@@ -1187,12 +1189,11 @@ validator.ValidateEndElement(null);
     </MemberGroup>
     <Member MemberName="ValidateEndElement">
       <MemberSignature Language="C#" Value="public object? ValidateEndElement (System.Xml.Schema.XmlSchemaInfo? schemaInfo);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object ValidateEndElement(class System.Xml.Schema.XmlSchemaInfo schemaInfo) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateEndElement(System.Xml.Schema.XmlSchemaInfo)" />
-      <MemberSignature Language="VB.NET" Value="Public Function ValidateEndElement (schemaInfo As XmlSchemaInfo) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ValidateEndElement(System::Xml::Schema::XmlSchemaInfo ^ schemaInfo);" />
-      <MemberSignature Language="F#" Value="member this.ValidateEndElement : System.Xml.Schema.XmlSchemaInfo -&gt; obj" Usage="xmlSchemaValidator.ValidateEndElement schemaInfo" />
-      <MemberSignature Language="C#" Value="public object ValidateEndElement (System.Xml.Schema.XmlSchemaInfo schemaInfo);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object ValidateEndElement(class System.Xml.Schema.XmlSchemaInfo schemaInfo) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateEndElement(System.Xml.Schema.XmlSchemaInfo)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateEndElement (schemaInfo As XmlSchemaInfo) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ValidateEndElement(System::Xml::Schema::XmlSchemaInfo ^ schemaInfo);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.ValidateEndElement : System.Xml.Schema.XmlSchemaInfo -&gt; obj" Usage="xmlSchemaValidator.ValidateEndElement schemaInfo" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -1212,17 +1213,11 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo" />
+        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="schemaInfo">An <see cref="T:System.Xml.Schema.XmlSchemaInfo" /> object whose properties are set on successful validation of the element. This parameter can be <see langword="null" />.</param>
@@ -1253,12 +1248,11 @@ validator.ValidateEndElement(null);
     </Member>
     <Member MemberName="ValidateEndElement">
       <MemberSignature Language="C#" Value="public object? ValidateEndElement (System.Xml.Schema.XmlSchemaInfo? schemaInfo, object typedValue);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object ValidateEndElement(class System.Xml.Schema.XmlSchemaInfo schemaInfo, object typedValue) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateEndElement(System.Xml.Schema.XmlSchemaInfo,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Function ValidateEndElement (schemaInfo As XmlSchemaInfo, typedValue As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ValidateEndElement(System::Xml::Schema::XmlSchemaInfo ^ schemaInfo, System::Object ^ typedValue);" />
-      <MemberSignature Language="F#" Value="member this.ValidateEndElement : System.Xml.Schema.XmlSchemaInfo * obj -&gt; obj" Usage="xmlSchemaValidator.ValidateEndElement (schemaInfo, typedValue)" />
-      <MemberSignature Language="C#" Value="public object ValidateEndElement (System.Xml.Schema.XmlSchemaInfo schemaInfo, object typedValue);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance object ValidateEndElement(class System.Xml.Schema.XmlSchemaInfo schemaInfo, object typedValue) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateEndElement(System.Xml.Schema.XmlSchemaInfo,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function ValidateEndElement (schemaInfo As XmlSchemaInfo, typedValue As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::Object ^ ValidateEndElement(System::Xml::Schema::XmlSchemaInfo ^ schemaInfo, System::Object ^ typedValue);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.ValidateEndElement : System.Xml.Schema.XmlSchemaInfo * obj -&gt; obj" Usage="xmlSchemaValidator.ValidateEndElement (schemaInfo, typedValue)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -1279,11 +1273,11 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo" />
-        <Parameter Name="typedValue" Type="System.Object" />
+        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="typedValue" Type="System.Object" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="schemaInfo">An <see cref="T:System.Xml.Schema.XmlSchemaInfo" /> object whose properties are set on successful validation of the text content of the element. This parameter can be <see langword="null" />.</param>
@@ -1336,12 +1330,11 @@ validator.ValidateEndElement(null);
     </Member>
     <Member MemberName="ValidateEndOfAttributes">
       <MemberSignature Language="C#" Value="public void ValidateEndOfAttributes (System.Xml.Schema.XmlSchemaInfo? schemaInfo);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ValidateEndOfAttributes(class System.Xml.Schema.XmlSchemaInfo schemaInfo) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateEndOfAttributes(System.Xml.Schema.XmlSchemaInfo)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub ValidateEndOfAttributes (schemaInfo As XmlSchemaInfo)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ValidateEndOfAttributes(System::Xml::Schema::XmlSchemaInfo ^ schemaInfo);" />
-      <MemberSignature Language="F#" Value="member this.ValidateEndOfAttributes : System.Xml.Schema.XmlSchemaInfo -&gt; unit" Usage="xmlSchemaValidator.ValidateEndOfAttributes schemaInfo" />
-      <MemberSignature Language="C#" Value="public void ValidateEndOfAttributes (System.Xml.Schema.XmlSchemaInfo schemaInfo);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void ValidateEndOfAttributes(class System.Xml.Schema.XmlSchemaInfo schemaInfo) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.Schema.XmlSchemaValidator.ValidateEndOfAttributes(System.Xml.Schema.XmlSchemaInfo)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub ValidateEndOfAttributes (schemaInfo As XmlSchemaInfo)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void ValidateEndOfAttributes(System::Xml::Schema::XmlSchemaInfo ^ schemaInfo);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.ValidateEndOfAttributes : System.Xml.Schema.XmlSchemaInfo -&gt; unit" Usage="xmlSchemaValidator.ValidateEndOfAttributes schemaInfo" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml</AssemblyName>
@@ -1362,10 +1355,10 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo" />
+        <Parameter Name="schemaInfo" Type="System.Xml.Schema.XmlSchemaInfo?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="schemaInfo">An <see cref="T:System.Xml.Schema.XmlSchemaInfo" /> object whose properties are set on successful verification that all the required attributes in the element context are present. This parameter can be <see langword="null" />.</param>
@@ -1441,6 +1434,7 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1493,6 +1487,7 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1556,6 +1551,7 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1596,6 +1592,7 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -1613,7 +1610,7 @@ validator.ValidateEndElement(null);
       </Docs>
     </Member>
     <Member MemberName="ValidationEventHandler">
-      <MemberSignature Language="C#" Value="public event System.Xml.Schema.ValidationEventHandler? ValidationEventHandler;" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public event System.Xml.Schema.ValidationEventHandler? ValidationEventHandler;" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".event class System.Xml.Schema.ValidationEventHandler ValidationEventHandler" />
       <MemberSignature Language="DocId" Value="E:System.Xml.Schema.XmlSchemaValidator.ValidationEventHandler" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; event System::Xml::Schema::ValidationEventHandler ^ ValidationEventHandler;" />
@@ -1637,9 +1634,11 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Xml.Schema.ValidationEventHandler</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Xml.Schema.ValidationEventHandler?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Xml.Schema.ValidationEventHandler</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>The <see cref="T:System.Xml.Schema.ValidationEventHandler" /> that receives schema validation warnings and errors encountered during schema validation.</summary>
@@ -1696,6 +1695,7 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -1725,7 +1725,7 @@ validator.ValidateEndElement(null);
       </Docs>
     </Member>
     <Member MemberName="XmlResolver">
-      <MemberSignature Language="C#" Value="public System.Xml.XmlResolver? XmlResolver { set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Xml.XmlResolver? XmlResolver { set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Xml.XmlResolver XmlResolver" />
       <MemberSignature Language="DocId" Value="P:System.Xml.Schema.XmlSchemaValidator.XmlResolver" />
       <MemberSignature Language="VB.NET" Value="Public Property XmlResolver As XmlResolver" />
@@ -1750,6 +1750,7 @@ validator.ValidateEndElement(null);
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -1758,7 +1759,8 @@ validator.ValidateEndElement(null);
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Xml.XmlResolver</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Xml.XmlResolver?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Xml.XmlResolver</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Sets the <see cref="T:System.Xml.XmlResolver" /> object used to resolve <c>xs:import</c> and <c>xs:include</c> elements as well as <c>xsi:schemaLocation</c> and <c>xsi:noNamespaceSchemaLocation</c> attributes.</summary>

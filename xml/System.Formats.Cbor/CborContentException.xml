@@ -37,7 +37,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="message" Type="System.String?" />
       </Parameters>
       <Docs>
         <param name="message">To be added.</param>
@@ -81,8 +81,8 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="inner" Type="System.Exception" />
+        <Parameter Name="message" Type="System.String?" />
+        <Parameter Name="inner" Type="System.Exception?" />
       </Parameters>
       <Docs>
         <param name="message">To be added.</param>

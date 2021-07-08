@@ -15,6 +15,7 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>mscorlib</AssemblyName>
@@ -27,8 +28,9 @@
     <AssemblyVersion>2.1.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
-    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Diagnostics.Tracing" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+    <TypeForwarding From="mscorlib" FromVersion="4.0.0.0" To="System.Diagnostics.Tracing" ToVersion="0.0.0.0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0" />
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Diagnostics.Tracing" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Diagnostics.Tracing" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="System.Diagnostics.Tracing" FromVersion="4.1.2.0" To="mscorlib" ToVersion="4.0.0.0" FrameworkAlternate="netframework-4.7.1" />
     <TypeForwarding From="System.Diagnostics.Tracing" FromVersion="4.2.0.0" To="mscorlib" ToVersion="4.0.0.0" FrameworkAlternate="netframework-4.7.2;netframework-4.8" />
   </TypeForwardingChain>
@@ -80,6 +82,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -124,6 +127,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -162,6 +166,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -189,7 +194,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property EventName As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ EventName { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.EventName : string" Usage="System.Diagnostics.Tracing.EventWrittenEventArgs.EventName" />
-      <MemberSignature Language="C#" Value="public string? EventName { get; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string? EventName { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Tracing</AssemblyName>
@@ -199,6 +204,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -211,7 +217,8 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the name of the event.</summary>
@@ -237,6 +244,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -275,6 +283,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -313,6 +322,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -340,7 +350,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Message As String" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::String ^ Message { System::String ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Message : string" Usage="System.Diagnostics.Tracing.EventWrittenEventArgs.Message" />
-      <MemberSignature Language="C#" Value="public string? Message { get; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public string? Message { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Tracing</AssemblyName>
@@ -352,6 +362,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -364,7 +375,8 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the message for the event.</summary>
@@ -390,6 +402,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -423,6 +436,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -447,7 +461,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Payload As ReadOnlyCollection(Of Object)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::ReadOnlyCollection&lt;System::Object ^&gt; ^ Payload { System::Collections::ObjectModel::ReadOnlyCollection&lt;System::Object ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Payload : System.Collections.ObjectModel.ReadOnlyCollection&lt;obj&gt;" Usage="System.Diagnostics.Tracing.EventWrittenEventArgs.Payload" />
-      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;object?&gt;? Payload { get; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;object?&gt;? Payload { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Tracing</AssemblyName>
@@ -459,6 +473,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -471,7 +486,8 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Object&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.1;netstandard-1.2;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Object&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.Collections.ObjectModel.ReadOnlyCollection&lt;System.Object?&gt;?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the payload for the event.</summary>
@@ -486,7 +502,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property PayloadNames As ReadOnlyCollection(Of String)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Collections::ObjectModel::ReadOnlyCollection&lt;System::String ^&gt; ^ PayloadNames { System::Collections::ObjectModel::ReadOnlyCollection&lt;System::String ^&gt; ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.PayloadNames : System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt;" Usage="System.Diagnostics.Tracing.EventWrittenEventArgs.PayloadNames" />
-      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt;? PayloadNames { get; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public System.Collections.ObjectModel.ReadOnlyCollection&lt;string&gt;? PayloadNames { get; }" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.Tracing</AssemblyName>
@@ -496,6 +512,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -508,7 +525,8 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-1.3;netstandard-1.4;netstandard-1.5;netstandard-1.6;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1">System.Collections.ObjectModel.ReadOnlyCollection&lt;System.String&gt;?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Returns a list of strings that represent the property names of the event.</summary>
@@ -533,6 +551,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -577,6 +596,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -615,6 +635,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -648,6 +669,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>
@@ -683,6 +705,7 @@ Starting with .NET Core 2.2, <xref:System.Diagnostics.Tracing.EventListener> obj
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>mscorlib</AssemblyName>

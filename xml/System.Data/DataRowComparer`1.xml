@@ -15,6 +15,7 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>netstandard</AssemblyName>
@@ -23,6 +24,8 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Data.Common" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="System.Data.DataSetExtensions" FromVersion="4.0.0.0" To="System.Data.Common" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Data.Common" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
+    <TypeForwarding From="System.Data.DataSetExtensions" FromVersion="4.0.0.0" To="System.Data.Common" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="System.Data.DataSetExtensions" FromVersion="4.0.0.0" To="System.Data.Common" ToVersion="4.2.1.0" FrameworkAlternate="netcore-3.0" />
     <TypeForwarding From="System.Data.DataSetExtensions" FromVersion="4.0.1.0" To="System.Data.Common" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
   </TypeForwardingChain>
@@ -80,6 +83,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -110,16 +114,16 @@
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public bool Equals (TRow leftRow, TRow rightRow);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(!TRow leftRow, !TRow rightRow) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Data.DataRowComparer`1.Equals(`0,`0)" />
-      <MemberSignature Language="VB.NET" Value="Public Function Equals (leftRow As TRow, rightRow As TRow) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(TRow leftRow, TRow rightRow);" />
-      <MemberSignature Language="F#" Value="override this.Equals : 'Row * 'Row -&gt; bool" Usage="dataRowComparer.Equals (leftRow, rightRow)" />
+      <MemberSignature Language="C#" Value="public bool Equals (TRow leftRow, TRow rightRow);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(!TRow leftRow, !TRow rightRow) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Data.DataRowComparer`1.Equals(`0,`0)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (leftRow As TRow, rightRow As TRow) As Boolean" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(TRow leftRow, TRow rightRow);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+      <MemberSignature Language="F#" Value="override this.Equals : 'Row * 'Row -&gt; bool" Usage="dataRowComparer.Equals (leftRow, rightRow)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
       <MemberSignature Language="C#" Value="public bool Equals (TRow? leftRow, TRow? rightRow);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IEqualityComparer`1.Equals(`0,`0)</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0">M:System.Collections.Generic.IEqualityComparer`1.Equals(`0,`0)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Data.DataSetExtensions</AssemblyName>
@@ -137,11 +141,11 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="leftRow" Type="TRow" />
-        <Parameter Name="rightRow" Type="TRow" />
+        <Parameter Name="leftRow" Type="TRow?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
+        <Parameter Name="rightRow" Type="TRow?" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;net-5.0" />
       </Parameters>
       <Docs>
         <param name="leftRow">The first <see cref="T:System.Data.DataRow" /> object to compare.</param>
@@ -187,6 +191,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>

@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Collections</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -34,27 +35,27 @@ The <xref:System.Collections.Generic.ReferenceEqualityComparer> type cannot be i
   </Docs>
   <Members>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public bool Equals (object? x, object? y);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(object x, object y) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Generic.ReferenceEqualityComparer.Equals(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Function Equals (x As Object, y As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(System::Object ^ x, System::Object ^ y);" />
-      <MemberSignature Language="F#" Value="override this.Equals : obj * obj -&gt; bool" Usage="referenceEqualityComparer.Equals (x, y)" />
+      <MemberSignature Language="C#" Value="public bool Equals (object? x, object? y);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance bool Equals(object x, object y) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Generic.ReferenceEqualityComparer.Equals(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function Equals (x As Object, y As Object) As Boolean" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual bool Equals(System::Object ^ x, System::Object ^ y);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj * obj -&gt; bool" Usage="referenceEqualityComparer.Equals (x, y)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IEqualityComparer`1.Equals(`0,`0)</InterfaceMember>
-        <InterfaceMember>M:System.Collections.IEqualityComparer.Equals(System.Object,System.Object)</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0">M:System.Collections.Generic.IEqualityComparer`1.Equals(`0,`0)</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0">M:System.Collections.IEqualityComparer.Equals(System.Object,System.Object)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="x" Type="System.Object" />
-        <Parameter Name="y" Type="System.Object" />
+        <Parameter Name="x" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="y" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="x">The first object to compare.</param>
@@ -75,26 +76,26 @@ This API is a wrapper around <xref:System.Object.ReferenceEquals(System.Object,S
       </Docs>
     </Member>
     <Member MemberName="GetHashCode">
-      <MemberSignature Language="C#" Value="public int GetHashCode (object? obj);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetHashCode(object obj) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Collections.Generic.ReferenceEqualityComparer.GetHashCode(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Function GetHashCode (obj As Object) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int GetHashCode(System::Object ^ obj);" />
-      <MemberSignature Language="F#" Value="override this.GetHashCode : obj -&gt; int" Usage="referenceEqualityComparer.GetHashCode obj" />
+      <MemberSignature Language="C#" Value="public int GetHashCode (object? obj);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance int32 GetHashCode(object obj) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Collections.Generic.ReferenceEqualityComparer.GetHashCode(System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function GetHashCode (obj As Object) As Integer" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual int GetHashCode(System::Object ^ obj);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="override this.GetHashCode : obj -&gt; int" Usage="referenceEqualityComparer.GetHashCode obj" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <Implements>
-        <InterfaceMember>M:System.Collections.Generic.IEqualityComparer`1.GetHashCode(`0)</InterfaceMember>
-        <InterfaceMember>M:System.Collections.IEqualityComparer.GetHashCode(System.Object)</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0">M:System.Collections.Generic.IEqualityComparer`1.GetHashCode(`0)</InterfaceMember>
+        <InterfaceMember FrameworkAlternate="net-5.0">M:System.Collections.IEqualityComparer.GetHashCode(System.Object)</InterfaceMember>
       </Implements>
       <AssemblyInfo>
         <AssemblyName>System.Collections</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj" Type="System.Object" />
+        <Parameter Name="obj" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="obj">The object for which to retrieve the hash code.</param>
@@ -123,6 +124,7 @@ This API is a wrapper around <xref:System.Runtime.CompilerServices.RuntimeHelper
       <AssemblyInfo>
         <AssemblyName>System.Collections</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Collections.Generic.ReferenceEqualityComparer</ReturnType>

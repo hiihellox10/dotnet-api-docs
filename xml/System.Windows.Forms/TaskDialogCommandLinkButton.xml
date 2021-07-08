@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Windows.Forms.TaskDialogButton</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,21 +38,21 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public TaskDialogCommandLinkButton (string? text, string? descriptionText = default, bool enabled = true, bool allowCloseDialog = true);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text, string descriptionText, bool enabled, bool allowCloseDialog) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.TaskDialogCommandLinkButton.#ctor(System.String,System.String,System.Boolean,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (text As String, Optional descriptionText As String = Nothing, Optional enabled As Boolean = true, Optional allowCloseDialog As Boolean = true)" />
-      <MemberSignature Language="F#" Value="new System.Windows.Forms.TaskDialogCommandLinkButton : string * string * bool * bool -&gt; System.Windows.Forms.TaskDialogCommandLinkButton" Usage="new System.Windows.Forms.TaskDialogCommandLinkButton (text, descriptionText, enabled, allowCloseDialog)" />
+      <MemberSignature Language="C#" Value="public TaskDialogCommandLinkButton (string? text, string? descriptionText = default, bool enabled = true, bool allowCloseDialog = true);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string text, string descriptionText, bool enabled, bool allowCloseDialog) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.TaskDialogCommandLinkButton.#ctor(System.String,System.String,System.Boolean,System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (text As String, Optional descriptionText As String = Nothing, Optional enabled As Boolean = true, Optional allowCloseDialog As Boolean = true)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Windows.Forms.TaskDialogCommandLinkButton : string * string * bool * bool -&gt; System.Windows.Forms.TaskDialogCommandLinkButton" Usage="new System.Windows.Forms.TaskDialogCommandLinkButton (text, descriptionText, enabled, allowCloseDialog)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="text" Type="System.String" />
-        <Parameter Name="descriptionText" Type="System.String" />
-        <Parameter Name="enabled" Type="System.Boolean" />
-        <Parameter Name="allowCloseDialog" Type="System.Boolean" />
+        <Parameter Name="text" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="descriptionText" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="enabled" Type="System.Boolean" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="allowCloseDialog" Type="System.Boolean" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="text">The text of the control.</param>
@@ -72,9 +74,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets an additional description text that will be displayed in a separate line.</summary>

@@ -15,6 +15,7 @@
     <AssemblyVersion>3.0.0.0</AssemblyVersion>
     <AssemblyVersion>3.1.0.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -26,12 +27,13 @@
   </Docs>
   <Members>
     <Member MemberName="Define">
-      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,Exception&gt; Define (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,Exception&gt; Define (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Action`2&lt;class Microsoft.Extensions.Logging.ILogger, class System.Exception&gt; Define(valuetype Microsoft.Extensions.Logging.LogLevel logLevel, valuetype Microsoft.Extensions.Logging.EventId eventId, string formatString) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Logging.LoggerMessage.Define(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Define (logLevel As LogLevel, eventId As EventId, formatString As String) As Action(Of ILogger, Exception)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; static Action&lt;Microsoft::Extensions::Logging::ILogger ^, Exception ^&gt; ^ Define(Microsoft::Extensions::Logging::LogLevel logLevel, Microsoft::Extensions::Logging::EventId eventId, System::String ^ formatString);" />
       <MemberSignature Language="F#" Value="static member Define : Microsoft.Extensions.Logging.LogLevel * Microsoft.Extensions.Logging.EventId * string -&gt; Action&lt;Microsoft.Extensions.Logging.ILogger, Exception&gt;" Usage="Microsoft.Extensions.Logging.LoggerMessage.Define (logLevel, eventId, formatString)" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,Exception?&gt; Define (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Logging.Abstractions</AssemblyName>
@@ -43,9 +45,11 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Action&lt;Microsoft.Extensions.Logging.ILogger,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger?,System.Exception?&gt;?</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="logLevel" Type="Microsoft.Extensions.Logging.LogLevel" />
@@ -62,12 +66,13 @@
       </Docs>
     </Member>
     <Member MemberName="Define&lt;T1&gt;">
-      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,Exception&gt; Define&lt;T1&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,Exception&gt; Define&lt;T1&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Action`3&lt;class Microsoft.Extensions.Logging.ILogger, !!T1, class System.Exception&gt; Define&lt;T1&gt;(valuetype Microsoft.Extensions.Logging.LogLevel logLevel, valuetype Microsoft.Extensions.Logging.EventId eventId, string formatString) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Logging.LoggerMessage.Define``1(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Define(Of T1) (logLevel As LogLevel, eventId As EventId, formatString As String) As Action(Of ILogger, T1, Exception)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T1&gt;&#xA; static Action&lt;Microsoft::Extensions::Logging::ILogger ^, T1, Exception ^&gt; ^ Define(Microsoft::Extensions::Logging::LogLevel logLevel, Microsoft::Extensions::Logging::EventId eventId, System::String ^ formatString);" />
       <MemberSignature Language="F#" Value="static member Define : Microsoft.Extensions.Logging.LogLevel * Microsoft.Extensions.Logging.EventId * string -&gt; Action&lt;Microsoft.Extensions.Logging.ILogger, 'T1, Exception&gt;" Usage="Microsoft.Extensions.Logging.LoggerMessage.Define (logLevel, eventId, formatString)" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,Exception?&gt; Define&lt;T1&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Logging.Abstractions</AssemblyName>
@@ -79,9 +84,11 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Action&lt;Microsoft.Extensions.Logging.ILogger,T1,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger,T1,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger?,T1?,System.Exception?&gt;?</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T1" />
@@ -102,12 +109,13 @@
       </Docs>
     </Member>
     <Member MemberName="Define&lt;T1,T2&gt;">
-      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,Exception&gt; Define&lt;T1,T2&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,Exception&gt; Define&lt;T1,T2&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Action`4&lt;class Microsoft.Extensions.Logging.ILogger, !!T1, !!T2, class System.Exception&gt; Define&lt;T1, T2&gt;(valuetype Microsoft.Extensions.Logging.LogLevel logLevel, valuetype Microsoft.Extensions.Logging.EventId eventId, string formatString) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Logging.LoggerMessage.Define``2(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Define(Of T1, T2) (logLevel As LogLevel, eventId As EventId, formatString As String) As Action(Of ILogger, T1, T2, Exception)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T1, typename T2&gt;&#xA; static Action&lt;Microsoft::Extensions::Logging::ILogger ^, T1, T2, Exception ^&gt; ^ Define(Microsoft::Extensions::Logging::LogLevel logLevel, Microsoft::Extensions::Logging::EventId eventId, System::String ^ formatString);" />
       <MemberSignature Language="F#" Value="static member Define : Microsoft.Extensions.Logging.LogLevel * Microsoft.Extensions.Logging.EventId * string -&gt; Action&lt;Microsoft.Extensions.Logging.ILogger, 'T1, 'T2, Exception&gt;" Usage="Microsoft.Extensions.Logging.LoggerMessage.Define (logLevel, eventId, formatString)" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,Exception?&gt; Define&lt;T1,T2&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Logging.Abstractions</AssemblyName>
@@ -119,9 +127,11 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger?,T1?,T2?,System.Exception?&gt;?</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T1" />
@@ -144,12 +154,13 @@
       </Docs>
     </Member>
     <Member MemberName="Define&lt;T1,T2,T3&gt;">
-      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,Exception&gt; Define&lt;T1,T2,T3&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,Exception&gt; Define&lt;T1,T2,T3&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Action`5&lt;class Microsoft.Extensions.Logging.ILogger, !!T1, !!T2, !!T3, class System.Exception&gt; Define&lt;T1, T2, T3&gt;(valuetype Microsoft.Extensions.Logging.LogLevel logLevel, valuetype Microsoft.Extensions.Logging.EventId eventId, string formatString) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Logging.LoggerMessage.Define``3(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Define(Of T1, T2, T3) (logLevel As LogLevel, eventId As EventId, formatString As String) As Action(Of ILogger, T1, T2, T3, Exception)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T1, typename T2, typename T3&gt;&#xA; static Action&lt;Microsoft::Extensions::Logging::ILogger ^, T1, T2, T3, Exception ^&gt; ^ Define(Microsoft::Extensions::Logging::LogLevel logLevel, Microsoft::Extensions::Logging::EventId eventId, System::String ^ formatString);" />
       <MemberSignature Language="F#" Value="static member Define : Microsoft.Extensions.Logging.LogLevel * Microsoft.Extensions.Logging.EventId * string -&gt; Action&lt;Microsoft.Extensions.Logging.ILogger, 'T1, 'T2, 'T3, Exception&gt;" Usage="Microsoft.Extensions.Logging.LoggerMessage.Define (logLevel, eventId, formatString)" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,Exception?&gt; Define&lt;T1,T2,T3&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Logging.Abstractions</AssemblyName>
@@ -161,9 +172,11 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger?,T1?,T2?,T3?,System.Exception?&gt;?</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T1" />
@@ -188,12 +201,13 @@
       </Docs>
     </Member>
     <Member MemberName="Define&lt;T1,T2,T3,T4&gt;">
-      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,Exception&gt; Define&lt;T1,T2,T3,T4&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,Exception&gt; Define&lt;T1,T2,T3,T4&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Action`6&lt;class Microsoft.Extensions.Logging.ILogger, !!T1, !!T2, !!T3, !!T4, class System.Exception&gt; Define&lt;T1, T2, T3, T4&gt;(valuetype Microsoft.Extensions.Logging.LogLevel logLevel, valuetype Microsoft.Extensions.Logging.EventId eventId, string formatString) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Logging.LoggerMessage.Define``4(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Define(Of T1, T2, T3, T4) (logLevel As LogLevel, eventId As EventId, formatString As String) As Action(Of ILogger, T1, T2, T3, T4, Exception)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T1, typename T2, typename T3, typename T4&gt;&#xA; static Action&lt;Microsoft::Extensions::Logging::ILogger ^, T1, T2, T3, T4, Exception ^&gt; ^ Define(Microsoft::Extensions::Logging::LogLevel logLevel, Microsoft::Extensions::Logging::EventId eventId, System::String ^ formatString);" />
       <MemberSignature Language="F#" Value="static member Define : Microsoft.Extensions.Logging.LogLevel * Microsoft.Extensions.Logging.EventId * string -&gt; Action&lt;Microsoft.Extensions.Logging.ILogger, 'T1, 'T2, 'T3, 'T4, Exception&gt;" Usage="Microsoft.Extensions.Logging.LoggerMessage.Define (logLevel, eventId, formatString)" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,Exception?&gt; Define&lt;T1,T2,T3,T4&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Logging.Abstractions</AssemblyName>
@@ -205,9 +219,11 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger?,T1?,T2?,T3?,T4?,System.Exception?&gt;?</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T1" />
@@ -234,12 +250,13 @@
       </Docs>
     </Member>
     <Member MemberName="Define&lt;T1,T2,T3,T4,T5&gt;">
-      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,Exception&gt; Define&lt;T1,T2,T3,T4,T5&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,Exception&gt; Define&lt;T1,T2,T3,T4,T5&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Action`7&lt;class Microsoft.Extensions.Logging.ILogger, !!T1, !!T2, !!T3, !!T4, !!T5, class System.Exception&gt; Define&lt;T1, T2, T3, T4, T5&gt;(valuetype Microsoft.Extensions.Logging.LogLevel logLevel, valuetype Microsoft.Extensions.Logging.EventId eventId, string formatString) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Logging.LoggerMessage.Define``5(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Define(Of T1, T2, T3, T4, T5) (logLevel As LogLevel, eventId As EventId, formatString As String) As Action(Of ILogger, T1, T2, T3, T4, T5, Exception)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T1, typename T2, typename T3, typename T4, typename T5&gt;&#xA; static Action&lt;Microsoft::Extensions::Logging::ILogger ^, T1, T2, T3, T4, T5, Exception ^&gt; ^ Define(Microsoft::Extensions::Logging::LogLevel logLevel, Microsoft::Extensions::Logging::EventId eventId, System::String ^ formatString);" />
       <MemberSignature Language="F#" Value="static member Define : Microsoft.Extensions.Logging.LogLevel * Microsoft.Extensions.Logging.EventId * string -&gt; Action&lt;Microsoft.Extensions.Logging.ILogger, 'T1, 'T2, 'T3, 'T4, 'T5, Exception&gt;" Usage="Microsoft.Extensions.Logging.LoggerMessage.Define (logLevel, eventId, formatString)" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,Exception?&gt; Define&lt;T1,T2,T3,T4,T5&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Logging.Abstractions</AssemblyName>
@@ -251,9 +268,11 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger?,T1?,T2?,T3?,T4?,T5?,System.Exception?&gt;?</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T1" />
@@ -282,12 +301,13 @@
       </Docs>
     </Member>
     <Member MemberName="Define&lt;T1,T2,T3,T4,T5,T6&gt;">
-      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,T6,Exception&gt; Define&lt;T1,T2,T3,T4,T5,T6&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,T6,Exception&gt; Define&lt;T1,T2,T3,T4,T5,T6&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.Action`8&lt;class Microsoft.Extensions.Logging.ILogger, !!T1, !!T2, !!T3, !!T4, !!T5, !!T6, class System.Exception&gt; Define&lt;T1, T2, T3, T4, T5, T6&gt;(valuetype Microsoft.Extensions.Logging.LogLevel logLevel, valuetype Microsoft.Extensions.Logging.EventId eventId, string formatString) cil managed" />
       <MemberSignature Language="DocId" Value="M:Microsoft.Extensions.Logging.LoggerMessage.Define``6(Microsoft.Extensions.Logging.LogLevel,Microsoft.Extensions.Logging.EventId,System.String)" />
       <MemberSignature Language="VB.NET" Value="Public Shared Function Define(Of T1, T2, T3, T4, T5, T6) (logLevel As LogLevel, eventId As EventId, formatString As String) As Action(Of ILogger, T1, T2, T3, T4, T5, T6, Exception)" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA;generic &lt;typename T1, typename T2, typename T3, typename T4, typename T5, typename T6&gt;&#xA; static Action&lt;Microsoft::Extensions::Logging::ILogger ^, T1, T2, T3, T4, T5, T6, Exception ^&gt; ^ Define(Microsoft::Extensions::Logging::LogLevel logLevel, Microsoft::Extensions::Logging::EventId eventId, System::String ^ formatString);" />
       <MemberSignature Language="F#" Value="static member Define : Microsoft.Extensions.Logging.LogLevel * Microsoft.Extensions.Logging.EventId * string -&gt; Action&lt;Microsoft.Extensions.Logging.ILogger, 'T1, 'T2, 'T3, 'T4, 'T5, 'T6, Exception&gt;" Usage="Microsoft.Extensions.Logging.LoggerMessage.Define (logLevel, eventId, formatString)" />
+      <MemberSignature Language="C#" Value="public static Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,T6,Exception?&gt; Define&lt;T1,T2,T3,T4,T5,T6&gt; (Microsoft.Extensions.Logging.LogLevel logLevel, Microsoft.Extensions.Logging.EventId eventId, string formatString);" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Logging.Abstractions</AssemblyName>
@@ -299,9 +319,11 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,T6,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,T6,System.Exception&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Action&lt;Microsoft.Extensions.Logging.ILogger?,T1?,T2?,T3?,T4?,T5?,T6?,System.Exception?&gt;?</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T1" />
@@ -349,9 +371,11 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;Microsoft.Extensions.Logging.ILogger,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger?,System.IDisposable?&gt;?</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="formatString" Type="System.String" />
@@ -381,9 +405,11 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;Microsoft.Extensions.Logging.ILogger,T1,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger,T1,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger?,T1?,System.IDisposable?&gt;?</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T1" />
@@ -417,9 +443,11 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger?,T1?,T2?,System.IDisposable?&gt;?</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T1" />
@@ -455,9 +483,11 @@
         <AssemblyVersion>3.0.0.0</AssemblyVersion>
         <AssemblyVersion>3.1.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-1.0;dotnet-plat-ext-1.1;dotnet-plat-ext-2.0;dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger?,T1?,T2?,T3?,System.IDisposable?&gt;?</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T1" />
@@ -488,9 +518,11 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Logging.Abstractions</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger?,T1?,T2?,T3?,T4?,System.IDisposable?&gt;?</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T1" />
@@ -499,7 +531,7 @@
         <TypeParameter Name="T4" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="formatString" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-5.0" />
+        <Parameter Name="formatString" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter passed to the named format string.</typeparam>
@@ -523,9 +555,11 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Logging.Abstractions</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger?,T1?,T2?,T3?,T4?,T5?,System.IDisposable?&gt;?</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T1" />
@@ -535,7 +569,7 @@
         <TypeParameter Name="T5" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="formatString" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-5.0" />
+        <Parameter Name="formatString" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter passed to the named format string.</typeparam>
@@ -560,9 +594,11 @@
       <AssemblyInfo>
         <AssemblyName>Microsoft.Extensions.Logging.Abstractions</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,T6,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger,T1,T2,T3,T4,T5,T6,System.IDisposable&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.Func&lt;Microsoft.Extensions.Logging.ILogger?,T1?,T2?,T3?,T4?,T5?,T6?,System.IDisposable?&gt;?</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T1" />
@@ -573,7 +609,7 @@
         <TypeParameter Name="T6" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="formatString" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-5.0" />
+        <Parameter Name="formatString" Type="System.String" Index="0" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="T1">The type of the first parameter passed to the named format string.</typeparam>

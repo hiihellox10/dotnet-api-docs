@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,9 +30,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Windows.Forms.TaskDialogPage</ReturnType>
+        <ReturnType>System.Windows.Forms.TaskDialogPage?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the <see cref="T:System.Windows.Forms.TaskDialogPage" /> instance which this control is currently bound to.</summary>
@@ -60,9 +62,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType>System.Object?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the object that contains data about the control.</summary>

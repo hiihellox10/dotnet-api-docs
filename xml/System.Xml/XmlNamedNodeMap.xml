@@ -28,10 +28,13 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.ReaderWriter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="System.Xml.XmlDocument" FromVersion="5.0.0.0" To="System.Xml.ReaderWriter" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Xml.ReaderWriter" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
+    <TypeForwarding From="System.Xml.XmlDocument" FromVersion="6.0.0.0" To="System.Xml.ReaderWriter" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="System.Xml.XmlDocument" FromVersion="4.1.0.0" To="System.Xml.ReaderWriter" ToVersion="4.2.0.0" FrameworkAlternate="netcore-2.0" />
     <TypeForwarding From="System.Xml.XmlDocument" FromVersion="4.1.1.0" To="System.Xml.ReaderWriter" ToVersion="4.2.1.0" FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0" />
     <TypeForwarding From="System.Xml.XmlDocument" FromVersion="4.1.2.0" To="System.Xml.ReaderWriter" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
@@ -98,6 +101,7 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2">
@@ -159,9 +163,11 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.IEnumerator</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Collections.IEnumerator</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Collections.IEnumerator?</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -197,7 +203,7 @@
       <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNamedItem (name As String) As XmlNode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Xml::XmlNode ^ GetNamedItem(System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member GetNamedItem : string -&gt; System.Xml.XmlNode&#xA;override this.GetNamedItem : string -&gt; System.Xml.XmlNode" Usage="xmlNamedNodeMap.GetNamedItem name" />
-      <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode? GetNamedItem (string name);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode? GetNamedItem (string name);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlDocument</AssemblyName>
@@ -222,9 +228,11 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Xml.XmlNode</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Xml.XmlNode</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Xml.XmlNode?</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -248,12 +256,12 @@
       </Docs>
     </Member>
     <Member MemberName="GetNamedItem">
-      <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode GetNamedItem (string localName, string namespaceURI);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Xml.XmlNode GetNamedItem(string localName, string namespaceURI) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.XmlNamedNodeMap.GetNamedItem(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNamedItem (localName As String, namespaceURI As String) As XmlNode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Xml::XmlNode ^ GetNamedItem(System::String ^ localName, System::String ^ namespaceURI);" />
-      <MemberSignature Language="F#" Value="abstract member GetNamedItem : string * string -&gt; System.Xml.XmlNode&#xA;override this.GetNamedItem : string * string -&gt; System.Xml.XmlNode" Usage="xmlNamedNodeMap.GetNamedItem (localName, namespaceURI)" />
+      <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode GetNamedItem (string localName, string namespaceURI);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Xml.XmlNode GetNamedItem(string localName, string namespaceURI) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.XmlNamedNodeMap.GetNamedItem(System.String,System.String)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function GetNamedItem (localName As String, namespaceURI As String) As XmlNode" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Xml::XmlNode ^ GetNamedItem(System::String ^ localName, System::String ^ namespaceURI);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member GetNamedItem : string * string -&gt; System.Xml.XmlNode&#xA;override this.GetNamedItem : string * string -&gt; System.Xml.XmlNode" Usage="xmlNamedNodeMap.GetNamedItem (localName, namespaceURI)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode? GetNamedItem (string localName, string? namespaceURI);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -281,11 +289,12 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Xml.XmlNode</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0">System.Xml.XmlNode</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Xml.XmlNode?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="localName" Type="System.String" />
-        <Parameter Name="namespaceURI" Type="System.String" />
+        <Parameter Name="localName" Type="System.String" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="namespaceURI" Type="System.String?" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="localName">The local name of the node to retrieve.</param>
@@ -302,7 +311,7 @@
       <MemberSignature Language="VB.NET" Value="Public Overridable Function Item (index As Integer) As XmlNode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Xml::XmlNode ^ Item(int index);" />
       <MemberSignature Language="F#" Value="abstract member Item : int -&gt; System.Xml.XmlNode&#xA;override this.Item : int -&gt; System.Xml.XmlNode" Usage="xmlNamedNodeMap.Item index" />
-      <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode? Item (int index);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode? Item (int index);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlDocument</AssemblyName>
@@ -327,9 +336,11 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Xml.XmlNode</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Xml.XmlNode</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Xml.XmlNode?</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="index" Type="System.Int32" />
@@ -368,7 +379,7 @@
       <MemberSignature Language="VB.NET" Value="Public Overridable Function RemoveNamedItem (name As String) As XmlNode" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Xml::XmlNode ^ RemoveNamedItem(System::String ^ name);" />
       <MemberSignature Language="F#" Value="abstract member RemoveNamedItem : string -&gt; System.Xml.XmlNode&#xA;override this.RemoveNamedItem : string -&gt; System.Xml.XmlNode" Usage="xmlNamedNodeMap.RemoveNamedItem name" />
-      <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode? RemoveNamedItem (string name);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode? RemoveNamedItem (string name);" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Xml.XmlDocument</AssemblyName>
@@ -393,9 +404,11 @@
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Xml.XmlNode</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Xml.XmlNode</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Xml.XmlNode?</ReturnType>
       </ReturnValue>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -419,12 +432,12 @@
       </Docs>
     </Member>
     <Member MemberName="RemoveNamedItem">
-      <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode RemoveNamedItem (string localName, string namespaceURI);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Xml.XmlNode RemoveNamedItem(string localName, string namespaceURI) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.XmlNamedNodeMap.RemoveNamedItem(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function RemoveNamedItem (localName As String, namespaceURI As String) As XmlNode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Xml::XmlNode ^ RemoveNamedItem(System::String ^ localName, System::String ^ namespaceURI);" />
-      <MemberSignature Language="F#" Value="abstract member RemoveNamedItem : string * string -&gt; System.Xml.XmlNode&#xA;override this.RemoveNamedItem : string * string -&gt; System.Xml.XmlNode" Usage="xmlNamedNodeMap.RemoveNamedItem (localName, namespaceURI)" />
+      <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode RemoveNamedItem (string localName, string namespaceURI);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Xml.XmlNode RemoveNamedItem(string localName, string namespaceURI) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.XmlNamedNodeMap.RemoveNamedItem(System.String,System.String)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function RemoveNamedItem (localName As String, namespaceURI As String) As XmlNode" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Xml::XmlNode ^ RemoveNamedItem(System::String ^ localName, System::String ^ namespaceURI);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member RemoveNamedItem : string * string -&gt; System.Xml.XmlNode&#xA;override this.RemoveNamedItem : string * string -&gt; System.Xml.XmlNode" Usage="xmlNamedNodeMap.RemoveNamedItem (localName, namespaceURI)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode? RemoveNamedItem (string localName, string? namespaceURI);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -452,11 +465,12 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Xml.XmlNode</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0">System.Xml.XmlNode</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Xml.XmlNode?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="localName" Type="System.String" />
-        <Parameter Name="namespaceURI" Type="System.String" />
+        <Parameter Name="localName" Type="System.String" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="namespaceURI" Type="System.String?" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="localName">The local name of the node to remove.</param>
@@ -467,12 +481,12 @@
       </Docs>
     </Member>
     <Member MemberName="SetNamedItem">
-      <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode SetNamedItem (System.Xml.XmlNode node);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Xml.XmlNode SetNamedItem(class System.Xml.XmlNode node) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Xml.XmlNamedNodeMap.SetNamedItem(System.Xml.XmlNode)" />
-      <MemberSignature Language="VB.NET" Value="Public Overridable Function SetNamedItem (node As XmlNode) As XmlNode" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Xml::XmlNode ^ SetNamedItem(System::Xml::XmlNode ^ node);" />
-      <MemberSignature Language="F#" Value="abstract member SetNamedItem : System.Xml.XmlNode -&gt; System.Xml.XmlNode&#xA;override this.SetNamedItem : System.Xml.XmlNode -&gt; System.Xml.XmlNode" Usage="xmlNamedNodeMap.SetNamedItem node" />
+      <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode SetNamedItem (System.Xml.XmlNode node);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance class System.Xml.XmlNode SetNamedItem(class System.Xml.XmlNode node) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Xml.XmlNamedNodeMap.SetNamedItem(System.Xml.XmlNode)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overridable Function SetNamedItem (node As XmlNode) As XmlNode" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; virtual System::Xml::XmlNode ^ SetNamedItem(System::Xml::XmlNode ^ node);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member SetNamedItem : System.Xml.XmlNode -&gt; System.Xml.XmlNode&#xA;override this.SetNamedItem : System.Xml.XmlNode -&gt; System.Xml.XmlNode" Usage="xmlNamedNodeMap.SetNamedItem node" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public virtual System.Xml.XmlNode? SetNamedItem (System.Xml.XmlNode? node);" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
@@ -500,10 +514,11 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Xml.XmlNode</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0">System.Xml.XmlNode</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Xml.XmlNode?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="node" Type="System.Xml.XmlNode" />
+        <Parameter Name="node" Type="System.Xml.XmlNode?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="node">An <see langword="XmlNode" /> to store in the <see langword="XmlNamedNodeMap" />. If a node with that name is already present in the map, it is replaced by the new one.</param>

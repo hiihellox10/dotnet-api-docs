@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -32,6 +33,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -50,9 +52,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Action&lt;System.Diagnostics.Activity&gt;</ReturnType>
+        <ReturnType>System.Action&lt;System.Diagnostics.Activity&gt;?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the callback used to listen to the activity start event.</summary>
@@ -71,9 +74,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Action&lt;System.Diagnostics.Activity&gt;</ReturnType>
+        <ReturnType>System.Action&lt;System.Diagnostics.Activity&gt;?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the callback used to listen to the activity stop event.</summary>
@@ -95,6 +99,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -116,9 +121,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Diagnostics.SampleActivity&lt;System.Diagnostics.ActivityContext&gt;</ReturnType>
+        <ReturnType>System.Diagnostics.SampleActivity&lt;System.Diagnostics.ActivityContext&gt;?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the callback that is used to decide if creating <see cref="T:System.Diagnostics.Activity" /> objects with a specific data state is allowed.</summary>
@@ -137,9 +143,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Diagnostics.SampleActivity&lt;System.String&gt;</ReturnType>
+        <ReturnType>System.Diagnostics.SampleActivity&lt;System.String&gt;?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the callback that is used to decide if creating <see cref="T:System.Diagnostics.Activity" /> objects with a specific data state is allowed.</summary>
@@ -158,9 +165,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Func&lt;System.Diagnostics.ActivitySource,System.Boolean&gt;</ReturnType>
+        <ReturnType>System.Func&lt;System.Diagnostics.ActivitySource,System.Boolean&gt;?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the callback that allows deciding if activity object events that were created using the activity source object should be listened or not.</summary>

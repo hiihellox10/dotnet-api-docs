@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Memory.Data</AssemblyName>
     <AssemblyVersion>1.0.1.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="data" Type="System.Byte[]" />
@@ -50,6 +52,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="data" Type="System.ReadOnlyMemory&lt;System.Byte&gt;" />
@@ -71,6 +74,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="data" Type="System.String" />
@@ -82,20 +86,20 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public BinaryData (object? jsonSerializable, System.Text.Json.JsonSerializerOptions? options = default, Type? type = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object jsonSerializable, class System.Text.Json.JsonSerializerOptions options, class System.Type type) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.BinaryData.#ctor(System.Object,System.Text.Json.JsonSerializerOptions,System.Type)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (jsonSerializable As Object, Optional options As JsonSerializerOptions = Nothing, Optional type As Type = Nothing)" />
-      <MemberSignature Language="F#" Value="new BinaryData : obj * System.Text.Json.JsonSerializerOptions * Type -&gt; BinaryData" Usage="new System.BinaryData (jsonSerializable, options, type)" />
+      <MemberSignature Language="C#" Value="public BinaryData (object? jsonSerializable, System.Text.Json.JsonSerializerOptions? options = default, Type? type = default);" FrameworkAlternate="dotnet-plat-ext-2.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object jsonSerializable, class System.Text.Json.JsonSerializerOptions options, class System.Type type) cil managed" FrameworkAlternate="dotnet-plat-ext-2.0" />
+      <MemberSignature Language="DocId" Value="M:System.BinaryData.#ctor(System.Object,System.Text.Json.JsonSerializerOptions,System.Type)" FrameworkAlternate="dotnet-plat-ext-2.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (jsonSerializable As Object, Optional options As JsonSerializerOptions = Nothing, Optional type As Type = Nothing)" FrameworkAlternate="dotnet-plat-ext-2.0" />
+      <MemberSignature Language="F#" Value="new BinaryData : obj * System.Text.Json.JsonSerializerOptions * Type -&gt; BinaryData" Usage="new System.BinaryData (jsonSerializable, options, type)" FrameworkAlternate="dotnet-plat-ext-2.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="jsonSerializable" Type="System.Object" />
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" />
-        <Parameter Name="type" Type="System.Type" />
+        <Parameter Name="jsonSerializable" Type="System.Object?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.0" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions?" Index="1" FrameworkAlternate="dotnet-plat-ext-2.0" />
+        <Parameter Name="type" Type="System.Type?" Index="2" FrameworkAlternate="dotnet-plat-ext-2.0" />
       </Parameters>
       <Docs>
         <param name="jsonSerializable">To be added.</param>
@@ -105,29 +109,50 @@
         <remarks>To be added.</remarks>
       </Docs>
     </Member>
+    <Member MemberName="Empty">
+      <MemberSignature Language="C#" Value="public static BinaryData Empty { get; }" />
+      <MemberSignature Language="ILAsm" Value=".property class System.BinaryData Empty" />
+      <MemberSignature Language="DocId" Value="P:System.BinaryData.Empty" />
+      <MemberSignature Language="VB.NET" Value="Public Shared ReadOnly Property Empty As BinaryData" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static property BinaryData ^ Empty { BinaryData ^ get(); };" />
+      <MemberSignature Language="F#" Value="member this.Empty : BinaryData" Usage="System.BinaryData.Empty" />
+      <MemberType>Property</MemberType>
+      <AssemblyInfo>
+        <AssemblyName>System.Memory.Data</AssemblyName>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
+      </AssemblyInfo>
+      <ReturnValue>
+        <ReturnType>System.BinaryData</ReturnType>
+      </ReturnValue>
+      <Docs>
+        <summary>To be added.</summary>
+        <value>To be added.</value>
+        <remarks>To be added.</remarks>
+      </Docs>
+    </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.BinaryData.Equals(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="binaryData.Equals obj" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.BinaryData.Equals(System.Object)" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="binaryData.Equals obj" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="dotnet-plat-ext-5.0">
           <AttributeName Language="C#">[System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.ComponentModel.EditorBrowsable(System.ComponentModel.EditorBrowsableState.Never)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj" Type="System.Object" />
+        <Parameter Name="obj" Type="System.Object?" Index="0" FrameworkAlternate="dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="obj">To be added.</param>
@@ -147,6 +172,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -172,6 +198,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -187,25 +214,25 @@
       </Docs>
     </Member>
     <Member MemberName="FromObjectAsJson&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public static BinaryData FromObjectAsJson&lt;T&gt; (T jsonSerializable, System.Text.Json.JsonSerializerOptions? options = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.BinaryData FromObjectAsJson&lt;T&gt;(!!T jsonSerializable, class System.Text.Json.JsonSerializerOptions options) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.BinaryData.FromObjectAsJson``1(``0,System.Text.Json.JsonSerializerOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function FromObjectAsJson(Of T) (jsonSerializable As T, Optional options As JsonSerializerOptions = Nothing) As BinaryData" />
-      <MemberSignature Language="F#" Value="static member FromObjectAsJson : 'T * System.Text.Json.JsonSerializerOptions -&gt; BinaryData" Usage="System.BinaryData.FromObjectAsJson (jsonSerializable, options)" />
+      <MemberSignature Language="C#" Value="public static BinaryData FromObjectAsJson&lt;T&gt; (T jsonSerializable, System.Text.Json.JsonSerializerOptions? options = default);" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig class System.BinaryData FromObjectAsJson&lt;T&gt;(!!T jsonSerializable, class System.Text.Json.JsonSerializerOptions options) cil managed" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.BinaryData.FromObjectAsJson``1(``0,System.Text.Json.JsonSerializerOptions)" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function FromObjectAsJson(Of T) (jsonSerializable As T, Optional options As JsonSerializerOptions = Nothing) As BinaryData" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="F#" Value="static member FromObjectAsJson : 'T * System.Text.Json.JsonSerializerOptions -&gt; BinaryData" Usage="System.BinaryData.FromObjectAsJson (jsonSerializable, options)" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.BinaryData</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.BinaryData</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="jsonSerializable" Type="T" />
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" />
+        <Parameter Name="jsonSerializable" Type="T" Index="0" FrameworkAlternate="dotnet-plat-ext-6.0" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions?" Index="1" FrameworkAlternate="dotnet-plat-ext-6.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
@@ -227,6 +254,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -251,6 +279,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Threading.Tasks.Task&lt;System.BinaryData&gt;</ReturnType>
@@ -278,6 +307,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.BinaryData</ReturnType>
@@ -303,6 +333,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute>
@@ -321,22 +352,22 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator ReadOnlyMemory&lt;byte&gt; (BinaryData? data);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; op_Implicit(class System.BinaryData data) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.BinaryData.op_Implicit(System.BinaryData)~System.ReadOnlyMemory{System.Byte}" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (data As BinaryData) As ReadOnlyMemory(Of Byte)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator ReadOnlyMemory&lt;System::Byte&gt;(BinaryData ^ data);" />
-      <MemberSignature Language="F#" Value="static member op_Implicit : BinaryData -&gt; ReadOnlyMemory&lt;byte&gt;" Usage="System.BinaryData.op_Implicit data" />
+      <MemberSignature Language="C#" Value="public static implicit operator ReadOnlyMemory&lt;byte&gt; (BinaryData? data);" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; op_Implicit(class System.BinaryData data) cil managed" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.BinaryData.op_Implicit(System.BinaryData)~System.ReadOnlyMemory{System.Byte}" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (data As BinaryData) As ReadOnlyMemory(Of Byte)" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator ReadOnlyMemory&lt;System::Byte&gt;(BinaryData ^ data);" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : BinaryData -&gt; ReadOnlyMemory&lt;byte&gt;" Usage="System.BinaryData.op_Implicit data" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.ReadOnlyMemory&lt;System.Byte&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.ReadOnlyMemory&lt;System.Byte&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="data" Type="System.BinaryData?" Index="0" FrameworkAlternate="dotnet-plat-ext-6.0" />
       </Parameters>
       <Docs>
         <param name="data">To be added.</param>
@@ -346,22 +377,22 @@
       </Docs>
     </Member>
     <Member MemberName="op_Implicit">
-      <MemberSignature Language="C#" Value="public static implicit operator ReadOnlySpan&lt;byte&gt; (BinaryData? data);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; op_Implicit(class System.BinaryData data) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.BinaryData.op_Implicit(System.BinaryData)~System.ReadOnlySpan{System.Byte}" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (data As BinaryData) As ReadOnlySpan(Of Byte)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator ReadOnlySpan&lt;System::Byte&gt;(BinaryData ^ data);" />
-      <MemberSignature Language="F#" Value="static member op_Implicit : BinaryData -&gt; ReadOnlySpan&lt;byte&gt;" Usage="System.BinaryData.op_Implicit data" />
+      <MemberSignature Language="C#" Value="public static implicit operator ReadOnlySpan&lt;byte&gt; (BinaryData? data);" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig specialname valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; op_Implicit(class System.BinaryData data) cil managed" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.BinaryData.op_Implicit(System.BinaryData)~System.ReadOnlySpan{System.Byte}" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Widening Operator CType (data As BinaryData) As ReadOnlySpan(Of Byte)" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static operator ReadOnlySpan&lt;System::Byte&gt;(BinaryData ^ data);" FrameworkAlternate="dotnet-plat-ext-6.0" />
+      <MemberSignature Language="F#" Value="static member op_Implicit : BinaryData -&gt; ReadOnlySpan&lt;byte&gt;" Usage="System.BinaryData.op_Implicit data" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
-        <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.ReadOnlySpan&lt;System.Byte&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-6.0">System.ReadOnlySpan&lt;System.Byte&gt;</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.BinaryData" />
+        <Parameter Name="data" Type="System.BinaryData?" Index="0" FrameworkAlternate="dotnet-plat-ext-6.0" />
       </Parameters>
       <Docs>
         <param name="data">To be added.</param>
@@ -381,6 +412,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Byte[]</ReturnType>
@@ -403,6 +435,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.ReadOnlyMemory&lt;System.Byte&gt;</ReturnType>
@@ -415,24 +448,24 @@
       </Docs>
     </Member>
     <Member MemberName="ToObjectFromJson&lt;T&gt;">
-      <MemberSignature Language="C#" Value="public T ToObjectFromJson&lt;T&gt; (System.Text.Json.JsonSerializerOptions? options = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!T ToObjectFromJson&lt;T&gt;(class System.Text.Json.JsonSerializerOptions options) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.BinaryData.ToObjectFromJson``1(System.Text.Json.JsonSerializerOptions)" />
-      <MemberSignature Language="VB.NET" Value="Public Function ToObjectFromJson(Of T) (Optional options As JsonSerializerOptions = Nothing) As T" />
-      <MemberSignature Language="F#" Value="member this.ToObjectFromJson : System.Text.Json.JsonSerializerOptions -&gt; 'T" Usage="binaryData.ToObjectFromJson options" />
+      <MemberSignature Language="C#" Value="public T ToObjectFromJson&lt;T&gt; (System.Text.Json.JsonSerializerOptions? options = default);" FrameworkAlternate="dotnet-plat-ext-2.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance !!T ToObjectFromJson&lt;T&gt;(class System.Text.Json.JsonSerializerOptions options) cil managed" FrameworkAlternate="dotnet-plat-ext-2.0" />
+      <MemberSignature Language="DocId" Value="M:System.BinaryData.ToObjectFromJson``1(System.Text.Json.JsonSerializerOptions)" FrameworkAlternate="dotnet-plat-ext-2.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function ToObjectFromJson(Of T) (Optional options As JsonSerializerOptions = Nothing) As T" FrameworkAlternate="dotnet-plat-ext-2.0" />
+      <MemberSignature Language="F#" Value="member this.ToObjectFromJson : System.Text.Json.JsonSerializerOptions -&gt; 'T" Usage="binaryData.ToObjectFromJson options" FrameworkAlternate="dotnet-plat-ext-2.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>T</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.0">T</ReturnType>
       </ReturnValue>
       <TypeParameters>
         <TypeParameter Name="T" />
       </TypeParameters>
       <Parameters>
-        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions" />
+        <Parameter Name="options" Type="System.Text.Json.JsonSerializerOptions?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.0" />
       </Parameters>
       <Docs>
         <typeparam name="T">To be added.</typeparam>
@@ -453,6 +486,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.IO.Stream</ReturnType>
@@ -475,6 +509,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Memory.Data</AssemblyName>
         <AssemblyVersion>1.0.1.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

@@ -20,6 +20,7 @@
     <AssemblyVersion>4.0.4.0</AssemblyVersion>
     <AssemblyVersion>4.0.5.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System.ServiceModel.Web</AssemblyName>
@@ -27,6 +28,7 @@
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Json" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime.Serialization.Json" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="System.ServiceModel.Web" FromVersion="4.0.0.0" To="System.Runtime.Serialization" ToVersion="4.0.0.0" FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   </TypeForwardingChain>
   <Interfaces />
@@ -70,12 +72,11 @@
     </MemberGroup>
     <Member MemberName="SetInput">
       <MemberSignature Language="C#" Value="public void SetInput (System.IO.Stream stream, System.Text.Encoding? encoding, System.Xml.XmlDictionaryReaderQuotas quotas, System.Xml.OnXmlDictionaryReaderClose? onClose);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetInput(class System.IO.Stream stream, class System.Text.Encoding encoding, class System.Xml.XmlDictionaryReaderQuotas quotas, class System.Xml.OnXmlDictionaryReaderClose onClose) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Serialization.Json.IXmlJsonReaderInitializer.SetInput(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub SetInput (stream As Stream, encoding As Encoding, quotas As XmlDictionaryReaderQuotas, onClose As OnXmlDictionaryReaderClose)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetInput(System::IO::Stream ^ stream, System::Text::Encoding ^ encoding, System::Xml::XmlDictionaryReaderQuotas ^ quotas, System::Xml::OnXmlDictionaryReaderClose ^ onClose);" />
-      <MemberSignature Language="F#" Value="abstract member SetInput : System.IO.Stream * System.Text.Encoding * System.Xml.XmlDictionaryReaderQuotas * System.Xml.OnXmlDictionaryReaderClose -&gt; unit" Usage="iXmlJsonReaderInitializer.SetInput (stream, encoding, quotas, onClose)" />
-      <MemberSignature Language="C#" Value="public void SetInput (System.IO.Stream stream, System.Text.Encoding encoding, System.Xml.XmlDictionaryReaderQuotas quotas, System.Xml.OnXmlDictionaryReaderClose onClose);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetInput(class System.IO.Stream stream, class System.Text.Encoding encoding, class System.Xml.XmlDictionaryReaderQuotas quotas, class System.Xml.OnXmlDictionaryReaderClose onClose) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Serialization.Json.IXmlJsonReaderInitializer.SetInput(System.IO.Stream,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetInput (stream As Stream, encoding As Encoding, quotas As XmlDictionaryReaderQuotas, onClose As OnXmlDictionaryReaderClose)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetInput(System::IO::Stream ^ stream, System::Text::Encoding ^ encoding, System::Xml::XmlDictionaryReaderQuotas ^ quotas, System::Xml::OnXmlDictionaryReaderClose ^ onClose);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member SetInput : System.IO.Stream * System.Text.Encoding * System.Xml.XmlDictionaryReaderQuotas * System.Xml.OnXmlDictionaryReaderClose -&gt; unit" Usage="iXmlJsonReaderInitializer.SetInput (stream, encoding, quotas, onClose)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Serialization</AssemblyName>
@@ -98,13 +99,13 @@
         <AssemblyVersion>3.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="stream" Type="System.IO.Stream" />
-        <Parameter Name="encoding" Type="System.Text.Encoding" />
-        <Parameter Name="quotas" Type="System.Xml.XmlDictionaryReaderQuotas" />
-        <Parameter Name="onClose" Type="System.Xml.OnXmlDictionaryReaderClose" />
+        <Parameter Name="stream" Type="System.IO.Stream" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="encoding" Type="System.Text.Encoding?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="quotas" Type="System.Xml.XmlDictionaryReaderQuotas" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="onClose" Type="System.Xml.OnXmlDictionaryReaderClose?" Index="3" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="stream">The input <see cref="T:System.IO.Stream" /> from which to read.</param>
@@ -129,12 +130,11 @@
     </Member>
     <Member MemberName="SetInput">
       <MemberSignature Language="C#" Value="public void SetInput (byte[] buffer, int offset, int count, System.Text.Encoding? encoding, System.Xml.XmlDictionaryReaderQuotas quotas, System.Xml.OnXmlDictionaryReaderClose? onClose);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetInput(unsigned int8[] buffer, int32 offset, int32 count, class System.Text.Encoding encoding, class System.Xml.XmlDictionaryReaderQuotas quotas, class System.Xml.OnXmlDictionaryReaderClose onClose) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Runtime.Serialization.Json.IXmlJsonReaderInitializer.SetInput(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub SetInput (buffer As Byte(), offset As Integer, count As Integer, encoding As Encoding, quotas As XmlDictionaryReaderQuotas, onClose As OnXmlDictionaryReaderClose)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetInput(cli::array &lt;System::Byte&gt; ^ buffer, int offset, int count, System::Text::Encoding ^ encoding, System::Xml::XmlDictionaryReaderQuotas ^ quotas, System::Xml::OnXmlDictionaryReaderClose ^ onClose);" />
-      <MemberSignature Language="F#" Value="abstract member SetInput : byte[] * int * int * System.Text.Encoding * System.Xml.XmlDictionaryReaderQuotas * System.Xml.OnXmlDictionaryReaderClose -&gt; unit" Usage="iXmlJsonReaderInitializer.SetInput (buffer, offset, count, encoding, quotas, onClose)" />
-      <MemberSignature Language="C#" Value="public void SetInput (byte[] buffer, int offset, int count, System.Text.Encoding encoding, System.Xml.XmlDictionaryReaderQuotas quotas, System.Xml.OnXmlDictionaryReaderClose onClose);" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig newslot virtual instance void SetInput(unsigned int8[] buffer, int32 offset, int32 count, class System.Text.Encoding encoding, class System.Xml.XmlDictionaryReaderQuotas quotas, class System.Xml.OnXmlDictionaryReaderClose onClose) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Runtime.Serialization.Json.IXmlJsonReaderInitializer.SetInput(System.Byte[],System.Int32,System.Int32,System.Text.Encoding,System.Xml.XmlDictionaryReaderQuotas,System.Xml.OnXmlDictionaryReaderClose)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub SetInput (buffer As Byte(), offset As Integer, count As Integer, encoding As Encoding, quotas As XmlDictionaryReaderQuotas, onClose As OnXmlDictionaryReaderClose)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; void SetInput(cli::array &lt;System::Byte&gt; ^ buffer, int offset, int count, System::Text::Encoding ^ encoding, System::Xml::XmlDictionaryReaderQuotas ^ quotas, System::Xml::OnXmlDictionaryReaderClose ^ onClose);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="abstract member SetInput : byte[] * int * int * System.Text.Encoding * System.Xml.XmlDictionaryReaderQuotas * System.Xml.OnXmlDictionaryReaderClose -&gt; unit" Usage="iXmlJsonReaderInitializer.SetInput (buffer, offset, count, encoding, quotas, onClose)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime.Serialization</AssemblyName>
@@ -157,15 +157,15 @@
         <AssemblyVersion>3.5.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="buffer" Type="System.Byte[]" />
-        <Parameter Name="offset" Type="System.Int32" />
-        <Parameter Name="count" Type="System.Int32" />
-        <Parameter Name="encoding" Type="System.Text.Encoding" />
-        <Parameter Name="quotas" Type="System.Xml.XmlDictionaryReaderQuotas" />
-        <Parameter Name="onClose" Type="System.Xml.OnXmlDictionaryReaderClose" />
+        <Parameter Name="buffer" Type="System.Byte[]" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="offset" Type="System.Int32" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="count" Type="System.Int32" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="encoding" Type="System.Text.Encoding?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="quotas" Type="System.Xml.XmlDictionaryReaderQuotas" Index="4" FrameworkAlternate="net-5.0" />
+        <Parameter Name="onClose" Type="System.Xml.OnXmlDictionaryReaderClose?" Index="5" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="buffer">The input <see cref="T:System.Byte" /> buffer array from which to read.</param>

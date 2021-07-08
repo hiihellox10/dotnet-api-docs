@@ -10,6 +10,7 @@
     <AssemblyVersion>4.2.1.0</AssemblyVersion>
     <AssemblyVersion>4.2.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>netstandard</AssemblyName>
@@ -21,6 +22,8 @@
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
     <TypeForwarding From="System.Memory" FromVersion="5.0.0.0" To="System.Runtime" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
+    <TypeForwarding From="System.Memory" FromVersion="6.0.0.0" To="System.Runtime" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
     <TypeForwarding From="System.Memory" FromVersion="4.1.0.0" To="System.Runtime" ToVersion="4.2.1.0" FrameworkAlternate="netcore-2.1;netcore-2.2" />
     <TypeForwarding From="System.Memory" FromVersion="4.2.0.0" To="System.Runtime" ToVersion="4.2.1.0" FrameworkAlternate="netcore-3.0" />
     <TypeForwarding From="System.Memory" FromVersion="4.2.1.0" To="System.Runtime" ToVersion="4.2.2.0" FrameworkAlternate="netcore-3.1" />
@@ -52,11 +55,10 @@ A `MemoryHandle` instance represents a handle to a pinned block of memory. It is
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public MemoryHandle (void* pointer, System.Runtime.InteropServices.GCHandle handle = default, System.Buffers.IPinnable? pinnable = default);" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(void* pointer, valuetype System.Runtime.InteropServices.GCHandle handle, class System.Buffers.IPinnable pinnable) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Buffers.MemoryHandle.#ctor(System.Void*,System.Runtime.InteropServices.GCHandle,System.Buffers.IPinnable)" />
-      <MemberSignature Language="F#" Value="new System.Buffers.MemoryHandle : nativeptr&lt;unit&gt; * System.Runtime.InteropServices.GCHandle * System.Buffers.IPinnable -&gt; System.Buffers.MemoryHandle" Usage="new System.Buffers.MemoryHandle (pointer, handle, pinnable)" />
-      <MemberSignature Language="C#" Value="public MemoryHandle (void* pointer, System.Runtime.InteropServices.GCHandle handle = default, System.Buffers.IPinnable pinnable = default);" FrameworkAlternate="netcore-2.1;netcore-2.2;netstandard-2.1" />
+      <MemberSignature Language="C#" Value="public MemoryHandle (void* pointer, System.Runtime.InteropServices.GCHandle handle = default, System.Buffers.IPinnable? pinnable = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(void* pointer, valuetype System.Runtime.InteropServices.GCHandle handle, class System.Buffers.IPinnable pinnable) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Buffers.MemoryHandle.#ctor(System.Void*,System.Runtime.InteropServices.GCHandle,System.Buffers.IPinnable)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Buffers.MemoryHandle : nativeptr&lt;unit&gt; * System.Runtime.InteropServices.GCHandle * System.Buffers.IPinnable -&gt; System.Buffers.MemoryHandle" Usage="new System.Buffers.MemoryHandle (pointer, handle, pinnable)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Runtime</AssemblyName>
@@ -72,15 +74,15 @@ A `MemoryHandle` instance represents a handle to a pinned block of memory. It is
         <AssemblyName>System.Memory</AssemblyName>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.CLSCompliant(false)]</AttributeName>
           <AttributeName Language="F#">[&lt;System.CLSCompliant(false)&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <Parameters>
-        <Parameter Name="pointer" Type="System.Void*" />
-        <Parameter Name="handle" Type="System.Runtime.InteropServices.GCHandle" />
-        <Parameter Name="pinnable" Type="System.Buffers.IPinnable" />
+        <Parameter Name="pointer" Type="System.Void*" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="handle" Type="System.Runtime.InteropServices.GCHandle" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="pinnable" Type="System.Buffers.IPinnable?" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="pointer">A pointer to memory.</param>
@@ -106,6 +108,7 @@ A `MemoryHandle` instance represents a handle to a pinned block of memory. It is
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -135,6 +138,7 @@ A `MemoryHandle` instance represents a handle to a pinned block of memory. It is
         <AssemblyVersion>4.2.1.0</AssemblyVersion>
         <AssemblyVersion>4.2.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>

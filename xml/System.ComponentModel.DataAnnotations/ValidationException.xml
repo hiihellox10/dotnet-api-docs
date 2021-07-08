@@ -1,6 +1,6 @@
 <Type Name="ValidationException" FullName="System.ComponentModel.DataAnnotations.ValidationException">
   <TypeSignature Language="C#" Value="public class ValidationException : Exception" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ValidationException extends System.Exception" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit ValidationException extends System.Exception" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;net-6.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:System.ComponentModel.DataAnnotations.ValidationException" />
   <TypeSignature Language="VB.NET" Value="Public Class ValidationException&#xA;Inherits Exception" />
   <TypeSignature Language="C++ CLI" Value="public ref class ValidationException : Exception" />
@@ -14,6 +14,7 @@
     <AssemblyVersion>4.3.0.0</AssemblyVersion>
     <AssemblyVersion>4.3.1.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System.ComponentModel.DataAnnotations</AssemblyName>
@@ -73,6 +74,7 @@
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.DataAnnotations</AssemblyName>
@@ -100,12 +102,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ValidationException (string message);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ValidationException(System::String ^ message);" />
-      <MemberSignature Language="F#" Value="new System.ComponentModel.DataAnnotations.ValidationException : string -&gt; System.ComponentModel.DataAnnotations.ValidationException" Usage="new System.ComponentModel.DataAnnotations.ValidationException message" />
+      <MemberSignature Language="C#" Value="public ValidationException (string message);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ValidationException(System::String ^ message);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="new System.ComponentModel.DataAnnotations.ValidationException : string -&gt; System.ComponentModel.DataAnnotations.ValidationException" Usage="new System.ComponentModel.DataAnnotations.ValidationException message" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public ValidationException (string? message);" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -123,14 +125,8 @@
         <AssemblyVersion>3.5.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">A specified message that states the error.</param>
@@ -165,6 +161,7 @@
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -173,8 +170,8 @@
         </Attribute>
       </Attributes>
       <Parameters>
-        <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netcore-3.1;net-5.0" />
-        <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netcore-3.1;net-5.0" />
+        <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" Index="0" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netcore-3.1;net-5.0;net-6.0" />
+        <Parameter Name="context" Type="System.Runtime.Serialization.StreamingContext" Index="1" FrameworkAlternate="netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0;netcore-3.1;net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="info">The object that holds the serialized data.</param>
@@ -191,12 +188,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ValidationException (string message, Exception innerException);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception innerException) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String,System.Exception)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ValidationException(System::String ^ message, Exception ^ innerException);" />
-      <MemberSignature Language="F#" Value="new System.ComponentModel.DataAnnotations.ValidationException : string * Exception -&gt; System.ComponentModel.DataAnnotations.ValidationException" Usage="new System.ComponentModel.DataAnnotations.ValidationException (message, innerException)" />
+      <MemberSignature Language="C#" Value="public ValidationException (string message, Exception innerException);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception innerException) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String,System.Exception)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, innerException As Exception)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ValidationException(System::String ^ message, Exception ^ innerException);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="new System.ComponentModel.DataAnnotations.ValidationException : string * Exception -&gt; System.ComponentModel.DataAnnotations.ValidationException" Usage="new System.ComponentModel.DataAnnotations.ValidationException (message, innerException)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public ValidationException (string? message, Exception? innerException);" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -214,15 +211,9 @@
         <AssemblyVersion>3.5.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="innerException" Type="System.Exception" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="innerException" Type="System.Exception?" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">The error message.</param>
@@ -239,12 +230,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ValidationException (System.ComponentModel.DataAnnotations.ValidationResult validationResult, System.ComponentModel.DataAnnotations.ValidationAttribute validatingAttribute, object value);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.ComponentModel.DataAnnotations.ValidationResult validationResult, class System.ComponentModel.DataAnnotations.ValidationAttribute validatingAttribute, object value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (validationResult As ValidationResult, validatingAttribute As ValidationAttribute, value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ValidationException(System::ComponentModel::DataAnnotations::ValidationResult ^ validationResult, System::ComponentModel::DataAnnotations::ValidationAttribute ^ validatingAttribute, System::Object ^ value);" />
-      <MemberSignature Language="F#" Value="new System.ComponentModel.DataAnnotations.ValidationException : System.ComponentModel.DataAnnotations.ValidationResult * System.ComponentModel.DataAnnotations.ValidationAttribute * obj -&gt; System.ComponentModel.DataAnnotations.ValidationException" Usage="new System.ComponentModel.DataAnnotations.ValidationException (validationResult, validatingAttribute, value)" />
+      <MemberSignature Language="C#" Value="public ValidationException (System.ComponentModel.DataAnnotations.ValidationResult validationResult, System.ComponentModel.DataAnnotations.ValidationAttribute validatingAttribute, object value);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.ComponentModel.DataAnnotations.ValidationResult validationResult, class System.ComponentModel.DataAnnotations.ValidationAttribute validatingAttribute, object value) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.ComponentModel.DataAnnotations.ValidationResult,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (validationResult As ValidationResult, validatingAttribute As ValidationAttribute, value As Object)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ValidationException(System::ComponentModel::DataAnnotations::ValidationResult ^ validationResult, System::ComponentModel::DataAnnotations::ValidationAttribute ^ validatingAttribute, System::Object ^ value);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="new System.ComponentModel.DataAnnotations.ValidationException : System.ComponentModel.DataAnnotations.ValidationResult * System.ComponentModel.DataAnnotations.ValidationAttribute * obj -&gt; System.ComponentModel.DataAnnotations.ValidationException" Usage="new System.ComponentModel.DataAnnotations.ValidationException (validationResult, validatingAttribute, value)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public ValidationException (System.ComponentModel.DataAnnotations.ValidationResult validationResult, System.ComponentModel.DataAnnotations.ValidationAttribute? validatingAttribute, object? value);" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -262,9 +253,9 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="validationResult" Type="System.ComponentModel.DataAnnotations.ValidationResult" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="validatingAttribute" Type="System.ComponentModel.DataAnnotations.ValidationAttribute" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="value" Type="System.Object" Index="2" FrameworkAlternate="dotnet-uwp-10.0;net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="validationResult" Type="System.ComponentModel.DataAnnotations.ValidationResult" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="validatingAttribute" Type="System.ComponentModel.DataAnnotations.ValidationAttribute?" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="value" Type="System.Object?" Index="2" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="validationResult">The list of validation results.</param>
@@ -275,12 +266,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ValidationException (string errorMessage, System.ComponentModel.DataAnnotations.ValidationAttribute validatingAttribute, object value);" FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string errorMessage, class System.ComponentModel.DataAnnotations.ValidationAttribute validatingAttribute, object value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (errorMessage As String, validatingAttribute As ValidationAttribute, value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ValidationException(System::String ^ errorMessage, System::ComponentModel::DataAnnotations::ValidationAttribute ^ validatingAttribute, System::Object ^ value);" />
-      <MemberSignature Language="F#" Value="new System.ComponentModel.DataAnnotations.ValidationException : string * System.ComponentModel.DataAnnotations.ValidationAttribute * obj -&gt; System.ComponentModel.DataAnnotations.ValidationException" Usage="new System.ComponentModel.DataAnnotations.ValidationException (errorMessage, validatingAttribute, value)" />
+      <MemberSignature Language="C#" Value="public ValidationException (string errorMessage, System.ComponentModel.DataAnnotations.ValidationAttribute validatingAttribute, object value);" FrameworkAlternate="dotnet-uwp-10.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string errorMessage, class System.ComponentModel.DataAnnotations.ValidationAttribute validatingAttribute, object value) cil managed" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.ComponentModel.DataAnnotations.ValidationException.#ctor(System.String,System.ComponentModel.DataAnnotations.ValidationAttribute,System.Object)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (errorMessage As String, validatingAttribute As ValidationAttribute, value As Object)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ValidationException(System::String ^ errorMessage, System::ComponentModel::DataAnnotations::ValidationAttribute ^ validatingAttribute, System::Object ^ value);" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+      <MemberSignature Language="F#" Value="new System.ComponentModel.DataAnnotations.ValidationException : string * System.ComponentModel.DataAnnotations.ValidationAttribute * obj -&gt; System.ComponentModel.DataAnnotations.ValidationException" Usage="new System.ComponentModel.DataAnnotations.ValidationException (errorMessage, validatingAttribute, value)" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       <MemberSignature Language="C#" Value="public ValidationException (string? errorMessage, System.ComponentModel.DataAnnotations.ValidationAttribute? validatingAttribute, object? value);" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -299,9 +290,9 @@
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="errorMessage" Type="System.String" />
-        <Parameter Name="validatingAttribute" Type="System.ComponentModel.DataAnnotations.ValidationAttribute" />
-        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="errorMessage" Type="System.String?" Index="0" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="validatingAttribute" Type="System.ComponentModel.DataAnnotations.ValidationAttribute?" Index="1" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
+        <Parameter Name="value" Type="System.Object?" Index="2" FrameworkAlternate="dotnet-uwp-10.0;net-5.0" />
       </Parameters>
       <Docs>
         <param name="errorMessage">The message that states the error.</param>
@@ -369,7 +360,7 @@ During deserialization, the exception is reconstituted from the <xref:System.Run
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ValidationAttribute As ValidationAttribute" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ComponentModel::DataAnnotations::ValidationAttribute ^ ValidationAttribute { System::ComponentModel::DataAnnotations::ValidationAttribute ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ValidationAttribute : System.ComponentModel.DataAnnotations.ValidationAttribute" Usage="System.ComponentModel.DataAnnotations.ValidationException.ValidationAttribute" />
-      <MemberSignature Language="C#" Value="public System.ComponentModel.DataAnnotations.ValidationAttribute? ValidationAttribute { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.ComponentModel.DataAnnotations.ValidationAttribute? ValidationAttribute { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.Annotations</AssemblyName>
@@ -379,6 +370,7 @@ During deserialization, the exception is reconstituted from the <xref:System.Run
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.DataAnnotations</AssemblyName>
@@ -393,7 +385,8 @@ During deserialization, the exception is reconstituted from the <xref:System.Run
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.ComponentModel.DataAnnotations.ValidationAttribute</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.ComponentModel.DataAnnotations.ValidationAttribute</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.ComponentModel.DataAnnotations.ValidationAttribute?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the instance of the <see cref="T:System.ComponentModel.DataAnnotations.ValidationAttribute" /> class that triggered this exception.</summary>
@@ -428,6 +421,7 @@ During deserialization, the exception is reconstituted from the <xref:System.Run
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.DataAnnotations</AssemblyName>
@@ -450,7 +444,7 @@ During deserialization, the exception is reconstituted from the <xref:System.Run
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Value As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ Value { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Value : obj" Usage="System.ComponentModel.DataAnnotations.ValidationException.Value" />
-      <MemberSignature Language="C#" Value="public object? Value { get; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public object? Value { get; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.Annotations</AssemblyName>
@@ -460,6 +454,7 @@ During deserialization, the exception is reconstituted from the <xref:System.Run
         <AssemblyVersion>4.3.0.0</AssemblyVersion>
         <AssemblyVersion>4.3.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.DataAnnotations</AssemblyName>
@@ -474,7 +469,8 @@ During deserialization, the exception is reconstituted from the <xref:System.Run
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-uwp-10.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Object?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the value of the object that causes the <see cref="T:System.ComponentModel.DataAnnotations.ValidationAttribute" /> class to trigger this exception.</summary>

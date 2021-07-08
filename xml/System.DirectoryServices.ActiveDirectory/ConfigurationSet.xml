@@ -191,12 +191,13 @@
       </Docs>
     </Member>
     <Member MemberName="FindAdamInstance">
-      <MemberSignature Language="C#" Value="public System.DirectoryServices.ActiveDirectory.AdamInstance FindAdamInstance (string partitionName, string siteName);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.DirectoryServices.ActiveDirectory.AdamInstance FindAdamInstance(string partitionName, string siteName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.DirectoryServices.ActiveDirectory.ConfigurationSet.FindAdamInstance(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Function FindAdamInstance (partitionName As String, siteName As String) As AdamInstance" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::DirectoryServices::ActiveDirectory::AdamInstance ^ FindAdamInstance(System::String ^ partitionName, System::String ^ siteName);" />
-      <MemberSignature Language="F#" Value="member this.FindAdamInstance : string * string -&gt; System.DirectoryServices.ActiveDirectory.AdamInstance" Usage="configurationSet.FindAdamInstance (partitionName, siteName)" />
+      <MemberSignature Language="C#" Value="public System.DirectoryServices.ActiveDirectory.AdamInstance FindAdamInstance (string partitionName, string siteName);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.DirectoryServices.ActiveDirectory.AdamInstance FindAdamInstance(string partitionName, string siteName) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.DirectoryServices.ActiveDirectory.ConfigurationSet.FindAdamInstance(System.String,System.String)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindAdamInstance (partitionName As String, siteName As String) As AdamInstance" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::DirectoryServices::ActiveDirectory::AdamInstance ^ FindAdamInstance(System::String ^ partitionName, System::String ^ siteName);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="F#" Value="member this.FindAdamInstance : string * string -&gt; System.DirectoryServices.ActiveDirectory.AdamInstance" Usage="configurationSet.FindAdamInstance (partitionName, siteName)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="C#" Value="public System.DirectoryServices.ActiveDirectory.AdamInstance FindAdamInstance (string? partitionName, string siteName);" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.DirectoryServices</AssemblyName>
@@ -205,11 +206,11 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.DirectoryServices.ActiveDirectory.AdamInstance</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0">System.DirectoryServices.ActiveDirectory.AdamInstance</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="partitionName" Type="System.String" />
-        <Parameter Name="siteName" Type="System.String" />
+        <Parameter Name="partitionName" Type="System.String?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+        <Parameter Name="siteName" Type="System.String" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
       </Parameters>
       <Docs>
         <param name="partitionName">A <see cref="T:System.String" /> that specifies a partition in which to search.</param>
@@ -252,12 +253,13 @@
       </Docs>
     </Member>
     <Member MemberName="FindAllAdamInstances">
-      <MemberSignature Language="C#" Value="public System.DirectoryServices.ActiveDirectory.AdamInstanceCollection FindAllAdamInstances (string partitionName);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.DirectoryServices.ActiveDirectory.AdamInstanceCollection FindAllAdamInstances(string partitionName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.DirectoryServices.ActiveDirectory.ConfigurationSet.FindAllAdamInstances(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Function FindAllAdamInstances (partitionName As String) As AdamInstanceCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::DirectoryServices::ActiveDirectory::AdamInstanceCollection ^ FindAllAdamInstances(System::String ^ partitionName);" />
-      <MemberSignature Language="F#" Value="member this.FindAllAdamInstances : string -&gt; System.DirectoryServices.ActiveDirectory.AdamInstanceCollection" Usage="configurationSet.FindAllAdamInstances partitionName" />
+      <MemberSignature Language="C#" Value="public System.DirectoryServices.ActiveDirectory.AdamInstanceCollection FindAllAdamInstances (string partitionName);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.DirectoryServices.ActiveDirectory.AdamInstanceCollection FindAllAdamInstances(string partitionName) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.DirectoryServices.ActiveDirectory.ConfigurationSet.FindAllAdamInstances(System.String)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindAllAdamInstances (partitionName As String) As AdamInstanceCollection" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::DirectoryServices::ActiveDirectory::AdamInstanceCollection ^ FindAllAdamInstances(System::String ^ partitionName);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="F#" Value="member this.FindAllAdamInstances : string -&gt; System.DirectoryServices.ActiveDirectory.AdamInstanceCollection" Usage="configurationSet.FindAllAdamInstances partitionName" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="C#" Value="public System.DirectoryServices.ActiveDirectory.AdamInstanceCollection FindAllAdamInstances (string? partitionName);" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.DirectoryServices</AssemblyName>
@@ -266,10 +268,10 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.DirectoryServices.ActiveDirectory.AdamInstanceCollection</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0">System.DirectoryServices.ActiveDirectory.AdamInstanceCollection</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="partitionName" Type="System.String" />
+        <Parameter Name="partitionName" Type="System.String?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
       </Parameters>
       <Docs>
         <param name="partitionName">A <see cref="T:System.String" /> that specifies a partition in which to search.</param>
@@ -284,12 +286,13 @@
       </Docs>
     </Member>
     <Member MemberName="FindAllAdamInstances">
-      <MemberSignature Language="C#" Value="public System.DirectoryServices.ActiveDirectory.AdamInstanceCollection FindAllAdamInstances (string partitionName, string siteName);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.DirectoryServices.ActiveDirectory.AdamInstanceCollection FindAllAdamInstances(string partitionName, string siteName) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.DirectoryServices.ActiveDirectory.ConfigurationSet.FindAllAdamInstances(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Function FindAllAdamInstances (partitionName As String, siteName As String) As AdamInstanceCollection" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::DirectoryServices::ActiveDirectory::AdamInstanceCollection ^ FindAllAdamInstances(System::String ^ partitionName, System::String ^ siteName);" />
-      <MemberSignature Language="F#" Value="member this.FindAllAdamInstances : string * string -&gt; System.DirectoryServices.ActiveDirectory.AdamInstanceCollection" Usage="configurationSet.FindAllAdamInstances (partitionName, siteName)" />
+      <MemberSignature Language="C#" Value="public System.DirectoryServices.ActiveDirectory.AdamInstanceCollection FindAllAdamInstances (string partitionName, string siteName);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.DirectoryServices.ActiveDirectory.AdamInstanceCollection FindAllAdamInstances(string partitionName, string siteName) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.DirectoryServices.ActiveDirectory.ConfigurationSet.FindAllAdamInstances(System.String,System.String)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function FindAllAdamInstances (partitionName As String, siteName As String) As AdamInstanceCollection" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; System::DirectoryServices::ActiveDirectory::AdamInstanceCollection ^ FindAllAdamInstances(System::String ^ partitionName, System::String ^ siteName);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="F#" Value="member this.FindAllAdamInstances : string * string -&gt; System.DirectoryServices.ActiveDirectory.AdamInstanceCollection" Usage="configurationSet.FindAllAdamInstances (partitionName, siteName)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+      <MemberSignature Language="C#" Value="public System.DirectoryServices.ActiveDirectory.AdamInstanceCollection FindAllAdamInstances (string? partitionName, string? siteName);" FrameworkAlternate="dotnet-plat-ext-6.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.DirectoryServices</AssemblyName>
@@ -298,11 +301,11 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.DirectoryServices.ActiveDirectory.AdamInstanceCollection</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0">System.DirectoryServices.ActiveDirectory.AdamInstanceCollection</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="partitionName" Type="System.String" />
-        <Parameter Name="siteName" Type="System.String" />
+        <Parameter Name="partitionName" Type="System.String?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
+        <Parameter Name="siteName" Type="System.String?" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
       </Parameters>
       <Docs>
         <param name="partitionName">A <see cref="T:System.String" /> that specifies a partition in which to search.</param>

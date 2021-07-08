@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -29,6 +30,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="name" Type="System.String" />
@@ -40,20 +42,20 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ActivityEvent (string name, DateTimeOffset timestamp = default, System.Diagnostics.ActivityTagsCollection? tags = default);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, valuetype System.DateTimeOffset timestamp, class System.Diagnostics.ActivityTagsCollection tags) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityEvent.#ctor(System.String,System.DateTimeOffset,System.Diagnostics.ActivityTagsCollection)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, Optional timestamp As DateTimeOffset = Nothing, Optional tags As ActivityTagsCollection = Nothing)" />
-      <MemberSignature Language="F#" Value="new System.Diagnostics.ActivityEvent : string * DateTimeOffset * System.Diagnostics.ActivityTagsCollection -&gt; System.Diagnostics.ActivityEvent" Usage="new System.Diagnostics.ActivityEvent (name, timestamp, tags)" />
+      <MemberSignature Language="C#" Value="public ActivityEvent (string name, DateTimeOffset timestamp = default, System.Diagnostics.ActivityTagsCollection? tags = default);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string name, valuetype System.DateTimeOffset timestamp, class System.Diagnostics.ActivityTagsCollection tags) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityEvent.#ctor(System.String,System.DateTimeOffset,System.Diagnostics.ActivityTagsCollection)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (name As String, Optional timestamp As DateTimeOffset = Nothing, Optional tags As ActivityTagsCollection = Nothing)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Diagnostics.ActivityEvent : string * DateTimeOffset * System.Diagnostics.ActivityTagsCollection -&gt; System.Diagnostics.ActivityEvent" Usage="new System.Diagnostics.ActivityEvent (name, timestamp, tags)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="name" Type="System.String" />
-        <Parameter Name="timestamp" Type="System.DateTimeOffset" />
-        <Parameter Name="tags" Type="System.Diagnostics.ActivityTagsCollection" />
+        <Parameter Name="name" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="timestamp" Type="System.DateTimeOffset" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="tags" Type="System.Diagnostics.ActivityTagsCollection?" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="name">The event name.</param>
@@ -74,6 +76,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -95,9 +98,10 @@
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object&gt;&gt;</ReturnType>
+        <ReturnType>System.Collections.Generic.IEnumerable&lt;System.Collections.Generic.KeyValuePair&lt;System.String,System.Object?&gt;&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the collection of tags associated with the event.</summary>
@@ -116,6 +120,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.DateTimeOffset</ReturnType>

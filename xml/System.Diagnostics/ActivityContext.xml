@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -31,22 +32,22 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ActivityContext (System.Diagnostics.ActivityTraceId traceId, System.Diagnostics.ActivitySpanId spanId, System.Diagnostics.ActivityTraceFlags traceFlags, string? traceState = default, bool isRemote = false);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Diagnostics.ActivityTraceId traceId, valuetype System.Diagnostics.ActivitySpanId spanId, valuetype System.Diagnostics.ActivityTraceFlags traceFlags, string traceState, bool isRemote) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityContext.#ctor(System.Diagnostics.ActivityTraceId,System.Diagnostics.ActivitySpanId,System.Diagnostics.ActivityTraceFlags,System.String,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (traceId As ActivityTraceId, spanId As ActivitySpanId, traceFlags As ActivityTraceFlags, Optional traceState As String = Nothing, Optional isRemote As Boolean = false)" />
-      <MemberSignature Language="F#" Value="new System.Diagnostics.ActivityContext : System.Diagnostics.ActivityTraceId * System.Diagnostics.ActivitySpanId * System.Diagnostics.ActivityTraceFlags * string * bool -&gt; System.Diagnostics.ActivityContext" Usage="new System.Diagnostics.ActivityContext (traceId, spanId, traceFlags, traceState, isRemote)" />
+      <MemberSignature Language="C#" Value="public ActivityContext (System.Diagnostics.ActivityTraceId traceId, System.Diagnostics.ActivitySpanId spanId, System.Diagnostics.ActivityTraceFlags traceFlags, string? traceState = default, bool isRemote = false);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(valuetype System.Diagnostics.ActivityTraceId traceId, valuetype System.Diagnostics.ActivitySpanId spanId, valuetype System.Diagnostics.ActivityTraceFlags traceFlags, string traceState, bool isRemote) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityContext.#ctor(System.Diagnostics.ActivityTraceId,System.Diagnostics.ActivitySpanId,System.Diagnostics.ActivityTraceFlags,System.String,System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (traceId As ActivityTraceId, spanId As ActivitySpanId, traceFlags As ActivityTraceFlags, Optional traceState As String = Nothing, Optional isRemote As Boolean = false)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Diagnostics.ActivityContext : System.Diagnostics.ActivityTraceId * System.Diagnostics.ActivitySpanId * System.Diagnostics.ActivityTraceFlags * string * bool -&gt; System.Diagnostics.ActivityContext" Usage="new System.Diagnostics.ActivityContext (traceId, spanId, traceFlags, traceState, isRemote)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="traceId" Type="System.Diagnostics.ActivityTraceId" />
-        <Parameter Name="spanId" Type="System.Diagnostics.ActivitySpanId" />
-        <Parameter Name="traceFlags" Type="System.Diagnostics.ActivityTraceFlags" />
-        <Parameter Name="traceState" Type="System.String" />
-        <Parameter Name="isRemote" Type="System.Boolean" />
+        <Parameter Name="traceId" Type="System.Diagnostics.ActivityTraceId" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="spanId" Type="System.Diagnostics.ActivitySpanId" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="traceFlags" Type="System.Diagnostics.ActivityTraceFlags" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="traceState" Type="System.String?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="isRemote" Type="System.Boolean" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="traceId">A trace identifier.</param>
@@ -80,6 +81,7 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -96,22 +98,22 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
       </Docs>
     </Member>
     <Member MemberName="Equals">
-      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityContext.Equals(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="activityContext.Equals obj" />
+      <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityContext.Equals(System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="activityContext.Equals obj" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj" Type="System.Object" />
+        <Parameter Name="obj" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="obj">The object to compare to this instance.</param>
@@ -132,6 +134,7 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -154,6 +157,7 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -184,6 +188,7 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -212,6 +217,7 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -230,23 +236,23 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
       </Docs>
     </Member>
     <Member MemberName="Parse">
-      <MemberSignature Language="C#" Value="public static System.Diagnostics.ActivityContext Parse (string traceParent, string? traceState);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Diagnostics.ActivityContext Parse(string traceParent, string traceState) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityContext.Parse(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (traceParent As String, traceState As String) As ActivityContext" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Diagnostics::ActivityContext Parse(System::String ^ traceParent, System::String ^ traceState);" />
-      <MemberSignature Language="F#" Value="static member Parse : string * string -&gt; System.Diagnostics.ActivityContext" Usage="System.Diagnostics.ActivityContext.Parse (traceParent, traceState)" />
+      <MemberSignature Language="C#" Value="public static System.Diagnostics.ActivityContext Parse (string traceParent, string? traceState);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Diagnostics.ActivityContext Parse(string traceParent, string traceState) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityContext.Parse(System.String,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Parse (traceParent As String, traceState As String) As ActivityContext" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Diagnostics::ActivityContext Parse(System::String ^ traceParent, System::String ^ traceState);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Parse : string * string -&gt; System.Diagnostics.ActivityContext" Usage="System.Diagnostics.ActivityContext.Parse (traceParent, traceState)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Diagnostics.ActivityContext</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Diagnostics.ActivityContext</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="traceParent" Type="System.String" />
-        <Parameter Name="traceState" Type="System.String" />
+        <Parameter Name="traceParent" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="traceState" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="traceParent">The W3C trace parent header.</param>
@@ -268,6 +274,7 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.ActivitySpanId</ReturnType>
@@ -289,6 +296,7 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.ActivityTraceFlags</ReturnType>
@@ -310,6 +318,7 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.ActivityTraceId</ReturnType>
@@ -331,9 +340,10 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType>System.String?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Holds the W3C 'tracestate' header.</summary>
@@ -342,24 +352,24 @@ ActivityContext contains the property `IsRemote`, which is not part of W3C. `IsR
       </Docs>
     </Member>
     <Member MemberName="TryParse">
-      <MemberSignature Language="C#" Value="public static bool TryParse (string traceParent, string? traceState, out System.Diagnostics.ActivityContext context);" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(string traceParent, string traceState, [out] valuetype System.Diagnostics.ActivityContext&amp; context) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityContext.TryParse(System.String,System.String,System.Diagnostics.ActivityContext@)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (traceParent As String, traceState As String, ByRef context As ActivityContext) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryParse(System::String ^ traceParent, System::String ^ traceState, [Runtime::InteropServices::Out] System::Diagnostics::ActivityContext % context);" />
-      <MemberSignature Language="F#" Value="static member TryParse : string * string * ActivityContext -&gt; bool" Usage="System.Diagnostics.ActivityContext.TryParse (traceParent, traceState, context)" />
+      <MemberSignature Language="C#" Value="public static bool TryParse (string traceParent, string? traceState, out System.Diagnostics.ActivityContext context);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryParse(string traceParent, string traceState, [out] valuetype System.Diagnostics.ActivityContext&amp; context) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.ActivityContext.TryParse(System.String,System.String,System.Diagnostics.ActivityContext@)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TryParse (traceParent As String, traceState As String, ByRef context As ActivityContext) As Boolean" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryParse(System::String ^ traceParent, System::String ^ traceState, [Runtime::InteropServices::Out] System::Diagnostics::ActivityContext % context);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member TryParse : string * string * ActivityContext -&gt; bool" Usage="System.Diagnostics.ActivityContext.TryParse (traceParent, traceState, context)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.DiagnosticSource</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="traceParent" Type="System.String" />
-        <Parameter Name="traceState" Type="System.String" />
-        <Parameter Name="context" Type="System.Diagnostics.ActivityContext" RefType="out" />
+        <Parameter Name="traceParent" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="traceState" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="context" Type="System.Diagnostics.ActivityContext" RefType="out" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="traceParent">The W3C trace parent header.</param>

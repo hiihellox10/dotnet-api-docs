@@ -13,6 +13,7 @@
     <AssemblyVersion>1.4.4.0</AssemblyVersion>
     <AssemblyVersion>1.4.5.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -33,11 +34,10 @@ Metadata root constitutes of a metadata header followed by metadata streams (`#~
   <Members>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public MetadataRootBuilder (System.Reflection.Metadata.Ecma335.MetadataBuilder tablesAndHeaps, string? metadataVersion = default, bool suppressValidation = false);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Reflection.Metadata.Ecma335.MetadataBuilder tablesAndHeaps, string metadataVersion, bool suppressValidation) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.Ecma335.MetadataRootBuilder.#ctor(System.Reflection.Metadata.Ecma335.MetadataBuilder,System.String,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (tablesAndHeaps As MetadataBuilder, Optional metadataVersion As String = Nothing, Optional suppressValidation As Boolean = false)" />
-      <MemberSignature Language="F#" Value="new System.Reflection.Metadata.Ecma335.MetadataRootBuilder : System.Reflection.Metadata.Ecma335.MetadataBuilder * string * bool -&gt; System.Reflection.Metadata.Ecma335.MetadataRootBuilder" Usage="new System.Reflection.Metadata.Ecma335.MetadataRootBuilder (tablesAndHeaps, metadataVersion, suppressValidation)" />
-      <MemberSignature Language="C#" Value="public MetadataRootBuilder (System.Reflection.Metadata.Ecma335.MetadataBuilder tablesAndHeaps, string metadataVersion = default, bool suppressValidation = false);" FrameworkAlternate="netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(class System.Reflection.Metadata.Ecma335.MetadataBuilder tablesAndHeaps, string metadataVersion, bool suppressValidation) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Reflection.Metadata.Ecma335.MetadataRootBuilder.#ctor(System.Reflection.Metadata.Ecma335.MetadataBuilder,System.String,System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (tablesAndHeaps As MetadataBuilder, Optional metadataVersion As String = Nothing, Optional suppressValidation As Boolean = false)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Reflection.Metadata.Ecma335.MetadataRootBuilder : System.Reflection.Metadata.Ecma335.MetadataBuilder * string * bool -&gt; System.Reflection.Metadata.Ecma335.MetadataRootBuilder" Usage="new System.Reflection.Metadata.Ecma335.MetadataRootBuilder (tablesAndHeaps, metadataVersion, suppressValidation)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Reflection.Metadata</AssemblyName>
@@ -49,9 +49,9 @@ Metadata root constitutes of a metadata header followed by metadata streams (`#~
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="tablesAndHeaps" Type="System.Reflection.Metadata.Ecma335.MetadataBuilder" />
-        <Parameter Name="metadataVersion" Type="System.String" />
-        <Parameter Name="suppressValidation" Type="System.Boolean" />
+        <Parameter Name="tablesAndHeaps" Type="System.Reflection.Metadata.Ecma335.MetadataBuilder" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="metadataVersion" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="suppressValidation" Type="System.Boolean" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="tablesAndHeaps">Builder populated with metadata entities stored in tables and values stored in heaps. The entities and values will be enumerated when serializing the metadata root.</param>
@@ -90,6 +90,7 @@ When `suppressValidation` is set to `true`, the validation verifies that entries
         <AssemblyVersion>1.4.4.0</AssemblyVersion>
         <AssemblyVersion>1.4.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -116,6 +117,7 @@ When `suppressValidation` is set to `true`, the validation verifies that entries
         <AssemblyVersion>1.4.4.0</AssemblyVersion>
         <AssemblyVersion>1.4.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Void</ReturnType>
@@ -154,6 +156,7 @@ When `suppressValidation` is set to `true`, the validation verifies that entries
         <AssemblyVersion>1.4.4.0</AssemblyVersion>
         <AssemblyVersion>1.4.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Reflection.Metadata.Ecma335.MetadataSizes</ReturnType>
@@ -180,6 +183,7 @@ When `suppressValidation` is set to `true`, the validation verifies that entries
         <AssemblyVersion>1.4.4.0</AssemblyVersion>
         <AssemblyVersion>1.4.5.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>

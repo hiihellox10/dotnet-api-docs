@@ -8,6 +8,7 @@
   <AssemblyInfo>
     <AssemblyName>System.Formats.Asn1</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Exception</BaseTypeName>
@@ -28,6 +29,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Formats.Asn1</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters />
       <Docs>
@@ -36,19 +38,19 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public AsnContentException (string? message);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnContentException.#ctor(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; AsnContentException(System::String ^ message);" />
-      <MemberSignature Language="F#" Value="new System.Formats.Asn1.AsnContentException : string -&gt; System.Formats.Asn1.AsnContentException" Usage="new System.Formats.Asn1.AsnContentException message" />
+      <MemberSignature Language="C#" Value="public AsnContentException (string? message);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnContentException.#ctor(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AsnContentException(System::String ^ message);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Formats.Asn1.AsnContentException : string -&gt; System.Formats.Asn1.AsnContentException" Usage="new System.Formats.Asn1.AsnContentException message" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Formats.Asn1</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">The error message that explains the reason for the exception.</param>
@@ -67,6 +69,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Formats.Asn1</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="info" Type="System.Runtime.Serialization.SerializationInfo" />
@@ -80,20 +83,20 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public AsnContentException (string? message, Exception? inner);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception inner) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnContentException.#ctor(System.String,System.Exception)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, inner As Exception)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; AsnContentException(System::String ^ message, Exception ^ inner);" />
-      <MemberSignature Language="F#" Value="new System.Formats.Asn1.AsnContentException : string * Exception -&gt; System.Formats.Asn1.AsnContentException" Usage="new System.Formats.Asn1.AsnContentException (message, inner)" />
+      <MemberSignature Language="C#" Value="public AsnContentException (string? message, Exception? inner);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception inner) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Formats.Asn1.AsnContentException.#ctor(System.String,System.Exception)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, inner As Exception)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; AsnContentException(System::String ^ message, Exception ^ inner);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Formats.Asn1.AsnContentException : string * Exception -&gt; System.Formats.Asn1.AsnContentException" Usage="new System.Formats.Asn1.AsnContentException (message, inner)" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Formats.Asn1</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="inner" Type="System.Exception" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="inner" Type="System.Exception?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">The error message that explains the reason for the exception.</param>

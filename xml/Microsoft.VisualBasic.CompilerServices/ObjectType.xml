@@ -1,6 +1,6 @@
 <Type Name="ObjectType" FullName="Microsoft.VisualBasic.CompilerServices.ObjectType">
   <TypeSignature Language="C#" Value="public sealed class ObjectType" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ObjectType extends System.Object" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ObjectType extends System.Object" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
   <TypeSignature Language="DocId" Value="T:Microsoft.VisualBasic.CompilerServices.ObjectType" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ObjectType" />
   <TypeSignature Language="C++ CLI" Value="public ref class ObjectType sealed" />
@@ -17,6 +17,7 @@
     <AssemblyVersion>10.0.4.0</AssemblyVersion>
     <AssemblyVersion>10.0.5.0</AssemblyVersion>
     <AssemblyVersion>10.0.6.0</AssemblyVersion>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -43,7 +44,7 @@
   <Members>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public ObjectType ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor() cil managed" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.#ctor" />
       <MemberSignature Language="VB.NET" Value="Public Sub New ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; ObjectType();" />
@@ -60,6 +61,7 @@
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -83,13 +85,11 @@
     </Member>
     <Member MemberName="AddObj">
       <MemberSignature Language="C#" Value="public static object AddObj (object? o1, object? o2);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object AddObj(object o1, object o2) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.AddObj(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function AddObj (o1 As Object, o2 As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ AddObj(System::Object ^ o1, System::Object ^ o2);" />
-      <MemberSignature Language="F#" Value="static member AddObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.AddObj (o1, o2)" />
-      <MemberSignature Language="C#" Value="public static object AddObj (object o1, object o2);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object AddObj(object o1, object o2) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object AddObj(object o1, object o2) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.AddObj(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function AddObj (o1 As Object, o2 As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ AddObj(System::Object ^ o1, System::Object ^ o2);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member AddObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.AddObj (o1, o2)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -104,11 +104,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="o1" Type="System.Object" />
-        <Parameter Name="o2" Type="System.Object" />
+        <Parameter Name="o1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="o2" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="o1">Required. Any numeric expression.</param>
@@ -129,13 +129,11 @@
     </Member>
     <Member MemberName="BitAndObj">
       <MemberSignature Language="C#" Value="public static object BitAndObj (object? obj1, object? obj2);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object BitAndObj(object obj1, object obj2) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.BitAndObj(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function BitAndObj (obj1 As Object, obj2 As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ BitAndObj(System::Object ^ obj1, System::Object ^ obj2);" />
-      <MemberSignature Language="F#" Value="static member BitAndObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.BitAndObj (obj1, obj2)" />
-      <MemberSignature Language="C#" Value="public static object BitAndObj (object obj1, object obj2);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object BitAndObj(object obj1, object obj2) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object BitAndObj(object obj1, object obj2) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.BitAndObj(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BitAndObj (obj1 As Object, obj2 As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ BitAndObj(System::Object ^ obj1, System::Object ^ obj2);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member BitAndObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.BitAndObj (obj1, obj2)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -150,11 +148,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj1" Type="System.Object" />
-        <Parameter Name="obj2" Type="System.Object" />
+        <Parameter Name="obj1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="obj2" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="obj1">Required. Any <see langword="Boolean" /> or numeric expression.</param>
@@ -175,13 +173,11 @@
     </Member>
     <Member MemberName="BitOrObj">
       <MemberSignature Language="C#" Value="public static object BitOrObj (object? obj1, object? obj2);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object BitOrObj(object obj1, object obj2) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.BitOrObj(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function BitOrObj (obj1 As Object, obj2 As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ BitOrObj(System::Object ^ obj1, System::Object ^ obj2);" />
-      <MemberSignature Language="F#" Value="static member BitOrObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.BitOrObj (obj1, obj2)" />
-      <MemberSignature Language="C#" Value="public static object BitOrObj (object obj1, object obj2);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object BitOrObj(object obj1, object obj2) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object BitOrObj(object obj1, object obj2) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.BitOrObj(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BitOrObj (obj1 As Object, obj2 As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ BitOrObj(System::Object ^ obj1, System::Object ^ obj2);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member BitOrObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.BitOrObj (obj1, obj2)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -196,11 +192,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj1" Type="System.Object" />
-        <Parameter Name="obj2" Type="System.Object" />
+        <Parameter Name="obj1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="obj2" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="obj1">Required. Any <see langword="Boolean" /> or numeric expression.</param>
@@ -221,13 +217,11 @@
     </Member>
     <Member MemberName="BitXorObj">
       <MemberSignature Language="C#" Value="public static object BitXorObj (object? obj1, object? obj2);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object BitXorObj(object obj1, object obj2) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.BitXorObj(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function BitXorObj (obj1 As Object, obj2 As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ BitXorObj(System::Object ^ obj1, System::Object ^ obj2);" />
-      <MemberSignature Language="F#" Value="static member BitXorObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.BitXorObj (obj1, obj2)" />
-      <MemberSignature Language="C#" Value="public static object BitXorObj (object obj1, object obj2);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object BitXorObj(object obj1, object obj2) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object BitXorObj(object obj1, object obj2) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.BitXorObj(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function BitXorObj (obj1 As Object, obj2 As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ BitXorObj(System::Object ^ obj1, System::Object ^ obj2);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member BitXorObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.BitXorObj (obj1, obj2)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -242,11 +236,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj1" Type="System.Object" />
-        <Parameter Name="obj2" Type="System.Object" />
+        <Parameter Name="obj1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="obj2" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="obj1">Required. Any <see langword="Boolean" /> or numeric expression.</param>
@@ -267,13 +261,11 @@
     </Member>
     <Member MemberName="DivObj">
       <MemberSignature Language="C#" Value="public static object DivObj (object? o1, object? o2);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object DivObj(object o1, object o2) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.DivObj(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function DivObj (o1 As Object, o2 As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ DivObj(System::Object ^ o1, System::Object ^ o2);" />
-      <MemberSignature Language="F#" Value="static member DivObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.DivObj (o1, o2)" />
-      <MemberSignature Language="C#" Value="public static object DivObj (object o1, object o2);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object DivObj(object o1, object o2) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object DivObj(object o1, object o2) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.DivObj(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function DivObj (o1 As Object, o2 As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ DivObj(System::Object ^ o1, System::Object ^ o2);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member DivObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.DivObj (o1, o2)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -288,11 +280,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="o1" Type="System.Object" />
-        <Parameter Name="o2" Type="System.Object" />
+        <Parameter Name="o1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="o2" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="o1">Required. Any numeric expression.</param>
@@ -313,13 +305,11 @@
     </Member>
     <Member MemberName="GetObjectValuePrimitive">
       <MemberSignature Language="C#" Value="public static object GetObjectValuePrimitive (object? o);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object GetObjectValuePrimitive(object o) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.GetObjectValuePrimitive(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function GetObjectValuePrimitive (o As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ GetObjectValuePrimitive(System::Object ^ o);" />
-      <MemberSignature Language="F#" Value="static member GetObjectValuePrimitive : obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.GetObjectValuePrimitive o" />
-      <MemberSignature Language="C#" Value="public static object GetObjectValuePrimitive (object o);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object GetObjectValuePrimitive(object o) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object GetObjectValuePrimitive(object o) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.GetObjectValuePrimitive(System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function GetObjectValuePrimitive (o As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ GetObjectValuePrimitive(System::Object ^ o);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member GetObjectValuePrimitive : obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.GetObjectValuePrimitive o" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -334,10 +324,10 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="o" Type="System.Object" />
+        <Parameter Name="o" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="o">Required. Any expression.</param>
@@ -356,13 +346,11 @@
     </Member>
     <Member MemberName="IDivObj">
       <MemberSignature Language="C#" Value="public static object IDivObj (object? o1, object? o2);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object IDivObj(object o1, object o2) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.IDivObj(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function IDivObj (o1 As Object, o2 As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ IDivObj(System::Object ^ o1, System::Object ^ o2);" />
-      <MemberSignature Language="F#" Value="static member IDivObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.IDivObj (o1, o2)" />
-      <MemberSignature Language="C#" Value="public static object IDivObj (object o1, object o2);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object IDivObj(object o1, object o2) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object IDivObj(object o1, object o2) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.IDivObj(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function IDivObj (o1 As Object, o2 As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ IDivObj(System::Object ^ o1, System::Object ^ o2);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member IDivObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.IDivObj (o1, o2)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -377,11 +365,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="o1" Type="System.Object" />
-        <Parameter Name="o2" Type="System.Object" />
+        <Parameter Name="o1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="o2" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="o1">Required. Any numeric expression.</param>
@@ -402,13 +390,11 @@
     </Member>
     <Member MemberName="LikeObj">
       <MemberSignature Language="C#" Value="public static bool LikeObj (object? vLeft, object? vRight, Microsoft.VisualBasic.CompareMethod CompareOption);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool LikeObj(object vLeft, object vRight, valuetype Microsoft.VisualBasic.CompareMethod CompareOption) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.LikeObj(System.Object,System.Object,Microsoft.VisualBasic.CompareMethod)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function LikeObj (vLeft As Object, vRight As Object, CompareOption As CompareMethod) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool LikeObj(System::Object ^ vLeft, System::Object ^ vRight, Microsoft::VisualBasic::CompareMethod CompareOption);" />
-      <MemberSignature Language="F#" Value="static member LikeObj : obj * obj * Microsoft.VisualBasic.CompareMethod -&gt; bool" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.LikeObj (vLeft, vRight, CompareOption)" />
-      <MemberSignature Language="C#" Value="public static bool LikeObj (object vLeft, object vRight, Microsoft.VisualBasic.CompareMethod CompareOption);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static bool LikeObj(object vLeft, object vRight, valuetype Microsoft.VisualBasic.CompareMethod CompareOption) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool LikeObj(object vLeft, object vRight, valuetype Microsoft.VisualBasic.CompareMethod CompareOption) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.LikeObj(System.Object,System.Object,Microsoft.VisualBasic.CompareMethod)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function LikeObj (vLeft As Object, vRight As Object, CompareOption As CompareMethod) As Boolean" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool LikeObj(System::Object ^ vLeft, System::Object ^ vRight, Microsoft::VisualBasic::CompareMethod CompareOption);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member LikeObj : obj * obj * Microsoft.VisualBasic.CompareMethod -&gt; bool" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.LikeObj (vLeft, vRight, CompareOption)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -423,12 +409,12 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="vLeft" Type="System.Object" />
-        <Parameter Name="vRight" Type="System.Object" />
-        <Parameter Name="CompareOption" Type="Microsoft.VisualBasic.CompareMethod" />
+        <Parameter Name="vLeft" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="vRight" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="CompareOption" Type="Microsoft.VisualBasic.CompareMethod" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="vLeft">Required. Any expression.</param>
@@ -451,13 +437,11 @@
     </Member>
     <Member MemberName="ModObj">
       <MemberSignature Language="C#" Value="public static object ModObj (object? o1, object? o2);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ModObj(object o1, object o2) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.ModObj(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ModObj (o1 As Object, o2 As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ ModObj(System::Object ^ o1, System::Object ^ o2);" />
-      <MemberSignature Language="F#" Value="static member ModObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.ModObj (o1, o2)" />
-      <MemberSignature Language="C#" Value="public static object ModObj (object o1, object o2);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object ModObj(object o1, object o2) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ModObj(object o1, object o2) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.ModObj(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ModObj (o1 As Object, o2 As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ ModObj(System::Object ^ o1, System::Object ^ o2);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member ModObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.ModObj (o1, o2)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -472,11 +456,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="o1" Type="System.Object" />
-        <Parameter Name="o2" Type="System.Object" />
+        <Parameter Name="o1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="o2" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="o1">Required. Any numeric expression.</param>
@@ -497,13 +481,11 @@
     </Member>
     <Member MemberName="MulObj">
       <MemberSignature Language="C#" Value="public static object MulObj (object? o1, object? o2);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object MulObj(object o1, object o2) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.MulObj(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function MulObj (o1 As Object, o2 As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ MulObj(System::Object ^ o1, System::Object ^ o2);" />
-      <MemberSignature Language="F#" Value="static member MulObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.MulObj (o1, o2)" />
-      <MemberSignature Language="C#" Value="public static object MulObj (object o1, object o2);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object MulObj(object o1, object o2) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object MulObj(object o1, object o2) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.MulObj(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function MulObj (o1 As Object, o2 As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ MulObj(System::Object ^ o1, System::Object ^ o2);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member MulObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.MulObj (o1, o2)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -518,11 +500,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="o1" Type="System.Object" />
-        <Parameter Name="o2" Type="System.Object" />
+        <Parameter Name="o1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="o2" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="o1">Required. Any numeric expression.</param>
@@ -543,13 +525,11 @@
     </Member>
     <Member MemberName="NegObj">
       <MemberSignature Language="C#" Value="public static object NegObj (object? obj);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object NegObj(object obj) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.NegObj(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function NegObj (obj As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ NegObj(System::Object ^ obj);" />
-      <MemberSignature Language="F#" Value="static member NegObj : obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.NegObj obj" />
-      <MemberSignature Language="C#" Value="public static object NegObj (object obj);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object NegObj(object obj) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object NegObj(object obj) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.NegObj(System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NegObj (obj As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ NegObj(System::Object ^ obj);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member NegObj : obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.NegObj obj" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -564,10 +544,10 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj" Type="System.Object" />
+        <Parameter Name="obj" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="obj">Required. Any numeric expression.</param>
@@ -587,13 +567,11 @@
     </Member>
     <Member MemberName="NotObj">
       <MemberSignature Language="C#" Value="public static object NotObj (object? obj);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object NotObj(object obj) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.NotObj(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function NotObj (obj As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ NotObj(System::Object ^ obj);" />
-      <MemberSignature Language="F#" Value="static member NotObj : obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.NotObj obj" />
-      <MemberSignature Language="C#" Value="public static object NotObj (object obj);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object NotObj(object obj) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object NotObj(object obj) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.NotObj(System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function NotObj (obj As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ NotObj(System::Object ^ obj);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member NotObj : obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.NotObj obj" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -608,10 +586,10 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj" Type="System.Object" />
+        <Parameter Name="obj" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="obj">Required. Any <see langword="Boolean" /> or numeric expression.</param>
@@ -631,13 +609,11 @@
     </Member>
     <Member MemberName="ObjTst">
       <MemberSignature Language="C#" Value="public static int ObjTst (object? o1, object? o2, bool TextCompare);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 ObjTst(object o1, object o2, bool TextCompare) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.ObjTst(System.Object,System.Object,System.Boolean)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ObjTst (o1 As Object, o2 As Object, TextCompare As Boolean) As Integer" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static int ObjTst(System::Object ^ o1, System::Object ^ o2, bool TextCompare);" />
-      <MemberSignature Language="F#" Value="static member ObjTst : obj * obj * bool -&gt; int" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.ObjTst (o1, o2, TextCompare)" />
-      <MemberSignature Language="C#" Value="public static int ObjTst (object o1, object o2, bool TextCompare);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static int32 ObjTst(object o1, object o2, bool TextCompare) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig int32 ObjTst(object o1, object o2, bool TextCompare) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.ObjTst(System.Object,System.Object,System.Boolean)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ObjTst (o1 As Object, o2 As Object, TextCompare As Boolean) As Integer" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static int ObjTst(System::Object ^ o1, System::Object ^ o2, bool TextCompare);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member ObjTst : obj * obj * bool -&gt; int" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.ObjTst (o1, o2, TextCompare)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -652,12 +628,12 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Int32</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Int32</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="o1" Type="System.Object" />
-        <Parameter Name="o2" Type="System.Object" />
-        <Parameter Name="TextCompare" Type="System.Boolean" />
+        <Parameter Name="o1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="o2" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="TextCompare" Type="System.Boolean" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="o1">Required. Any expression.</param>
@@ -717,13 +693,11 @@
     </Member>
     <Member MemberName="PlusObj">
       <MemberSignature Language="C#" Value="public static object PlusObj (object? obj);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object PlusObj(object obj) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.PlusObj(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function PlusObj (obj As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ PlusObj(System::Object ^ obj);" />
-      <MemberSignature Language="F#" Value="static member PlusObj : obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.PlusObj obj" />
-      <MemberSignature Language="C#" Value="public static object PlusObj (object obj);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object PlusObj(object obj) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object PlusObj(object obj) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.PlusObj(System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function PlusObj (obj As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ PlusObj(System::Object ^ obj);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member PlusObj : obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.PlusObj obj" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -738,10 +712,10 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj" Type="System.Object" />
+        <Parameter Name="obj" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="obj">Required. Any numeric expression.</param>
@@ -761,13 +735,11 @@
     </Member>
     <Member MemberName="PowObj">
       <MemberSignature Language="C#" Value="public static object PowObj (object? obj1, object? obj2);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object PowObj(object obj1, object obj2) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.PowObj(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function PowObj (obj1 As Object, obj2 As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ PowObj(System::Object ^ obj1, System::Object ^ obj2);" />
-      <MemberSignature Language="F#" Value="static member PowObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.PowObj (obj1, obj2)" />
-      <MemberSignature Language="C#" Value="public static object PowObj (object obj1, object obj2);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object PowObj(object obj1, object obj2) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object PowObj(object obj1, object obj2) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.PowObj(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function PowObj (obj1 As Object, obj2 As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ PowObj(System::Object ^ obj1, System::Object ^ obj2);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member PowObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.PowObj (obj1, obj2)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -782,11 +754,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj1" Type="System.Object" />
-        <Parameter Name="obj2" Type="System.Object" />
+        <Parameter Name="obj1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="obj2" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="obj1">Required. Any numeric expression.</param>
@@ -807,13 +779,11 @@
     </Member>
     <Member MemberName="ShiftLeftObj">
       <MemberSignature Language="C#" Value="public static object ShiftLeftObj (object? o1, int amount);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ShiftLeftObj(object o1, int32 amount) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.ShiftLeftObj(System.Object,System.Int32)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ShiftLeftObj (o1 As Object, amount As Integer) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ ShiftLeftObj(System::Object ^ o1, int amount);" />
-      <MemberSignature Language="F#" Value="static member ShiftLeftObj : obj * int -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.ShiftLeftObj (o1, amount)" />
-      <MemberSignature Language="C#" Value="public static object ShiftLeftObj (object o1, int amount);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object ShiftLeftObj(object o1, int32 amount) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ShiftLeftObj(object o1, int32 amount) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.ShiftLeftObj(System.Object,System.Int32)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ShiftLeftObj (o1 As Object, amount As Integer) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ ShiftLeftObj(System::Object ^ o1, int amount);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member ShiftLeftObj : obj * int -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.ShiftLeftObj (o1, amount)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -828,11 +798,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="o1" Type="System.Object" />
-        <Parameter Name="amount" Type="System.Int32" />
+        <Parameter Name="o1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="amount" Type="System.Int32" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="o1">Required. Integral numeric expression. The bit pattern to be shifted. The data type must be an integral type (<see langword="SByte" />, <see langword="Byte" />, <see langword="Short" />, <see langword="UShort" />, <see langword="Integer" />, <see langword="UInteger" />, <see langword="Long" />, or <see langword="ULong" />).</param>
@@ -853,13 +823,11 @@
     </Member>
     <Member MemberName="ShiftRightObj">
       <MemberSignature Language="C#" Value="public static object ShiftRightObj (object? o1, int amount);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ShiftRightObj(object o1, int32 amount) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.ShiftRightObj(System.Object,System.Int32)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function ShiftRightObj (o1 As Object, amount As Integer) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ ShiftRightObj(System::Object ^ o1, int amount);" />
-      <MemberSignature Language="F#" Value="static member ShiftRightObj : obj * int -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.ShiftRightObj (o1, amount)" />
-      <MemberSignature Language="C#" Value="public static object ShiftRightObj (object o1, int amount);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object ShiftRightObj(object o1, int32 amount) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object ShiftRightObj(object o1, int32 amount) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.ShiftRightObj(System.Object,System.Int32)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function ShiftRightObj (o1 As Object, amount As Integer) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ ShiftRightObj(System::Object ^ o1, int amount);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member ShiftRightObj : obj * int -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.ShiftRightObj (o1, amount)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -874,11 +842,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="o1" Type="System.Object" />
-        <Parameter Name="amount" Type="System.Int32" />
+        <Parameter Name="o1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="amount" Type="System.Int32" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="o1">Required. Integral numeric expression. The bit pattern to be shifted. The data type must be an integral type (<see langword="SByte" />, <see langword="Byte" />, <see langword="Short" />, <see langword="UShort" />, <see langword="Integer" />, <see langword="UInteger" />, <see langword="Long" />, or <see langword="ULong" />).</param>
@@ -899,13 +867,11 @@
     </Member>
     <Member MemberName="StrCatObj">
       <MemberSignature Language="C#" Value="public static object StrCatObj (object? vLeft, object? vRight);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object StrCatObj(object vLeft, object vRight) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.StrCatObj(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function StrCatObj (vLeft As Object, vRight As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ StrCatObj(System::Object ^ vLeft, System::Object ^ vRight);" />
-      <MemberSignature Language="F#" Value="static member StrCatObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.StrCatObj (vLeft, vRight)" />
-      <MemberSignature Language="C#" Value="public static object StrCatObj (object vLeft, object vRight);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object StrCatObj(object vLeft, object vRight) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object StrCatObj(object vLeft, object vRight) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.StrCatObj(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function StrCatObj (vLeft As Object, vRight As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ StrCatObj(System::Object ^ vLeft, System::Object ^ vRight);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member StrCatObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.StrCatObj (vLeft, vRight)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -920,11 +886,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="vLeft" Type="System.Object" />
-        <Parameter Name="vRight" Type="System.Object" />
+        <Parameter Name="vLeft" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="vRight" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="vLeft">Required. Any expression.</param>
@@ -945,13 +911,11 @@
     </Member>
     <Member MemberName="SubObj">
       <MemberSignature Language="C#" Value="public static object SubObj (object? o1, object? o2);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object SubObj(object o1, object o2) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.SubObj(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function SubObj (o1 As Object, o2 As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ SubObj(System::Object ^ o1, System::Object ^ o2);" />
-      <MemberSignature Language="F#" Value="static member SubObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.SubObj (o1, o2)" />
-      <MemberSignature Language="C#" Value="public static object SubObj (object o1, object o2);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object SubObj(object o1, object o2) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object SubObj(object o1, object o2) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.SubObj(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function SubObj (o1 As Object, o2 As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ SubObj(System::Object ^ o1, System::Object ^ o2);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member SubObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.SubObj (o1, o2)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -966,11 +930,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="o1" Type="System.Object" />
-        <Parameter Name="o2" Type="System.Object" />
+        <Parameter Name="o1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="o2" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="o1">Required. Any numeric expression.</param>
@@ -991,13 +955,11 @@
     </Member>
     <Member MemberName="XorObj">
       <MemberSignature Language="C#" Value="public static object XorObj (object? obj1, object? obj2);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object XorObj(object obj1, object obj2) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.XorObj(System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function XorObj (obj1 As Object, obj2 As Object) As Object" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ XorObj(System::Object ^ obj1, System::Object ^ obj2);" />
-      <MemberSignature Language="F#" Value="static member XorObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.XorObj (obj1, obj2)" />
-      <MemberSignature Language="C#" Value="public static object XorObj (object obj1, object obj2);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public static object XorObj(object obj1, object obj2) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig object XorObj(object obj1, object obj2) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.CompilerServices.ObjectType.XorObj(System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function XorObj (obj1 As Object, obj2 As Object) As Object" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static System::Object ^ XorObj(System::Object ^ obj1, System::Object ^ obj2);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member XorObj : obj * obj -&gt; obj" Usage="Microsoft.VisualBasic.CompilerServices.ObjectType.XorObj (obj1, obj2)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -1012,11 +974,11 @@
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Object?</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj1" Type="System.Object" />
-        <Parameter Name="obj2" Type="System.Object" />
+        <Parameter Name="obj1" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="obj2" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="obj1">Required. Any <see langword="Boolean" /> or numeric expression.</param>

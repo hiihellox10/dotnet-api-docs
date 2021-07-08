@@ -1,6 +1,6 @@
 <Type Name="ErrObject" FullName="Microsoft.VisualBasic.ErrObject">
   <TypeSignature Language="C#" Value="public sealed class ErrObject" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ErrObject extends System.Object" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi sealed beforefieldinit ErrObject extends System.Object" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
   <TypeSignature Language="DocId" Value="T:Microsoft.VisualBasic.ErrObject" />
   <TypeSignature Language="VB.NET" Value="Public NotInheritable Class ErrObject" />
   <TypeSignature Language="C++ CLI" Value="public ref class ErrObject sealed" />
@@ -17,6 +17,7 @@
     <AssemblyVersion>10.0.4.0</AssemblyVersion>
     <AssemblyVersion>10.0.5.0</AssemblyVersion>
     <AssemblyVersion>10.0.6.0</AssemblyVersion>
+    <AssemblyVersion>11.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -60,7 +61,7 @@ End If
   <Members>
     <Member MemberName="Clear">
       <MemberSignature Language="C#" Value="public void Clear ();" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Clear() cil managed" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.ErrObject.Clear" />
       <MemberSignature Language="VB.NET" Value="Public Sub Clear ()" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; void Clear();" />
@@ -78,6 +79,7 @@ End If
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
@@ -145,6 +147,7 @@ End If
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -190,6 +193,7 @@ End If
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -228,8 +232,8 @@ End If
       </Docs>
     </Member>
     <Member MemberName="GetException">
-      <MemberSignature Language="C#" Value="public Exception? GetException ();" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Exception GetException() cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="C#" Value="public Exception? GetException ();" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance class System.Exception GetException() cil managed" FrameworkAlternate="net-5.0;net-6.0;netcore-3.0;netcore-3.1" />
       <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.ErrObject.GetException" />
       <MemberSignature Language="VB.NET" Value="Public Function GetException () As Exception" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; Exception ^ GetException();" />
@@ -248,6 +252,7 @@ End If
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Exception</ReturnType>
@@ -292,6 +297,7 @@ End If
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -338,6 +344,7 @@ End If
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -386,6 +393,7 @@ End If
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">
@@ -448,6 +456,7 @@ End If
         <AssemblyVersion>10.0.4.0</AssemblyVersion>
         <AssemblyVersion>10.0.5.0</AssemblyVersion>
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -488,12 +497,10 @@ End If
     </Member>
     <Member MemberName="Raise">
       <MemberSignature Language="C#" Value="public void Raise (int Number, object? Source = default, object? Description = default, object? HelpFile = default, object? HelpContext = default);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Raise(int32 Number, object Source, object Description, object HelpFile, object HelpContext) cil managed" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.ErrObject.Raise(System.Int32,System.Object,System.Object,System.Object,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub Raise (Number As Integer, Optional Source As Object = Nothing, Optional Description As Object = Nothing, Optional HelpFile As Object = Nothing, Optional HelpContext As Object = Nothing)" />
-      <MemberSignature Language="F#" Value="member this.Raise : int * obj * obj * obj * obj -&gt; unit" Usage="errObject.Raise (Number, Source, Description, HelpFile, HelpContext)" />
-      <MemberSignature Language="C#" Value="public void Raise (int Number, object Source = default, object Description = default, object HelpFile = default, object HelpContext = default);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
-      <MemberSignature Language="ILAsm" Value=".method public instance void Raise(int32 Number, object Source, object Description, object HelpFile, object HelpContext) cil managed" FrameworkAlternate="netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance void Raise(int32 Number, object Source, object Description, object HelpFile, object HelpContext) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:Microsoft.VisualBasic.ErrObject.Raise(System.Int32,System.Object,System.Object,System.Object,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub Raise (Number As Integer, Optional Source As Object = Nothing, Optional Description As Object = Nothing, Optional HelpFile As Object = Nothing, Optional HelpContext As Object = Nothing)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="member this.Raise : int * obj * obj * obj * obj -&gt; unit" Usage="errObject.Raise (Number, Source, Description, HelpFile, HelpContext)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic</AssemblyName>
@@ -508,14 +515,14 @@ End If
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="Number" Type="System.Int32" />
-        <Parameter Name="Source" Type="System.Object" />
-        <Parameter Name="Description" Type="System.Object" />
-        <Parameter Name="HelpFile" Type="System.Object" />
-        <Parameter Name="HelpContext" Type="System.Object" />
+        <Parameter Name="Number" Type="System.Int32" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="Source" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="Description" Type="System.Object?" Index="2" FrameworkAlternate="net-5.0" />
+        <Parameter Name="HelpFile" Type="System.Object?" Index="3" FrameworkAlternate="net-5.0" />
+        <Parameter Name="HelpContext" Type="System.Object?" Index="4" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="Number">Required. <see langword="Long" /> integer that identifies the nature of the error. Visual Basic errors are in the range 0-65535; the range 0-512 is reserved for system errors; the range 513-65535 is available for user-defined errors. When setting the <see langword="Number" /> property to your own error code in a class module, you add your error code number to the <see langword="vbObjectError" /> constant. For example, to generate the error number 513, assign <c>vbObjectError + 513</c> to the <see langword="Number" /> property.</param>
@@ -565,6 +572,7 @@ End If
       <AssemblyInfo>
         <AssemblyName>Microsoft.VisualBasic.Core</AssemblyName>
         <AssemblyVersion>10.0.6.0</AssemblyVersion>
+        <AssemblyVersion>11.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

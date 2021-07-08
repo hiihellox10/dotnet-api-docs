@@ -13,9 +13,11 @@
   <AssemblyInfo>
     <AssemblyName>System.Windows.Forms.Primitives</AssemblyName>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="System.Windows.Forms" FromVersion="5.0.0.0" To="System.Windows.Forms.Primitives" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="System.Windows.Forms" FromVersion="6.0.0.0" To="System.Windows.Forms.Primitives" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -64,6 +66,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Primitives</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
         <Parameter Name="knownFolderGuid" Type="System.Guid" />
@@ -92,12 +95,11 @@
     </Member>
     <Member MemberName=".ctor">
       <MemberSignature Language="C#" Value="public FileDialogCustomPlace (string? path);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.FileDialogCustomPlace.#ctor(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (path As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; FileDialogCustomPlace(System::String ^ path);" />
-      <MemberSignature Language="F#" Value="new System.Windows.Forms.FileDialogCustomPlace : string -&gt; System.Windows.Forms.FileDialogCustomPlace" Usage="new System.Windows.Forms.FileDialogCustomPlace path" />
-      <MemberSignature Language="C#" Value="public FileDialogCustomPlace (string path);" FrameworkAlternate="netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string path) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.FileDialogCustomPlace.#ctor(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (path As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; FileDialogCustomPlace(System::String ^ path);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="new System.Windows.Forms.FileDialogCustomPlace : string -&gt; System.Windows.Forms.FileDialogCustomPlace" Usage="new System.Windows.Forms.FileDialogCustomPlace path" FrameworkAlternate="net-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
@@ -109,7 +111,7 @@
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Parameters>
-        <Parameter Name="path" Type="System.String" />
+        <Parameter Name="path" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="path">A folder path to the custom place.</param>
@@ -134,6 +136,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Primitives</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -167,6 +170,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Primitives</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>
@@ -194,6 +198,7 @@
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms.Primitives</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

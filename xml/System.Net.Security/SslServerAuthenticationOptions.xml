@@ -10,6 +10,7 @@
     <AssemblyVersion>4.1.1.0</AssemblyVersion>
     <AssemblyVersion>4.1.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>netstandard</AssemblyName>
@@ -17,6 +18,7 @@
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.Security" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Net.Security" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -46,6 +48,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -70,6 +73,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -86,7 +90,7 @@
       </Docs>
     </Member>
     <Member MemberName="ApplicationProtocols">
-      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;System.Net.Security.SslApplicationProtocol&gt;? ApplicationProtocols { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Collections.Generic.List&lt;System.Net.Security.SslApplicationProtocol&gt;? ApplicationProtocols { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Collections.Generic.List`1&lt;valuetype System.Net.Security.SslApplicationProtocol&gt; ApplicationProtocols" />
       <MemberSignature Language="DocId" Value="P:System.Net.Security.SslServerAuthenticationOptions.ApplicationProtocols" />
       <MemberSignature Language="VB.NET" Value="Public Property ApplicationProtocols As List(Of SslApplicationProtocol)" />
@@ -99,13 +103,15 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Collections.Generic.List&lt;System.Net.Security.SslApplicationProtocol&gt;</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Collections.Generic.List&lt;System.Net.Security.SslApplicationProtocol&gt;?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">System.Collections.Generic.List&lt;System.Net.Security.SslApplicationProtocol&gt;</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a list of ALPN protocols.</summary>
@@ -126,6 +132,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -152,7 +159,7 @@
       </Docs>
     </Member>
     <Member MemberName="CipherSuitesPolicy">
-      <MemberSignature Language="C#" Value="public System.Net.Security.CipherSuitesPolicy? CipherSuitesPolicy { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Net.Security.CipherSuitesPolicy? CipherSuitesPolicy { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.Security.CipherSuitesPolicy CipherSuitesPolicy" />
       <MemberSignature Language="DocId" Value="P:System.Net.Security.SslServerAuthenticationOptions.CipherSuitesPolicy" />
       <MemberSignature Language="VB.NET" Value="Public Property CipherSuitesPolicy As CipherSuitesPolicy" />
@@ -165,12 +172,14 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Net.Security.CipherSuitesPolicy</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Net.Security.CipherSuitesPolicy?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-3.0;netcore-3.1">System.Net.Security.CipherSuitesPolicy</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Specifies the cipher suites allowed for TLS. When set to <see langword="null" />, the operating system default is used. Use extreme caution when changing this setting.</summary>
@@ -191,6 +200,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -218,6 +228,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -245,6 +256,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
@@ -262,7 +274,7 @@
       </Docs>
     </Member>
     <Member MemberName="RemoteCertificateValidationCallback">
-      <MemberSignature Language="C#" Value="public System.Net.Security.RemoteCertificateValidationCallback? RemoteCertificateValidationCallback { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Net.Security.RemoteCertificateValidationCallback? RemoteCertificateValidationCallback { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.Security.RemoteCertificateValidationCallback RemoteCertificateValidationCallback" />
       <MemberSignature Language="DocId" Value="P:System.Net.Security.SslServerAuthenticationOptions.RemoteCertificateValidationCallback" />
       <MemberSignature Language="VB.NET" Value="Public Property RemoteCertificateValidationCallback As RemoteCertificateValidationCallback" />
@@ -275,13 +287,15 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Net.Security.RemoteCertificateValidationCallback</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Net.Security.RemoteCertificateValidationCallback?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">System.Net.Security.RemoteCertificateValidationCallback</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets a <see cref="T:System.Net.Security.RemoteCertificateValidationCallback" /> delegate responsible for custom validating the certificate supplied by the remote party.</summary>
@@ -290,7 +304,7 @@
       </Docs>
     </Member>
     <Member MemberName="ServerCertificate">
-      <MemberSignature Language="C#" Value="public System.Security.Cryptography.X509Certificates.X509Certificate? ServerCertificate { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Security.Cryptography.X509Certificates.X509Certificate? ServerCertificate { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Security.Cryptography.X509Certificates.X509Certificate ServerCertificate" />
       <MemberSignature Language="DocId" Value="P:System.Net.Security.SslServerAuthenticationOptions.ServerCertificate" />
       <MemberSignature Language="VB.NET" Value="Public Property ServerCertificate As X509Certificate" />
@@ -303,13 +317,15 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Security.Cryptography.X509Certificates.X509Certificate</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Security.Cryptography.X509Certificates.X509Certificate?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">System.Security.Cryptography.X509Certificates.X509Certificate</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the server certificate.</summary>
@@ -328,12 +344,13 @@
       <AssemblyInfo>
         <AssemblyName>System.Net.Security</AssemblyName>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Net.Security.SslStreamCertificateContext</ReturnType>
+        <ReturnType>System.Net.Security.SslStreamCertificateContext?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the server certificate context.</summary>
@@ -342,7 +359,7 @@
       </Docs>
     </Member>
     <Member MemberName="ServerCertificateSelectionCallback">
-      <MemberSignature Language="C#" Value="public System.Net.Security.ServerCertificateSelectionCallback? ServerCertificateSelectionCallback { get; set; }" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C#" Value="public System.Net.Security.ServerCertificateSelectionCallback? ServerCertificateSelectionCallback { get; set; }" FrameworkAlternate="net-5.0;net-6.0" />
       <MemberSignature Language="ILAsm" Value=".property instance class System.Net.Security.ServerCertificateSelectionCallback ServerCertificateSelectionCallback" />
       <MemberSignature Language="DocId" Value="P:System.Net.Security.SslServerAuthenticationOptions.ServerCertificateSelectionCallback" />
       <MemberSignature Language="VB.NET" Value="Public Property ServerCertificateSelectionCallback As ServerCertificateSelectionCallback" />
@@ -355,13 +372,15 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>netstandard</AssemblyName>
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Net.Security.ServerCertificateSelectionCallback</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;net-6.0">System.Net.Security.ServerCertificateSelectionCallback?</ReturnType>
+        <ReturnType FrameworkAlternate="netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netstandard-2.1">System.Net.Security.ServerCertificateSelectionCallback</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets or sets the <see cref="T:System.Net.Security.ServerCertificateSelectionCallback" /> delegate responsible for the server certificate selection.</summary>

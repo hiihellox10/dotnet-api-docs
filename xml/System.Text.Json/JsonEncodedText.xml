@@ -10,6 +10,7 @@
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.1.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.ValueType</BaseTypeName>
@@ -40,11 +41,10 @@ This type can be used to cache and store known strings used for writing JSON ahe
   <Members>
     <Member MemberName="Encode">
       <MemberSignature Language="C#" Value="public static System.Text.Json.JsonEncodedText Encode (ReadOnlySpan&lt;byte&gt; utf8Value, System.Text.Encodings.Web.JavaScriptEncoder? encoder = default);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Text.Json.JsonEncodedText Encode(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; utf8Value, class System.Text.Encodings.Web.JavaScriptEncoder encoder) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonEncodedText.Encode(System.ReadOnlySpan{System.Byte},System.Text.Encodings.Web.JavaScriptEncoder)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Encode (utf8Value As ReadOnlySpan(Of Byte), Optional encoder As JavaScriptEncoder = Nothing) As JsonEncodedText" />
-      <MemberSignature Language="F#" Value="static member Encode : ReadOnlySpan&lt;byte&gt; * System.Text.Encodings.Web.JavaScriptEncoder -&gt; System.Text.Json.JsonEncodedText" Usage="System.Text.Json.JsonEncodedText.Encode (utf8Value, encoder)" />
-      <MemberSignature Language="C#" Value="public static System.Text.Json.JsonEncodedText Encode (ReadOnlySpan&lt;byte&gt; utf8Value, System.Text.Encodings.Web.JavaScriptEncoder encoder = default);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Text.Json.JsonEncodedText Encode(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; utf8Value, class System.Text.Encodings.Web.JavaScriptEncoder encoder) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonEncodedText.Encode(System.ReadOnlySpan{System.Byte},System.Text.Encodings.Web.JavaScriptEncoder)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Encode (utf8Value As ReadOnlySpan(Of Byte), Optional encoder As JavaScriptEncoder = Nothing) As JsonEncodedText" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Encode : ReadOnlySpan&lt;byte&gt; * System.Text.Encodings.Web.JavaScriptEncoder -&gt; System.Text.Json.JsonEncodedText" Usage="System.Text.Json.JsonEncodedText.Encode (utf8Value, encoder)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -53,11 +53,11 @@ This type can be used to cache and store known strings used for writing JSON ahe
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Text.Json.JsonEncodedText</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Text.Json.JsonEncodedText</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="utf8Value" Type="System.ReadOnlySpan&lt;System.Byte&gt;" />
-        <Parameter Name="encoder" Type="System.Text.Encodings.Web.JavaScriptEncoder" />
+        <Parameter Name="utf8Value" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="encoder" Type="System.Text.Encodings.Web.JavaScriptEncoder?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="utf8Value">The UTF-8 encoded text to convert to JSON encoded text.</param>
@@ -75,11 +75,10 @@ This type can be used to cache and store known strings used for writing JSON ahe
     </Member>
     <Member MemberName="Encode">
       <MemberSignature Language="C#" Value="public static System.Text.Json.JsonEncodedText Encode (ReadOnlySpan&lt;char&gt; value, System.Text.Encodings.Web.JavaScriptEncoder? encoder = default);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Text.Json.JsonEncodedText Encode(valuetype System.ReadOnlySpan`1&lt;char&gt; value, class System.Text.Encodings.Web.JavaScriptEncoder encoder) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonEncodedText.Encode(System.ReadOnlySpan{System.Char},System.Text.Encodings.Web.JavaScriptEncoder)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Encode (value As ReadOnlySpan(Of Char), Optional encoder As JavaScriptEncoder = Nothing) As JsonEncodedText" />
-      <MemberSignature Language="F#" Value="static member Encode : ReadOnlySpan&lt;char&gt; * System.Text.Encodings.Web.JavaScriptEncoder -&gt; System.Text.Json.JsonEncodedText" Usage="System.Text.Json.JsonEncodedText.Encode (value, encoder)" />
-      <MemberSignature Language="C#" Value="public static System.Text.Json.JsonEncodedText Encode (ReadOnlySpan&lt;char&gt; value, System.Text.Encodings.Web.JavaScriptEncoder encoder = default);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Text.Json.JsonEncodedText Encode(valuetype System.ReadOnlySpan`1&lt;char&gt; value, class System.Text.Encodings.Web.JavaScriptEncoder encoder) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonEncodedText.Encode(System.ReadOnlySpan{System.Char},System.Text.Encodings.Web.JavaScriptEncoder)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Encode (value As ReadOnlySpan(Of Char), Optional encoder As JavaScriptEncoder = Nothing) As JsonEncodedText" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Encode : ReadOnlySpan&lt;char&gt; * System.Text.Encodings.Web.JavaScriptEncoder -&gt; System.Text.Json.JsonEncodedText" Usage="System.Text.Json.JsonEncodedText.Encode (value, encoder)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -88,11 +87,11 @@ This type can be used to cache and store known strings used for writing JSON ahe
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Text.Json.JsonEncodedText</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Text.Json.JsonEncodedText</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.ReadOnlySpan&lt;System.Char&gt;" />
-        <Parameter Name="encoder" Type="System.Text.Encodings.Web.JavaScriptEncoder" />
+        <Parameter Name="value" Type="System.ReadOnlySpan&lt;System.Char&gt;" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="encoder" Type="System.Text.Encodings.Web.JavaScriptEncoder?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="value">The value to convert to JSON encoded text.</param>
@@ -110,11 +109,10 @@ This type can be used to cache and store known strings used for writing JSON ahe
     </Member>
     <Member MemberName="Encode">
       <MemberSignature Language="C#" Value="public static System.Text.Json.JsonEncodedText Encode (string value, System.Text.Encodings.Web.JavaScriptEncoder? encoder = default);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Text.Json.JsonEncodedText Encode(string value, class System.Text.Encodings.Web.JavaScriptEncoder encoder) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonEncodedText.Encode(System.String,System.Text.Encodings.Web.JavaScriptEncoder)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function Encode (value As String, Optional encoder As JavaScriptEncoder = Nothing) As JsonEncodedText" />
-      <MemberSignature Language="F#" Value="static member Encode : string * System.Text.Encodings.Web.JavaScriptEncoder -&gt; System.Text.Json.JsonEncodedText" Usage="System.Text.Json.JsonEncodedText.Encode (value, encoder)" />
-      <MemberSignature Language="C#" Value="public static System.Text.Json.JsonEncodedText Encode (string value, System.Text.Encodings.Web.JavaScriptEncoder encoder = default);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig valuetype System.Text.Json.JsonEncodedText Encode(string value, class System.Text.Encodings.Web.JavaScriptEncoder encoder) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonEncodedText.Encode(System.String,System.Text.Encodings.Web.JavaScriptEncoder)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function Encode (value As String, Optional encoder As JavaScriptEncoder = Nothing) As JsonEncodedText" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Encode : string * System.Text.Encodings.Web.JavaScriptEncoder -&gt; System.Text.Json.JsonEncodedText" Usage="System.Text.Json.JsonEncodedText.Encode (value, encoder)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -123,11 +121,11 @@ This type can be used to cache and store known strings used for writing JSON ahe
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Text.Json.JsonEncodedText</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Text.Json.JsonEncodedText</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.String" />
-        <Parameter Name="encoder" Type="System.Text.Encodings.Web.JavaScriptEncoder" />
+        <Parameter Name="value" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="encoder" Type="System.Text.Encodings.Web.JavaScriptEncoder?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="value">The value to convert to JSON encoded text.</param>
@@ -158,6 +156,7 @@ This type can be used to cache and store known strings used for writing JSON ahe
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.ReadOnlySpan&lt;System.Byte&gt;</ReturnType>
@@ -170,12 +169,11 @@ This type can be used to cache and store known strings used for writing JSON ahe
     </Member>
     <Member MemberName="Equals">
       <MemberSignature Language="C#" Value="public override bool Equals (object? obj);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonEncodedText.Equals(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" />
-      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="jsonEncodedText.Equals obj" />
-      <MemberSignature Language="C#" Value="public override bool Equals (object obj);" FrameworkAlternate="netcore-3.0;netcore-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig virtual instance bool Equals(object obj) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Text.Json.JsonEncodedText.Equals(System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Overrides Function Equals (obj As Object) As Boolean" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; override bool Equals(System::Object ^ obj);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="override this.Equals : obj -&gt; bool" Usage="jsonEncodedText.Equals obj" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Text.Json</AssemblyName>
@@ -184,10 +182,10 @@ This type can be used to cache and store known strings used for writing JSON ahe
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="obj" Type="System.Object" />
+        <Parameter Name="obj" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="obj">The object to compare to this instance.</param>
@@ -221,6 +219,7 @@ If `obj` is `null`, the method returns `false`.
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Boolean</ReturnType>
@@ -257,6 +256,7 @@ Default instances of <xref:System.Text.Json.JsonEncodedText> are treated as equa
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Int32</ReturnType>
@@ -289,6 +289,7 @@ This method returns 0 on a default instance of <xref:System.Text.Json.JsonEncode
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.String</ReturnType>

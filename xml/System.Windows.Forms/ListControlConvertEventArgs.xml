@@ -10,6 +10,7 @@
     <AssemblyVersion>2.0.0.0</AssemblyVersion>
     <AssemblyVersion>4.0.0.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Windows.Forms.ConvertEventArgs</BaseTypeName>
@@ -33,29 +34,25 @@
   </Docs>
   <Members>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public ListControlConvertEventArgs (object value, Type desiredType, object listItem);" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object value, class System.Type desiredType, object listItem) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.ListControlConvertEventArgs.#ctor(System.Object,System.Type,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (value As Object, desiredType As Type, listItem As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; ListControlConvertEventArgs(System::Object ^ value, Type ^ desiredType, System::Object ^ listItem);" />
-      <MemberSignature Language="F#" Value="new System.Windows.Forms.ListControlConvertEventArgs : obj * Type * obj -&gt; System.Windows.Forms.ListControlConvertEventArgs" Usage="new System.Windows.Forms.ListControlConvertEventArgs (value, desiredType, listItem)" />
+      <MemberSignature Language="C#" Value="public ListControlConvertEventArgs (object value, Type desiredType, object listItem);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(object value, class System.Type desiredType, object listItem) cil managed" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="DocId" Value="M:System.Windows.Forms.ListControlConvertEventArgs.#ctor(System.Object,System.Type,System.Object)" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (value As Object, desiredType As Type, listItem As Object)" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; ListControlConvertEventArgs(System::Object ^ value, Type ^ desiredType, System::Object ^ listItem);" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="F#" Value="new System.Windows.Forms.ListControlConvertEventArgs : obj * Type * obj -&gt; System.Windows.Forms.ListControlConvertEventArgs" Usage="new System.Windows.Forms.ListControlConvertEventArgs (value, desiredType, listItem)" FrameworkAlternate="net-5.0;net-6.0" />
+      <MemberSignature Language="C#" Value="public ListControlConvertEventArgs (object? value, Type? desiredType, object? listItem);" FrameworkAlternate="net-6.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
-        <Parameter Name="value" Type="System.Object" />
-        <Parameter Name="desiredType" Type="System.Type" />
-        <Parameter Name="listItem" Type="System.Object" />
+        <Parameter Name="value" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="desiredType" Type="System.Type?" Index="1" FrameworkAlternate="net-5.0;net-6.0" />
+        <Parameter Name="listItem" Type="System.Object?" Index="2" FrameworkAlternate="net-5.0;net-6.0" />
       </Parameters>
       <Docs>
         <param name="value">The value displayed in the <see cref="T:System.Windows.Forms.ListControl" />.</param>
@@ -73,18 +70,20 @@
       </Docs>
     </Member>
     <Member MemberName="ListItem">
-      <MemberSignature Language="C#" Value="public object ListItem { get; }" />
+      <MemberSignature Language="C#" Value="public object ListItem { get; }" FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8" />
       <MemberSignature Language="ILAsm" Value=".property instance object ListItem" />
       <MemberSignature Language="DocId" Value="P:System.Windows.Forms.ListControlConvertEventArgs.ListItem" />
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property ListItem As Object" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::Object ^ ListItem { System::Object ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.ListItem : obj" Usage="System.Windows.Forms.ListControlConvertEventArgs.ListItem" />
+      <MemberSignature Language="C#" Value="public object? ListItem { get; }" FrameworkAlternate="net-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Windows.Forms</AssemblyName>
         <AssemblyVersion>2.0.0.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
         <Attribute FrameworkAlternate="netframework-4.0">
@@ -93,7 +92,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8">System.Object</ReturnType>
+        <ReturnType FrameworkAlternate="net-6.0">System.Object?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets a data source item.</summary>

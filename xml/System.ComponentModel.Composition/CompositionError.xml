@@ -1,6 +1,6 @@
 <Type Name="CompositionError" FullName="System.ComponentModel.Composition.CompositionError">
   <TypeSignature Language="C#" Value="public class CompositionError" />
-  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CompositionError extends System.Object" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+  <TypeSignature Language="ILAsm" Value=".class public auto ansi beforefieldinit CompositionError extends System.Object" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
   <TypeSignature Language="DocId" Value="T:System.ComponentModel.Composition.CompositionError" />
   <TypeSignature Language="VB.NET" Value="Public Class CompositionError" />
   <TypeSignature Language="C++ CLI" Value="public ref class CompositionError" />
@@ -41,12 +41,12 @@
       </Docs>
     </MemberGroup>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CompositionError (string message);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.CompositionError.#ctor(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompositionError(System::String ^ message);" />
-      <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.CompositionError : string -&gt; System.ComponentModel.Composition.CompositionError" Usage="new System.ComponentModel.Composition.CompositionError message" />
+      <MemberSignature Language="C#" Value="public CompositionError (string message);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.CompositionError.#ctor(System.String)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompositionError(System::String ^ message);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.CompositionError : string -&gt; System.ComponentModel.Composition.CompositionError" Usage="new System.ComponentModel.Composition.CompositionError message" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="C#" Value="public CompositionError (string? message);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -54,14 +54,8 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="message">A message that describes the <see cref="T:System.ComponentModel.Composition.CompositionError" /> or <see langword="null" /> to set the <see cref="P:System.ComponentModel.Composition.CompositionError.Description" /> property to an empty string ("").</param>
@@ -70,12 +64,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CompositionError (string message, System.ComponentModel.Composition.Primitives.ICompositionElement element);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.ComponentModel.Composition.Primitives.ICompositionElement element) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.CompositionError.#ctor(System.String,System.ComponentModel.Composition.Primitives.ICompositionElement)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, element As ICompositionElement)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompositionError(System::String ^ message, System::ComponentModel::Composition::Primitives::ICompositionElement ^ element);" />
-      <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.CompositionError : string * System.ComponentModel.Composition.Primitives.ICompositionElement -&gt; System.ComponentModel.Composition.CompositionError" Usage="new System.ComponentModel.Composition.CompositionError (message, element)" />
+      <MemberSignature Language="C#" Value="public CompositionError (string message, System.ComponentModel.Composition.Primitives.ICompositionElement element);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.ComponentModel.Composition.Primitives.ICompositionElement element) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.CompositionError.#ctor(System.String,System.ComponentModel.Composition.Primitives.ICompositionElement)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, element As ICompositionElement)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompositionError(System::String ^ message, System::ComponentModel::Composition::Primitives::ICompositionElement ^ element);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.CompositionError : string * System.ComponentModel.Composition.Primitives.ICompositionElement -&gt; System.ComponentModel.Composition.CompositionError" Usage="new System.ComponentModel.Composition.CompositionError (message, element)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="C#" Value="public CompositionError (string? message, System.ComponentModel.Composition.Primitives.ICompositionElement? element);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -83,15 +77,9 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="element" Type="System.ComponentModel.Composition.Primitives.ICompositionElement" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="element" Type="System.ComponentModel.Composition.Primitives.ICompositionElement?" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="message">A message that describes the <see cref="T:System.ComponentModel.Composition.CompositionError" /> or <see langword="null" /> to set the <see cref="P:System.ComponentModel.Composition.CompositionError.Description" /> property to an empty string ("").</param>
@@ -101,12 +89,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CompositionError (string message, Exception exception);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception exception) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.CompositionError.#ctor(System.String,System.Exception)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, exception As Exception)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompositionError(System::String ^ message, Exception ^ exception);" />
-      <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.CompositionError : string * Exception -&gt; System.ComponentModel.Composition.CompositionError" Usage="new System.ComponentModel.Composition.CompositionError (message, exception)" />
+      <MemberSignature Language="C#" Value="public CompositionError (string message, Exception exception);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.Exception exception) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.CompositionError.#ctor(System.String,System.Exception)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, exception As Exception)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompositionError(System::String ^ message, Exception ^ exception);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.CompositionError : string * Exception -&gt; System.ComponentModel.Composition.CompositionError" Usage="new System.ComponentModel.Composition.CompositionError (message, exception)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="C#" Value="public CompositionError (string? message, Exception? exception);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -114,15 +102,9 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="exception" Type="System.Exception" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="exception" Type="System.Exception?" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="message">A message that describes the <see cref="T:System.ComponentModel.Composition.CompositionError" /> or <see langword="null" /> to set the <see cref="P:System.ComponentModel.Composition.CompositionError.Description" /> property to an empty string ("").</param>
@@ -132,12 +114,12 @@
       </Docs>
     </Member>
     <Member MemberName=".ctor">
-      <MemberSignature Language="C#" Value="public CompositionError (string message, System.ComponentModel.Composition.Primitives.ICompositionElement element, Exception exception);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.ComponentModel.Composition.Primitives.ICompositionElement element, class System.Exception exception) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.CompositionError.#ctor(System.String,System.ComponentModel.Composition.Primitives.ICompositionElement,System.Exception)" />
-      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, element As ICompositionElement, exception As Exception)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompositionError(System::String ^ message, System::ComponentModel::Composition::Primitives::ICompositionElement ^ element, Exception ^ exception);" />
-      <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.CompositionError : string * System.ComponentModel.Composition.Primitives.ICompositionElement * Exception -&gt; System.ComponentModel.Composition.CompositionError" Usage="new System.ComponentModel.Composition.CompositionError (message, element, exception)" />
+      <MemberSignature Language="C#" Value="public CompositionError (string message, System.ComponentModel.Composition.Primitives.ICompositionElement element, Exception exception);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig specialname rtspecialname instance void .ctor(string message, class System.ComponentModel.Composition.Primitives.ICompositionElement element, class System.Exception exception) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.ComponentModel.Composition.CompositionError.#ctor(System.String,System.ComponentModel.Composition.Primitives.ICompositionElement,System.Exception)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Sub New (message As String, element As ICompositionElement, exception As Exception)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; CompositionError(System::String ^ message, System::ComponentModel::Composition::Primitives::ICompositionElement ^ element, Exception ^ exception);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="new System.ComponentModel.Composition.CompositionError : string * System.ComponentModel.Composition.Primitives.ICompositionElement * Exception -&gt; System.ComponentModel.Composition.CompositionError" Usage="new System.ComponentModel.Composition.CompositionError (message, element, exception)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       <MemberSignature Language="C#" Value="public CompositionError (string? message, System.ComponentModel.Composition.Primitives.ICompositionElement? element, Exception? exception);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Constructor</MemberType>
       <AssemblyInfo>
@@ -145,16 +127,10 @@
         <AssemblyVersion>2.0.5.0</AssemblyVersion>
         <AssemblyVersion>4.0.0.0</AssemblyVersion>
       </AssemblyInfo>
-      <Attributes>
-        <Attribute FrameworkAlternate="netframework-4.0">
-          <AttributeName Language="C#">[System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")]</AttributeName>
-          <AttributeName Language="F#">[&lt;System.Runtime.TargetedPatchingOptOut("Performance critical to inline this type of method across NGen image boundaries")&gt;]</AttributeName>
-        </Attribute>
-      </Attributes>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="element" Type="System.ComponentModel.Composition.Primitives.ICompositionElement" />
-        <Parameter Name="exception" Type="System.Exception" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="element" Type="System.ComponentModel.Composition.Primitives.ICompositionElement?" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="exception" Type="System.Exception?" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="message">A message that describes the <see cref="T:System.ComponentModel.Composition.CompositionError" /> or <see langword="null" /> to set the <see cref="P:System.ComponentModel.Composition.CompositionError.Description" /> property to an empty string ("").</param>
@@ -199,7 +175,7 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Element As ICompositionElement" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property System::ComponentModel::Composition::Primitives::ICompositionElement ^ Element { System::ComponentModel::Composition::Primitives::ICompositionElement ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Element : System.ComponentModel.Composition.Primitives.ICompositionElement" Usage="System.ComponentModel.Composition.CompositionError.Element" />
-      <MemberSignature Language="C#" Value="public System.ComponentModel.Composition.Primitives.ICompositionElement? Element { get; }" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public System.ComponentModel.Composition.Primitives.ICompositionElement? Element { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.Composition</AssemblyName>
@@ -213,7 +189,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.ComponentModel.Composition.Primitives.ICompositionElement</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.ComponentModel.Composition.Primitives.ICompositionElement</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0">System.ComponentModel.Composition.Primitives.ICompositionElement?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the composition element that is the cause of the error.</summary>
@@ -228,7 +205,7 @@
       <MemberSignature Language="VB.NET" Value="Public ReadOnly Property Exception As Exception" />
       <MemberSignature Language="C++ CLI" Value="public:&#xA; property Exception ^ Exception { Exception ^ get(); };" />
       <MemberSignature Language="F#" Value="member this.Exception : Exception" Usage="System.ComponentModel.Composition.CompositionError.Exception" />
-      <MemberSignature Language="C#" Value="public Exception? Exception { get; }" FrameworkAlternate="dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public Exception? Exception { get; }" FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0" />
       <MemberType>Property</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.ComponentModel.Composition</AssemblyName>
@@ -242,7 +219,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Exception</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.Exception</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0">System.Exception?</ReturnType>
       </ReturnValue>
       <Docs>
         <summary>Gets the exception that is the underlying cause of the composition error.</summary>
@@ -270,7 +248,8 @@
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">System.String</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0">System.String?</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>

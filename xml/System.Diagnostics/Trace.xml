@@ -12,6 +12,7 @@
     <AssemblyVersion>4.1.1.0</AssemblyVersion>
     <AssemblyVersion>4.1.2.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <AssemblyInfo>
     <AssemblyName>System</AssemblyName>
@@ -27,6 +28,7 @@
   </AssemblyInfo>
   <TypeForwardingChain>
     <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Diagnostics.TraceSource" ToVersion="5.0.0.0" FrameworkAlternate="net-5.0" />
+    <TypeForwarding From="netstandard" FromVersion="2.1.0.0" To="System.Diagnostics.TraceSource" ToVersion="6.0.0.0" FrameworkAlternate="net-6.0" />
   </TypeForwardingChain>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -121,6 +123,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -198,12 +201,11 @@
     </Member>
     <Member MemberName="Assert">
       <MemberSignature Language="C#" Value="public static void Assert (bool condition, string? message);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Assert(bool condition, string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Assert(System.Boolean,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub Assert (condition As Boolean, message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Assert(bool condition, System::String ^ message);" />
-      <MemberSignature Language="F#" Value="static member Assert : bool * string -&gt; unit" Usage="System.Diagnostics.Trace.Assert (condition, message)" />
-      <MemberSignature Language="C#" Value="public static void Assert (bool condition, string message);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Assert(bool condition, string message) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Assert(System.Boolean,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Assert (condition As Boolean, message As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Assert(bool condition, System::String ^ message);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Assert : bool * string -&gt; unit" Usage="System.Diagnostics.Trace.Assert (condition, message)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -226,17 +228,17 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="condition" Type="System.Boolean" />
-        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="condition" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="message" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="condition">The conditional expression to evaluate. If the condition is <see langword="true" />, the specified message is not sent and the message box is not displayed.</param>
@@ -291,12 +293,11 @@
     </Member>
     <Member MemberName="Assert">
       <MemberSignature Language="C#" Value="public static void Assert (bool condition, string? message, string? detailMessage);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Assert(bool condition, string message, string detailMessage) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Assert(System.Boolean,System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub Assert (condition As Boolean, message As String, detailMessage As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Assert(bool condition, System::String ^ message, System::String ^ detailMessage);" />
-      <MemberSignature Language="F#" Value="static member Assert : bool * string * string -&gt; unit" Usage="System.Diagnostics.Trace.Assert (condition, message, detailMessage)" />
-      <MemberSignature Language="C#" Value="public static void Assert (bool condition, string message, string detailMessage);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Assert(bool condition, string message, string detailMessage) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Assert(System.Boolean,System.String,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Assert (condition As Boolean, message As String, detailMessage As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Assert(bool condition, System::String ^ message, System::String ^ detailMessage);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Assert : bool * string * string -&gt; unit" Usage="System.Diagnostics.Trace.Assert (condition, message, detailMessage)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -319,18 +320,18 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="condition" Type="System.Boolean" />
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="detailMessage" Type="System.String" />
+        <Parameter Name="condition" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="message" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="detailMessage" Type="System.String?" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="condition">The conditional expression to evaluate. If the condition is <see langword="true" />, the specified messages are not sent and the message box is not displayed.</param>
@@ -399,6 +400,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -463,6 +465,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -541,6 +544,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Diagnostics.CorrelationManager</ReturnType>
@@ -575,12 +579,11 @@
     </MemberGroup>
     <Member MemberName="Fail">
       <MemberSignature Language="C#" Value="public static void Fail (string? message);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Fail(string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Fail(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub Fail (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Fail(System::String ^ message);" />
-      <MemberSignature Language="F#" Value="static member Fail : string -&gt; unit" Usage="System.Diagnostics.Trace.Fail message" />
-      <MemberSignature Language="C#" Value="public static void Fail (string message);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Fail(string message) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Fail(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Fail (message As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Fail(System::String ^ message);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Fail : string -&gt; unit" Usage="System.Diagnostics.Trace.Fail message" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -603,16 +606,16 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">A message to emit.</param>
@@ -656,12 +659,11 @@
     </Member>
     <Member MemberName="Fail">
       <MemberSignature Language="C#" Value="public static void Fail (string? message, string? detailMessage);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Fail(string message, string detailMessage) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Fail(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub Fail (message As String, detailMessage As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Fail(System::String ^ message, System::String ^ detailMessage);" />
-      <MemberSignature Language="F#" Value="static member Fail : string * string -&gt; unit" Usage="System.Diagnostics.Trace.Fail (message, detailMessage)" />
-      <MemberSignature Language="C#" Value="public static void Fail (string message, string detailMessage);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Fail(string message, string detailMessage) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Fail(System.String,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Fail (message As String, detailMessage As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Fail(System::String ^ message, System::String ^ detailMessage);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Fail : string * string -&gt; unit" Usage="System.Diagnostics.Trace.Fail (message, detailMessage)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -684,17 +686,17 @@
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="detailMessage" Type="System.String" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="detailMessage" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">A message to emit.</param>
@@ -752,6 +754,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -818,6 +821,7 @@
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -884,6 +888,7 @@ End of list of errors
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -956,6 +961,7 @@ End of list of errors
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -1020,6 +1026,7 @@ End of list of errors
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -1083,6 +1090,7 @@ End of list of errors
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -1123,12 +1131,11 @@ End of list of errors
     </MemberGroup>
     <Member MemberName="TraceError">
       <MemberSignature Language="C#" Value="public static void TraceError (string? message);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceError(string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceError(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceError (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceError(System::String ^ message);" />
-      <MemberSignature Language="F#" Value="static member TraceError : string -&gt; unit" Usage="System.Diagnostics.Trace.TraceError message" />
-      <MemberSignature Language="C#" Value="public static void TraceError (string message);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceError(string message) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceError(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceError (message As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceError(System::String ^ message);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member TraceError : string -&gt; unit" Usage="System.Diagnostics.Trace.TraceError message" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1150,16 +1157,16 @@ End of list of errors
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="message" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">The informative message to write.</param>
@@ -1183,12 +1190,11 @@ End of list of errors
     </Member>
     <Member MemberName="TraceError">
       <MemberSignature Language="C#" Value="public static void TraceError (string format, params object?[]? args);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceError(string format, object[] args) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceError(System.String,System.Object[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceError (format As String, ParamArray args As Object())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceError(System::String ^ format, ... cli::array &lt;System::Object ^&gt; ^ args);" />
-      <MemberSignature Language="F#" Value="static member TraceError : string * obj[] -&gt; unit" Usage="System.Diagnostics.Trace.TraceError (format, args)" />
-      <MemberSignature Language="C#" Value="public static void TraceError (string format, params object[] args);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceError(string format, object[] args) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceError(System.String,System.Object[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceError (format As String, ParamArray args As Object())" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceError(System::String ^ format, ... cli::array &lt;System::Object ^&gt; ^ args);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member TraceError : string * obj[] -&gt; unit" Usage="System.Diagnostics.Trace.TraceError (format, args)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1210,17 +1216,17 @@ End of list of errors
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="format" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="args" Type="System.Object[]" Index="1" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+        <Parameter Name="format" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="args" Type="System.Object?[]?" Index="1" FrameworkAlternate="net-5.0">
           <Attributes>
             <Attribute FrameworkAlternate="net-5.0">
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
@@ -1262,12 +1268,11 @@ End of list of errors
     </MemberGroup>
     <Member MemberName="TraceInformation">
       <MemberSignature Language="C#" Value="public static void TraceInformation (string? message);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceInformation(string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceInformation(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceInformation (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceInformation(System::String ^ message);" />
-      <MemberSignature Language="F#" Value="static member TraceInformation : string -&gt; unit" Usage="System.Diagnostics.Trace.TraceInformation message" />
-      <MemberSignature Language="C#" Value="public static void TraceInformation (string message);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceInformation(string message) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceInformation(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceInformation (message As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceInformation(System::String ^ message);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member TraceInformation : string -&gt; unit" Usage="System.Diagnostics.Trace.TraceInformation message" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1289,16 +1294,16 @@ End of list of errors
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="message" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">The informative message to write.</param>
@@ -1322,12 +1327,11 @@ End of list of errors
     </Member>
     <Member MemberName="TraceInformation">
       <MemberSignature Language="C#" Value="public static void TraceInformation (string format, params object?[]? args);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceInformation(string format, object[] args) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceInformation(System.String,System.Object[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceInformation (format As String, ParamArray args As Object())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceInformation(System::String ^ format, ... cli::array &lt;System::Object ^&gt; ^ args);" />
-      <MemberSignature Language="F#" Value="static member TraceInformation : string * obj[] -&gt; unit" Usage="System.Diagnostics.Trace.TraceInformation (format, args)" />
-      <MemberSignature Language="C#" Value="public static void TraceInformation (string format, params object[] args);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceInformation(string format, object[] args) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceInformation(System.String,System.Object[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceInformation (format As String, ParamArray args As Object())" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceInformation(System::String ^ format, ... cli::array &lt;System::Object ^&gt; ^ args);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member TraceInformation : string * obj[] -&gt; unit" Usage="System.Diagnostics.Trace.TraceInformation (format, args)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1349,17 +1353,17 @@ End of list of errors
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="format" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="args" Type="System.Object[]" Index="1" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+        <Parameter Name="format" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="args" Type="System.Object?[]?" Index="1" FrameworkAlternate="net-5.0">
           <Attributes>
             <Attribute FrameworkAlternate="net-5.0">
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
@@ -1401,12 +1405,11 @@ End of list of errors
     </MemberGroup>
     <Member MemberName="TraceWarning">
       <MemberSignature Language="C#" Value="public static void TraceWarning (string? message);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceWarning(string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceWarning(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceWarning (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceWarning(System::String ^ message);" />
-      <MemberSignature Language="F#" Value="static member TraceWarning : string -&gt; unit" Usage="System.Diagnostics.Trace.TraceWarning message" />
-      <MemberSignature Language="C#" Value="public static void TraceWarning (string message);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceWarning(string message) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceWarning(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceWarning (message As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceWarning(System::String ^ message);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member TraceWarning : string -&gt; unit" Usage="System.Diagnostics.Trace.TraceWarning message" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1428,16 +1431,16 @@ End of list of errors
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="message" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">The informative message to write.</param>
@@ -1461,12 +1464,11 @@ End of list of errors
     </Member>
     <Member MemberName="TraceWarning">
       <MemberSignature Language="C#" Value="public static void TraceWarning (string format, params object?[]? args);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceWarning(string format, object[] args) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceWarning(System.String,System.Object[])" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceWarning (format As String, ParamArray args As Object())" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceWarning(System::String ^ format, ... cli::array &lt;System::Object ^&gt; ^ args);" />
-      <MemberSignature Language="F#" Value="static member TraceWarning : string * obj[] -&gt; unit" Usage="System.Diagnostics.Trace.TraceWarning (format, args)" />
-      <MemberSignature Language="C#" Value="public static void TraceWarning (string format, params object[] args);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void TraceWarning(string format, object[] args) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.TraceWarning(System.String,System.Object[])" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub TraceWarning (format As String, ParamArray args As Object())" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void TraceWarning(System::String ^ format, ... cli::array &lt;System::Object ^&gt; ^ args);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member TraceWarning : string * obj[] -&gt; unit" Usage="System.Diagnostics.Trace.TraceWarning (format, args)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1488,17 +1490,17 @@ End of list of errors
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="format" Type="System.String" Index="0" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
-        <Parameter Name="args" Type="System.Object[]" Index="1" FrameworkAlternate="net-5.0;netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0">
+        <Parameter Name="format" Type="System.String" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="args" Type="System.Object?[]?" Index="1" FrameworkAlternate="net-5.0">
           <Attributes>
             <Attribute FrameworkAlternate="net-5.0">
               <AttributeName Language="C#">[System.ParamArray]</AttributeName>
@@ -1543,6 +1545,7 @@ End of list of errors
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -1611,6 +1614,7 @@ End of list of errors
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>4.1.2.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <AssemblyInfo>
         <AssemblyName>System</AssemblyName>
@@ -1662,12 +1666,11 @@ End of list of errors
     </MemberGroup>
     <Member MemberName="Write">
       <MemberSignature Language="C#" Value="public static void Write (object? value);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Write(object value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Write(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub Write (value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Write(System::Object ^ value);" />
-      <MemberSignature Language="F#" Value="static member Write : obj -&gt; unit" Usage="System.Diagnostics.Trace.Write value" />
-      <MemberSignature Language="C#" Value="public static void Write (object value);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Write(object value) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Write(System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Write (value As Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Write(System::Object ^ value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Write : obj -&gt; unit" Usage="System.Diagnostics.Trace.Write value" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1690,16 +1693,16 @@ End of list of errors
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="value" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="value">An <see cref="T:System.Object" /> whose name is sent to the <see cref="P:System.Diagnostics.Trace.Listeners" />.</param>
@@ -1743,12 +1746,11 @@ End of list of errors
     </Member>
     <Member MemberName="Write">
       <MemberSignature Language="C#" Value="public static void Write (string? message);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Write(string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Write(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub Write (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Write(System::String ^ message);" />
-      <MemberSignature Language="F#" Value="static member Write : string -&gt; unit" Usage="System.Diagnostics.Trace.Write message" />
-      <MemberSignature Language="C#" Value="public static void Write (string message);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Write(string message) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Write(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Write (message As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Write(System::String ^ message);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Write : string -&gt; unit" Usage="System.Diagnostics.Trace.Write message" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1771,16 +1773,16 @@ End of list of errors
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">A message to write.</param>
@@ -1824,12 +1826,11 @@ End of list of errors
     </Member>
     <Member MemberName="Write">
       <MemberSignature Language="C#" Value="public static void Write (object? value, string? category);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Write(object value, string category) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Write(System.Object,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub Write (value As Object, category As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Write(System::Object ^ value, System::String ^ category);" />
-      <MemberSignature Language="F#" Value="static member Write : obj * string -&gt; unit" Usage="System.Diagnostics.Trace.Write (value, category)" />
-      <MemberSignature Language="C#" Value="public static void Write (object value, string category);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Write(object value, string category) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Write(System.Object,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Write (value As Object, category As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Write(System::Object ^ value, System::String ^ category);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Write : obj * string -&gt; unit" Usage="System.Diagnostics.Trace.Write (value, category)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1852,17 +1853,17 @@ End of list of errors
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Object" />
-        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="value" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="category" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="value">An <see cref="T:System.Object" /> name is sent to the <see cref="P:System.Diagnostics.Trace.Listeners" />.</param>
@@ -1909,12 +1910,11 @@ End of list of errors
     </Member>
     <Member MemberName="Write">
       <MemberSignature Language="C#" Value="public static void Write (string? message, string? category);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Write(string message, string category) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Write(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub Write (message As String, category As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Write(System::String ^ message, System::String ^ category);" />
-      <MemberSignature Language="F#" Value="static member Write : string * string -&gt; unit" Usage="System.Diagnostics.Trace.Write (message, category)" />
-      <MemberSignature Language="C#" Value="public static void Write (string message, string category);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void Write(string message, string category) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.Write(System.String,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub Write (message As String, category As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void Write(System::String ^ message, System::String ^ category);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member Write : string * string -&gt; unit" Usage="System.Diagnostics.Trace.Write (message, category)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -1937,17 +1937,17 @@ End of list of errors
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="category" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">A message to write.</param>
@@ -2004,12 +2004,11 @@ End of list of errors
     </MemberGroup>
     <Member MemberName="WriteIf">
       <MemberSignature Language="C#" Value="public static void WriteIf (bool condition, object? value);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteIf(bool condition, object value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteIf(System.Boolean,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteIf (condition As Boolean, value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteIf(bool condition, System::Object ^ value);" />
-      <MemberSignature Language="F#" Value="static member WriteIf : bool * obj -&gt; unit" Usage="System.Diagnostics.Trace.WriteIf (condition, value)" />
-      <MemberSignature Language="C#" Value="public static void WriteIf (bool condition, object value);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteIf(bool condition, object value) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteIf(System.Boolean,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteIf (condition As Boolean, value As Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteIf(bool condition, System::Object ^ value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member WriteIf : bool * obj -&gt; unit" Usage="System.Diagnostics.Trace.WriteIf (condition, value)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -2032,17 +2031,17 @@ End of list of errors
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="condition" Type="System.Boolean" />
-        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="condition" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="condition">
@@ -2099,12 +2098,11 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
     </Member>
     <Member MemberName="WriteIf">
       <MemberSignature Language="C#" Value="public static void WriteIf (bool condition, string? message);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteIf(bool condition, string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteIf(System.Boolean,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteIf (condition As Boolean, message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteIf(bool condition, System::String ^ message);" />
-      <MemberSignature Language="F#" Value="static member WriteIf : bool * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteIf (condition, message)" />
-      <MemberSignature Language="C#" Value="public static void WriteIf (bool condition, string message);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteIf(bool condition, string message) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteIf(System.Boolean,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteIf (condition As Boolean, message As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteIf(bool condition, System::String ^ message);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member WriteIf : bool * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteIf (condition, message)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -2127,17 +2125,17 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="condition" Type="System.Boolean" />
-        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="condition" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="message" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="condition">
@@ -2194,12 +2192,11 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
     </Member>
     <Member MemberName="WriteIf">
       <MemberSignature Language="C#" Value="public static void WriteIf (bool condition, object? value, string? category);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteIf(bool condition, object value, string category) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteIf(System.Boolean,System.Object,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteIf (condition As Boolean, value As Object, category As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteIf(bool condition, System::Object ^ value, System::String ^ category);" />
-      <MemberSignature Language="F#" Value="static member WriteIf : bool * obj * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteIf (condition, value, category)" />
-      <MemberSignature Language="C#" Value="public static void WriteIf (bool condition, object value, string category);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteIf(bool condition, object value, string category) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteIf(System.Boolean,System.Object,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteIf (condition As Boolean, value As Object, category As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteIf(bool condition, System::Object ^ value, System::String ^ category);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member WriteIf : bool * obj * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteIf (condition, value, category)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -2222,18 +2219,18 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="condition" Type="System.Boolean" />
-        <Parameter Name="value" Type="System.Object" />
-        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="condition" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="category" Type="System.String?" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="condition">
@@ -2293,12 +2290,11 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
     </Member>
     <Member MemberName="WriteIf">
       <MemberSignature Language="C#" Value="public static void WriteIf (bool condition, string? message, string? category);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteIf(bool condition, string message, string category) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteIf(System.Boolean,System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteIf (condition As Boolean, message As String, category As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteIf(bool condition, System::String ^ message, System::String ^ category);" />
-      <MemberSignature Language="F#" Value="static member WriteIf : bool * string * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteIf (condition, message, category)" />
-      <MemberSignature Language="C#" Value="public static void WriteIf (bool condition, string message, string category);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteIf(bool condition, string message, string category) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteIf(System.Boolean,System.String,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteIf (condition As Boolean, message As String, category As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteIf(bool condition, System::String ^ message, System::String ^ category);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member WriteIf : bool * string * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteIf (condition, message, category)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -2321,18 +2317,18 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="condition" Type="System.Boolean" />
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="condition" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="message" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="category" Type="System.String?" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="condition">
@@ -2402,12 +2398,11 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
     </MemberGroup>
     <Member MemberName="WriteLine">
       <MemberSignature Language="C#" Value="public static void WriteLine (object? value);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLine(object value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLine(System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLine (value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLine(System::Object ^ value);" />
-      <MemberSignature Language="F#" Value="static member WriteLine : obj -&gt; unit" Usage="System.Diagnostics.Trace.WriteLine value" />
-      <MemberSignature Language="C#" Value="public static void WriteLine (object value);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLine(object value) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLine(System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLine (value As Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLine(System::Object ^ value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member WriteLine : obj -&gt; unit" Usage="System.Diagnostics.Trace.WriteLine value" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -2430,16 +2425,16 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="value" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="value">An <see cref="T:System.Object" /> whose name is sent to the <see cref="P:System.Diagnostics.Trace.Listeners" />.</param>
@@ -2478,12 +2473,11 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
     </Member>
     <Member MemberName="WriteLine">
       <MemberSignature Language="C#" Value="public static void WriteLine (string? message);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLine(string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLine(System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLine (message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLine(System::String ^ message);" />
-      <MemberSignature Language="F#" Value="static member WriteLine : string -&gt; unit" Usage="System.Diagnostics.Trace.WriteLine message" />
-      <MemberSignature Language="C#" Value="public static void WriteLine (string message);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLine(string message) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLine(System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLine (message As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLine(System::String ^ message);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member WriteLine : string -&gt; unit" Usage="System.Diagnostics.Trace.WriteLine message" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -2506,16 +2500,16 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">A message to write.</param>
@@ -2554,12 +2548,11 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
     </Member>
     <Member MemberName="WriteLine">
       <MemberSignature Language="C#" Value="public static void WriteLine (object? value, string? category);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLine(object value, string category) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLine(System.Object,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLine (value As Object, category As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLine(System::Object ^ value, System::String ^ category);" />
-      <MemberSignature Language="F#" Value="static member WriteLine : obj * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteLine (value, category)" />
-      <MemberSignature Language="C#" Value="public static void WriteLine (object value, string category);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLine(object value, string category) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLine(System.Object,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLine (value As Object, category As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLine(System::Object ^ value, System::String ^ category);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member WriteLine : obj * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteLine (value, category)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -2582,17 +2575,17 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="value" Type="System.Object" />
-        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="value" Type="System.Object?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="category" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="value">An <see cref="T:System.Object" /> whose name is sent to the <see cref="P:System.Diagnostics.Trace.Listeners" />.</param>
@@ -2634,12 +2627,11 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
     </Member>
     <Member MemberName="WriteLine">
       <MemberSignature Language="C#" Value="public static void WriteLine (string? message, string? category);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLine(string message, string category) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLine(System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLine (message As String, category As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLine(System::String ^ message, System::String ^ category);" />
-      <MemberSignature Language="F#" Value="static member WriteLine : string * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteLine (message, category)" />
-      <MemberSignature Language="C#" Value="public static void WriteLine (string message, string category);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLine(string message, string category) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLine(System.String,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLine (message As String, category As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLine(System::String ^ message, System::String ^ category);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member WriteLine : string * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteLine (message, category)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -2662,17 +2654,17 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="message" Type="System.String?" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="category" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="message">A message to write.</param>
@@ -2724,12 +2716,11 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
     </MemberGroup>
     <Member MemberName="WriteLineIf">
       <MemberSignature Language="C#" Value="public static void WriteLineIf (bool condition, object? value);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLineIf(bool condition, object value) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLineIf(System.Boolean,System.Object)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLineIf (condition As Boolean, value As Object)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLineIf(bool condition, System::Object ^ value);" />
-      <MemberSignature Language="F#" Value="static member WriteLineIf : bool * obj -&gt; unit" Usage="System.Diagnostics.Trace.WriteLineIf (condition, value)" />
-      <MemberSignature Language="C#" Value="public static void WriteLineIf (bool condition, object value);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLineIf(bool condition, object value) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLineIf(System.Boolean,System.Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLineIf (condition As Boolean, value As Object)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLineIf(bool condition, System::Object ^ value);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member WriteLineIf : bool * obj -&gt; unit" Usage="System.Diagnostics.Trace.WriteLineIf (condition, value)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -2752,17 +2743,17 @@ Trace.WriteIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range");
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="condition" Type="System.Boolean" />
-        <Parameter Name="value" Type="System.Object" />
+        <Parameter Name="condition" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="condition">
@@ -2819,12 +2810,11 @@ Trace.WriteLineIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range")
     </Member>
     <Member MemberName="WriteLineIf">
       <MemberSignature Language="C#" Value="public static void WriteLineIf (bool condition, string? message);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLineIf(bool condition, string message) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLineIf(System.Boolean,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLineIf (condition As Boolean, message As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLineIf(bool condition, System::String ^ message);" />
-      <MemberSignature Language="F#" Value="static member WriteLineIf : bool * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteLineIf (condition, message)" />
-      <MemberSignature Language="C#" Value="public static void WriteLineIf (bool condition, string message);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLineIf(bool condition, string message) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLineIf(System.Boolean,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLineIf (condition As Boolean, message As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLineIf(bool condition, System::String ^ message);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member WriteLineIf : bool * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteLineIf (condition, message)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -2847,17 +2837,17 @@ Trace.WriteLineIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range")
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="condition" Type="System.Boolean" />
-        <Parameter Name="message" Type="System.String" />
+        <Parameter Name="condition" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="message" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="condition">
@@ -2914,12 +2904,11 @@ Trace.WriteLineIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range")
     </Member>
     <Member MemberName="WriteLineIf">
       <MemberSignature Language="C#" Value="public static void WriteLineIf (bool condition, object? value, string? category);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLineIf(bool condition, object value, string category) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLineIf(System.Boolean,System.Object,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLineIf (condition As Boolean, value As Object, category As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLineIf(bool condition, System::Object ^ value, System::String ^ category);" />
-      <MemberSignature Language="F#" Value="static member WriteLineIf : bool * obj * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteLineIf (condition, value, category)" />
-      <MemberSignature Language="C#" Value="public static void WriteLineIf (bool condition, object value, string category);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLineIf(bool condition, object value, string category) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLineIf(System.Boolean,System.Object,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLineIf (condition As Boolean, value As Object, category As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLineIf(bool condition, System::Object ^ value, System::String ^ category);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member WriteLineIf : bool * obj * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteLineIf (condition, value, category)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -2942,18 +2931,18 @@ Trace.WriteLineIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range")
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="condition" Type="System.Boolean" />
-        <Parameter Name="value" Type="System.Object" />
-        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="condition" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="value" Type="System.Object?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="category" Type="System.String?" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="condition">
@@ -3013,12 +3002,11 @@ Trace.WriteLineIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range")
     </Member>
     <Member MemberName="WriteLineIf">
       <MemberSignature Language="C#" Value="public static void WriteLineIf (bool condition, string? message, string? category);" FrameworkAlternate="net-5.0" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLineIf(bool condition, string message, string category) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLineIf(System.Boolean,System.String,System.String)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLineIf (condition As Boolean, message As String, category As String)" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLineIf(bool condition, System::String ^ message, System::String ^ category);" />
-      <MemberSignature Language="F#" Value="static member WriteLineIf : bool * string * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteLineIf (condition, message, category)" />
-      <MemberSignature Language="C#" Value="public static void WriteLineIf (bool condition, string message, string category);" FrameworkAlternate="netcore-1.0;netcore-1.1;netcore-2.0;netcore-2.1;netcore-2.2;netcore-3.0;netcore-3.1;netframework-1.1;netframework-2.0;netframework-3.0;netframework-3.5;netframework-4.0;netframework-4.5;netframework-4.5.1;netframework-4.5.2;netframework-4.6;netframework-4.6.1;netframework-4.6.2;netframework-4.7;netframework-4.7.1;netframework-4.7.2;netframework-4.8;netstandard-2.0;netstandard-2.1;xamarinandroid-7.1;xamarinios-10.8;xamarinmac-3.0" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig void WriteLineIf(bool condition, string message, string category) cil managed" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Diagnostics.Trace.WriteLineIf(System.Boolean,System.String,System.String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Sub WriteLineIf (condition As Boolean, message As String, category As String)" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static void WriteLineIf(bool condition, System::String ^ message, System::String ^ category);" FrameworkAlternate="net-5.0" />
+      <MemberSignature Language="F#" Value="static member WriteLineIf : bool * string * string -&gt; unit" Usage="System.Diagnostics.Trace.WriteLineIf (condition, message, category)" FrameworkAlternate="net-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Diagnostics.TraceSource</AssemblyName>
@@ -3041,18 +3029,18 @@ Trace.WriteLineIf(mySwitch.TraceError, "aNumber = " + aNumber + " out of range")
         <AssemblyVersion>2.1.0.0</AssemblyVersion>
       </AssemblyInfo>
       <Attributes>
-        <Attribute>
+        <Attribute FrameworkAlternate="net-5.0">
           <AttributeName Language="C#">[System.Diagnostics.Conditional("TRACE")]</AttributeName>
           <AttributeName Language="F#">[&lt;System.Diagnostics.Conditional("TRACE")&gt;]</AttributeName>
         </Attribute>
       </Attributes>
       <ReturnValue>
-        <ReturnType>System.Void</ReturnType>
+        <ReturnType FrameworkAlternate="net-5.0">System.Void</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="condition" Type="System.Boolean" />
-        <Parameter Name="message" Type="System.String" />
-        <Parameter Name="category" Type="System.String" />
+        <Parameter Name="condition" Type="System.Boolean" Index="0" FrameworkAlternate="net-5.0" />
+        <Parameter Name="message" Type="System.String?" Index="1" FrameworkAlternate="net-5.0" />
+        <Parameter Name="category" Type="System.String?" Index="2" FrameworkAlternate="net-5.0" />
       </Parameters>
       <Docs>
         <param name="condition">

@@ -13,6 +13,7 @@
     <AssemblyVersion>4.1.0.0</AssemblyVersion>
     <AssemblyVersion>4.1.1.0</AssemblyVersion>
     <AssemblyVersion>5.0.0.0</AssemblyVersion>
+    <AssemblyVersion>6.0.0.0</AssemblyVersion>
   </AssemblyInfo>
   <Base>
     <BaseTypeName>System.Object</BaseTypeName>
@@ -39,9 +40,11 @@
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Security.Cryptography.Pkcs.SignedCms</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1">System.Security.Cryptography.Pkcs.SignedCms</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-5.0;dotnet-plat-ext-6.0;net-5.0;net-6.0">System.Security.Cryptography.Pkcs.SignedCms?</ReturnType>
       </ReturnValue>
       <Parameters />
       <Docs>
@@ -77,6 +80,7 @@ The value from calling <xref:System.Security.Cryptography.Pkcs.SignedCms.Encode?
         <AssemblyVersion>4.1.0.0</AssemblyVersion>
         <AssemblyVersion>4.1.1.0</AssemblyVersion>
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
+        <AssemblyVersion>6.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
         <ReturnType>System.Security.Cryptography.Pkcs.Rfc3161TimestampTokenInfo</ReturnType>
@@ -88,13 +92,13 @@ The value from calling <xref:System.Security.Cryptography.Pkcs.SignedCms.Encode?
       </Docs>
     </Member>
     <Member MemberName="TryDecode">
-      <MemberSignature Language="C#" Value="public static bool TryDecode (ReadOnlyMemory&lt;byte&gt; encodedBytes, out System.Security.Cryptography.Pkcs.Rfc3161TimestampToken token, out int bytesConsumed);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryDecode(valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; encodedBytes, [out] class System.Security.Cryptography.Pkcs.Rfc3161TimestampToken&amp; token, [out] int32&amp; bytesConsumed) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Rfc3161TimestampToken.TryDecode(System.ReadOnlyMemory{System.Byte},System.Security.Cryptography.Pkcs.Rfc3161TimestampToken@,System.Int32@)" />
-      <MemberSignature Language="VB.NET" Value="Public Shared Function TryDecode (encodedBytes As ReadOnlyMemory(Of Byte), ByRef token As Rfc3161TimestampToken, ByRef bytesConsumed As Integer) As Boolean" />
-      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryDecode(ReadOnlyMemory&lt;System::Byte&gt; encodedBytes, [Runtime::InteropServices::Out] System::Security::Cryptography::Pkcs::Rfc3161TimestampToken ^ % token, [Runtime::InteropServices::Out] int % bytesConsumed);" />
-      <MemberSignature Language="F#" Value="static member TryDecode : ReadOnlyMemory&lt;byte&gt; * Rfc3161TimestampToken * int -&gt; bool" Usage="System.Security.Cryptography.Pkcs.Rfc3161TimestampToken.TryDecode (encodedBytes, token, bytesConsumed)" />
-      <MemberSignature Language="C#" Value="public static bool TryDecode (ReadOnlyMemory&lt;byte&gt; encodedBytes, out System.Security.Cryptography.Pkcs.Rfc3161TimestampToken? token, out int bytesConsumed);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public static bool TryDecode (ReadOnlyMemory&lt;byte&gt; encodedBytes, out System.Security.Cryptography.Pkcs.Rfc3161TimestampToken token, out int bytesConsumed);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public static hidebysig bool TryDecode(valuetype System.ReadOnlyMemory`1&lt;unsigned int8&gt; encodedBytes, [out] class System.Security.Cryptography.Pkcs.Rfc3161TimestampToken&amp; token, [out] int32&amp; bytesConsumed) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Rfc3161TimestampToken.TryDecode(System.ReadOnlyMemory{System.Byte},System.Security.Cryptography.Pkcs.Rfc3161TimestampToken@,System.Int32@)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Shared Function TryDecode (encodedBytes As ReadOnlyMemory(Of Byte), ByRef token As Rfc3161TimestampToken, ByRef bytesConsumed As Integer) As Boolean" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C++ CLI" Value="public:&#xA; static bool TryDecode(ReadOnlyMemory&lt;System::Byte&gt; encodedBytes, [Runtime::InteropServices::Out] System::Security::Cryptography::Pkcs::Rfc3161TimestampToken ^ % token, [Runtime::InteropServices::Out] int % bytesConsumed);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="static member TryDecode : ReadOnlyMemory&lt;byte&gt; * Rfc3161TimestampToken * int -&gt; bool" Usage="System.Security.Cryptography.Pkcs.Rfc3161TimestampToken.TryDecode (encodedBytes, token, bytesConsumed)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public static bool TryDecode (ReadOnlyMemory&lt;byte&gt; encodedBytes, out System.Security.Cryptography.Pkcs.Rfc3161TimestampToken? token, out int bytesConsumed);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
@@ -106,12 +110,12 @@ The value from calling <xref:System.Security.Cryptography.Pkcs.SignedCms.Encode?
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="encodedBytes" Type="System.ReadOnlyMemory&lt;System.Byte&gt;" />
-        <Parameter Name="token" Type="System.Security.Cryptography.Pkcs.Rfc3161TimestampToken" RefType="out" />
-        <Parameter Name="bytesConsumed" Type="System.Int32" RefType="out" />
+        <Parameter Name="encodedBytes" Type="System.ReadOnlyMemory&lt;System.Byte&gt;" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="token" Type="System.Security.Cryptography.Pkcs.Rfc3161TimestampToken?" RefType="out" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="bytesConsumed" Type="System.Int32" RefType="out" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="encodedBytes">The buffer containing a DER-encoded time-stamp token.</param>
@@ -124,12 +128,12 @@ The value from calling <xref:System.Security.Cryptography.Pkcs.SignedCms.Encode?
       </Docs>
     </Member>
     <Member MemberName="VerifySignatureForData">
-      <MemberSignature Language="C#" Value="public bool VerifySignatureForData (ReadOnlySpan&lt;byte&gt; data, out System.Security.Cryptography.X509Certificates.X509Certificate2 signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool VerifySignatureForData(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; data, [out] class System.Security.Cryptography.X509Certificates.X509Certificate2&amp; signerCertificate, class System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Rfc3161TimestampToken.VerifySignatureForData(System.ReadOnlySpan{System.Byte},System.Security.Cryptography.X509Certificates.X509Certificate2@,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)" />
-      <MemberSignature Language="VB.NET" Value="Public Function VerifySignatureForData (data As ReadOnlySpan(Of Byte), ByRef signerCertificate As X509Certificate2, Optional extraCandidates As X509Certificate2Collection = Nothing) As Boolean" />
-      <MemberSignature Language="F#" Value="member this.VerifySignatureForData : ReadOnlySpan&lt;byte&gt; * X509Certificate2 * System.Security.Cryptography.X509Certificates.X509Certificate2Collection -&gt; bool" Usage="rfc3161TimestampToken.VerifySignatureForData (data, signerCertificate, extraCandidates)" />
-      <MemberSignature Language="C#" Value="public bool VerifySignatureForData (ReadOnlySpan&lt;byte&gt; data, out System.Security.Cryptography.X509Certificates.X509Certificate2? signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection? extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public bool VerifySignatureForData (ReadOnlySpan&lt;byte&gt; data, out System.Security.Cryptography.X509Certificates.X509Certificate2 signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool VerifySignatureForData(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; data, [out] class System.Security.Cryptography.X509Certificates.X509Certificate2&amp; signerCertificate, class System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Rfc3161TimestampToken.VerifySignatureForData(System.ReadOnlySpan{System.Byte},System.Security.Cryptography.X509Certificates.X509Certificate2@,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function VerifySignatureForData (data As ReadOnlySpan(Of Byte), ByRef signerCertificate As X509Certificate2, Optional extraCandidates As X509Certificate2Collection = Nothing) As Boolean" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="member this.VerifySignatureForData : ReadOnlySpan&lt;byte&gt; * X509Certificate2 * System.Security.Cryptography.X509Certificates.X509Certificate2Collection -&gt; bool" Usage="rfc3161TimestampToken.VerifySignatureForData (data, signerCertificate, extraCandidates)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public bool VerifySignatureForData (ReadOnlySpan&lt;byte&gt; data, out System.Security.Cryptography.X509Certificates.X509Certificate2? signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection? extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
@@ -141,12 +145,12 @@ The value from calling <xref:System.Security.Cryptography.Pkcs.SignedCms.Encode?
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" />
-        <Parameter Name="signerCertificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2" RefType="out" />
-        <Parameter Name="extraCandidates" Type="System.Security.Cryptography.X509Certificates.X509Certificate2Collection" />
+        <Parameter Name="data" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="signerCertificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2?" RefType="out" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="extraCandidates" Type="System.Security.Cryptography.X509Certificates.X509Certificate2Collection?" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="data">The data to verify against this time-stamp token.</param>
@@ -173,12 +177,12 @@ If the digest does not match, or the TSA certificate could not be determined, th
       </Docs>
     </Member>
     <Member MemberName="VerifySignatureForHash">
-      <MemberSignature Language="C#" Value="public bool VerifySignatureForHash (ReadOnlySpan&lt;byte&gt; hash, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out System.Security.Cryptography.X509Certificates.X509Certificate2 signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool VerifySignatureForHash(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; hash, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, [out] class System.Security.Cryptography.X509Certificates.X509Certificate2&amp; signerCertificate, class System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Rfc3161TimestampToken.VerifySignatureForHash(System.ReadOnlySpan{System.Byte},System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.X509Certificates.X509Certificate2@,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)" />
-      <MemberSignature Language="VB.NET" Value="Public Function VerifySignatureForHash (hash As ReadOnlySpan(Of Byte), hashAlgorithm As HashAlgorithmName, ByRef signerCertificate As X509Certificate2, Optional extraCandidates As X509Certificate2Collection = Nothing) As Boolean" />
-      <MemberSignature Language="F#" Value="member this.VerifySignatureForHash : ReadOnlySpan&lt;byte&gt; * System.Security.Cryptography.HashAlgorithmName * X509Certificate2 * System.Security.Cryptography.X509Certificates.X509Certificate2Collection -&gt; bool" Usage="rfc3161TimestampToken.VerifySignatureForHash (hash, hashAlgorithm, signerCertificate, extraCandidates)" />
-      <MemberSignature Language="C#" Value="public bool VerifySignatureForHash (ReadOnlySpan&lt;byte&gt; hash, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out System.Security.Cryptography.X509Certificates.X509Certificate2? signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection? extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public bool VerifySignatureForHash (ReadOnlySpan&lt;byte&gt; hash, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out System.Security.Cryptography.X509Certificates.X509Certificate2 signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool VerifySignatureForHash(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; hash, valuetype System.Security.Cryptography.HashAlgorithmName hashAlgorithm, [out] class System.Security.Cryptography.X509Certificates.X509Certificate2&amp; signerCertificate, class System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Rfc3161TimestampToken.VerifySignatureForHash(System.ReadOnlySpan{System.Byte},System.Security.Cryptography.HashAlgorithmName,System.Security.Cryptography.X509Certificates.X509Certificate2@,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function VerifySignatureForHash (hash As ReadOnlySpan(Of Byte), hashAlgorithm As HashAlgorithmName, ByRef signerCertificate As X509Certificate2, Optional extraCandidates As X509Certificate2Collection = Nothing) As Boolean" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="member this.VerifySignatureForHash : ReadOnlySpan&lt;byte&gt; * System.Security.Cryptography.HashAlgorithmName * X509Certificate2 * System.Security.Cryptography.X509Certificates.X509Certificate2Collection -&gt; bool" Usage="rfc3161TimestampToken.VerifySignatureForHash (hash, hashAlgorithm, signerCertificate, extraCandidates)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public bool VerifySignatureForHash (ReadOnlySpan&lt;byte&gt; hash, System.Security.Cryptography.HashAlgorithmName hashAlgorithm, out System.Security.Cryptography.X509Certificates.X509Certificate2? signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection? extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
@@ -190,13 +194,13 @@ If the digest does not match, or the TSA certificate could not be determined, th
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="hash" Type="System.ReadOnlySpan&lt;System.Byte&gt;" />
-        <Parameter Name="hashAlgorithm" Type="System.Security.Cryptography.HashAlgorithmName" />
-        <Parameter Name="signerCertificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2" RefType="out" />
-        <Parameter Name="extraCandidates" Type="System.Security.Cryptography.X509Certificates.X509Certificate2Collection" />
+        <Parameter Name="hash" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="hashAlgorithm" Type="System.Security.Cryptography.HashAlgorithmName" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="signerCertificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2?" RefType="out" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="extraCandidates" Type="System.Security.Cryptography.X509Certificates.X509Certificate2Collection?" Index="3" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="hash">The cryptographic hash to verify against this time-stamp token.</param>
@@ -224,12 +228,12 @@ If the digest does not match, the algorithm does not match, or the TSA certifica
       </Docs>
     </Member>
     <Member MemberName="VerifySignatureForHash">
-      <MemberSignature Language="C#" Value="public bool VerifySignatureForHash (ReadOnlySpan&lt;byte&gt; hash, System.Security.Cryptography.Oid hashAlgorithmId, out System.Security.Cryptography.X509Certificates.X509Certificate2 signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool VerifySignatureForHash(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; hash, class System.Security.Cryptography.Oid hashAlgorithmId, [out] class System.Security.Cryptography.X509Certificates.X509Certificate2&amp; signerCertificate, class System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Rfc3161TimestampToken.VerifySignatureForHash(System.ReadOnlySpan{System.Byte},System.Security.Cryptography.Oid,System.Security.Cryptography.X509Certificates.X509Certificate2@,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)" />
-      <MemberSignature Language="VB.NET" Value="Public Function VerifySignatureForHash (hash As ReadOnlySpan(Of Byte), hashAlgorithmId As Oid, ByRef signerCertificate As X509Certificate2, Optional extraCandidates As X509Certificate2Collection = Nothing) As Boolean" />
-      <MemberSignature Language="F#" Value="member this.VerifySignatureForHash : ReadOnlySpan&lt;byte&gt; * System.Security.Cryptography.Oid * X509Certificate2 * System.Security.Cryptography.X509Certificates.X509Certificate2Collection -&gt; bool" Usage="rfc3161TimestampToken.VerifySignatureForHash (hash, hashAlgorithmId, signerCertificate, extraCandidates)" />
-      <MemberSignature Language="C#" Value="public bool VerifySignatureForHash (ReadOnlySpan&lt;byte&gt; hash, System.Security.Cryptography.Oid hashAlgorithmId, out System.Security.Cryptography.X509Certificates.X509Certificate2? signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection? extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public bool VerifySignatureForHash (ReadOnlySpan&lt;byte&gt; hash, System.Security.Cryptography.Oid hashAlgorithmId, out System.Security.Cryptography.X509Certificates.X509Certificate2 signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool VerifySignatureForHash(valuetype System.ReadOnlySpan`1&lt;unsigned int8&gt; hash, class System.Security.Cryptography.Oid hashAlgorithmId, [out] class System.Security.Cryptography.X509Certificates.X509Certificate2&amp; signerCertificate, class System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Rfc3161TimestampToken.VerifySignatureForHash(System.ReadOnlySpan{System.Byte},System.Security.Cryptography.Oid,System.Security.Cryptography.X509Certificates.X509Certificate2@,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function VerifySignatureForHash (hash As ReadOnlySpan(Of Byte), hashAlgorithmId As Oid, ByRef signerCertificate As X509Certificate2, Optional extraCandidates As X509Certificate2Collection = Nothing) As Boolean" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="member this.VerifySignatureForHash : ReadOnlySpan&lt;byte&gt; * System.Security.Cryptography.Oid * X509Certificate2 * System.Security.Cryptography.X509Certificates.X509Certificate2Collection -&gt; bool" Usage="rfc3161TimestampToken.VerifySignatureForHash (hash, hashAlgorithmId, signerCertificate, extraCandidates)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public bool VerifySignatureForHash (ReadOnlySpan&lt;byte&gt; hash, System.Security.Cryptography.Oid hashAlgorithmId, out System.Security.Cryptography.X509Certificates.X509Certificate2? signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection? extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
@@ -241,13 +245,13 @@ If the digest does not match, the algorithm does not match, or the TSA certifica
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="hash" Type="System.ReadOnlySpan&lt;System.Byte&gt;" />
-        <Parameter Name="hashAlgorithmId" Type="System.Security.Cryptography.Oid" />
-        <Parameter Name="signerCertificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2" RefType="out" />
-        <Parameter Name="extraCandidates" Type="System.Security.Cryptography.X509Certificates.X509Certificate2Collection" />
+        <Parameter Name="hash" Type="System.ReadOnlySpan&lt;System.Byte&gt;" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="hashAlgorithmId" Type="System.Security.Cryptography.Oid" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="signerCertificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2?" RefType="out" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="extraCandidates" Type="System.Security.Cryptography.X509Certificates.X509Certificate2Collection?" Index="3" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="hash">The cryptographic hash to verify against this time-stamp token.</param>
@@ -276,12 +280,12 @@ If the digest does not match, the algorithm does not match, or the TSA certifica
       </Docs>
     </Member>
     <Member MemberName="VerifySignatureForSignerInfo">
-      <MemberSignature Language="C#" Value="public bool VerifySignatureForSignerInfo (System.Security.Cryptography.Pkcs.SignerInfo signerInfo, out System.Security.Cryptography.X509Certificates.X509Certificate2 signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;netcore-3.0;netcore-3.1" />
-      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool VerifySignatureForSignerInfo(class System.Security.Cryptography.Pkcs.SignerInfo signerInfo, [out] class System.Security.Cryptography.X509Certificates.X509Certificate2&amp; signerCertificate, class System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates) cil managed" />
-      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Rfc3161TimestampToken.VerifySignatureForSignerInfo(System.Security.Cryptography.Pkcs.SignerInfo,System.Security.Cryptography.X509Certificates.X509Certificate2@,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)" />
-      <MemberSignature Language="VB.NET" Value="Public Function VerifySignatureForSignerInfo (signerInfo As SignerInfo, ByRef signerCertificate As X509Certificate2, Optional extraCandidates As X509Certificate2Collection = Nothing) As Boolean" />
-      <MemberSignature Language="F#" Value="member this.VerifySignatureForSignerInfo : System.Security.Cryptography.Pkcs.SignerInfo * X509Certificate2 * System.Security.Cryptography.X509Certificates.X509Certificate2Collection -&gt; bool" Usage="rfc3161TimestampToken.VerifySignatureForSignerInfo (signerInfo, signerCertificate, extraCandidates)" />
-      <MemberSignature Language="C#" Value="public bool VerifySignatureForSignerInfo (System.Security.Cryptography.Pkcs.SignerInfo signerInfo, out System.Security.Cryptography.X509Certificates.X509Certificate2? signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection? extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-5.0;net-5.0" />
+      <MemberSignature Language="C#" Value="public bool VerifySignatureForSignerInfo (System.Security.Cryptography.Pkcs.SignerInfo signerInfo, out System.Security.Cryptography.X509Certificates.X509Certificate2 signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1" />
+      <MemberSignature Language="ILAsm" Value=".method public hidebysig instance bool VerifySignatureForSignerInfo(class System.Security.Cryptography.Pkcs.SignerInfo signerInfo, [out] class System.Security.Cryptography.X509Certificates.X509Certificate2&amp; signerCertificate, class System.Security.Cryptography.X509Certificates.X509Certificate2Collection extraCandidates) cil managed" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="DocId" Value="M:System.Security.Cryptography.Pkcs.Rfc3161TimestampToken.VerifySignatureForSignerInfo(System.Security.Cryptography.Pkcs.SignerInfo,System.Security.Cryptography.X509Certificates.X509Certificate2@,System.Security.Cryptography.X509Certificates.X509Certificate2Collection)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="VB.NET" Value="Public Function VerifySignatureForSignerInfo (signerInfo As SignerInfo, ByRef signerCertificate As X509Certificate2, Optional extraCandidates As X509Certificate2Collection = Nothing) As Boolean" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="F#" Value="member this.VerifySignatureForSignerInfo : System.Security.Cryptography.Pkcs.SignerInfo * X509Certificate2 * System.Security.Cryptography.X509Certificates.X509Certificate2Collection -&gt; bool" Usage="rfc3161TimestampToken.VerifySignatureForSignerInfo (signerInfo, signerCertificate, extraCandidates)" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+      <MemberSignature Language="C#" Value="public bool VerifySignatureForSignerInfo (System.Security.Cryptography.Pkcs.SignerInfo signerInfo, out System.Security.Cryptography.X509Certificates.X509Certificate2? signerCertificate, System.Security.Cryptography.X509Certificates.X509Certificate2Collection? extraCandidates = default);" FrameworkAlternate="dotnet-plat-ext-5.0" />
       <MemberType>Method</MemberType>
       <AssemblyInfo>
         <AssemblyName>System.Security.Cryptography.Pkcs</AssemblyName>
@@ -293,12 +297,12 @@ If the digest does not match, the algorithm does not match, or the TSA certifica
         <AssemblyVersion>5.0.0.0</AssemblyVersion>
       </AssemblyInfo>
       <ReturnValue>
-        <ReturnType>System.Boolean</ReturnType>
+        <ReturnType FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0">System.Boolean</ReturnType>
       </ReturnValue>
       <Parameters>
-        <Parameter Name="signerInfo" Type="System.Security.Cryptography.Pkcs.SignerInfo" />
-        <Parameter Name="signerCertificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2" RefType="out" />
-        <Parameter Name="extraCandidates" Type="System.Security.Cryptography.X509Certificates.X509Certificate2Collection" />
+        <Parameter Name="signerInfo" Type="System.Security.Cryptography.Pkcs.SignerInfo" Index="0" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="signerCertificate" Type="System.Security.Cryptography.X509Certificates.X509Certificate2?" RefType="out" Index="1" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
+        <Parameter Name="extraCandidates" Type="System.Security.Cryptography.X509Certificates.X509Certificate2Collection?" Index="2" FrameworkAlternate="dotnet-plat-ext-2.1;dotnet-plat-ext-2.2;dotnet-plat-ext-3.0;dotnet-plat-ext-3.1;dotnet-plat-ext-5.0" />
       </Parameters>
       <Docs>
         <param name="signerInfo">The CMS signer information to verify the timestamp was built for.</param>
